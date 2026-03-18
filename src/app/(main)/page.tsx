@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Glossary */}
       <section className="space-y-3">
-        <h2 className="text-sm font-medium uppercase tracking-wide text-muted-foreground">
+        <h2 className="text-base font-semibold uppercase tracking-wide text-muted-foreground">
           How It Works
         </h2>
         <div className="grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
@@ -90,7 +90,7 @@ export default function Home() {
 
       {/* Synthesis Legend */}
       <section className="space-y-3">
-        <h2 className="text-sm font-medium uppercase tracking-wide text-muted-foreground">
+        <h2 className="text-base font-semibold uppercase tracking-wide text-muted-foreground">
           Synthesis Tracker
         </h2>
         <SynthesisLegend />
