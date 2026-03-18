@@ -270,11 +270,11 @@ export default function GraphPage() {
   return (
     <div className="flex h-[calc(100vh-3.5rem)] flex-col">
       {/* Controls */}
-      <div className="flex flex-wrap items-center gap-2 border-b px-4 py-2">
-        <span className="text-sm font-medium text-muted-foreground">Filter by topic:</span>
+      <div className="flex items-center gap-2 overflow-x-auto border-b px-4 py-2">
+        <span className="shrink-0 text-sm font-medium text-muted-foreground">Filter:</span>
         <button
           onClick={() => setSelectedTopic(null)}
-          className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+          className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium transition-colors ${
             selectedTopic === null
               ? "bg-foreground text-background"
               : "bg-muted text-muted-foreground hover:bg-accent"
@@ -286,7 +286,7 @@ export default function GraphPage() {
           <button
             key={t}
             onClick={() => setSelectedTopic(t === selectedTopic ? null : t)}
-            className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+            className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium transition-colors ${
               selectedTopic === t
                 ? "bg-foreground text-background"
                 : "bg-muted text-muted-foreground hover:bg-accent"
