@@ -5,22 +5,22 @@ import { cn } from "@/lib/utils";
 const config: Record<SynthesisLabel, { label: string; className: string; description: string }> = {
   consensus: {
     label: "Consensus",
-    className: "bg-emerald-100 text-emerald-800 hover:bg-emerald-100 border-emerald-200",
+    className: "bg-emerald-500/15 text-emerald-400 hover:bg-emerald-500/20 border-emerald-500/30",
     description: "3+ guests independently agree",
   },
   synthesis: {
     label: "Synthesis",
-    className: "bg-blue-100 text-blue-800 hover:bg-blue-100 border-blue-200",
+    className: "bg-blue-500/15 text-blue-400 hover:bg-blue-500/20 border-blue-500/30",
     description: "Lenny combined multiple guest insights",
   },
   curation: {
     label: "Curation",
-    className: "bg-amber-100 text-amber-800 hover:bg-amber-100 border-amber-200",
+    className: "bg-amber-500/15 text-amber-400 hover:bg-amber-500/20 border-amber-500/30",
     description: "Amplified one guest's idea",
   },
   original: {
     label: "Original",
-    className: "bg-purple-100 text-purple-800 hover:bg-purple-100 border-purple-200",
+    className: "bg-purple-500/15 text-purple-400 hover:bg-purple-500/20 border-purple-500/30",
     description: "Lenny's own addition",
   },
 };

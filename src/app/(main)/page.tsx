@@ -13,8 +13,8 @@ export default function Home() {
     <div className="space-y-12">
       {/* Hero */}
       <section className="space-y-4">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          Lenny&apos;s Lens
+        <h1 className="font-[family-name:var(--font-instrument-serif)] text-4xl tracking-tight sm:text-5xl">
+          Lenny&apos;s <em className="text-[#E8813B]">Lens</em>
         </h1>
         <p className="max-w-2xl text-lg text-muted-foreground">
           Revealing the relationship between Lenny&apos;s written editorial voice
@@ -36,7 +36,7 @@ export default function Home() {
         ].map((stat) => (
           <Card key={stat.label}>
             <CardContent className="pt-4 text-center">
-              <p className="text-2xl font-bold">{stat.value}</p>
+              <p className="font-[family-name:var(--font-geist-mono)] text-2xl font-bold">{stat.value}</p>
               <p className="text-xs text-muted-foreground">{stat.label}</p>
             </CardContent>
           </Card>
@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Glossary */}
       <section className="space-y-3">
-        <h2 className="text-base font-semibold uppercase tracking-wide text-muted-foreground">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
           How It Works
         </h2>
         <div className="grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
@@ -90,7 +90,7 @@ export default function Home() {
 
       {/* Synthesis Legend */}
       <section className="space-y-3">
-        <h2 className="text-base font-semibold uppercase tracking-wide text-muted-foreground">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
           Synthesis Tracker
         </h2>
         <SynthesisLegend />
@@ -98,7 +98,7 @@ export default function Home() {
 
       {/* Topics */}
       <section className="space-y-4 border-t pt-8">
-        <h2 className="text-xl font-semibold tracking-tight">
+        <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
           Topic Explorer
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -130,7 +130,7 @@ export default function Home() {
 
       {/* Newsletters */}
       <section className="space-y-4 border-t pt-8">
-        <h2 className="text-xl font-semibold tracking-tight">
+        <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
           Conviction Map
         </h2>
         <p className="text-sm text-muted-foreground">

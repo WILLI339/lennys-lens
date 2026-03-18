@@ -6,17 +6,17 @@ import { cn } from "@/lib/utils";
 const relationshipConfig: Record<Relationship, { label: string; className: string; icon: string }> = {
   supports: {
     label: "Supports",
-    className: "bg-emerald-100 text-emerald-800 border-emerald-200",
+    className: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
     icon: "+",
   },
   extends: {
     label: "Extends",
-    className: "bg-blue-100 text-blue-800 border-blue-200",
+    className: "bg-blue-500/15 text-blue-400 border-blue-500/30",
     icon: "~",
   },
   contradicts: {
     label: "Contradicts",
-    className: "bg-red-100 text-red-800 border-red-200",
+    className: "bg-red-500/15 text-red-400 border-red-500/30",
     icon: "x",
   },
 };
@@ -50,7 +50,7 @@ export function ConnectionCard({
           </span>
         </div>
 
-        <blockquote className="border-l-2 border-muted pl-3 text-sm italic text-foreground/90">
+        <blockquote className="border-l-2 border-[#E8813B] pl-3 text-sm italic text-foreground/90">
           &ldquo;{moment.text}&rdquo;
         </blockquote>
 

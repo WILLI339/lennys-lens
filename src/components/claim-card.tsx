@@ -23,7 +23,7 @@ export function ClaimCard({ claim }: { claim: ClaimWithSynthesis }) {
         onClick={() => setExpanded(!expanded)}
       >
         <div className="flex items-start justify-between gap-3">
-          <p className="text-sm font-medium leading-relaxed">{claim.text}</p>
+          <p className="font-[family-name:var(--font-instrument-serif)] text-base font-medium leading-relaxed">{claim.text}</p>
           <button className="mt-0.5 shrink-0 text-muted-foreground transition-transform hover:text-foreground">
             <svg
               className={`h-4 w-4 transition-transform ${expanded ? "rotate-180" : ""}`}

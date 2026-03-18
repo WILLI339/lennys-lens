@@ -39,7 +39,7 @@ export default async function TopicPage({
         >
           &larr; All topics
         </Link>
-        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+        <h1 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight sm:text-3xl">
           {topic.name}
         </h1>
         <p className="mt-2 text-muted-foreground">{topic.newsletterPosition}</p>
@@ -68,7 +68,7 @@ export default async function TopicPage({
 
       {/* Lenny's Position */}
       <section className="space-y-4">
-        <h2 className="text-lg font-semibold">
+        <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
           Lenny&apos;s Written Position
         </h2>
         <div className="space-y-3">
@@ -80,7 +80,7 @@ export default async function TopicPage({
 
       {/* All podcast moments on this topic */}
       <section className="space-y-4">
-        <h2 className="text-lg font-semibold">
+        <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
           Podcast Moments
         </h2>
         <div className="space-y-3">
@@ -109,7 +109,7 @@ export default async function TopicPage({
       {cuttingRoomFloor.length > 0 && (
         <section className="space-y-4">
           <div>
-            <h2 className="text-lg font-semibold">
+            <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
               Cutting Room Floor
             </h2>
             <p className="text-sm text-muted-foreground">
@@ -121,7 +121,7 @@ export default async function TopicPage({
             {cuttingRoomFloor.map((moment) => (
               <Card
                 key={moment.id}
-                className="border-dashed border-amber-300 bg-amber-50/50"
+                className="border-dashed border-amber-500/30 bg-amber-500/10"
               >
                 <CardContent className="space-y-2 pt-4">
                   <div className="flex items-start justify-between gap-2">
@@ -130,12 +130,12 @@ export default async function TopicPage({
                     </span>
                     <Badge
                       variant="outline"
-                      className="bg-amber-100 text-amber-800 border-amber-200 text-xs"
+                      className="bg-amber-500/15 text-amber-400 border-amber-500/30 text-xs"
                     >
                       Unsynthesized
                     </Badge>
                   </div>
-                  <blockquote className="border-l-2 border-amber-300 pl-3 text-sm italic text-foreground/90">
+                  <blockquote className="border-l-2 border-[#E8813B] pl-3 text-sm italic text-foreground/90">
                     &ldquo;{moment.text}&rdquo;
                   </blockquote>
                   <p className="text-xs text-muted-foreground">

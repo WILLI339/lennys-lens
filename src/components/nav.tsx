@@ -17,8 +17,9 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-14 max-w-6xl items-center px-4">
-        <Link href="/" className="mr-8 flex items-center gap-2">
-          <span className="text-lg font-bold tracking-tight">Lenny&apos;s Lens</span>
+        <Link href="/" className="mr-8 flex items-center gap-1.5">
+          <span className="text-lg font-bold tracking-tight">Lenny&apos;s</span>
+          <span className="font-[family-name:var(--font-instrument-serif)] text-lg italic text-[#E8813B]">Lens</span>
         </Link>
         <nav className="flex items-center gap-1">
           {links.map((link) => (

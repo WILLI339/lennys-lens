@@ -40,7 +40,7 @@ export default function SearchPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+        <h1 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight sm:text-3xl">
           Search
         </h1>
         <p className="mt-2 text-muted-foreground">

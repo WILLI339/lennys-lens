@@ -30,16 +30,16 @@ interface GraphLink extends d3.SimulationLinkDatum<GraphNode> {
 }
 
 const SYNTHESIS_COLORS: Record<SynthesisLabel, string> = {
-  consensus: "#059669",
-  synthesis: "#2563eb",
-  curation: "#d97706",
-  original: "#7c3aed",
+  consensus: "#34D399",
+  synthesis: "#60A5FA",
+  curation: "#FBBF24",
+  original: "#A78BFA",
 };
 
 const RELATIONSHIP_COLORS: Record<Relationship, string> = {
-  supports: "#059669",
-  extends: "#2563eb",
-  contradicts: "#dc2626",
+  supports: "#34D399",
+  extends: "#60A5FA",
+  contradicts: "#F87171",
 };
 
 function buildGraphData(graph: Graph) {
@@ -177,7 +177,7 @@ export default function GraphPage() {
       .attr("fill", (d) =>
         d.type === "claim"
           ? SYNTHESIS_COLORS[d.synthesisLabel!]
-          : "#94a3b8"
+          : "#4B5563"
       )
       .attr("stroke", "#fff")
       .attr("stroke-width", (d) => (d.type === "claim" ? 2 : 1))
@@ -241,7 +241,7 @@ export default function GraphPage() {
           : ""
       )
       .attr("font-size", 9)
-      .attr("fill", "#374151")
+      .attr("fill", "#9B9587")
       .attr("opacity", (d) => (d.type === "claim" ? 0.9 : 0))
       .attr("pointer-events", "none")
       .attr("dx", 16)
