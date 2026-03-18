@@ -83,6 +83,51 @@ export function getStats() {
   };
 }
 
+export function getMostValidatedClaims() {
+  return graph.newsletters
+    .flatMap((n) =>
+      n.claims.map((c) => ({
+        ...c,
+        newsletterTitle: n.title,
+        newsletterSlug: n.slug,
+        uniqueGuests: new Set(
+          graph.connections
+            .filter((conn) => conn.claimId === c.id)
+            .map((conn) => {
+              const pod = graph.podcasts.find((p) => p.moments.some((m) => m.id === conn.momentId));
+              return pod?.guest;
+            })
+            .filter(Boolean)
+        ).size,
+      }))
+    )
+    .sort((a, b) => b.connectionCount - a.connectionCount);
+}
+
+export function getGuestInfluence() {
+  const guestMap = new Map<string, { guest: string; podcastSlug: string; supports: number; extends: number; contradicts: number; totalConnections: number; claimIds: Set<string> }>();
+
+  for (const conn of graph.connections) {
+    const podcast = graph.podcasts.find((p) => p.moments.some((m) => m.id === conn.momentId));
+    if (!podcast) continue;
+    const guest = podcast.guest;
+
+    if (!guestMap.has(guest)) {
+      guestMap.set(guest, { guest, podcastSlug: podcast.slug, supports: 0, extends: 0, contradicts: 0, totalConnections: 0, claimIds: new Set() });
+    }
+    const entry = guestMap.get(guest)!;
+    entry.totalConnections++;
+    entry.claimIds.add(conn.claimId);
+    if (conn.relationship === "supports") entry.supports++;
+    else if (conn.relationship === "extends") entry.extends++;
+    else if (conn.relationship === "contradicts") entry.contradicts++;
+  }
+
+  return Array.from(guestMap.values())
+    .map((g) => ({ ...g, uniqueClaims: g.claimIds.size, claimIds: undefined }))
+    .sort((a, b) => b.totalConnections - a.totalConnections);
+}
+
 export function searchAll(query: string) {
   const q = query.toLowerCase();
   const claims = graph.newsletters.flatMap((n) =>

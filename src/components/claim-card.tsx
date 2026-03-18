@@ -7,6 +7,7 @@ import { SynthesisBadge } from "./synthesis-badge";
 import { ConnectionCard } from "./connection-card";
 import type { ClaimWithSynthesis, Connection, PodcastMoment, Podcast } from "@/lib/types";
 import { getConnectionsForClaim } from "@/lib/data";
+import { ShareCardButton } from "./share-card";
 
 export function ClaimCard({ claim }: { claim: ClaimWithSynthesis }) {
   const [expanded, setExpanded] = useState(false);
@@ -100,6 +101,9 @@ export function ClaimCard({ claim }: { claim: ClaimWithSynthesis }) {
                 {topic}
               </Badge>
             ))}
+          </div>
+          <div className="pt-2">
+            <ShareCardButton claim={claim} />
           </div>
         </CardContent>
       )}

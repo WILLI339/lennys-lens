@@ -134,6 +134,18 @@ export function NetworkGraph({
       .attr("stroke", "rgba(255,255,255,0.15)")
       .attr("stroke-width", (d) => (d.type === "claim" ? 1.5 : 0));
 
+    node.attr("opacity", 0)
+      .transition()
+      .delay((d, i) => (d.type === "claim" ? i * 80 : 300 + i * 20))
+      .duration(400)
+      .attr("opacity", 1);
+
+    link.attr("opacity", 0)
+      .transition()
+      .delay((_, i) => 500 + i * 15)
+      .duration(300)
+      .attr("opacity", 1);
+
     if (interactive) {
       node.on("mouseover", function (_, d) {
         const connectedIds = new Set<string>([d.id]);

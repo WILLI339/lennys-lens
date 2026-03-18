@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SynthesisBadge, SynthesisLegend } from "@/components/synthesis-badge";
 import { HeroGraph } from "@/components/hero-graph";
-import { getNewsletters, getTopics, getStats } from "@/lib/data";
+import { getNewsletters, getTopics, getStats, getMostValidatedClaims, getGuestInfluence } from "@/lib/data";
 
 export default function Home() {
   const newsletters = getNewsletters();
@@ -63,6 +63,71 @@ export default function Home() {
             <span className="flex items-center gap-1"><span className="inline-block h-[2px] w-3 bg-[#34D399]" />Supports</span>
             <span className="flex items-center gap-1"><span className="inline-block h-[2px] w-3 bg-[#60A5FA]" />Extends</span>
           </div>
+        </div>
+      </section>
+
+      {/* Most Validated Ideas */}
+      <section className="space-y-4 border-t border-border pt-8">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
+          Most Validated Ideas
+        </h2>
+        <h3 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
+          Lenny&apos;s claims, ranked by guest consensus
+        </h3>
+        <div className="space-y-3">
+          {getMostValidatedClaims().slice(0, 10).map((claim, i) => (
+            <Link key={claim.id} href={`/newsletter/${claim.newsletterSlug}`}>
+              <div className="flex items-start gap-4 rounded-lg border border-border p-4 transition-all duration-200 hover:border-[#E8813B]/50">
+                <span className="font-[family-name:var(--font-geist-mono)] text-2xl font-bold text-muted-foreground/30">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <div className="flex-1 space-y-2">
+                  <p className="font-[family-name:var(--font-instrument-serif)] text-base leading-relaxed">
+                    {claim.text}
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <SynthesisBadge label={claim.synthesisLabel} />
+                    <span className="font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
+                      {claim.connectionCount} connections &middot; {claim.uniqueGuests} guests
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Guest Influence */}
+      <section className="space-y-4 border-t border-border pt-8">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
+          Guest Influence
+        </h2>
+        <h3 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
+          Who shapes Lenny&apos;s thinking the most?
+        </h3>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {getGuestInfluence().slice(0, 9).map((guest, i) => (
+            <div key={guest.guest} className="rounded-lg border border-border p-4 transition-all duration-200 hover:border-[#E8813B]/50">
+              <div className="flex items-start gap-3">
+                <span className="font-[family-name:var(--font-geist-mono)] text-lg font-bold text-muted-foreground/30">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <div className="space-y-1">
+                  <p className="font-medium">{guest.guest}</p>
+                  <div className="flex gap-3 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
+                    <span>{guest.totalConnections} connections</span>
+                    <span>{guest.uniqueClaims} claims</span>
+                  </div>
+                  <div className="flex gap-3 text-xs">
+                    {guest.supports > 0 && <span className="text-emerald-400">{guest.supports} supports</span>}
+                    {guest.extends > 0 && <span className="text-blue-400">{guest.extends} extends</span>}
+                    {guest.contradicts > 0 && <span className="text-red-400">{guest.contradicts} contradicts</span>}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
