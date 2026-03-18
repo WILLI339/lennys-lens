@@ -102,7 +102,7 @@ export default function Home() {
           Topic Explorer
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {topics.map((topic) => (
+          {[...topics].sort((a, b) => b.claimCount - a.claimCount || b.momentCount - a.momentCount).map((topic) => (
             <Link key={topic.slug} href={`/topics/${topic.slug}`}>
               <Card className="h-full transition-shadow hover:shadow-md">
                 <CardHeader className="pb-2">
