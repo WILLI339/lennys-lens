@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SynthesisBadge, SynthesisLegend } from "@/components/synthesis-badge";
+import { HeroGraph } from "@/components/hero-graph";
 import { getNewsletters, getTopics, getStats } from "@/lib/data";
 
 export default function Home() {
@@ -11,39 +12,61 @@ export default function Home() {
 
   return (
     <div className="space-y-12">
-      {/* Hero */}
-      <section className="space-y-4">
-        <h1 className="font-[family-name:var(--font-instrument-serif)] text-4xl tracking-tight sm:text-5xl">
-          Lenny&apos;s <em className="text-[#E8813B]">Lens</em>
-        </h1>
-        <p className="max-w-2xl text-lg text-muted-foreground">
-          Revealing the relationship between Lenny&apos;s written editorial voice
-          and his guest conversations. See how newsletter claims connect to
-          podcast moments — where they agree, extend, or contradict.
-        </p>
+      {/* Hero with Graph */}
+      <section className="space-y-6">
+        <div className="space-y-4">
+          <h1 className="font-[family-name:var(--font-instrument-serif)] text-4xl tracking-tight sm:text-5xl">
+            Lenny&apos;s <em className="text-[#E8813B]">Lens</em>
+          </h1>
+          <p className="max-w-2xl text-lg text-muted-foreground">
+            Revealing the relationship between Lenny&apos;s written editorial voice
+            and his guest conversations. See how newsletter claims connect to
+            podcast moments — where they agree, extend, or contradict.
+          </p>
+        </div>
+
+        {/* Inline stats */}
+        <div className="flex flex-wrap gap-6">
+          {[
+            { label: "Newsletters", value: stats.newsletters },
+            { label: "Podcasts", value: stats.podcasts },
+            { label: "Claims", value: stats.claims },
+            { label: "Moments", value: stats.moments },
+            { label: "Connections", value: stats.connections },
+            { label: "Topics", value: stats.topics },
+          ].map((stat) => (
+            <div key={stat.label} className="flex flex-col">
+              <span className="font-[family-name:var(--font-geist-mono)] text-2xl font-bold">{stat.value}</span>
+              <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-widest text-muted-foreground">{stat.label}</span>
+            </div>
+          ))}
+        </div>
+
+        {/* Hero Graph */}
+        <div className="relative -mx-4 overflow-hidden rounded-xl border">
+          <HeroGraph />
+          <div className="absolute bottom-3 right-3">
+            <Link
+              href="/graph"
+              className="rounded-full bg-[#E8813B] px-4 py-2 text-xs font-medium text-white transition-colors hover:bg-[#F5A66B]"
+            >
+              Explore full graph &rarr;
+            </Link>
+          </div>
+          {/* Legend overlay */}
+          <div className="absolute bottom-3 left-3 flex items-center gap-3 rounded-lg bg-background/80 px-3 py-1.5 text-[10px] backdrop-blur">
+            <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full bg-[#34D399]" />Consensus</span>
+            <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full bg-[#60A5FA]" />Synthesis</span>
+            <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full bg-[#FBBF24]" />Curation</span>
+            <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full bg-[#A78BFA]" />Original</span>
+            <span className="text-muted-foreground">|</span>
+            <span className="flex items-center gap-1"><span className="inline-block h-[2px] w-3 bg-[#34D399]" />Supports</span>
+            <span className="flex items-center gap-1"><span className="inline-block h-[2px] w-3 bg-[#60A5FA]" />Extends</span>
+          </div>
+        </div>
       </section>
 
-      {/* Stats */}
-      <section className="grid grid-cols-3 gap-3 sm:grid-cols-4 lg:grid-cols-7">
-        {[
-          { label: "Newsletters", value: stats.newsletters },
-          { label: "Podcasts", value: stats.podcasts },
-          { label: "Claims", value: stats.claims },
-          { label: "Moments", value: stats.moments },
-          { label: "Connections", value: stats.connections },
-          { label: "Cutting Room", value: stats.cuttingRoomFloor },
-          { label: "Topics", value: stats.topics },
-        ].map((stat) => (
-          <Card key={stat.label}>
-            <CardContent className="pt-4 text-center">
-              <p className="font-[family-name:var(--font-geist-mono)] text-2xl font-bold">{stat.value}</p>
-              <p className="text-xs text-muted-foreground">{stat.label}</p>
-            </CardContent>
-          </Card>
-        ))}
-      </section>
-
-      {/* Glossary */}
+      {/* How It Works */}
       <section className="space-y-3">
         <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
           How It Works
@@ -64,7 +87,7 @@ export default function Home() {
           <div className="rounded-lg border p-3">
             <p className="font-medium">Connections</p>
             <p className="text-muted-foreground">
-              Links between claims and moments showing where guests <span className="text-emerald-600">support</span>, <span className="text-blue-600">extend</span>, or <span className="text-red-600">contradict</span> Lenny&apos;s written positions.
+              Links between claims and moments showing where guests <span className="text-emerald-400">support</span>, <span className="text-blue-400">extend</span>, or <span className="text-red-400">contradict</span> Lenny&apos;s written positions.
             </p>
           </div>
           <div className="rounded-lg border p-3">
@@ -76,35 +99,27 @@ export default function Home() {
           <div className="rounded-lg border p-3">
             <p className="font-medium">Cutting Room Floor</p>
             <p className="text-muted-foreground">
-              Podcast moments tagged with a topic but not connected to any newsletter claim — guest insights Lenny hasn&apos;t (yet) written about. Potential future material.
+              Podcast moments tagged with a topic but not connected to any newsletter claim — guest insights Lenny hasn&apos;t (yet) written about.
             </p>
           </div>
           <div className="rounded-lg border p-3">
             <p className="font-medium">Synthesis Labels</p>
             <p className="text-muted-foreground">
-              How a claim relates to podcast conversations: <span className="text-emerald-600">Consensus</span> (3+ guests agree), <span className="text-blue-600">Synthesis</span> (2 guests combined), <span className="text-amber-600">Curation</span> (1 guest amplified), <span className="text-purple-600">Original</span> (Lenny&apos;s own).
+              How a claim relates to podcast conversations: <span className="text-emerald-400">Consensus</span> (3+ guests agree), <span className="text-blue-400">Synthesis</span> (2 guests), <span className="text-amber-400">Curation</span> (1 guest), <span className="text-purple-400">Original</span> (Lenny&apos;s own).
             </p>
           </div>
         </div>
       </section>
 
-      {/* Synthesis Legend */}
-      <section className="space-y-3">
-        <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
-          Synthesis Tracker
-        </h2>
-        <SynthesisLegend />
-      </section>
-
       {/* Topics */}
-      <section className="space-y-4 border-t pt-8">
+      <section className="space-y-4 border-t border-border pt-8">
         <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
           Topic Explorer
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[...topics].sort((a, b) => b.claimCount - a.claimCount || b.momentCount - a.momentCount).map((topic) => (
             <Link key={topic.slug} href={`/topics/${topic.slug}`}>
-              <Card className="h-full transition-shadow hover:shadow-md">
+              <Card className="h-full transition-all duration-200 hover:border-[#E8813B]/50 hover:shadow-md">
                 <CardHeader className="pb-2">
                   <CardTitle className="text-base">{topic.name}</CardTitle>
                 </CardHeader>
@@ -116,7 +131,7 @@ export default function Home() {
                     <span>{topic.claimCount} claims</span>
                     <span>{topic.momentCount} moments</span>
                     {topic.cuttingRoomFloorCount > 0 && (
-                      <span className="text-amber-600">
+                      <span className="text-amber-400">
                         {topic.cuttingRoomFloorCount} unsynthesized
                       </span>
                     )}
@@ -129,7 +144,7 @@ export default function Home() {
       </section>
 
       {/* Newsletters */}
-      <section className="space-y-4 border-t pt-8">
+      <section className="space-y-4 border-t border-border pt-8">
         <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
           Conviction Map
         </h2>
@@ -147,13 +162,13 @@ export default function Home() {
                 key={newsletter.slug}
                 href={`/newsletter/${newsletter.slug}`}
               >
-                <Card className="h-full transition-shadow hover:shadow-md">
+                <Card className="h-full transition-all duration-200 hover:border-[#E8813B]/50 hover:shadow-md">
                   <CardHeader className="pb-2">
                     <div className="flex items-start justify-between gap-2">
                       <CardTitle className="text-base leading-snug">
                         {newsletter.title}
                       </CardTitle>
-                      <span className="shrink-0 text-xs text-muted-foreground">
+                      <span className="shrink-0 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
                         {newsletter.date}
                       </span>
                     </div>
@@ -170,7 +185,7 @@ export default function Home() {
                         />
                       ))}
                     </div>
-                    <div className="flex gap-3 text-xs text-muted-foreground">
+                    <div className="flex gap-3 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
                       <span>{newsletter.claims.length} claims</span>
                       <span>{totalConnections} connections</span>
                     </div>
@@ -181,6 +196,40 @@ export default function Home() {
           })}
         </div>
       </section>
+
+      {/* Built With */}
+      <footer className="space-y-4 border-t border-border pt-8 pb-12">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
+          How This Was Built
+        </h2>
+        <div className="max-w-2xl space-y-3 text-sm text-muted-foreground">
+          <p>
+            Lenny&apos;s Lens was built in a single session using{" "}
+            <span className="text-foreground font-medium">Claude Code</span> (Anthropic&apos;s CLI for Claude) with{" "}
+            <span className="text-foreground font-medium">gstack</span> for QA testing, design review, and design consultation.
+          </p>
+          <p>
+            The pipeline uses Claude to extract claims from newsletters, extract moments from podcasts,
+            match them by topic and substance, and compute synthesis labels based on how many guests
+            independently support each claim. The network graph uses D3.js to visualize the connections.
+          </p>
+          <p>
+            Data sourced from{" "}
+            <span className="text-foreground font-medium">lennysdata.com</span> — Lenny&apos;s public archive of newsletter posts and podcast transcripts.
+          </p>
+        </div>
+        <div className="flex items-center gap-4 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
+          <span>Next.js 16</span>
+          <span className="text-border">&middot;</span>
+          <span>D3.js</span>
+          <span className="text-border">&middot;</span>
+          <span>Claude Code</span>
+          <span className="text-border">&middot;</span>
+          <span>gstack</span>
+          <span className="text-border">&middot;</span>
+          <span>Tailwind CSS</span>
+        </div>
+      </footer>
     </div>
   );
 }

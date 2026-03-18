@@ -21,9 +21,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lenny's Lens",
+  title: "Lenny's Lens — Where Newsletter Claims Meet Podcast Moments",
   description:
-    "Revealing the relationship between Lenny's editorial voice and his guest conversations",
+    "An interactive analysis of how Lenny Rachitsky's written editorial voice connects to his guest conversations. See where 50 podcast guests support, extend, or contradict his newsletter claims.",
+  openGraph: {
+    title: "Lenny's Lens",
+    description:
+      "Where newsletter claims meet podcast moments. An interactive analysis of Lenny Rachitsky's editorial voice across 10 newsletters and 50 podcasts.",
+    type: "website",
+    siteName: "Lenny's Lens",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lenny's Lens",
+    description:
+      "Where newsletter claims meet podcast moments. 228 moments, 156 connections, 24 topics — visualized.",
+  },
 };
 
 export default function RootLayout({
