@@ -12,7 +12,9 @@
     "pipeline:match": "npx tsx scripts/pipeline/3-match.ts",
     "pipeline:build": "npx tsx scripts/pipeline/4-build-graph.ts",
     "pipeline": "npm run pipeline:claims && npm run pipeline:moments && npm run pipeline:match && npm run pipeline:build",
-    "pipeline:bootstrap": "npx tsx scripts/pipeline/bootstrap-from-graph.ts"
+    "pipeline:bootstrap": "npx tsx scripts/pipeline/bootstrap-from-graph.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
@@ -30,14 +32,19 @@
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.79.0",
     "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/d3": "^7.4.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.0.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.7",
+    "jsdom": "^29.0.0",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.0"
   }
 }
