@@ -6,4 +6,5 @@
 
 ## Data
 
-- [ ] **Ingest remaining 30 podcasts** — 30 of 50 available podcast transcripts haven't been processed yet. Consider making the pipeline incremental first to avoid re-processing existing data.
+- [x] ~~**Ingest remaining 30 podcasts**~~ — Done. All 50 podcasts ingested (228 moments, 156 connections).
+- [ ] **Ingest full paid archive** — 339 more newsletters and 239 more podcasts available via lennysdata.com paid subscription. Pipeline is incremental and ready.
