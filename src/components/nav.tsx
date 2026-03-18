@@ -26,7 +26,7 @@ export function Nav() {
               key={link.href}
               href={link.href}
               className={cn(
-                "rounded-md px-3 py-1.5 text-sm font-medium transition-colors hover:bg-accent",
+                "rounded-md px-3 py-2.5 text-sm font-medium transition-colors hover:bg-accent",
                 pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href + "/"))
                   ? "bg-accent text-accent-foreground"
                   : "text-muted-foreground"
