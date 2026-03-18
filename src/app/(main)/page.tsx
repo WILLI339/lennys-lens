@@ -24,7 +24,7 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-7">
+      <section className="grid grid-cols-3 gap-3 sm:grid-cols-4 lg:grid-cols-7">
         {[
           { label: "Newsletters", value: stats.newsletters },
           { label: "Podcasts", value: stats.podcasts },
