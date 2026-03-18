@@ -10,7 +10,7 @@ export default function Home() {
   const stats = getStats();
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       {/* Hero */}
       <section className="space-y-4">
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -97,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* Topics */}
-      <section className="space-y-4">
+      <section className="space-y-4 border-t pt-8">
         <h2 className="text-xl font-semibold tracking-tight">
           Topic Explorer
         </h2>
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Newsletters */}
-      <section className="space-y-4">
+      <section className="space-y-4 border-t pt-8">
         <h2 className="text-xl font-semibold tracking-tight">
           Conviction Map
         </h2>
