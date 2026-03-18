@@ -218,6 +218,25 @@ export default function Home() {
             <span className="text-foreground font-medium">lennysdata.com</span> — Lenny&apos;s public archive of newsletter posts and podcast transcripts.
           </p>
         </div>
+        <div className="flex items-center gap-3 text-sm">
+          <a
+            href="https://www.linkedin.com/in/swilliams185/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground transition-colors hover:text-[#E8813B]"
+          >
+            LinkedIn
+          </a>
+          <span className="text-muted-foreground/30">&middot;</span>
+          <a
+            href="https://x.com/swilliams185"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground transition-colors hover:text-[#E8813B]"
+          >
+            @swilliams185
+          </a>
+        </div>
         <div className="flex items-center gap-4 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
           <span>Next.js 16</span>
           <span className="text-border">&middot;</span>

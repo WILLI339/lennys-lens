@@ -30,12 +30,15 @@ export const metadata: Metadata = {
       "Where newsletter claims meet podcast moments. An interactive analysis of Lenny Rachitsky's editorial voice across 10 newsletters and 50 podcasts.",
     type: "website",
     siteName: "Lenny's Lens",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Lenny's Lens — interactive network graph showing connections between newsletter claims and podcast moments" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lenny's Lens",
     description:
       "Where newsletter claims meet podcast moments. 228 moments, 156 connections, 24 topics — visualized.",
+    images: ["/og-image.png"],
+    creator: "@swilliams185",
   },
 };
 
