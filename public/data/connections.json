@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "conn-1",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-albert-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Albert Cheng directly validates Lenny's claim about gamification and leaderboards from his experience as growth lead at Duolingo."
+  },
+  {
+    "id": "conn-2",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-albert-2",
+    "relationship": "extends",
+    "confidence": 0.88,
+    "explanation": "Albert extends the leaderboard discussion to streaks, emphasizing the importance of forgiving mechanics for sustained retention."
+  },
+  {
+    "id": "conn-3",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-elena-2",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Elena Verna independently validates gamification as a retention driver, reframing it as 'making progress visible.'"
+  },
+  {
+    "id": "conn-4",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-grant-2",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Grant Lee confirms Gamma uses similar gamification mechanics ('momentum features'), validating the pattern beyond Duolingo."
+  },
+  {
+    "id": "conn-5",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-elena-1",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Elena's emphasis on measuring retention before acquisition aligns with Duolingo's retention-first growth strategy."
+  },
+  {
+    "id": "conn-6",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-albert-3",
+    "relationship": "extends",
+    "confidence": 0.8,
+    "explanation": "Albert extends the CURR framework by recommending behavioral analysis of retained users to find growth levers."
+  },
+  {
+    "id": "conn-7",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-jason-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Jason Cohen's emphasis on retention over acquisition echoes the CURR framework's focus on decomposing retention."
+  },
+  {
+    "id": "conn-8",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-jason-2",
+    "relationship": "extends",
+    "confidence": 0.72,
+    "explanation": "Jason's logo retention metric complements CURR by adding a B2B-specific dimension to retention measurement."
+  },
+  {
+    "id": "conn-9",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-elena-3",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Elena Verna directly validates treating notifications as product decisions, matching Lenny's claim about notifications as a feature."
+  },
+  {
+    "id": "conn-10",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-elena-1",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Elena's retention-first philosophy supports the idea that notifications should optimize for user value, not marketing metrics."
+  },
+  {
+    "id": "conn-11",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-albert-1",
+    "relationship": "extends",
+    "confidence": 0.68,
+    "explanation": "Albert's insight about understanding the psychology behind mechanics extends to notification design \u2014 understanding why users respond."
+  },
+  {
+    "id": "conn-12",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-grant-1",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Gamma's viral sharing mechanism extends the notification concept to product-embedded distribution."
+  },
+  {
+    "id": "conn-13",
+    "claimId": "claim-duolingo-4",
+    "momentId": "moment-albert-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Albert directly validates the importance of forgiving streak mechanics from his Duolingo experience."
+  },
+  {
+    "id": "conn-14",
+    "claimId": "claim-duolingo-4",
+    "momentId": "moment-elena-2",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Elena's reframing of gamification as 'making progress visible' supports the idea that streaks work by visualizing consistency."
+  },
+  {
+    "id": "conn-15",
+    "claimId": "claim-duolingo-4",
+    "momentId": "moment-grant-2",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Gamma's 'momentum features' confirm that streak-like mechanics work across different product types."
+  },
+  {
+    "id": "conn-16",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-boris-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Boris's 100% AI-written code workflow directly validates the threshold claim for AI coding tools."
+  },
+  {
+    "id": "conn-17",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-boris-3",
+    "relationship": "extends",
+    "confidence": 0.88,
+    "explanation": "Boris extends beyond the threshold claim to predict coding will be 'virtually solved' in 1-2 years."
+  },
+  {
+    "id": "conn-18",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-lazar-1",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Lazar directly demonstrates the claim \u2014 a non-coder building production tools as a full-time job."
+  },
+  {
+    "id": "conn-19",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-dan-1",
+    "relationship": "supports",
+    "confidence": 0.9,
+    "explanation": "Dan Shipper's 5 products with 7-figure revenue on 100% AI code validates the 'real products, not demos' claim."
+  },
+  {
+    "id": "conn-20",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-zevi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Zevi's story of building a team-wide tool in 3 days with no coding background directly supports the threshold claim."
+  },
+  {
+    "id": "conn-21",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Boris's 200% productivity increase provides quantitative evidence for the AI coding threshold being crossed."
+  },
+  {
+    "id": "conn-22",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-alex-2",
+    "relationship": "extends",
+    "confidence": 0.78,
+    "explanation": "Alexander extends the threshold claim by showing how parallelized AI agents multiply productivity even further."
+  },
+  {
+    "id": "conn-23",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Marc Andreessen validates that PMs should learn AI tools, supporting the claim that non-technical building is now viable."
+  },
+  {
+    "id": "conn-24",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-lazar-2",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Lazar directly validates starting with personal problems \u2014 his first project was a metrics dashboard for himself."
+  },
+  {
+    "id": "conn-25",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-zevi-2",
+    "relationship": "supports",
+    "confidence": 0.9,
+    "explanation": "Zevi explicitly recommends starting with personal pain points for the same reason Lenny claims."
+  },
+  {
+    "id": "conn-26",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-lazar-3",
+    "relationship": "extends",
+    "confidence": 0.78,
+    "explanation": "Lazar extends the advice to specifically recommend internal tools as the ideal first project type."
+  },
+  {
+    "id": "conn-27",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-dan-2",
+    "relationship": "extends",
+    "confidence": 0.72,
+    "explanation": "Dan's observation about the demo-to-production gap adds nuance \u2014 personal projects have higher motivation to push past this gap."
+  },
+  {
+    "id": "conn-28",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-ravi-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Ravi's observation that the best PMs are building aligns with Lenny's advice to learn through real personal projects."
+  },
+  {
+    "id": "conn-29",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Tomer Cohen's 'full-stack builder' concept at LinkedIn directly validates the career advantage claim."
+  },
+  {
+    "id": "conn-30",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-tomer-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Tomer confirms PMs who embrace AI building are thriving, directly supporting the career advantage prediction."
+  },
+  {
+    "id": "conn-31",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-bret-1",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Bret Taylor's 'PM of the future = product engineer' vision aligns with the career advantage of building skills."
+  },
+  {
+    "id": "conn-32",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Marc Andreessen explicitly says every PM should learn AI tools, validating the career advantage claim."
+  },
+  {
+    "id": "conn-33",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-ravi-2",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Ravi confirms the best PMs are all building now, supporting the claim that building skills are a career differentiator."
+  },
+  {
+    "id": "conn-34",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Matt LeMay's observation that the PM role evolves fast supports the need for PMs to adopt AI building skills."
+  },
+  {
+    "id": "conn-35",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-lazar-3",
+    "relationship": "supports",
+    "confidence": 0.9,
+    "explanation": "Lazar explicitly identifies internal tools as the sweet spot for vibe coding, directly validating Lenny's observation."
+  },
+  {
+    "id": "conn-36",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-zevi-1",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Zevi's internal tool success at Meta validates the claim that vibe coding excels for internal productivity tools."
+  },
+  {
+    "id": "conn-37",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-dan-1",
+    "relationship": "contradicts",
+    "confidence": 0.72,
+    "explanation": "Dan Shipper's 7-figure revenue on AI-built consumer products partially contradicts the claim that vibe coding isn't for startups."
+  },
+  {
+    "id": "conn-38",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-lazar-2",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Lazar recommends starting small and personal, aligning with the claim that vibe coding's sweet spot is personal/internal tools."
+  },
+  {
+    "id": "conn-39",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-dan-2",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Dan directly validates the demo-to-daily-driver gap, noting 30% of time goes to polish and reliability."
+  },
+  {
+    "id": "conn-40",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-boris-2",
+    "relationship": "extends",
+    "confidence": 0.75,
+    "explanation": "Boris's productivity data extends the discussion by showing that even at high productivity, quality iteration is still necessary."
+  },
+  {
+    "id": "conn-41",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-boris-4",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Boris's vision of AI as a coworker suggests the demo-to-production gap may shrink as AI handles more of the polish work."
+  },
+  {
+    "id": "conn-42",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-hamel-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Hamel directly validates evals as 'the new unit tests' \u2014 the most critical AI product skill."
+  },
+  {
+    "id": "conn-43",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-chip-2",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Chip Huyen independently ranks evals as more important than model selection or prompt engineering."
+  },
+  {
+    "id": "conn-44",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-hamel-3",
+    "relationship": "supports",
+    "confidence": 0.9,
+    "explanation": "Hamel's argument that PMs should own evals reinforces the claim that evals are the critical PM skill."
+  },
+  {
+    "id": "conn-45",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-brendan-1",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Brendan Foody identifies expert evals as a competitive moat, validating their importance for product success."
+  },
+  {
+    "id": "conn-46",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-aish-1",
+    "relationship": "extends",
+    "confidence": 0.78,
+    "explanation": "Aishwarya extends the claim by noting that while everyone agrees on eval importance, almost nobody executes well."
+  },
+  {
+    "id": "conn-47",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-nicole-1",
+    "relationship": "extends",
+    "confidence": 0.75,
+    "explanation": "Nicole Forsgren extends the evals discussion to broader measurement frameworks, connecting AI quality to productivity metrics."
+  },
+  {
+    "id": "conn-48",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-hamel-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Shreya directly validates the combined automated+human eval approach as the best practice."
+  },
+  {
+    "id": "conn-49",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-chip-1",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Chip's 'right depth' framing supports the idea that eval quality needs human judgment, not just automation."
+  },
+  {
+    "id": "conn-50",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-hamel-3",
+    "relationship": "extends",
+    "confidence": 0.8,
+    "explanation": "Hamel's PM-ownership argument extends the framework by clarifying who should define the human judgment criteria."
+  },
+  {
+    "id": "conn-51",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-nicole-1",
+    "relationship": "extends",
+    "confidence": 0.75,
+    "explanation": "Nicole extends the measurement discussion to encompass broader outcome metrics alongside eval-specific measures."
+  },
+  {
+    "id": "conn-52",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-brendan-1",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Brendan's focus on expert evaluators validates the human judgment component of the combined approach."
+  },
+  {
+    "id": "conn-53",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-ravi-1",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Ravi's JSON-first prototyping approach directly validates the collapsed design-to-development handoff claim."
+  },
+  {
+    "id": "conn-54",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-zevi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Zevi's 3-day internal tool build demonstrates the collapsed handoff in practice."
+  },
+  {
+    "id": "conn-55",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Tomer's 'full-stack builder' vision inherently involves collapsed design-to-dev handoffs."
+  },
+  {
+    "id": "conn-56",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-ravi-2",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Ravi's observation that top PMs are building directly validates the collapsed handoff claim."
+  },
+  {
+    "id": "conn-57",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.8,
+    "explanation": "Marc validates that PM prototyping changes the entire product development cycle."
+  },
+  {
+    "id": "conn-58",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-ravi-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Ravi's JSON-first approach is the direct source of this recommendation."
+  },
+  {
+    "id": "conn-59",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-alex-1",
+    "relationship": "extends",
+    "confidence": 0.75,
+    "explanation": "Alexander's context engineering concept extends the JSON-first idea to broader session-level information design."
+  },
+  {
+    "id": "conn-60",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-boris-4",
+    "relationship": "extends",
+    "confidence": 0.68,
+    "explanation": "Boris's vision of AI as coworker suggests JSON schemas could evolve into more dynamic context protocols."
+  },
+  {
+    "id": "conn-61",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-tomer-2",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Tomer's observation that PMs embracing AI are thriving supports the claim that PM synthesis+judgment is augmented, not replaced."
+  },
+  {
+    "id": "conn-62",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Matt's observation about PM role evolution supports the claim that PMs adapt (are augmented) rather than being replaced."
+  },
+  {
+    "id": "conn-63",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-bret-1",
+    "relationship": "extends",
+    "confidence": 0.8,
+    "explanation": "Bret extends the augmentation claim by envisioning PMs evolving into product engineers who combine strategy and building."
+  },
+  {
+    "id": "conn-64",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-matt-2",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Matt's 'what would have to be true' question exemplifies the synthesis and judgment that AI can't replace."
+  },
+  {
+    "id": "conn-65",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Tomer's 'full-stack builder' is essentially the same concept as the 'full-stack PM.'"
+  },
+  {
+    "id": "conn-66",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-ravi-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Ravi confirms the best PMs are all building now, validating the full-stack PM framework."
+  },
+  {
+    "id": "conn-67",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-bret-1",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Bret's 'PM of the future = product engineer' directly supports the full-stack PM concept."
+  },
+  {
+    "id": "conn-68",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Matt's observation about rapid PM role evolution supports the need for PMs who span strategy and execution."
+  },
+  {
+    "id": "conn-69",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Marc's advocacy for PM AI literacy aligns with the full-stack PM concept."
+  },
+  {
+    "id": "conn-70",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-alex-1",
+    "relationship": "extends",
+    "confidence": 0.78,
+    "explanation": "Alexander's context engineering concept extends the second brain idea to more sophisticated AI interaction patterns."
+  },
+  {
+    "id": "conn-71",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-boris-4",
+    "relationship": "extends",
+    "confidence": 0.72,
+    "explanation": "Boris's AI-as-coworker vision extends the second brain concept toward more autonomous AI partnership."
+  },
+  {
+    "id": "conn-72",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-chip-1",
+    "relationship": "supports",
+    "confidence": 0.68,
+    "explanation": "Chip's 'right depth' AI literacy supports the idea of using AI for synthesis at the product decision level."
+  },
+  {
+    "id": "conn-73",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-alex-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Alexander's context engineering directly validates that persistent context makes AI more useful than one-shot queries."
+  },
+  {
+    "id": "conn-74",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-boris-4",
+    "relationship": "supports",
+    "confidence": 0.8,
+    "explanation": "Boris's description of AI looking at telemetry and bug reports demonstrates persistent context making AI more effective."
+  },
+  {
+    "id": "conn-75",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-alex-2",
+    "relationship": "extends",
+    "confidence": 0.75,
+    "explanation": "Alexander extends persistent context to parallelized agents, each maintaining their own context window."
+  },
+  {
+    "id": "conn-76",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-dan-2",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Dan's iteration process implicitly uses persistent context \u2014 each round of polish builds on accumulated understanding."
+  },
+  {
+    "id": "conn-77",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "LinkedIn setting 'full-stack builder' as the new PM standard validates that AI literacy is now required."
+  },
+  {
+    "id": "conn-78",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-molly-1",
+    "relationship": "extends",
+    "confidence": 0.72,
+    "explanation": "Molly's hire-for-growth advice extends to the PM market \u2014 hire PMs who can grow into AI-literate roles."
+  },
+  {
+    "id": "conn-79",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Matt's observation about rapid PM role evolution supports the claim that traditional skills alone are insufficient."
+  },
+  {
+    "id": "conn-80",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-matt-2",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Matt's cross-functional question framework exemplifies how adjacent-field thinking improves product work."
+  },
+  {
+    "id": "conn-81",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-albert-1",
+    "relationship": "supports",
+    "confidence": 0.68,
+    "explanation": "Albert's insight about social comparison psychology in leaderboards demonstrates psychology informing product decisions."
+  },
+  {
+    "id": "conn-82",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-chip-1",
+    "relationship": "supports",
+    "confidence": 0.92,
+    "explanation": "Chip Huyen directly validates the 'right depth' framing for PM AI literacy \u2014 decision-making level, not technical depth."
+  },
+  {
+    "id": "conn-83",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-hamel-3",
+    "relationship": "supports",
+    "confidence": 0.8,
+    "explanation": "Hamel's PM-owned evals argument supports PMs needing product-level AI understanding, not engineering-level."
+  },
+  {
+    "id": "conn-84",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-aish-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "The feedback loop gap Aishwarya identifies is a product-level AI concept PMs need to understand."
+  },
+  {
+    "id": "conn-85",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-nicole-2",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Nicole extends the discussion to measurement frameworks PMs need \u2014 DORA metrics adapted for AI."
+  },
+  {
+    "id": "conn-claim-duolingo-1-moment-madhavan-ramanujam-3",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-madhavan-ramanujam-3",
+    "relationship": "extends",
+    "confidence": 0.75,
+    "explanation": "Madhavan's 'Panini effect' extends gamification beyond leaderboards to collection-completion mechanics as another powerful retention driver."
+  },
+  {
+    "id": "conn-claim-duolingo-1-moment-robby-stein-5",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-robby-stein-5",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Robby's discovery of a magic threshold for Close Friends (20-30 people) extends the idea that social mechanics need specific calibration to drive retention."
+  },
+  {
+    "id": "conn-claim-duolingo-2-moment-ethan-smith-5",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-ethan-smith-5",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Ethan's finding that 5% of landing pages drive 85% of traffic extends the principle of decomposing aggregate metrics to find actionable levers."
+  },
+  {
+    "id": "conn-claim-duolingo-3-moment-nick-turley-1",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-nick-turley-1",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Nick's principle that you won't know what to polish until after you ship extends the notification-as-product idea to all AI product touchpoints."
+  },
+  {
+    "id": "conn-claim-duolingo-4-moment-madhavan-ramanujam-3",
+    "claimId": "claim-duolingo-4",
+    "momentId": "moment-madhavan-ramanujam-3",
+    "relationship": "extends",
+    "confidence": 0.68,
+    "explanation": "Madhavan's Panini effect shows another gamification pattern that creates habit loops through collection-completion compulsion, complementing streak mechanics."
+  },
+  {
+    "id": "conn-claim-duolingo-4-moment-jenny-wen-4",
+    "claimId": "claim-duolingo-4",
+    "momentId": "moment-jenny-wen-4",
+    "relationship": "extends",
+    "confidence": 0.62,
+    "explanation": "Jenny's insight that shipping early is fine if you visibly iterate extends the protective feature principle \u2014 users forgive imperfection when they see commitment."
+  },
+  {
+    "id": "conn-claim-claude-1-moment-dhanji-r-prasanna-5",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-dhanji-r-prasanna-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Dhanji confirms the threshold claim, noting the biggest surprise at Block is non-technical people using AI coding agents to build things."
+  },
+  {
+    "id": "conn-claim-claude-1-moment-dhanji-r-prasanna-1",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-dhanji-r-prasanna-1",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Block's AI-forward teams saving 8-10 hours per week provides quantitative enterprise evidence that AI coding tools have crossed a productivity threshold."
+  },
+  {
+    "id": "conn-claim-claude-1-moment-scott-wu-2",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-scott-wu-2",
+    "relationship": "supports",
+    "confidence": 0.8,
+    "explanation": "Scott Wu's data that 90% of engineering time goes to implementation validates that AI handles the tedious work, enabling non-technical people to focus on problem definition."
+  },
+  {
+    "id": "conn-claim-claude-1-moment-sherwin-wu-v2-1",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-sherwin-wu-v2-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Sherwin's observation that IC engineers now manage 10-20 parallel AI threads supports the claim that AI has fundamentally changed who can build software."
+  },
+  {
+    "id": "conn-claim-claude-1-moment-howie-liu-2",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-howie-liu-2",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Howie Liu validates the threshold by describing the new PM as a 'hybrid PM-prototyper' \u2014 non-engineers building real products."
+  },
+  {
+    "id": "conn-claim-claude-1-moment-sam-lessin-4",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-sam-lessin-4",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Sam Lessin validates that vibe coding tools get you a long way for building personal projects and MVPs, though he adds the caveat that it doesn't scale."
+  },
+  {
+    "id": "conn-claim-claude-2-moment-howie-liu-5",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-howie-liu-5",
+    "relationship": "extends",
+    "confidence": 0.68,
+    "explanation": "Howie encourages canceling meetings to play with AI products, extending the personal-problem approach to include unstructured exploration as a learning method."
+  },
+  {
+    "id": "conn-claim-claude-2-moment-scott-wu-3",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-scott-wu-3",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Scott Wu's insistence that people should still learn to code extends the learning advice \u2014 understanding logical problem decomposition makes AI tools more effective."
+  },
+  {
+    "id": "conn-claim-claude-3-moment-howie-liu-2",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-howie-liu-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Howie Liu directly validates the career advantage by describing the most successful PMs as 'hybrid PM-prototyper-designers.'"
+  },
+  {
+    "id": "conn-claim-claude-3-moment-jenny-wen-2",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Jenny Wen's description of design work splitting into execution support and vision-through-prototypes validates that building skills are a career differentiator."
+  },
+  {
+    "id": "conn-claim-claude-3-moment-garrett-lord-7",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-garrett-lord-7",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Garrett confirms that being AI-native is a huge career advantage, with employers actively seeking people who are comfortable with AI tools."
+  },
+  {
+    "id": "conn-claim-claude-3-moment-nick-turley-7",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-nick-turley-7",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "OpenAI's emphasis on curiosity over ML knowledge for hiring validates that AI tool fluency matters more than deep technical expertise."
+  },
+  {
+    "id": "conn-claim-claude-3-moment-chip-conley-4",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-chip-conley-4",
+    "relationship": "supports",
+    "confidence": 0.65,
+    "explanation": "Chip Conley's observation that AI is accelerating the shift from specialists to generalists supports PMs building broader AI skills."
+  },
+  {
+    "id": "conn-claim-claude-3-moment-benjamin-mann-4",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-benjamin-mann-4",
+    "relationship": "extends",
+    "confidence": 0.62,
+    "explanation": "Benjamin Mann's prediction about the future of work in a world of AI abundance adds urgency to the career advantage claim for PMs."
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-sam-lessin-4",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-sam-lessin-4",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Sam Lessin directly validates that vibe coding is great for personal projects and MVPs but explicitly states it doesn't scale for startups."
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-dhanji-r-prasanna-3",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-dhanji-r-prasanna-3",
+    "relationship": "extends",
+    "confidence": 0.78,
+    "explanation": "Dhanji describes vibe coding as 'highly limiting' and pushes toward autonomous agents working for hours, extending the claim about vibe coding's limitations."
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-edwin-chen-7",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-edwin-chen-7",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Edwin Chen directly validates the limitation, calling vibe coding overhyped due to long-term unmaintainability of the resulting systems."
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-dhanji-r-prasanna-5",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-dhanji-r-prasanna-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Dhanji's surprise at non-technical people building with AI agents at Block supports the claim that vibe coding's sweet spot is internal productivity."
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-edwin-chen-7",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-edwin-chen-7",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Edwin directly validates the demo-to-daily-driver gap by noting vibe coding creates unmaintainable systems long-term."
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-dhanji-r-prasanna-3",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-dhanji-r-prasanna-3",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Dhanji calls vibe coding 'highly limiting,' supporting the observation that getting from demo to reliable daily driver requires going beyond vibe coding."
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-nick-turley-4",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-nick-turley-4",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Nick Turley's insight that traditional polish can be counterproductive in AI adds nuance \u2014 the gap may be about knowing what to polish, not just polishing more."
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-jason-droege-1",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-jason-droege-1",
+    "relationship": "supports",
+    "confidence": 0.68,
+    "explanation": "Jason Droege's observation that enterprise AI takes 6-12 months to become truly robust supports the significant gap between demo and production."
+  },
+  {
+    "id": "conn-claim-evals-1-moment-nick-turley-3",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-nick-turley-3",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Nick Turley validates evals as critical, noting he started writing evals before knowing the term \u2014 it's simply articulating success criteria, a core PM skill."
+  },
+  {
+    "id": "conn-claim-evals-1-moment-edwin-chen-2",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-edwin-chen-2",
+    "relationship": "extends",
+    "confidence": 0.82,
+    "explanation": "Edwin Chen extends the eval discussion by emphasizing the massive quality gap between checkbox evals and Nobel Prize-level evaluation standards."
+  },
+  {
+    "id": "conn-claim-evals-1-moment-garrett-lord-2",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-garrett-lord-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Garrett Lord confirms that AI models now need domain expert evaluators, not generalists, validating the growing importance of evaluation expertise."
+  },
+  {
+    "id": "conn-claim-evals-1-moment-jason-droege-3",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-jason-droege-3",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Jason Droege confirms eval tasks have evolved from simple preference ranking to multi-hour expert work requiring PhDs, underscoring evals' growing importance."
+  },
+  {
+    "id": "conn-claim-evals-1-moment-edwin-chen-3",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-edwin-chen-3",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Edwin warns that optimizing for flashy leaderboard metrics instead of truth exposes the danger of poor eval design, reinforcing why PM-owned evals matter."
+  },
+  {
+    "id": "conn-claim-evals-1-moment-asha-sharma-6",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-asha-sharma-6",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Asha's prediction that post-training investment will match pre-training extends the eval claim by showing RL and evaluation are becoming the dominant product technique."
+  },
+  {
+    "id": "conn-claim-evals-2-moment-edwin-chen-2",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-edwin-chen-2",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Edwin's insistence on Nobel Prize-quality evaluation over checkbox metrics directly validates the need for human judgment in evals."
+  },
+  {
+    "id": "conn-claim-evals-2-moment-garrett-lord-3",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-garrett-lord-3",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Garrett confirms AI labs prioritize quality first, validating that automated metrics alone aren't sufficient for high-quality evaluation."
+  },
+  {
+    "id": "conn-claim-evals-2-moment-nick-turley-3",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-nick-turley-3",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Nick's approach of writing evals as clearly specified ideal behavior bridges automated testing with human-defined quality standards."
+  },
+  {
+    "id": "conn-claim-evals-2-moment-jason-droege-6",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-jason-droege-6",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Jason's point that the same document has different meanings at different companies extends the need for human judgment in evals to company-specific context."
+  },
+  {
+    "id": "conn-claim-proto-1-moment-jenny-wen-1",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-jenny-wen-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Jenny Wen directly validates the collapsed handoff by declaring the traditional design process of diverge-converge cycles is 'dead' in the AI era."
+  },
+  {
+    "id": "conn-claim-proto-1-moment-jenny-wen-2",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Jenny's description of design splitting into execution support and short-term vision through prototypes validates the collapsed handoff."
+  },
+  {
+    "id": "conn-claim-proto-1-moment-howie-liu-2",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-howie-liu-2",
+    "relationship": "supports",
+    "confidence": 0.85,
+    "explanation": "Howie Liu's vision of hybrid PM-prototyper-designers directly validates that the design-to-development handoff is collapsing."
+  },
+  {
+    "id": "conn-claim-proto-1-moment-nick-turley-1",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-nick-turley-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Nick Turley's dream of shipping daily at OpenAI reflects the collapsed handoff \u2014 ideas can go from concept to production far faster."
+  },
+  {
+    "id": "conn-claim-proto-1-moment-howie-liu-4",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-howie-liu-4",
+    "relationship": "extends",
+    "confidence": 0.72,
+    "explanation": "Howie extends the collapsed handoff by arguing leaders must participate in building to understand AI's solution space \u2014 you can't taste the soup without cooking."
+  },
+  {
+    "id": "conn-claim-proto-2-moment-scott-wu-5",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-scott-wu-5",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Scott Wu's observation that AI agents work best with well-defined tasks supports the JSON-first approach \u2014 clear structure produces better AI output."
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-jenny-wen-5",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Jenny validates the augmentation claim: AI will get better at taste and design, but someone must still decide what gets built and be accountable."
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-howie-liu-2",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-howie-liu-2",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Howie's hybrid PM-prototyper model validates augmentation \u2014 PMs gain building capabilities rather than being replaced by AI."
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-ben-horowitz-3",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-ben-horowitz-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Ben Horowitz's emphasis on PM as a leadership role with no direct reports reinforces that synthesis and judgment \u2014 not execution \u2014 define the role."
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-nick-turley-5",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-nick-turley-5",
+    "relationship": "extends",
+    "confidence": 0.68,
+    "explanation": "The small team running ChatGPT shows that AI enables fewer PMs to do more, augmenting rather than replacing the role."
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-chip-conley-2",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-chip-conley-2",
+    "relationship": "supports",
+    "confidence": 0.65,
+    "explanation": "Chip Conley argues human wisdom and emotional intelligence become more valuable as AI handles execution, supporting PM augmentation over replacement."
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-howie-liu-2",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-howie-liu-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Howie Liu's 'hybrid PM-prototyper-designer' directly validates the full-stack PM concept from the Airtable CEO's perspective."
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-jenny-wen-6",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-jenny-wen-6",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Jenny's recommendation that design managers rotate back to IC work extends the full-stack PM principle to design leadership \u2014 hands-on building keeps leaders effective."
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-howie-liu-4",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-howie-liu-4",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Howie's insistence that leaders must participate in building to understand AI validates the strategic-to-hands-on range of the full-stack PM."
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-robby-stein-4",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-robby-stein-4",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Robby's three-chapter product book (JTBD, root cause analysis, clarity over cleverness) describes the strategic thinking side of the full-stack PM."
+  },
+  {
+    "id": "conn-claim-brain-1-moment-asha-sharma-2",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-asha-sharma-2",
+    "relationship": "extends",
+    "confidence": 0.75,
+    "explanation": "Asha extends the second brain concept by describing AI products as 'living organisms that learn with every interaction' \u2014 the second brain becomes self-improving."
+  },
+  {
+    "id": "conn-claim-brain-1-moment-dhanji-r-prasanna-2",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-dhanji-r-prasanna-2",
+    "relationship": "extends",
+    "confidence": 0.7,
+    "explanation": "Dhanji's example of Goose watching everything an engineer does and autonomously building features extends the second brain to an always-on synthesis partner."
+  },
+  {
+    "id": "conn-claim-brain-1-moment-nick-turley-2",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-nick-turley-2",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Nick's principle that features should scale with model intelligence suggests the second brain will become dramatically more useful over time."
+  },
+  {
+    "id": "conn-claim-brain-2-moment-dhanji-r-prasanna-2",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-dhanji-r-prasanna-2",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Dhanji's Goose watching everything an engineer does demonstrates persistent context \u2014 the AI accumulates understanding to autonomously build features."
+  },
+  {
+    "id": "conn-claim-brain-2-moment-asha-sharma-2",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-asha-sharma-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Asha's description of AI products as living organisms that improve with interactions directly validates the persistent context principle."
+  },
+  {
+    "id": "conn-claim-brain-2-moment-sherwin-wu-v2-5",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-sherwin-wu-v2-5",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Sherwin's warning that models will eat your scaffolding extends the persistent context discussion \u2014 context strategies must evolve as models improve."
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-howie-liu-2",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-howie-liu-2",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Howie Liu's description of the new PM standard as 'hybrid PM-prototyper-designer' directly validates that AI literacy is now required for PM roles."
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-garrett-lord-7",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-garrett-lord-7",
+    "relationship": "supports",
+    "confidence": 0.78,
+    "explanation": "Garrett confirms employers value AI-native talent, supporting the claim that AI literacy is the fastest-growing requirement in the job market."
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-jenny-wen-3",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Jenny's observation that even engineers can't keep up with AI-driven changes validates the urgency of AI literacy across all product roles."
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-chip-conley-4",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-chip-conley-4",
+    "relationship": "supports",
+    "confidence": 0.68,
+    "explanation": "Chip Conley's observation that AI accelerates the shift from specialists to generalists supports the need for broader AI literacy in PM roles."
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-scott-wu-4",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-scott-wu-4",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Scott Wu's Jevons Paradox argument \u2014 cheaper programming creates more programmers \u2014 extends the claim to predict AI-literate roles will expand, not shrink."
+  },
+  {
+    "id": "conn-claim-reading-1-moment-stewart-butterfield-2",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-stewart-butterfield-2",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Stewart's insight about reducing cognitive load rather than clicks demonstrates adjacent-field thinking (cognitive psychology) improving product design."
+  },
+  {
+    "id": "conn-claim-reading-1-moment-robby-stein-4",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-robby-stein-4",
+    "relationship": "supports",
+    "confidence": 0.68,
+    "explanation": "Robby's product principles \u2014 JTBD, root cause analysis, clarity over cleverness \u2014 draw from adjacent disciplines to inform product building."
+  },
+  {
+    "id": "conn-claim-reading-1-moment-madhavan-ramanujam-3",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-madhavan-ramanujam-3",
+    "relationship": "supports",
+    "confidence": 0.72,
+    "explanation": "Madhavan's Panini effect applies behavioral economics and game design psychology to product packaging, exemplifying cross-disciplinary product thinking."
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-nick-turley-3",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-nick-turley-3",
+    "relationship": "supports",
+    "confidence": 0.82,
+    "explanation": "Nick Turley's story of writing evals before knowing the term validates that PMs need practical AI understanding at the decision level, not technical jargon."
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-howie-liu-4",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-howie-liu-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Howie's insistence that leaders participate in building to understand AI validates the 'right depth' \u2014 hands-on product-level understanding, not engineering depth."
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-jason-droege-4",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-jason-droege-4",
+    "relationship": "extends",
+    "confidence": 0.68,
+    "explanation": "Jason Droege's heuristic (AI excels at low-accuracy processes, struggles at 98%) gives PMs a practical mental model for AI capabilities at the right depth."
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-scott-wu-6",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-scott-wu-6",
+    "relationship": "extends",
+    "confidence": 0.65,
+    "explanation": "Scott Wu's concept of 'jagged intelligence' gives PMs an intuitive model for AI capability variation \u2014 useful product-level AI literacy."
+  }
+]

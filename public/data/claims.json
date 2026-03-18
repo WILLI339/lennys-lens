@@ -1,0 +1,243 @@
+[
+  {
+    "id": "claim-duolingo-1",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "Gamification mechanics like leaderboards can drive massive retention improvements when they tap into social comparison and competition instincts.",
+    "type": "framework",
+    "evidence": "Duolingo's leaderboards drove a 17% increase in overall learning time and tripled the number of highly engaged learners.",
+    "topics": [
+      "growth",
+      "gamification",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-duolingo-2",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "The 'current user retention rate' (CURR) metric — measuring the percentage of current users retained over time — is more actionable than traditional cohort analysis for mature products.",
+    "type": "framework",
+    "evidence": "Duolingo used CURR to decompose growth into new users, resurrected users, and retained users, enabling targeted interventions.",
+    "topics": [
+      "growth",
+      "metrics",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-duolingo-3",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "Push notifications should be treated as a product feature, not a marketing channel — optimizing for user value rather than clicks.",
+    "type": "recommendation",
+    "evidence": "Duolingo's notification optimization was one of the three key levers (alongside streaks and leaderboards) that drove 4.5x DAU growth.",
+    "topics": [
+      "growth",
+      "notifications",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-duolingo-4",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "Streak mechanics create powerful habit loops, but they need protective features (streak freezes) to prevent user frustration and churn.",
+    "type": "observation",
+    "evidence": "Duolingo's streak feature became their most powerful retention tool once they added streak freezes and streak-saving notifications.",
+    "topics": [
+      "growth",
+      "gamification",
+      "retention",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-claude-1",
+    "newsletterSlug": "everyone-should-be-using-claude-code-more",
+    "text": "AI coding tools have crossed a threshold where non-technical people can build real, useful products — not just demos.",
+    "type": "observation",
+    "evidence": "50+ examples of non-technical people building and actually using products built with Claude Code, from internal tools to consumer apps.",
+    "topics": [
+      "ai-tools",
+      "vibe-coding",
+      "product-building"
+    ]
+  },
+  {
+    "id": "claim-claude-2",
+    "newsletterSlug": "everyone-should-be-using-claude-code-more",
+    "text": "The best way to learn AI coding tools is to start with a personal problem you actually want solved, not a tutorial project.",
+    "type": "recommendation",
+    "evidence": "The most successful examples in the newsletter came from people solving their own problems, not following courses.",
+    "topics": [
+      "ai-tools",
+      "vibe-coding",
+      "learning"
+    ]
+  },
+  {
+    "id": "claim-claude-3",
+    "newsletterSlug": "everyone-should-be-using-claude-code-more",
+    "text": "Product managers who learn to build with AI tools will have a significant career advantage — it's the most leveraged new skill to develop.",
+    "type": "prediction",
+    "evidence": "Multiple examples of PMs who built prototypes, internal tools, and even shipped features using AI coding tools.",
+    "topics": [
+      "ai-tools",
+      "career",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-vibe-1",
+    "newsletterSlug": "what-people-are-vibe-coding-and-actually-using",
+    "text": "Vibe coding is most powerful for internal tools and personal productivity — not for building the next startup.",
+    "type": "observation",
+    "evidence": "The most-used vibe-coded projects in the survey were internal dashboards, data pipelines, and personal automation — not consumer apps.",
+    "topics": [
+      "vibe-coding",
+      "ai-tools",
+      "product-building"
+    ]
+  },
+  {
+    "id": "claim-vibe-2",
+    "newsletterSlug": "what-people-are-vibe-coding-and-actually-using",
+    "text": "The gap between 'demo' and 'daily driver' is where most vibe-coded projects die — polish and reliability matter more than initial creation.",
+    "type": "observation",
+    "evidence": "Many submissions noted their projects worked great initially but required significant iteration to become truly reliable.",
+    "topics": [
+      "vibe-coding",
+      "ai-tools",
+      "product-quality"
+    ]
+  },
+  {
+    "id": "claim-evals-1",
+    "newsletterSlug": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
+    "text": "AI evals are the single most important new skill for product managers working on AI products — more important than prompt engineering.",
+    "type": "recommendation",
+    "evidence": "Companies with rigorous eval frameworks ship AI features faster and with fewer regressions than those relying on manual testing.",
+    "topics": [
+      "ai-product",
+      "evals",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-evals-2",
+    "newsletterSlug": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
+    "text": "The best AI evals combine automated metrics with human judgment — neither alone is sufficient for measuring AI product quality.",
+    "type": "framework",
+    "evidence": "Framework for building eval suites that balance automated scoring with expert human evaluation for nuanced quality assessment.",
+    "topics": [
+      "ai-product",
+      "evals",
+      "metrics"
+    ]
+  },
+  {
+    "id": "claim-proto-1",
+    "newsletterSlug": "a-guide-to-ai-prototyping-for-product-managers",
+    "text": "AI prototyping collapses the traditional design-to-development handoff — PMs can now validate ideas before involving engineering.",
+    "type": "framework",
+    "evidence": "Step-by-step guide showing how PMs can go from idea to working prototype in under an hour using AI tools.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-proto-2",
+    "newsletterSlug": "a-guide-to-ai-prototyping-for-product-managers",
+    "text": "Starting with JSON data structures (not UI mockups) leads to better AI-generated prototypes because it forces clarity of thinking about the product.",
+    "type": "recommendation",
+    "evidence": "Ravi Mehta's approach of defining data schemas first produced more functional prototypes than design-first approaches.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-unfair-1",
+    "newsletterSlug": "product-manager-is-an-unfair-role-so-work-unfairly",
+    "text": "The PM role is uniquely positioned to be augmented (not replaced) by AI because the core job is synthesis and judgment, not execution.",
+    "type": "prediction",
+    "evidence": "Analysis of how AI tools augment different PM responsibilities — from research to spec writing to stakeholder communication.",
+    "topics": [
+      "product-management",
+      "ai-tools",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-unfair-2",
+    "newsletterSlug": "product-manager-is-an-unfair-role-so-work-unfairly",
+    "text": "The most effective PMs in the AI era are those who can move between strategic thinking and hands-on building — the 'full-stack PM'.",
+    "type": "framework",
+    "evidence": "Examples of PMs who've accelerated their careers by learning to prototype, analyze data, and build lightweight tools themselves.",
+    "topics": [
+      "product-management",
+      "career",
+      "ai-tools"
+    ]
+  },
+  {
+    "id": "claim-brain-1",
+    "newsletterSlug": "how-to-build-your-pm-second-brain-with-chatgpt",
+    "text": "AI is most valuable for PMs as a 'second brain' for synthesis — combining meeting notes, user research, and market data into actionable insights.",
+    "type": "framework",
+    "evidence": "Workflow for using ChatGPT to maintain a running synthesis of product decisions, user feedback, and market signals.",
+    "topics": [
+      "ai-tools",
+      "product-management",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-brain-2",
+    "newsletterSlug": "how-to-build-your-pm-second-brain-with-chatgpt",
+    "text": "The key to useful AI assistance is feeding it context over time, not just asking one-off questions — persistent context makes AI dramatically more useful.",
+    "type": "recommendation",
+    "evidence": "Comparison of one-shot ChatGPT usage vs. maintained conversation threads with accumulated product context.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "claim-jobs-1",
+    "newsletterSlug": "state-of-the-product-job-market-in-2025",
+    "text": "The PM job market is recovering, but the roles that are growing fastest require AI literacy — traditional PM skills alone are no longer sufficient.",
+    "type": "observation",
+    "evidence": "Job posting data showing AI-related PM roles growing 3x faster than traditional PM roles.",
+    "topics": [
+      "career",
+      "product-management",
+      "ai-tools"
+    ]
+  },
+  {
+    "id": "claim-reading-1",
+    "newsletterSlug": "essential-reading-for-product-builders-part-1",
+    "text": "The best product thinking comes from adjacent fields — psychology, game design, economics — not from product management literature alone.",
+    "type": "observation",
+    "evidence": "Curated list of 7 essays from diverse fields that directly apply to product building, with analysis of why each matters.",
+    "topics": [
+      "product-management",
+      "learning",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-glossary-1",
+    "newsletterSlug": "an-ai-glossary",
+    "text": "Product managers don't need to understand AI at a technical depth — they need to understand it at the right depth for making product decisions.",
+    "type": "framework",
+    "evidence": "Glossary organized by what PMs need to know vs. what they can leave to engineers, with decision-making context for each term.",
+    "topics": [
+      "ai-product",
+      "product-management",
+      "learning"
+    ]
+  }
+]
