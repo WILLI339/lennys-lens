@@ -314,7 +314,7 @@ function renderDesktop(
 
       if (denseItems.length === 1) {
         g.append("text")
-          .attr("x", firstX).attr("y", laneY - laneHeight / 2 + 12)
+          .attr("x", firstX).attr("y", laneY + laneHeight / 2 - 4)
           .attr("text-anchor", "middle")
           .attr("font-size", 11)
           .attr("font-family", "var(--font-geist-mono)")
@@ -322,7 +322,7 @@ function renderDesktop(
           .text(`Only: ${formatShortDate(first.date)}`);
       } else {
         g.append("text")
-          .attr("x", Math.max(MARGIN.left, firstX)).attr("y", laneY - laneHeight / 2 + 12)
+          .attr("x", Math.max(MARGIN.left, firstX)).attr("y", laneY + laneHeight / 2 - 4)
           .attr("text-anchor", "start")
           .attr("font-size", 11)
           .attr("font-family", "var(--font-geist-mono)")
@@ -332,7 +332,7 @@ function renderDesktop(
         // Only show "Latest" if far enough from "First" to not overlap
         if (lastX - firstX > 120) {
           g.append("text")
-            .attr("x", Math.min(width - MARGIN.right, lastX)).attr("y", laneY - laneHeight / 2 + 12)
+            .attr("x", Math.min(width - MARGIN.right, lastX)).attr("y", laneY + laneHeight / 2 - 4)
             .attr("text-anchor", "end")
             .attr("font-size", 11)
             .attr("font-family", "var(--font-geist-mono)")
