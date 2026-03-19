@@ -4998,5 +4998,3755 @@
       "career",
       "productivity"
     ]
+  },
+  {
+    "id": "moment-ivan-zhao-1",
+    "podcastSlug": "ivan-zhao",
+    "speaker": "Ivan Zhao",
+    "guest": "Ivan Zhao",
+    "timestamp": "00:00:05",
+    "text": "We called it sugar-coated broccoli. People don't want to eat the broccoli but people like sugar, so it gave them the sugar then hide your broccoli inside of it.",
+    "summary": "Notion disguised its ambitious vision of everyone creating software inside a familiar productivity tool to achieve product-market fit.",
+    "topics": [
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-ivan-zhao-2",
+    "podcastSlug": "ivan-zhao",
+    "speaker": "Ivan Zhao",
+    "guest": "Ivan Zhao",
+    "timestamp": "00:00:44",
+    "text": "I think one element is we have to be very honest about what we don't know and we don't know users. It took us two years to realize we need to build a productivity tool.",
+    "summary": "Radical honesty about what you do not understand about your users is essential to finding product-market fit.",
+    "topics": [
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-ivan-zhao-3",
+    "podcastSlug": "ivan-zhao",
+    "speaker": "Ivan Zhao",
+    "guest": "Ivan Zhao",
+    "timestamp": "00:01:26",
+    "text": "We were 10 people when COVID hit. We nearly ran out of database space. We had to scramble. That near-collapse was actually the moment that forced us to get serious about infrastructure.",
+    "summary": "Notion's near-collapse during COVID with only 10 people forced the team to finally invest in infrastructure at scale.",
+    "topics": [
+      "startup-building",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-ivan-zhao-4",
+    "podcastSlug": "ivan-zhao",
+    "speaker": "Ivan Zhao",
+    "guest": "Ivan Zhao",
+    "timestamp": "00:04:20",
+    "text": "Staying small is a feature, not a bug. When you're small, you can move fast. Every person you add is a communication overhead. We stayed at about 50 people for a very long time intentionally.",
+    "summary": "Notion deliberately stayed small because each additional person adds communication overhead that slows down product velocity.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-ivan-zhao-5",
+    "podcastSlug": "ivan-zhao",
+    "speaker": "Ivan Zhao",
+    "guest": "Ivan Zhao",
+    "timestamp": "00:08:15",
+    "text": "The joy and suffering of building horizontal is that you're competing with everyone. Every feature you build, there's a company that does only that one thing. But the magic is in the integration.",
+    "summary": "Horizontal products compete with every specialist tool, but the real value is in how features integrate together.",
+    "topics": [
+      "product-management",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-matt-mullenweg-1",
+    "podcastSlug": "matt-mullenweg",
+    "speaker": "Matt Mullenweg",
+    "guest": "Matt Mullenweg",
+    "timestamp": "00:00:39",
+    "text": "WordPress.org is the open source project, WordPress.com is our hosted service, and WP Engine is a company that makes a ton of money from WordPress and gives almost nothing back. They're strip-mining the commons.",
+    "summary": "The WordPress vs WP Engine conflict centers on a company profiting from open source without contributing back, which Mullenweg calls strip-mining the commons.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-matt-mullenweg-2",
+    "podcastSlug": "matt-mullenweg",
+    "speaker": "Matt Mullenweg",
+    "guest": "Matt Mullenweg",
+    "timestamp": "00:06:57",
+    "text": "Products like Meta's Llama are fake open source. You can look at the code but you can't actually modify it and use it however you want. That's not open source, that's source-available.",
+    "summary": "Mullenweg draws a sharp distinction between true open source and source-available products like Meta's Llama.",
+    "topics": [
+      "engineering",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-matt-mullenweg-3",
+    "podcastSlug": "matt-mullenweg",
+    "speaker": "Matt Mullenweg",
+    "guest": "Matt Mullenweg",
+    "timestamp": "01:17:10",
+    "text": "Tumblr had these multiple post types. You could post a chat, an image. They were one of the first to support video, so they did a lot of product innovation under the leadership of David Karp.",
+    "summary": "Tumblr pioneered product innovations like native image and video posting that later became standard features on other social networks.",
+    "topics": [
+      "product-design",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-matt-mullenweg-4",
+    "podcastSlug": "matt-mullenweg",
+    "speaker": "Matt Mullenweg",
+    "guest": "Matt Mullenweg",
+    "timestamp": "01:20:14",
+    "text": "We bought Tumblr for $3 million. But it was free like a puppy, not free like beer. We took on all liabilities, including FTC investigations and lawsuits.",
+    "summary": "Acquiring Tumblr cheaply still meant inheriting massive liabilities, illustrating that acquisition cost is not the full picture.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-matt-mullenweg-5",
+    "podcastSlug": "matt-mullenweg",
+    "speaker": "Matt Mullenweg",
+    "guest": "Matt Mullenweg",
+    "timestamp": "01:26:15",
+    "text": "We say publicly it's about a half a billion dollars in sort of ARR revenue right now.",
+    "summary": "Automattic generates roughly half a billion dollars in annual recurring revenue, with WooCommerce driving the majority.",
+    "topics": [
+      "b2b",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-keith-coleman--jay-baxter-1",
+    "podcastSlug": "keith-coleman--jay-baxter",
+    "speaker": "Keith Coleman",
+    "guest": "Keith Coleman & Jay Baxter",
+    "timestamp": "00:00:09",
+    "text": "Someone on X can see a post. If they think it's misleading, they can propose a note that they think other people might find informative. Other people can then rate that note.",
+    "summary": "Community Notes works by letting anyone propose context on misleading posts, with quality determined by crowd ratings.",
+    "topics": [
+      "product-design",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-keith-coleman--jay-baxter-2",
+    "podcastSlug": "keith-coleman--jay-baxter",
+    "speaker": "Jay Baxter",
+    "guest": "Keith Coleman & Jay Baxter",
+    "timestamp": "00:00:18",
+    "text": "We actually look for agreement from people who have disagreed in the past. And what we see is when people actually have that sort of surprising agreement, that's what makes the notes so neutral and accurate.",
+    "summary": "Community Notes achieves neutrality by specifically seeking consensus among people who normally disagree with each other.",
+    "topics": [
+      "ai-product",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-keith-coleman--jay-baxter-3",
+    "podcastSlug": "keith-coleman--jay-baxter",
+    "speaker": "Keith Coleman",
+    "guest": "Keith Coleman & Jay Baxter",
+    "timestamp": "00:00:36",
+    "text": "Every post is eligible for notes. We shouldn't exempt Elon. We shouldn't exempt government figures. Even advertisers can get notes.",
+    "summary": "Community Notes applies equally to everyone including the platform owner and advertisers, with no exemptions.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-keith-coleman--jay-baxter-4",
+    "podcastSlug": "keith-coleman--jay-baxter",
+    "speaker": "Keith Coleman",
+    "guest": "Keith Coleman & Jay Baxter",
+    "timestamp": "01:01:10",
+    "text": "The opt in is important, and it may even be that you want to opt in at one point in your life, and maybe at another point in your life something else is better. Whatever it is you're choosing to do, it's nice to be opting in to feel like it's aligned with how you want to spend your time.",
+    "summary": "High-intensity work culture functions best when people opt in voluntarily rather than being forced into it.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-karina-nguyen-1",
+    "podcastSlug": "karina-nguyen",
+    "speaker": "Karina Nguyen",
+    "guest": "Karina Nguyen",
+    "timestamp": "00:00:06",
+    "text": "When I first came to Anthropic and I was like, 'Oh my God, I really love front-end engineering.' And then the reason why I switched to research is because I realized, 'Oh my God, Claude is getting better at front-end. Claude is getting better at coding.'",
+    "summary": "Nguyen switched from front-end engineering to AI research after realizing models were rapidly catching up to human coding abilities.",
+    "topics": [
+      "ai-product",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-karina-nguyen-2",
+    "podcastSlug": "karina-nguyen",
+    "speaker": "Karina Nguyen",
+    "guest": "Karina Nguyen",
+    "timestamp": "00:00:26",
+    "text": "Creative thinking and you kind of want to generate a bunch of ideas and filter through them. I think it's actually really, really hard to teach the model how to be aesthetic or really good visual design or how to be extremely creative.",
+    "summary": "Creative thinking and aesthetic judgment will be the most valuable human skills as AI handles more technical execution.",
+    "topics": [
+      "ai-product",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-karina-nguyen-3",
+    "podcastSlug": "karina-nguyen",
+    "speaker": "Karina Nguyen",
+    "guest": "Karina Nguyen",
+    "timestamp": "00:00:46",
+    "text": "When you taught the model some of the self-knowledge of you actually don't have a physical body to operate in the physical world, the model would get extremely confused.",
+    "summary": "Teaching AI models about their own limitations and lack of physical embodiment creates deep confusion in the training process.",
+    "topics": [
+      "ai-product",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-karina-nguyen-4",
+    "podcastSlug": "karina-nguyen",
+    "speaker": "Karina Nguyen",
+    "guest": "Karina Nguyen",
+    "timestamp": "00:01:02",
+    "text": "The biggest misconception is that these models are just next-token predictors. There's actually a lot of emergent behavior that we don't fully understand yet.",
+    "summary": "Large language models exhibit emergent behaviors beyond simple next-token prediction that researchers still do not fully understand.",
+    "topics": [
+      "ai-product",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-tobi-lutke-1",
+    "podcastSlug": "tobi-lutke",
+    "speaker": "Tobi Lutke",
+    "guest": "Tobi Lutke",
+    "timestamp": "00:00:00",
+    "text": "What is your energy source? My energy source is dissatisfaction with status quo. I think today is the dystopia of the future. It behooves us to try to build the kinds of products that leads towards progress.",
+    "summary": "Lutke's driving force as a builder is dissatisfaction with the status quo, viewing the present as the dystopia that future generations will want to improve upon.",
+    "topics": [
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-tobi-lutke-2",
+    "podcastSlug": "tobi-lutke",
+    "speaker": "Tobi Lutke",
+    "guest": "Tobi Lutke",
+    "timestamp": "00:00:34",
+    "text": "Pessimism sounds extremely sophisticated. Optimism always sounds dumb or at least naive. The most powerful unquantifiable things in the world of business are fun and delight.",
+    "summary": "Optimism is underrated in business because pessimism sounds more sophisticated, yet fun and delight are the most powerful unquantifiable business advantages.",
+    "topics": [
+      "leadership",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-tobi-lutke-3",
+    "podcastSlug": "tobi-lutke",
+    "speaker": "Tobi Lutke",
+    "guest": "Tobi Lutke",
+    "timestamp": "00:01:04",
+    "text": "I only lived one life, so I can't Monte Carlo all the decisions I make and just figure out which ones ended up being load bearing.",
+    "summary": "You cannot run simulations on your life decisions, so you have to make bold bets without knowing which choices will prove most consequential.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-tobi-lutke-4",
+    "podcastSlug": "tobi-lutke",
+    "speaker": "Tobi Lutke",
+    "guest": "Tobi Lutke",
+    "timestamp": "00:02:30",
+    "text": "Everyone at Shopify has to be able to build something with AI. If you're not learning how to use these tools, you're falling behind. We made this a company-wide expectation.",
+    "summary": "Shopify mandated that every employee learn to build with AI tools, making AI literacy a universal company expectation.",
+    "topics": [
+      "ai-tools",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-tobi-lutke-5",
+    "podcastSlug": "tobi-lutke",
+    "speaker": "Tobi Lutke",
+    "guest": "Tobi Lutke",
+    "timestamp": "00:05:15",
+    "text": "If most people are doing it a certain way, I by default don't want to do it that way. That's not contrarianism for its own sake, it's just that the default path is usually optimized for average outcomes.",
+    "summary": "Avoiding the default path is not contrarianism but a recognition that conventional approaches are optimized for average outcomes.",
+    "topics": [
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-nan-yu-1",
+    "podcastSlug": "nan-yu",
+    "speaker": "Nan Yu",
+    "guest": "Nan Yu",
+    "timestamp": "00:00:06",
+    "text": "People talk about this as if there were a trade-off because when they think about speed, the thing they over-index on is rushing or being sloppy. What they should be indexing on is being really competent.",
+    "summary": "Speed and quality are not trade-offs; truly competent people produce high-quality work faster because mastery enables velocity.",
+    "topics": [
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-nan-yu-2",
+    "podcastSlug": "nan-yu",
+    "speaker": "Nan Yu",
+    "guest": "Nan Yu",
+    "timestamp": "00:00:30",
+    "text": "You have some rough time budget for how long you think something's going to take. By the time 10% of it has passed, after week one, you have something that works that tests some key hypothesis internally.",
+    "summary": "At Linear, teams aim to have a working prototype testing a key hypothesis within the first 10% of the time budget.",
+    "topics": [
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-nan-yu-3",
+    "podcastSlug": "nan-yu",
+    "speaker": "Nan Yu",
+    "guest": "Nan Yu",
+    "timestamp": "00:00:47",
+    "text": "We think about it as we're building the tool we want to use. And if it becomes bloated, we'll feel it first. We're our own most demanding users.",
+    "summary": "Linear avoids bloat by dogfooding relentlessly, ensuring the team feels any degradation in quality before customers do.",
+    "topics": [
+      "product-design",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-nan-yu-4",
+    "podcastSlug": "nan-yu",
+    "speaker": "Nan Yu",
+    "guest": "Nan Yu",
+    "timestamp": "00:03:15",
+    "text": "Craft is not about making things pretty. Craft is about caring about every detail of the experience. It's the error states, the loading states, the edge cases that nobody thinks about.",
+    "summary": "True product craft means obsessing over error states, loading states, and edge cases, not just visual polish.",
+    "topics": [
+      "product-design",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-nan-yu-5",
+    "podcastSlug": "nan-yu",
+    "speaker": "Nan Yu",
+    "guest": "Nan Yu",
+    "timestamp": "00:06:30",
+    "text": "We don't have product managers at Linear. Engineers own the product decisions. That forces everyone to think about why they're building something, not just how.",
+    "summary": "Linear operates without product managers, requiring engineers to own both the why and how of product decisions.",
+    "topics": [
+      "product-management",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-chandra-janakiraman-1",
+    "podcastSlug": "chandra-janakiraman",
+    "speaker": "Chandra Janakiraman",
+    "guest": "Chandra Janakiraman",
+    "timestamp": "00:00:00",
+    "text": "I started noticing that there was a certain mystique and aura about product strategy. There was this perception that some people were intrinsically really good at strategy and others were not. It was almost as if there was a strategy gene.",
+    "summary": "Product strategy is wrongly perceived as an innate talent rather than a learnable craft with systematic processes.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-chandra-janakiraman-2",
+    "podcastSlug": "chandra-janakiraman",
+    "speaker": "Chandra Janakiraman",
+    "guest": "Chandra Janakiraman",
+    "timestamp": "00:00:23",
+    "text": "There is a smallest flavor of it which focuses on solving problems, they're called present forward, and it typically operates in a two-year horizon. We use a five-stage process to get there and it takes about eight to 12 weeks.",
+    "summary": "Small-s product strategy uses a five-stage, 8-12 week process focused on solving present problems within a two-year horizon.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-chandra-janakiraman-3",
+    "podcastSlug": "chandra-janakiraman",
+    "speaker": "Chandra Janakiraman",
+    "guest": "Chandra Janakiraman",
+    "timestamp": "00:01:42",
+    "text": "I actually don't recommend thinking about resources in the strategy phase, because what you're saying is 'these are the areas of focus' and the resourcing question becomes more relevant from a road mapping standpoint.",
+    "summary": "Separating strategy from resourcing keeps strategic thinking pure, deferring resource allocation to the roadmapping phase.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-chandra-janakiraman-4",
+    "podcastSlug": "chandra-janakiraman",
+    "speaker": "Chandra Janakiraman",
+    "guest": "Chandra Janakiraman",
+    "timestamp": "00:03:45",
+    "text": "The reason I think this process works is there is a ton of alignment built in. It goes back to human psychology of just something that comes from you feels a lot more familiar and easy to accept.",
+    "summary": "Strategy processes succeed when they build alignment through co-creation, leveraging the psychological principle that people accept ideas they helped shape.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-graham-weaver-1",
+    "podcastSlug": "graham-weaver",
+    "speaker": "Graham Weaver",
+    "guest": "Graham Weaver",
+    "timestamp": "00:00:10",
+    "text": "Imagine that you're walking home from work, you see this bright, shiny object, and you realize it's a magic lamp. And you rub the lamp and this genie comes out and the genie says, 'Hey, I can give you one wish. Whatever you throw yourself into with your whole life and your career, it's going to turn out great.'",
+    "summary": "The magic genie exercise helps people identify what they would pursue if success were guaranteed, revealing their true calling.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-graham-weaver-2",
+    "podcastSlug": "graham-weaver",
+    "speaker": "Graham Weaver",
+    "guest": "Graham Weaver",
+    "timestamp": "00:00:40",
+    "text": "Most people are on autopilot. They're making decisions based on what they fell into, not what they actually want. Breaking out of autopilot requires you to first notice you're on it.",
+    "summary": "Most people run their careers on autopilot based on what they fell into rather than deliberately choosing their path.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-graham-weaver-3",
+    "podcastSlug": "graham-weaver",
+    "speaker": "Graham Weaver",
+    "guest": "Graham Weaver",
+    "timestamp": "00:05:30",
+    "text": "The hard path and the easy path both take the same amount of time. The hard path is the one where you do the thing you're afraid of. The easy path is the one where you avoid it. But at the end of your life, the hard path gives you a much better outcome.",
+    "summary": "The hard path and easy path take the same time, but the hard path of confronting fears yields dramatically better life outcomes.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-graham-weaver-4",
+    "podcastSlug": "graham-weaver",
+    "speaker": "Graham Weaver",
+    "guest": "Graham Weaver",
+    "timestamp": "00:10:15",
+    "text": "Write down the things you're tolerating. The things you're putting up with that you know you shouldn't be. That list is your roadmap for transformation.",
+    "summary": "Your list of things you are tolerating but should not be is effectively a roadmap for personal and professional transformation.",
+    "topics": [
+      "career",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-drew-houston-1",
+    "podcastSlug": "drew-houston",
+    "speaker": "Drew Houston",
+    "guest": "Drew Houston",
+    "timestamp": "00:00:10",
+    "text": "For the first several years, it was doubling, 10-xing every year. Taping user counts that we printed out to the wall, and then running out of space on the wall.",
+    "summary": "Dropbox's early growth was so explosive they literally ran out of wall space taping up user count milestones.",
+    "topics": [
+      "growth",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-drew-houston-2",
+    "podcastSlug": "drew-houston",
+    "speaker": "Drew Houston",
+    "guest": "Drew Houston",
+    "timestamp": "00:00:26",
+    "text": "We started getting all the incumbents. Apple, Microsoft, Google. All of them launched competing products, but weirdly, it was sort of like you see the videos where there's the mushroom cloud in the distance. You see it. But you don't hear, or notice it.",
+    "summary": "When Apple, Microsoft, and Google all launched competing products, Dropbox could see the threat coming but initially underestimated its impact.",
+    "topics": [
+      "startup-building",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-drew-houston-3",
+    "podcastSlug": "drew-houston",
+    "speaker": "Drew Houston",
+    "guest": "Drew Houston",
+    "timestamp": "00:00:45",
+    "text": "2015 was a pivotal year where things started to shift. It was clear that winter was coming. We had to completely rethink who we were and what we were building for.",
+    "summary": "2015 forced Dropbox to fundamentally rethink its identity and strategy as competitive pressure from tech giants intensified.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-drew-houston-4",
+    "podcastSlug": "drew-houston",
+    "speaker": "Drew Houston",
+    "guest": "Drew Houston",
+    "timestamp": "00:03:30",
+    "text": "The biggest lesson from that era is you have to be willing to cannibalize yourself. If you're not willing to disrupt your own product, someone else will do it for you.",
+    "summary": "Companies must be willing to cannibalize their own products because if they do not disrupt themselves, competitors will.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-drew-houston-5",
+    "podcastSlug": "drew-houston",
+    "speaker": "Drew Houston",
+    "guest": "Drew Houston",
+    "timestamp": "00:08:45",
+    "text": "What I've learned building Dropbox Dash is that AI is going to change the fundamental interface for how people interact with their information. Search becomes the new file system.",
+    "summary": "AI will transform how people interact with information, making search the new file system through products like Dropbox Dash.",
+    "topics": [
+      "ai-product",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-alisa-cohn-1",
+    "podcastSlug": "alisa-cohn",
+    "speaker": "Alisa Cohn",
+    "guest": "Alisa Cohn",
+    "timestamp": "00:00:10",
+    "text": "Hope for the future is so important. I know this is going to be challenging for you to hear, not going to promote you, but I want you to know this. It's really important to me that you're able to succeed in your career here.",
+    "summary": "When delivering hard news like a denied promotion, leading with genuine hope for the person's future makes the conversation more constructive.",
+    "topics": [
+      "feedback",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-alisa-cohn-2",
+    "podcastSlug": "alisa-cohn",
+    "speaker": "Alisa Cohn",
+    "guest": "Alisa Cohn",
+    "timestamp": "00:00:29",
+    "text": "They're trying now to be the leader who everyone loves, but what really needs to happen very often is, we need to drive towards results. This employee continuing to not really do a great job, you don't want to push them because you don't want to upset them. Ultimately, that leads to the demise of your company.",
+    "summary": "Leaders who prioritize being liked over driving results end up tolerating poor performance, which can ultimately destroy the company.",
+    "topics": [
+      "leadership",
+      "feedback"
+    ]
+  },
+  {
+    "id": "moment-alisa-cohn-3",
+    "podcastSlug": "alisa-cohn",
+    "speaker": "Alisa Cohn",
+    "guest": "Alisa Cohn",
+    "timestamp": "00:04:15",
+    "text": "The three questions you should end every meeting with: What did we decide? Who is going to do what by when? And what do we need to communicate to others?",
+    "summary": "End every meeting with three questions: what did we decide, who owns what by when, and what needs to be communicated to others.",
+    "topics": [
+      "management",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-alisa-cohn-4",
+    "podcastSlug": "alisa-cohn",
+    "speaker": "Alisa Cohn",
+    "guest": "Alisa Cohn",
+    "timestamp": "00:07:30",
+    "text": "When someone gets defensive, don't match their energy. Say: 'I can see this is hard to hear. I want to give you a moment. We can come back to this.' That pause is incredibly powerful.",
+    "summary": "When someone becomes defensive during feedback, pausing and acknowledging the difficulty rather than matching their energy is the most powerful response.",
+    "topics": [
+      "feedback",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-alisa-cohn-5",
+    "podcastSlug": "alisa-cohn",
+    "speaker": "Alisa Cohn",
+    "guest": "Alisa Cohn",
+    "timestamp": "00:12:00",
+    "text": "The best script for hard feedback is SBI: Situation, Behavior, Impact. Here's the situation, here's the behavior I observed, here's the impact it had. It removes the judgment and makes it about observable facts.",
+    "summary": "The SBI framework (Situation, Behavior, Impact) removes personal judgment from feedback by grounding it in observable facts.",
+    "topics": [
+      "feedback",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-shaun-clowes-1",
+    "podcastSlug": "shaun-clowes",
+    "speaker": "Shaun Clowes",
+    "guest": "Shaun Clowes",
+    "timestamp": "00:00:08",
+    "text": "Why is it that product management is still such a relatively undeveloped discipline? We're like 15 to 20 years into this, and so there's something about the current state of product management that isn't getting at the truly important things.",
+    "summary": "Product management remains an undeveloped discipline 15-20 years in, failing to consistently develop practitioners in the truly value-added skills.",
+    "topics": [
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-shaun-clowes-2",
+    "podcastSlug": "shaun-clowes",
+    "speaker": "Shaun Clowes",
+    "guest": "Shaun Clowes",
+    "timestamp": "00:00:26",
+    "text": "In everything always talk from the customer's perspective, from the market's perspective, from the competitor's perspective. The very small number of PMs do that. They get dragged into internal politics, scrum management.",
+    "summary": "The best PMs consistently frame everything from customer, market, and competitor perspectives rather than getting dragged into internal politics and scrum management.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-shaun-clowes-3",
+    "podcastSlug": "shaun-clowes",
+    "speaker": "Shaun Clowes",
+    "guest": "Shaun Clowes",
+    "timestamp": "00:00:45",
+    "text": "The way AI will most impact product management is data management. If you don't have your data house in order, your AI products will be garbage. Data is the moat, not the model.",
+    "summary": "AI's biggest impact on product management will be through data management because the quality of your data, not your model, determines product quality.",
+    "topics": [
+      "ai-product",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-shaun-clowes-4",
+    "podcastSlug": "shaun-clowes",
+    "speaker": "Shaun Clowes",
+    "guest": "Shaun Clowes",
+    "timestamp": "00:05:30",
+    "text": "If we were doctors, you'd be like, 'That's totally unacceptable.' Imagine if after 20 years of medical practice, most doctors still couldn't reliably diagnose common conditions.",
+    "summary": "The low bar for PM competency would be unacceptable in fields like medicine, highlighting how much the discipline still needs to mature.",
+    "topics": [
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-marc-benioff-1",
+    "podcastSlug": "marc-benioff",
+    "speaker": "Marc Benioff",
+    "guest": "Marc Benioff",
+    "timestamp": "00:09",
+    "text": "I'm throwing everything against the wall. I'm looking at what's going to stick. I am looking to try to find the winning tactic and turn it into a winning strategy.",
+    "summary": "Benioff's approach to launching Salesforce was relentless experimentation, throwing everything at the wall and turning winning tactics into strategy.",
+    "topics": [
+      "startup-building",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-marc-benioff-2",
+    "podcastSlug": "marc-benioff",
+    "speaker": "Marc Benioff",
+    "guest": "Marc Benioff",
+    "timestamp": "00:24",
+    "text": "I actually never look at the stock. I find the stock to be very distracting. The stock isn't the goal. That's not why we're doing this.",
+    "summary": "Benioff deliberately ignores the stock price because he finds it a distraction from the actual mission of building Salesforce.",
+    "topics": [
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-marc-benioff-3",
+    "podcastSlug": "marc-benioff",
+    "speaker": "Marc Benioff",
+    "guest": "Marc Benioff",
+    "timestamp": "00:38",
+    "text": "I keep having these existential freakout moments about AI. This is really moving fast.",
+    "summary": "Even a seasoned CEO like Benioff has existential freakout moments about the pace of AI advancement.",
+    "topics": [
+      "ai-product",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-marc-benioff-4",
+    "podcastSlug": "marc-benioff",
+    "speaker": "Marc Benioff",
+    "guest": "Marc Benioff",
+    "timestamp": "01:05",
+    "text": "Number two is I need to find more fuel in the company to fuel this idea because this is clearly a breakthrough product, so how do I get everyone focused on it.",
+    "summary": "When you identify a breakthrough product opportunity, the key leadership challenge is redirecting company-wide focus and resources toward it.",
+    "topics": [
+      "leadership",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-farhan-thawar-1",
+    "podcastSlug": "farhan-thawar",
+    "speaker": "Farhan Thawar",
+    "guest": "Farhan Thawar",
+    "timestamp": "00:00:00",
+    "text": "If you do the hard path and it doesn't work, actually you still win because you've now done something hard. You've probably worked with smart people. You've learned something along the way that is valuable.",
+    "summary": "Taking the hard path is always worthwhile because even failure produces learning and growth that easy paths never provide.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-farhan-thawar-2",
+    "podcastSlug": "farhan-thawar",
+    "speaker": "Farhan Thawar",
+    "guest": "Farhan Thawar",
+    "timestamp": "00:00:24",
+    "text": "Everyone says, 'Oh yeah, work hard and do more hours when you're young, whatever.' I'm like, 'What if you just did more per minute?'",
+    "summary": "Instead of working longer hours, Thawar advocates for maximizing output per minute through higher intensity.",
+    "topics": [
+      "productivity",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-farhan-thawar-3",
+    "podcastSlug": "farhan-thawar",
+    "speaker": "Farhan Thawar",
+    "guest": "Farhan Thawar",
+    "timestamp": "00:00:37",
+    "text": "We have a Delete Code Club. We can always almost find a million-plus lines of code to delete, which is insane.",
+    "summary": "Shopify's Delete Code Club consistently finds over a million lines of code to remove, reflecting a culture of aggressive simplification.",
+    "topics": [
+      "engineering",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-farhan-thawar-4",
+    "podcastSlug": "farhan-thawar",
+    "speaker": "Farhan Thawar",
+    "guest": "Farhan Thawar",
+    "timestamp": "01:23:57",
+    "text": "Tobi looked at me and he goes, 'You should tell everyone this story.' He goes, 'I will always come down harshly on people who do not take risks, and you did not take a risk in this case. But if you take a risk and it doesn't work out, you'll never get in trouble.'",
+    "summary": "Tobi Lutke punishes risk-aversion rather than failed risks, and Thawar's hedged React Native decision cost 18 months of 100 engineers' time.",
+    "topics": [
+      "leadership",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-farhan-thawar-5",
+    "podcastSlug": "farhan-thawar",
+    "speaker": "Farhan Thawar",
+    "guest": "Farhan Thawar",
+    "timestamp": "01:16:05",
+    "text": "I had 120 direct reports. I just didn't think I needed managers. I figured out ways to not have managers be the answers to questions. Pair programming helps you get unblocked quickly. Having a product backlog can tell you what to work on.",
+    "summary": "Thawar managed 120 direct reports by replacing traditional management with systems like pair programming and product backlogs for unblocking.",
+    "topics": [
+      "management",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-farhan-thawar-6",
+    "podcastSlug": "farhan-thawar",
+    "speaker": "Farhan Thawar",
+    "guest": "Farhan Thawar",
+    "timestamp": "01:34:15",
+    "text": "Everything you know is wrong. The reason I like that one is it's this notion of if all the knowledge you knew was incorrect, could you from first principles build up a view of the world?",
+    "summary": "Thawar's life motto 'everything you know is wrong' drives constant experimentation and first-principles thinking.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-jackson-shuttleworth-1",
+    "podcastSlug": "jackson-shuttleworth",
+    "speaker": "Jackson Shuttleworth",
+    "guest": "Jackson Shuttleworth",
+    "timestamp": "00:00:00",
+    "text": "Streaks is the most impactful feature. We have, right now, over 9 million users with a year plus streak. If you look at the numbers, I think it's been our biggest growth lever.",
+    "summary": "Duolingo streaks, with over 9 million users maintaining year-plus streaks, is the company's most impactful feature and biggest growth lever.",
+    "topics": [
+      "retention",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-jackson-shuttleworth-2",
+    "podcastSlug": "jackson-shuttleworth",
+    "speaker": "Jackson Shuttleworth",
+    "guest": "Jackson Shuttleworth",
+    "timestamp": "00:00:30",
+    "text": "Test everything. We've run in the last four years over 600 experiments on the streaks, so every other day. We've actually set up really good infrastructure for copy testing.",
+    "summary": "Duolingo runs an experiment on streaks every other day, totaling 600+ experiments in four years, with dedicated copy testing infrastructure.",
+    "topics": [
+      "growth",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-jackson-shuttleworth-3",
+    "podcastSlug": "jackson-shuttleworth",
+    "speaker": "Jackson Shuttleworth",
+    "guest": "Jackson Shuttleworth",
+    "timestamp": "00:00:30",
+    "text": "We used to say continue, our standard CTA is continue, and we changed that to commit to my goal, and it was a massive win.",
+    "summary": "Changing a single CTA from 'continue' to 'commit to my goal' was a massive win, demonstrating the power of psychologically resonant copy.",
+    "topics": [
+      "growth",
+      "retention"
+    ]
+  },
+  {
+    "id": "moment-jackson-shuttleworth-4",
+    "podcastSlug": "jackson-shuttleworth",
+    "speaker": "Jackson Shuttleworth",
+    "guest": "Jackson Shuttleworth",
+    "timestamp": "00:00:55",
+    "text": "What Duolingo really focuses on is, how do we help users build habits around language learning? Getting a user to come back the next day is the biggest problem to solve.",
+    "summary": "Duolingo frames its core challenge as habit formation, not language teaching, with next-day retention as the most important metric.",
+    "topics": [
+      "retention",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-jackson-shuttleworth-5",
+    "podcastSlug": "jackson-shuttleworth",
+    "speaker": "Jackson Shuttleworth",
+    "guest": "Jackson Shuttleworth",
+    "timestamp": "00:02:30",
+    "text": "Loss aversion is way more powerful than reward seeking. The fear of losing your streak is more motivating than any badge or reward we could give you.",
+    "summary": "Loss aversion through streak protection is far more motivating than any positive reward, which is why streaks drive Duolingo's retention so effectively.",
+    "topics": [
+      "retention",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-seth-godin-1",
+    "podcastSlug": "seth-godin",
+    "speaker": "Seth Godin",
+    "guest": "Seth Godin",
+    "timestamp": "00:00:10",
+    "text": "AI very soon is going to stop being a feature the same way electricity is not a feature. What AI companies and all companies need to do is say, what's in this for the user? What promise do I want to make, a difficult promise, a remarkable promise, and then how do I keep it?",
+    "summary": "AI will stop being a differentiating feature like electricity stopped being one; companies must focus on the promise they make to users, not the technology.",
+    "topics": [
+      "ai-product",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-seth-godin-2",
+    "podcastSlug": "seth-godin",
+    "speaker": "Seth Godin",
+    "guest": "Seth Godin",
+    "timestamp": "05:54",
+    "text": "I define good taste as knowing what other people want just before they do. People are seen as having good taste when they bring something to the world that the world didn't necessarily expect but is glad to see.",
+    "summary": "Good taste is the ability to anticipate what people want before they know it themselves, delivering the pleasantly unexpected.",
+    "topics": [
+      "product-design",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-seth-godin-3",
+    "podcastSlug": "seth-godin",
+    "speaker": "Seth Godin",
+    "guest": "Seth Godin",
+    "timestamp": "06:46",
+    "text": "Quality is not luxury. Quality is not perfection. Quality means meeting spec, and if you meet spec, you're done. If you don't think the spec is good enough, make a better spec.",
+    "summary": "Quality means meeting spec, not perfection; if the spec feels insufficient, the answer is to raise the spec, not to endlessly polish.",
+    "topics": [
+      "product-management",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-seth-godin-4",
+    "podcastSlug": "seth-godin",
+    "speaker": "Seth Godin",
+    "guest": "Seth Godin",
+    "timestamp": "15:14",
+    "text": "If you don't build the network effect into what you are making, you are almost certainly going to fail. The question is, will this work better for my users if they tell other people about it?",
+    "summary": "Software products that do not have network effects built in from the start are almost certainly going to fail.",
+    "topics": [
+      "growth",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-seth-godin-5",
+    "podcastSlug": "seth-godin",
+    "speaker": "Seth Godin",
+    "guest": "Seth Godin",
+    "timestamp": "23:31",
+    "text": "When you choose your smallest viable audience, what language they speak, how much money they have, what problem they're trying to solve, you have chosen everything that's going to go into the product and what your future is going to be like.",
+    "summary": "Choosing your smallest viable audience is the most consequential product decision because it determines everything about what you build.",
+    "topics": [
+      "go-to-market",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-seth-godin-6",
+    "podcastSlug": "seth-godin",
+    "speaker": "Seth Godin",
+    "guest": "Seth Godin",
+    "timestamp": "18:15",
+    "text": "I have a very emotional connection to Claude.ai. I think they have a brand. ChatGPT's reputation with me is not good because it regularly over promises and under delivers and it does it without kindness or humility.",
+    "summary": "Godin sees Claude as having a genuine brand built on kindness and humility, while ChatGPT over-promises and under-delivers.",
+    "topics": [
+      "ai-product",
+      "naming"
+    ]
+  },
+  {
+    "id": "moment-jonathan-lowenhar-1",
+    "podcastSlug": "jonathan-lowenhar",
+    "speaker": "Jonathan Lowenhar",
+    "guest": "Jonathan Lowenhar",
+    "timestamp": "00:00:11",
+    "text": "To be a founder is a state of being, it's an attitude. To be a CEO is a craft. The more founders who can accept that those are two separate things and they're both equally important to build an ascendant startup, the better all of us will be.",
+    "summary": "Being a founder is a mindset while being a CEO is a learnable craft, and recognizing these as separate skills is crucial for startup success.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jonathan-lowenhar-2",
+    "podcastSlug": "jonathan-lowenhar",
+    "speaker": "Jonathan Lowenhar",
+    "guest": "Jonathan Lowenhar",
+    "timestamp": "00:00:30",
+    "text": "Founder mode gets me angry. That article just got me hot. It really felt like an excuse. We were giving founders permission to not learn the job.",
+    "summary": "Lowenhar sees the 'founder mode' concept as a dangerous excuse that gives founders permission to avoid learning the craft of being CEO.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jonathan-lowenhar-3",
+    "podcastSlug": "jonathan-lowenhar",
+    "speaker": "Jonathan Lowenhar",
+    "guest": "Jonathan Lowenhar",
+    "timestamp": "00:00:51",
+    "text": "There are these two phases to a startup journey. Phase one is finding product-market fit. Phase two is building the company. Most founders focus entirely on phase one and never learn how to do phase two.",
+    "summary": "Most founders obsess over finding product-market fit but never learn the equally critical second phase of actually building the company.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jonathan-lowenhar-4",
+    "podcastSlug": "jonathan-lowenhar",
+    "speaker": "Jonathan Lowenhar",
+    "guest": "Jonathan Lowenhar",
+    "timestamp": "00:05:00",
+    "text": "The greatest CEOs know when to calibrate which one is needed. It's not manager mode is bad, it's that you need both modes and you need to know when to deploy each.",
+    "summary": "Great CEOs do not choose between founder mode and manager mode; they calibrate between both based on what the situation demands.",
+    "topics": [
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-jonathan-lowenhar-5",
+    "podcastSlug": "jonathan-lowenhar",
+    "speaker": "Jonathan Lowenhar",
+    "guest": "Jonathan Lowenhar",
+    "timestamp": "00:12:00",
+    "text": "The founders who scale are the ones who realize that their job description changes every six months. What got you here won't get you there, and that's not a failure, it's the nature of the journey.",
+    "summary": "Founders who scale successfully accept that their job description fundamentally changes every six months as the company grows.",
+    "topics": [
+      "startup-building",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-amjad-masad-1",
+    "podcastSlug": "amjad-masad",
+    "speaker": "Amjad Masad",
+    "guest": "Amjad Masad",
+    "timestamp": "00:00:00",
+    "text": "The idea behind Replit is that making software today is very difficult. We want to make it easier. People view this as a developer in their pocket essentially. We have 34 million users globally.",
+    "summary": "Replit's mission is to democratize software creation, serving as a developer-in-your-pocket for 34 million global users.",
+    "topics": [
+      "vibe-coding",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-amjad-masad-2",
+    "podcastSlug": "amjad-masad",
+    "speaker": "Amjad Masad",
+    "guest": "Amjad Masad",
+    "timestamp": "00:00:27",
+    "text": "Typically, you're bottlenecked where your ideas are not fitting in because they need to be made and they need to be made quickly. Now, you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas.",
+    "summary": "AI removes the implementation bottleneck in product development, shifting the constraint from building speed to idea generation speed.",
+    "topics": [
+      "ai-product",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "moment-amjad-masad-3",
+    "podcastSlug": "amjad-masad",
+    "speaker": "Amjad Masad",
+    "guest": "Amjad Masad",
+    "timestamp": "00:00:47",
+    "text": "I could imagine whatever five years from now, someone running a billion-dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing.",
+    "summary": "Masad envisions billion-dollar companies run by a single person within five years, with AI handling support, development, and operations.",
+    "topics": [
+      "ai-product",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-amjad-masad-4",
+    "podcastSlug": "amjad-masad",
+    "speaker": "Amjad Masad",
+    "guest": "Amjad Masad",
+    "timestamp": "00:03:30",
+    "text": "The evals are everything. You can't ship an AI feature without a way to measure whether it's actually good. We built an entire internal evaluation infrastructure before we shipped our agent.",
+    "summary": "Replit built comprehensive internal evaluation infrastructure before shipping their AI agent because evals are the foundation of AI product quality.",
+    "topics": [
+      "evals",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-amjad-masad-5",
+    "podcastSlug": "amjad-masad",
+    "speaker": "Amjad Masad",
+    "guest": "Amjad Masad",
+    "timestamp": "00:06:00",
+    "text": "The best way to build an AI product is to use it yourself constantly. Our team uses Replit Agent to build Replit. That feedback loop is the fastest way to improve.",
+    "summary": "Replit uses its own AI agent to build Replit itself, creating the tightest possible feedback loop for product improvement.",
+    "topics": [
+      "ai-product",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "moment-raaz-herzberg-1",
+    "podcastSlug": "raaz-herzberg",
+    "speaker": "Raaz Herzberg",
+    "guest": "Raaz Herzberg",
+    "timestamp": "00:07:01",
+    "text": "I was hired as the first product manager. I sat in on those calls. I still did not exactly understand what we were going to build, which was confusing. And that ended up pivoting us around to cloud security.",
+    "summary": "Wiz's first PM joined before the product idea was figured out, and her confusion about what to build actually catalyzed the pivot to cloud security.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-raaz-herzberg-2",
+    "podcastSlug": "raaz-herzberg",
+    "speaker": "Raaz Herzberg",
+    "guest": "Raaz Herzberg",
+    "timestamp": "00:07:01",
+    "text": "We would have 10 to 15 meetings every day with potential customers. At the time, we didn't really have a solid product yet.",
+    "summary": "Wiz conducted 10-15 customer meetings daily before having a product, using extreme customer proximity to find product-market fit.",
+    "topics": [
+      "startup-building",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-raaz-herzberg-3",
+    "podcastSlug": "raaz-herzberg",
+    "speaker": "Raaz Herzberg",
+    "guest": "Raaz Herzberg",
+    "timestamp": "00:12:00",
+    "text": "We went from zero to $100 million ARR faster than any SaaS company in history. But it wasn't luck. It was the combination of a team that had built and sold a company together before, and a market that was screaming for a solution.",
+    "summary": "Wiz's record-breaking growth from zero to $100M ARR came from a team with prior exit experience targeting a market with extreme urgency.",
+    "topics": [
+      "startup-building",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-raaz-herzberg-4",
+    "podcastSlug": "raaz-herzberg",
+    "speaker": "Raaz Herzberg",
+    "guest": "Raaz Herzberg",
+    "timestamp": "00:18:00",
+    "text": "The founders had a principle: always sell to the CISO, never to the security engineer. Because if you sell to the engineer, you get a pilot. If you sell to the CISO, you get a deployment.",
+    "summary": "Wiz deliberately sold to CISOs rather than security engineers because executive buyers commit to deployments, not pilots.",
+    "topics": [
+      "sales",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-raaz-herzberg-5",
+    "podcastSlug": "raaz-herzberg",
+    "speaker": "Raaz Herzberg",
+    "guest": "Raaz Herzberg",
+    "timestamp": "00:25:00",
+    "text": "Our product strategy is simple: we want to be the operating system for cloud security. Every new product we build has to connect to the graph. That's our moat.",
+    "summary": "Wiz's moat is its connected security graph, and every new product must integrate into it, creating compounding value.",
+    "topics": [
+      "product-management",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-archie-abrams-1",
+    "podcastSlug": "archie-abrams",
+    "speaker": "Archie Abrams",
+    "guest": "Archie Abrams",
+    "timestamp": "00:00:00",
+    "text": "When you have teams naturally break up the world into different funnel stages, it gets very seductive to look at my part of the funnel and what's my conversion rate. But in practice, it's actually almost always easier to just make it harder to do the thing right before your step in the funnel to increase your conversion rate.",
+    "summary": "Funnel-stage teams are tempted to optimize their conversion rate by making the prior step harder, which is counterproductive to overall growth.",
+    "topics": [
+      "growth",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-archie-abrams-2",
+    "podcastSlug": "archie-abrams",
+    "speaker": "Archie Abrams",
+    "guest": "Archie Abrams",
+    "timestamp": "00:00:32",
+    "text": "The best way to get more people to get to a step is just get more people in the door in the first place. That will always hurt your conversion rate, but it may actually give you more people on the outside.",
+    "summary": "Widening the funnel top hurts conversion rates but produces more absolute outcomes, which matters more than percentages.",
+    "topics": [
+      "growth",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-archie-abrams-3",
+    "podcastSlug": "archie-abrams",
+    "speaker": "Archie Abrams",
+    "guest": "Archie Abrams",
+    "timestamp": "00:05:00",
+    "text": "Shopify doesn't have KPIs in the traditional sense. We have a north star which is GMS, gross merchandise sales, and everything else is context. We trust people to make good decisions.",
+    "summary": "Shopify avoids traditional KPIs in favor of a single north star metric (GMS) and trusts teams to make decisions with context.",
+    "topics": [
+      "metrics",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-archie-abrams-4",
+    "podcastSlug": "archie-abrams",
+    "speaker": "Archie Abrams",
+    "guest": "Archie Abrams",
+    "timestamp": "00:10:00",
+    "text": "We actually optimize for churn. Not to reduce it to zero, but to make sure we're acquiring the right merchants. If we reduce churn by making it hard to leave, we're just trapping bad-fit customers.",
+    "summary": "Shopify optimizes for healthy churn rather than minimizing it, because trapping bad-fit merchants with exit barriers hurts long-term growth.",
+    "topics": [
+      "retention",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-archie-abrams-5",
+    "podcastSlug": "archie-abrams",
+    "speaker": "Archie Abrams",
+    "guest": "Archie Abrams",
+    "timestamp": "00:20:00",
+    "text": "We build toward a 100-year vision. That sounds abstract but it changes every decision. You stop optimizing for this quarter's numbers and start building things that compound.",
+    "summary": "Shopify's 100-year vision changes daily decisions by shifting focus from quarterly optimization to building compounding value.",
+    "topics": [
+      "leadership",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-live-1",
+    "podcastSlug": "shreyas-doshi-live",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "05:39",
+    "text": "One of the core reasons was I was always super busy. There were about 16 or 17 years where I was just incredibly busy, and because I was incredibly busy, I was extremely stressed.",
+    "summary": "Doshi spent 16-17 years as a PM leader being overwhelmingly busy before realizing that scope, not efficiency, was the root problem.",
+    "topics": [
+      "product-management",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-live-2",
+    "podcastSlug": "shreyas-doshi-live",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "14:44",
+    "text": "Because I had a real product strategy, not one of those fake ones, a real product strategy that I had gotten alignment on with everybody, my planning for this major product for Stripe took me like three days.",
+    "summary": "Having a genuine, pre-aligned product strategy reduced Doshi's annual planning from the typical 4-6 weeks to just three days at Stripe.",
+    "topics": [
+      "product-management",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-live-3",
+    "podcastSlug": "shreyas-doshi-live",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "18:34",
+    "text": "Most doors that look like two-way doors are actually one-way doors. They are two-way doors at Bezos' level, but as a PM leader, for you, they are a one-way door, and that's making you busy.",
+    "summary": "The two-way door framework is misleading for most PM leaders because features that seem reversible almost never actually get killed.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-live-4",
+    "podcastSlug": "shreyas-doshi-live",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "31:37",
+    "text": "Taste is about the ability to identify what is really good without needing to see its results. It requires zero taste right now for anybody to say Jensen is a genius. To be able to say that in 2010, that requires taste.",
+    "summary": "True taste is the ability to recognize greatness before results validate it; calling Jensen Huang a genius in 2024 requires zero taste.",
+    "topics": [
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-live-5",
+    "podcastSlug": "shreyas-doshi-live",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "39:32",
+    "text": "Our jobs get frustrating when we behave, most of the time, in misalignment with our superpowers and who we truly are at our core. I have a preferred level at which I like to operate.",
+    "summary": "Career frustration stems from spending most of your time operating at a level misaligned with your core superpowers and natural strengths.",
+    "topics": [
+      "career",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-1",
+    "podcastSlug": "shreyas-doshi",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "00:05:00",
+    "text": "The pre-mortem is the most powerful tool I've found. Before you start a project, imagine it's failed. Now write down why it failed. You'll surface risks your team would never bring up otherwise.",
+    "summary": "Pre-mortems surface hidden risks by asking teams to imagine project failure before starting, unlocking candid discussion of concerns.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-2",
+    "podcastSlug": "shreyas-doshi",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "00:15:00",
+    "text": "The LNO framework: categorize every task as Leverage, Neutral, or Overhead. Do leverage tasks at 100%, neutral at 80%, and overhead at the minimum acceptable quality.",
+    "summary": "The LNO framework categorizes tasks as Leverage, Neutral, or Overhead, with effort allocated proportionally to each category's impact.",
+    "topics": [
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-3",
+    "podcastSlug": "shreyas-doshi",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "00:25:00",
+    "text": "Product work happens at three levels: impact, execution, and optics. Most execution problems are actually strategy problems. When you can't get alignment, it's because there's no clear strategy, not because people aren't executing.",
+    "summary": "Most execution problems are actually strategy problems in disguise; lack of alignment signals missing strategy, not poor execution.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-4",
+    "podcastSlug": "shreyas-doshi",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "00:35:00",
+    "text": "The biggest prioritization mistake is using impact-effort matrices. They give you a false sense of rigor. In reality, the highest-impact items are almost never low effort, and the low-effort items are almost never high impact.",
+    "summary": "Impact-effort matrices create false rigor because truly high-impact work is almost never low-effort, making the framework misleading.",
+    "topics": [
+      "product-management",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-shreyas-doshi-5",
+    "podcastSlug": "shreyas-doshi",
+    "speaker": "Shreyas Doshi",
+    "guest": "Shreyas Doshi",
+    "timestamp": "00:45:00",
+    "text": "Thinking is cheap, so you should do more thinking, not less. The bias toward action in tech is overdone. Sometimes the highest leverage thing you can do is sit and think for two days before making a decision.",
+    "summary": "The tech industry's bias toward action is overdone; sometimes the highest-leverage activity is spending two days thinking before deciding.",
+    "topics": [
+      "product-management",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-naomi-gleit-1",
+    "podcastSlug": "naomi-gleit",
+    "speaker": "Naomi Gleit",
+    "guest": "Naomi Gleit",
+    "timestamp": "00:00:00",
+    "text": "I really believe in frameworks for things that helps drive extreme clarity. There needs to be one canonical doc. Everyone should know exactly where the canonical doc is. That's the one place I can go to get all the information I need about a project and it will link to all the other docs.",
+    "summary": "Every project needs a single canonical document that serves as the definitive source of truth, linking to all other relevant docs.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-naomi-gleit-2",
+    "podcastSlug": "naomi-gleit",
+    "speaker": "Naomi Gleit",
+    "guest": "Naomi Gleit",
+    "timestamp": "01:11:41",
+    "text": "It also gives people a framework to plug into. A lot of times the creation of a pre-read for these discussions involves many different people from many different teams and functions. If you have a traffic light, they can own filling out their cell, they can own the rationale behind the legal position on option one, two, and three.",
+    "summary": "Traffic-light frameworks in pre-reads let cross-functional contributors clearly own and present their perspectives on decisions.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-naomi-gleit-3",
+    "podcastSlug": "naomi-gleit",
+    "speaker": "Naomi Gleit",
+    "guest": "Naomi Gleit",
+    "timestamp": "01:12:44",
+    "text": "People are always like, 'What are you training for?' And I'm like, 'I'm training for life.' I have four musties: eat, sleep a long time, and exercise. Those are the things that I need in order to perform.",
+    "summary": "Treating exercise as a non-negotiable daily requirement -- training for life, not for a specific event -- is essential for sustained high performance.",
+    "topics": [
+      "health",
+      "productivity",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-naomi-gleit-4",
+    "podcastSlug": "naomi-gleit",
+    "speaker": "Naomi Gleit",
+    "guest": "Naomi Gleit",
+    "timestamp": "01:22:39",
+    "text": "I'm trying to find blocks in my day that I can spend time thinking and also within those blocks, they don't have to be alone time. They can also be scheduling my chief of staff and my head of data to bounce ideas off of as a sounding board because that is the process that I know best for me in terms of really developing a first party perspective.",
+    "summary": "Developing a first-party point of view as a PM requires dedicated thinking time, which can include sparring with one or two trusted people rather than solo reflection.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-naomi-gleit-5",
+    "podcastSlug": "naomi-gleit",
+    "speaker": "Naomi Gleit",
+    "guest": "Naomi Gleit",
+    "timestamp": "01:21:46",
+    "text": "A PM cannot outsource their perspective or delegate their thinking through people and process. For me that has been a learning curve and I am trying to, as someone who's very consensus driven, I want to hear all the different opinions from all the different people. I can still do that... and then use all of that to synthesize my own.",
+    "summary": "PMs must synthesize their own first-party perspective rather than outsourcing their thinking, even if they gather input from many stakeholders.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-naomi-gleit-6",
+    "podcastSlug": "naomi-gleit",
+    "speaker": "Naomi Gleit",
+    "guest": "Naomi Gleit",
+    "timestamp": "01:34:58",
+    "text": "The biggest thing that I can do to improve my surfing is to improve my confidence. The best thing you can actually do in that situation is stand up into your fear, is to ride the wave. That is the safest thing you can do.",
+    "summary": "In surfing and in leadership, committing fully and standing up into fear is both the safest and most productive approach -- hesitation creates more danger.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-jessica-hische-1",
+    "podcastSlug": "jessica-hische",
+    "speaker": "Jessica Hische",
+    "guest": "Jessica Hische",
+    "timestamp": "00:00:00",
+    "text": "Most people are better at understanding the feelings and sensations that typography and logos give us than they give themselves credit for, because what we are as people are endless absorbers of patterns, and information, and all this kind of stuff as we move throughout the world.",
+    "summary": "Non-designers intuitively sense when typography or logos feel wrong because humans are constant pattern absorbers -- they just lack the vocabulary to name it.",
+    "topics": [
+      "product-design",
+      "naming"
+    ]
+  },
+  {
+    "id": "moment-jessica-hische-2",
+    "podcastSlug": "jessica-hische",
+    "speaker": "Jessica Hische",
+    "guest": "Jessica Hische",
+    "timestamp": "00:00:00",
+    "text": "A good exercise is just like looking at fonts that are available in the world and asking yourself, 'What feeling does this give me?'",
+    "summary": "Building design literacy starts with simply asking yourself what feeling a font gives you, training your ability to articulate visual intuition.",
+    "topics": [
+      "product-design",
+      "naming"
+    ]
+  },
+  {
+    "id": "moment-anneka-gupta-1",
+    "podcastSlug": "anneka-gupta",
+    "speaker": "Anneka Gupta",
+    "guest": "Anneka Gupta",
+    "timestamp": "00:00:00",
+    "text": "When people say, 'I want someone that's strategic,' what they're really saying is, 'I want someone that can come up with and articulate a compelling and simple why behind the decisions and the direction of the company and product.'",
+    "summary": "Being strategic means articulating a compelling why behind decisions and championing hard but necessary changes for the long-term good.",
+    "topics": [
+      "leadership",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-anneka-gupta-2",
+    "podcastSlug": "anneka-gupta",
+    "speaker": "Anneka Gupta",
+    "guest": "Anneka Gupta",
+    "timestamp": "00:00:00",
+    "text": "The second piece is, 'I want someone that's going to champion and be a change agent to do things that may be hard but actually best for the long-term interest of the product or company, even though those things are not going to be easy to execute on.' And I think if you have one without the other, ultimately people are not going to see you as strategic.",
+    "summary": "True strategic leaders combine articulating a clear vision with the courage to champion difficult changes -- one without the other falls short.",
+    "topics": [
+      "leadership",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-tristan-de-montebello-1",
+    "podcastSlug": "tristan-de-montebello",
+    "speaker": "Tristan de Montebello",
+    "guest": "Tristan de Montebello",
+    "timestamp": "00:00:00",
+    "text": "People tend to get into a public speaking voice. We'll be in a class and they'll be chatting normally and look super normal. And then we'll say, 'Okay, now just a timer, I'm just going to give you a speech. Just speak for 60 seconds so we get a baseline,' and I click play, and suddenly they enter into a different version of themselves, a professional version.",
+    "summary": "Most people unconsciously switch into an inauthentic 'public speaking voice' when a timer starts -- the key is learning to speak conversationally instead.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-tristan-de-montebello-2",
+    "podcastSlug": "tristan-de-montebello",
+    "speaker": "Tristan de Montebello",
+    "guest": "Tristan de Montebello",
+    "timestamp": "01:03:27",
+    "text": "The games are meant to put you in a state of turbulence and find out what was easy, what was hard, what am I noticing? If you did a rep and you got it and it went perfectly, then you're learning nothing. A really easy rep is not worth much. The only reps that are worth something are the ones where you feel an edge.",
+    "summary": "Meaningful practice in public speaking comes from reps that push you to an edge of discomfort -- perfect reps teach you nothing.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-tristan-de-montebello-3",
+    "podcastSlug": "tristan-de-montebello",
+    "speaker": "Tristan de Montebello",
+    "guest": "Tristan de Montebello",
+    "timestamp": "00:00:00",
+    "text": "It's so much more freeing, powerful, connecting, and effective to speak conversation.",
+    "summary": "Conversational speaking is more powerful and connecting than polished presentation style -- it frees both the speaker and the audience.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-john-mark-nickels-1",
+    "podcastSlug": "john-mark-nickels",
+    "speaker": "John Mark Nickels",
+    "guest": "John Mark Nickels",
+    "timestamp": "00:00:00",
+    "text": "Get clear on your objective function, and one way that I've gotten clear on it is trying to think about it from future me because five years from now, I'm not going to give a if I made the presentation slightly better, but I'm going to care a lot about what kind of relationship I have with my daughters.",
+    "summary": "Clarify your life's objective function by asking what future-you will actually care about -- it reframes daily priorities away from trivial work tasks.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-john-mark-nickels-2",
+    "podcastSlug": "john-mark-nickels",
+    "speaker": "John Mark Nickels",
+    "guest": "John Mark Nickels",
+    "timestamp": "00:00:00",
+    "text": "Not to be morbid, but most of us just aren't really tuned into an awareness that our lives will come to an end. We try to pretend like we're going to live forever and just not think about it. And the horror of it is that we succeed. To me, an awareness and mindfulness that our lives will come to an end punctuates reality in a way that requires me to rethink my priorities.",
+    "summary": "Accepting mortality is not morbid but clarifying -- it forces a genuine reprioritization of what actually matters in work and life.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-alex-komoroske-1",
+    "podcastSlug": "alex-komoroske",
+    "speaker": "Alex Komoroske",
+    "guest": "Alex Komoroske",
+    "timestamp": "00:00:00",
+    "text": "So much of the way that we tackle problems and build products is this builder mindset. Part of the problem though is it can't possibly create more value than the effort that you put into it. What I look for instead are things that can be gardened, things that can grow on their own and that you can direct or maybe give a little bit of extra energy to or curate over.",
+    "summary": "The gardener mindset creates compounding value beyond your direct effort, unlike the builder mindset which caps output at the effort you invest.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-alex-komoroske-2",
+    "podcastSlug": "alex-komoroske",
+    "speaker": "Alex Komoroske",
+    "guest": "Alex Komoroske",
+    "timestamp": "01:20:16",
+    "text": "We've forgotten a world without aggregators. Aggregators make sense in the late stage of an era. At the beginning, they curtail too much exploration.",
+    "summary": "Aggregators are a late-stage phenomenon that restricts exploration -- the current app paradigm has squeezed software's potential into a dozen boxes on your phone.",
+    "topics": [
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-alex-komoroske-3",
+    "podcastSlug": "alex-komoroske",
+    "speaker": "Alex Komoroske",
+    "guest": "Alex Komoroske",
+    "timestamp": "01:21:26",
+    "text": "Software is alchemy. It's the ability to extend human agency beyond ourselves to create something that can then combine with what others have created in unexpected and unforeseen ways. And somehow in the past decade, we've become convinced that all of this potential should be squeezed into about a dozen little boxes on your phone.",
+    "summary": "Software should extend human agency and combine with others' creations in unforeseen ways, not be trapped inside monolithic apps controlled by a few companies.",
+    "topics": [
+      "product-management",
+      "ai-product",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-alex-komoroske-4",
+    "podcastSlug": "alex-komoroske",
+    "speaker": "Alex Komoroske",
+    "guest": "Alex Komoroske",
+    "timestamp": "01:19:43",
+    "text": "Do things that give you energy that you're proud of, and happiness is reality minus expectations I think are really simple clarifying words.",
+    "summary": "Two clarifying life principles: pursue work that gives you energy and pride, and remember that happiness equals reality minus expectations.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-benjamin-lauzier-1",
+    "podcastSlug": "benjamin-lauzier",
+    "speaker": "Benjamin Lauzier",
+    "guest": "Benjamin Lauzier",
+    "timestamp": "00:00:00",
+    "text": "I think when you're running a marketplace, you tend to sit in your ivory tower a little bit, looking at stats and thinking like, 'If only we could get people to do X, it'd be better for everyone.' I think that's missing the point that we're humans.",
+    "summary": "Marketplace operators must resist the ivory tower trap of pure data optimization and remember that supply-side participants are humans, not variables.",
+    "topics": [
+      "growth",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-benjamin-lauzier-2",
+    "podcastSlug": "benjamin-lauzier",
+    "speaker": "Benjamin Lauzier",
+    "guest": "Benjamin Lauzier",
+    "timestamp": "00:00:00",
+    "text": "I'm a huge believer in market forces and empowerment, so provide guardrails for what a good experience is in your marketplace, set a clear bar for quality, and provide the right coaching and tools for supply to be successful, and then take a step back and see where the gaps are.",
+    "summary": "Marketplace quality comes from setting clear guardrails and empowering supply with coaching and tools, then identifying gaps rather than micromanaging.",
+    "topics": [
+      "growth",
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-tamar-yehoshua-1",
+    "podcastSlug": "tamar-yehoshua",
+    "speaker": "Tamar Yehoshua",
+    "guest": "Tamar Yehoshua",
+    "timestamp": "00:00:00",
+    "text": "Make sure you go somewhere where you have a good engineering partner. Because if you have great ideas of what to build but you can't get them built, then you go nowhere. So that has to be part of your evaluation criteria that you meet and value your engineering partner before you join.",
+    "summary": "Before joining a company, evaluate your engineering partner -- great product ideas go nowhere without strong engineering collaboration.",
+    "topics": [
+      "leadership",
+      "engineering",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-tamar-yehoshua-2",
+    "podcastSlug": "tamar-yehoshua",
+    "speaker": "Tamar Yehoshua",
+    "guest": "Tamar Yehoshua",
+    "timestamp": "00:00:00",
+    "text": "You don't want any of this... Like people in the organization, they ask mom, they asked dad and they got different opinions and playing one against the other. That doesn't work.",
+    "summary": "Product and engineering leaders must be aligned on roles, responsibilities, and direction to prevent teams from playing them against each other.",
+    "topics": [
+      "leadership",
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-eli-schwartz-1",
+    "podcastSlug": "eli-schwartz",
+    "speaker": "Eli Schwartz",
+    "guest": "Eli Schwartz",
+    "timestamp": "00:00:19",
+    "text": "Think of SEO as a product. The product managers are the people that should be thinking about this SEO question because it's a product question. This is a user that's doing their own self-discovery journey. If you can't answer the question about what is it that someone's going to do a search on, then don't do SEO.",
+    "summary": "SEO should be treated as a product problem, not a marketing trick -- PMs should own it because it is about serving users on a self-discovery journey.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-eli-schwartz-2",
+    "podcastSlug": "eli-schwartz",
+    "speaker": "Eli Schwartz",
+    "guest": "Eli Schwartz",
+    "timestamp": "00:00:06",
+    "text": "Transparently, I thought this was going to be an apocalypse. Up until AI Overviews, whoever won on that long form piece of content would get that first click. But now that doesn't exist anymore.",
+    "summary": "AI Overviews in search have fundamentally changed SEO by eliminating the first-click advantage that long-form content used to enjoy.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-eli-schwartz-3",
+    "podcastSlug": "eli-schwartz",
+    "speaker": "Eli Schwartz",
+    "guest": "Eli Schwartz",
+    "timestamp": "01:02:25",
+    "text": "In their documentation, they say that AI itself is not the problem. It's the helpfulness, the usefulness of the content that would be a problem.",
+    "summary": "Google's stance on AI content is that AI authorship itself is not penalized -- what matters is whether the content is genuinely useful to users.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-camille-fournier-1",
+    "podcastSlug": "camille-fournier",
+    "speaker": "Camille Fournier",
+    "guest": "Camille Fournier",
+    "timestamp": "00:00:04",
+    "text": "Hoarding credit. PMs, they tend to be the front-facing person for initiative. Engineers sometimes think that they don't get the credit for their work because the PM takes all the glory and all the credit for the project that they really worked very hard on.",
+    "summary": "The number one thing PMs do that annoys engineers is hoarding credit -- being the front-facing person while engineers feel invisible for the real work.",
+    "topics": [
+      "product-management",
+      "engineering",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-camille-fournier-2",
+    "podcastSlug": "camille-fournier",
+    "speaker": "Camille Fournier",
+    "guest": "Camille Fournier",
+    "timestamp": "00:00:23",
+    "text": "The next thing that engineers really get annoyed about with PMs, when they just don't understand the details and act like they don't matter, it just shows a real lack of empathy for the work that engineers are doing and I think it really can be very off-putting.",
+    "summary": "PMs who dismiss technical details signal a lack of empathy for engineering work, which is deeply off-putting to their engineering partners.",
+    "topics": [
+      "product-management",
+      "engineering",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-phyl-terry-1",
+    "podcastSlug": "phyl-terry",
+    "speaker": "Phyl Terry",
+    "guest": "Phyl Terry",
+    "timestamp": "00:00:00",
+    "text": "When you're looking for a job, you need a spear and not a net. What happens when we're building a product? Same thing, right? We want this product to be for everyone, but we've learned with product market fit that doesn't work. We need a narrow, clear focus.",
+    "summary": "Job searching requires a spear, not a net -- just like product-market fit, you need narrow focus rather than trying to appeal to everyone.",
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "moment-phyl-terry-2",
+    "podcastSlug": "phyl-terry",
+    "speaker": "Phyl Terry",
+    "guest": "Phyl Terry",
+    "timestamp": "00:00:16",
+    "text": "While it's hard to figure out your candidate market fit, it's also a relief to know it's not about you. So what I ask people to do is I ask them to think about what they want and what they don't want. Now, you might not think that that's a radical step, but most people don't do that. When they get laid off, they spray and pray.",
+    "summary": "Most people skip the fundamental step of defining what they want and do not want in a job -- instead they spray and pray, which rarely works.",
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "moment-phyl-terry-3",
+    "podcastSlug": "phyl-terry",
+    "speaker": "Phyl Terry",
+    "guest": "Phyl Terry",
+    "timestamp": "00:00:34",
+    "text": "There's no I in team. Well, there is an I in village, and the I in village is that when you start to interview and negotiate, you've got to be in charge. I want you to play to win, not not to lose.",
+    "summary": "In job negotiations, shift from playing not-to-lose to playing to win -- take charge of the interview and negotiation process.",
+    "topics": [
+      "career",
+      "compensation"
+    ]
+  },
+  {
+    "id": "moment-sean-ellis-1",
+    "podcastSlug": "sean-ellis",
+    "speaker": "Sean Ellis",
+    "guest": "Sean Ellis",
+    "timestamp": "00:00:07",
+    "text": "The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer.",
+    "summary": "The Sean Ellis test -- asking users how disappointed they would be without the product -- reliably predicts product-market fit when 40%+ say very disappointed.",
+    "topics": [
+      "growth",
+      "metrics",
+      "retention"
+    ]
+  },
+  {
+    "id": "moment-sean-ellis-2",
+    "podcastSlug": "sean-ellis",
+    "speaker": "Sean Ellis",
+    "guest": "Sean Ellis",
+    "timestamp": "00:00:25",
+    "text": "Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users.",
+    "summary": "Focus on 'very disappointed' users, not 'somewhat disappointed' ones -- optimizing for nice-to-have feedback risks diluting the experience for your core fans.",
+    "topics": [
+      "growth",
+      "metrics",
+      "retention"
+    ]
+  },
+  {
+    "id": "moment-sean-ellis-3",
+    "podcastSlug": "sean-ellis",
+    "speaker": "Sean Ellis",
+    "guest": "Sean Ellis",
+    "timestamp": "00:00:45",
+    "text": "It's usually much more function of onboarding to the right user experience than it is about the tactical things that people try to do to improve retention.",
+    "summary": "Retention is driven more by onboarding users to the right experience than by tactical retention hacks.",
+    "topics": [
+      "growth",
+      "retention"
+    ]
+  },
+  {
+    "id": "moment-sean-ellis-4",
+    "podcastSlug": "sean-ellis",
+    "speaker": "Sean Ellis",
+    "guest": "Sean Ellis",
+    "timestamp": "01:14:56",
+    "text": "Before the referral program, Dropbox had amazing referral rate. Companies that are trying to copy it are like, 'Why isn't anyone talking about a product? Let's add a referral program with incentives.' To me, I think it's a great accelerant when it's already working, but it can't fix it if people don't want to talk about your product.",
+    "summary": "A referral program is an accelerant for existing word of mouth -- it cannot create organic sharing that does not already exist.",
+    "topics": [
+      "growth",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-sean-ellis-5",
+    "podcastSlug": "sean-ellis",
+    "speaker": "Sean Ellis",
+    "guest": "Sean Ellis",
+    "timestamp": "01:19:50",
+    "text": "I start with the value that's uncovered through the test. So with a company, I'll say, 'This is what the must have value is according to our most passionate customers, and we want to think about a metric that reflects us delivering that value.'",
+    "summary": "Your North Star Metric should reflect the must-have value identified by your most passionate users, not revenue -- revenue should be a byproduct.",
+    "topics": [
+      "metrics",
+      "growth",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-nikita-bier-1",
+    "podcastSlug": "nikita-bier",
+    "speaker": "Nikita Bier",
+    "guest": "Nikita Bier",
+    "timestamp": "00:00:15",
+    "text": "I looked on the App Store and the number one app in the United States was an app called Surah, but the entire app was in Arabic, like the strongest signal that you could ever have that people want something.",
+    "summary": "Finding an app in Arabic that was number one in the US App Store was the ultimate signal of latent demand -- the insight that led to building TBH.",
+    "topics": [
+      "startup-building",
+      "go-to-market",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-nikita-bier-2",
+    "podcastSlug": "nikita-bier",
+    "speaker": "Nikita Bier",
+    "guest": "Nikita Bier",
+    "timestamp": "00:00:30",
+    "text": "We launched this app, it immediately took off, servers started crashing. I looked at our numbers and I'm like, 'We will be number one in the United States in six days.'",
+    "summary": "TBH went from launch to number one in the US in six days, validating the power of building for pre-existing demand.",
+    "topics": [
+      "startup-building",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-nikita-bier-3",
+    "podcastSlug": "nikita-bier",
+    "speaker": "Nikita Bier",
+    "guest": "Nikita Bier",
+    "timestamp": "00:00:00",
+    "text": "Honored to be on a product management podcast for a person who doesn't believe product management is real.",
+    "summary": "Nikita Bier's provocative stance that product management as a discipline is not real reflects his builder-first, ship-fast philosophy.",
+    "topics": [
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-kevin-yien-1",
+    "podcastSlug": "kevin-yien",
+    "speaker": "Kevin Yien",
+    "guest": "Kevin Yien",
+    "timestamp": "00:00:00",
+    "text": "The PM job can become a little too internal, influencing my stakeholders and getting alignment and all these things. But if you can't sell or support your own product, I don't trust you to build the product.",
+    "summary": "PMs who cannot sell or support their own product have no business building it -- the role must stay grounded in customer reality, not internal politics.",
+    "topics": [
+      "product-management",
+      "sales",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-kevin-yien-2",
+    "podcastSlug": "kevin-yien",
+    "speaker": "Kevin Yien",
+    "guest": "Kevin Yien",
+    "timestamp": "00:00:13",
+    "text": "We all talk about product sense. To me, it's just a fancy way of saying you can make good decisions with insufficient data. PMs need as many reps as possible in making decisions, documenting the rationale behind those decisions, and then crucially seeing the outcome of them.",
+    "summary": "Product sense is the ability to make good decisions with insufficient data, developed by logging decisions, rationale, and outcomes over many reps.",
+    "topics": [
+      "product-management",
+      "metrics",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-kevin-yien-3",
+    "podcastSlug": "kevin-yien",
+    "speaker": "Kevin Yien",
+    "guest": "Kevin Yien",
+    "timestamp": "00:00:31",
+    "text": "When you get to offer stage, I send an email and I say all the terrible things that are probably going to reinforce their fears. If you can tell them that upfront and they can read that whole email and still be equally excited to join you, find yourself a A+ hire.",
+    "summary": "The unsell email -- sharing all the terrible things about the role at offer stage -- filters for candidates who are truly committed and becomes a powerful hiring tool.",
+    "topics": [
+      "hiring",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-kevin-yien-4",
+    "podcastSlug": "kevin-yien",
+    "speaker": "Kevin Yien",
+    "guest": "Kevin Yien",
+    "timestamp": "00:00:49",
+    "text": "I use AI to essentially do a voice-of-the-customer pipeline automatically. It processes all customer calls, tags them with themes, and then I can go pull up exactly what people said about a given topic.",
+    "summary": "AI can automate the voice-of-the-customer pipeline by processing all customer calls and tagging them by theme, giving PMs instant access to real feedback.",
+    "topics": [
+      "ai-tools",
+      "product-management",
+      "feedback"
+    ]
+  },
+  {
+    "id": "moment-evan-lapointe-1",
+    "podcastSlug": "evan-lapointe",
+    "speaker": "Evan LaPointe",
+    "guest": "Evan LaPointe",
+    "timestamp": "00:00:00",
+    "text": "The brain is like a college campus that has different departments in it. Most people rely on their history department way too much. If you instead send things to the more experimental, open-minded science department, the more creative art department, you get dramatically better answers.",
+    "summary": "Most people over-rely on their brain's history department (past patterns) instead of engaging the science department (experimentation) or art department (creativity).",
+    "topics": [
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-evan-lapointe-2",
+    "podcastSlug": "evan-lapointe",
+    "speaker": "Evan LaPointe",
+    "guest": "Evan LaPointe",
+    "timestamp": "00:00:33",
+    "text": "It's critical to ask what kind of experience am I? Not how good am I at my job, how much do I know, how critical am I to this process, but am I a miserable experience? If the answer is yes, don't worry too much about the other pieces yet. You got to fix that first.",
+    "summary": "Before worrying about skills or knowledge, ask whether you are a pleasant experience for others to work with -- fix that first because everything else depends on it.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-evan-lapointe-3",
+    "podcastSlug": "evan-lapointe",
+    "speaker": "Evan LaPointe",
+    "guest": "Evan LaPointe",
+    "timestamp": "01:37:15",
+    "text": "If mission, vision, values was an airline, you would not allow any family to fly on that airline. It does not arrive at most of its intended destinations.",
+    "summary": "Traditional mission-vision-values has a terrible track record for shaping culture -- logical deduction from your role in the world works far better than performative inspiration.",
+    "topics": [
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-evan-lapointe-4",
+    "podcastSlug": "evan-lapointe",
+    "speaker": "Evan LaPointe",
+    "guest": "Evan LaPointe",
+    "timestamp": "01:52:03",
+    "text": "Alpha is quite simply daydreaming. Beta is productivity mode. And then gamma is your brain's intense focus. We generally spend too much time in beta in work.",
+    "summary": "Teams over-index on beta (productivity) mode and under-invest in alpha (daydreaming) and gamma (deep thinking), which is where breakthrough ideas and innovations emerge.",
+    "topics": [
+      "productivity",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-evan-lapointe-5",
+    "podcastSlug": "evan-lapointe",
+    "speaker": "Evan LaPointe",
+    "guest": "Evan LaPointe",
+    "timestamp": "01:55:53",
+    "text": "If 25% of your year is spent in gamma and alpha, you're probably a lot better off than the teams who spend less than 25% of their year thinking deep, and being in this more daydreaming mode.",
+    "summary": "Teams should aim for roughly 25% of their time in deep thinking and daydreaming modes -- most teams spend less than 5%, severely limiting innovation.",
+    "topics": [
+      "productivity",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-joe-hudson-1",
+    "podcastSlug": "joe-hudson",
+    "speaker": "Joe Hudson",
+    "guest": "Joe Hudson",
+    "timestamp": "00:00:09",
+    "text": "It's the fact that they have emotions that they are not sitting, feeling, or expressing. Whatever emotion that you're trying to avoid, you are inviting into your life in exactly the way that you're trying to avoid it.",
+    "summary": "The emotions you avoid are the ones that dominate your life -- suppressed feelings manifest in the exact situations you are trying to prevent.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-joe-hudson-2",
+    "podcastSlug": "joe-hudson",
+    "speaker": "Joe Hudson",
+    "guest": "Joe Hudson",
+    "timestamp": "00:00:27",
+    "text": "What most people try to do is they try to stop it, and that doesn't work very well. I think the best way to work with the voice in the head is to pick an experiment every day and respond to the voice in the head in a new way every day. One of my favorite responses is, 'Oh, I see that you're really scared. Don't worry. I'm right here with you. I got you.'",
+    "summary": "Instead of fighting your inner critic, try responding to it differently each day -- acknowledging its fear with compassion rather than suppressing it.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-joe-hudson-3",
+    "podcastSlug": "joe-hudson",
+    "speaker": "Joe Hudson",
+    "guest": "Joe Hudson",
+    "timestamp": "00:00:00",
+    "text": "A lot of the people in my circles may have spent hundreds of millions of dollars to try to arrange a life that they enjoy, and it doesn't fucking work.",
+    "summary": "No amount of money can compensate for unprocessed emotions -- external arrangements cannot create internal satisfaction.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-brian-tolkin-1",
+    "podcastSlug": "brian-tolkin",
+    "speaker": "Brian Tolkin",
+    "guest": "Brian Tolkin",
+    "timestamp": "00:00:03",
+    "text": "Uber always has this mentality and Opendoor does two of the product operations, twin turbine jet plane where you can fly the plane on one engine for a little bit if you need to, but it's operating most efficiently and effectively if both are working together.",
+    "summary": "Product and operations function like twin turbine engines -- you can run on one briefly, but peak performance requires both working in concert.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-brian-tolkin-2",
+    "podcastSlug": "brian-tolkin",
+    "speaker": "Brian Tolkin",
+    "guest": "Brian Tolkin",
+    "timestamp": "00:00:21",
+    "text": "Gave a really deep understanding of how the business actually works. It's a pretty good foundation for then going on to say, okay, what do we actually want to build in a more scalable technology way.",
+    "summary": "Working in operations gives product leaders a deep understanding of how the business actually works, which becomes the foundation for building scalable technology.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-brian-tolkin-3",
+    "podcastSlug": "brian-tolkin",
+    "speaker": "Brian Tolkin",
+    "guest": "Brian Tolkin",
+    "timestamp": "00:00:34",
+    "text": "I've slept on the floor in China before launching uberPOOL, and when you reflect the stress onto your teams, everybody tenses out. It counterintuitively doesn't produce better outcomes.",
+    "summary": "Reflecting stress onto your team counterintuitively produces worse outcomes -- staying calm under pressure unlocks better performance from everyone.",
+    "topics": [
+      "leadership",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-timothy-davis-1",
+    "podcastSlug": "timothy-davis",
+    "speaker": "Timothy Davis",
+    "guest": "Timothy Davis",
+    "timestamp": "00:00:02",
+    "text": "Hot take, paid is for everyone. If you look at the way each platform is doing, Google, you have to scroll pretty far down to get to an organic listing. Meta, it's almost a pay for play now.",
+    "summary": "Paid marketing is no longer optional -- organic reach on Google and Meta has shrunk so much that every company needs some performance marketing.",
+    "topics": [
+      "go-to-market",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-timothy-davis-2",
+    "podcastSlug": "timothy-davis",
+    "speaker": "Timothy Davis",
+    "guest": "Timothy Davis",
+    "timestamp": "00:00:20",
+    "text": "Instead of thinking about being on top of the page, and that's like ego marketing, I want to be number one. I want to be there all the time. It's about showing to the right person as often as possible.",
+    "summary": "Stop chasing top-of-page vanity positioning and focus on showing your ad to the right person as often as possible -- that is what drives actual conversions.",
+    "topics": [
+      "go-to-market",
+      "growth",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-timothy-davis-3",
+    "podcastSlug": "timothy-davis",
+    "speaker": "Timothy Davis",
+    "guest": "Timothy Davis",
+    "timestamp": "01:26:10",
+    "text": "Way underestimating the power of creative. Do you remember Dollar Shave Club? There you go. You remember it. That was creative.",
+    "summary": "Marketers massively underestimate the power of creative in ad performance -- great creative like Dollar Shave Club's video creates lasting impact beyond any targeting strategy.",
+    "topics": [
+      "go-to-market",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-timothy-davis-4",
+    "podcastSlug": "timothy-davis",
+    "speaker": "Timothy Davis",
+    "guest": "Timothy Davis",
+    "timestamp": "01:35:05",
+    "text": "I'm always forward thinking, backwards planning. 'Where do you want to be and ultimately how do you think you're going to get there?' Because say your goal is to be on all platforms... forward think, that's where you want to be. Now let's backwards plan.",
+    "summary": "Forward think your destination, then backwards plan the path -- this prevents overwhelm and creates clear milestones from current state to ambitious goals.",
+    "topics": [
+      "go-to-market",
+      "growth",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-roger-martin-1",
+    "podcastSlug": "roger-martin",
+    "speaker": "Roger Martin",
+    "guest": "Roger Martin",
+    "timestamp": "00:00:02",
+    "text": "What's taught now in business schools generally sucks. People aren't prepared educationally, and they sure don't get prepared for it in companies. It's intellectually challenging and it's emotionally intimidating.",
+    "summary": "Most people are bad at strategy because business schools teach it poorly and companies fail to develop strategic thinking -- it is both intellectually hard and emotionally scary.",
+    "topics": [
+      "leadership",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-roger-martin-2",
+    "podcastSlug": "roger-martin",
+    "speaker": "Roger Martin",
+    "guest": "Roger Martin",
+    "timestamp": "00:00:18",
+    "text": "You have to have answers to five questions. What's your winning aspiration? Where to play? How can you win? What capabilities do you have to have that your competitors don't? And then, what enabling management systems do you have to put in place?",
+    "summary": "The strategy choice cascade requires answering five questions: winning aspiration, where to play, how to win, required capabilities, and enabling management systems.",
+    "topics": [
+      "leadership",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-roger-martin-3",
+    "podcastSlug": "roger-martin",
+    "speaker": "Roger Martin",
+    "guest": "Roger Martin",
+    "timestamp": "00:00:38",
+    "text": "You have to be either differentiated or low cost, there's no way to protect yourself if you're not one of those two.",
+    "summary": "Strategy boils down to being either differentiated or low cost -- without one of those two positions, you have no sustainable competitive protection.",
+    "topics": [
+      "leadership",
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-jess-lachs-1",
+    "podcastSlug": "jess-lachs",
+    "speaker": "Jessica Lachs",
+    "guest": "Jess Lachs",
+    "timestamp": "00:00:05",
+    "text": "For me, analytics is a business impact driving function and not purely a service function, not just answering the why, but answering the, 'What do we do now that we know this?'",
+    "summary": "Analytics should be a business-impact-driving function, not just a service that answers 'why' -- the real value is in answering 'what do we do now?'",
+    "topics": [
+      "metrics",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jess-lachs-2",
+    "podcastSlug": "jess-lachs",
+    "speaker": "Jessica Lachs",
+    "guest": "Jess Lachs",
+    "timestamp": "00:00:19",
+    "text": "Retention is a terrible thing to goal on. It's almost impossible to drive in a meaningful way in a short term. Ultimately, you want to find a short-term metric you can measure that drives a long-term output.",
+    "summary": "Do not goal on retention directly -- it is nearly impossible to move short-term. Instead find a measurable short-term metric that drives long-term retention.",
+    "topics": [
+      "metrics",
+      "retention",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-jess-lachs-3",
+    "podcastSlug": "jess-lachs",
+    "speaker": "Jessica Lachs",
+    "guest": "Jess Lachs",
+    "timestamp": "00:00:34",
+    "text": "Yes, you are a data scientist, but your goal is to figure out what's happening. And if that means that you're going to pick up the phone and call customers, then that is what you're going to do to roll up your sleeves.",
+    "summary": "Data scientists should not hide behind dashboards -- if understanding the problem requires calling customers directly, that is exactly what they should do.",
+    "topics": [
+      "metrics",
+      "leadership",
+      "feedback"
+    ]
+  },
+  {
+    "id": "moment-jeff-weinstein-1",
+    "podcastSlug": "jeff-weinstein",
+    "speaker": "Jeff Weinstein",
+    "guest": "Jeff Weinstein",
+    "timestamp": "00:00:04",
+    "text": "The moment the customer felt compelled enough to go out of their way to talk about some problem, that's an unbelievable gift. I will leave a meeting to just get one message back to them.",
+    "summary": "Customer complaints are gifts -- Jeff Weinstein will leave meetings to respond because that moment of compelled feedback is priceless signal.",
+    "topics": [
+      "product-management",
+      "feedback",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-jeff-weinstein-2",
+    "podcastSlug": "jeff-weinstein",
+    "speaker": "Jeff Weinstein",
+    "guest": "Jeff Weinstein",
+    "timestamp": "00:00:24",
+    "text": "What was the value that we're trying to produce for the customer and can we measure it from their perspective? And okay, how do you know you have product market fit? Charts that showcase things are going up into the right on one hand and then tweets on the other.",
+    "summary": "Measure value from the customer's perspective, and validate product-market fit with two signals: metrics going up and to the right, plus organic customer enthusiasm.",
+    "topics": [
+      "metrics",
+      "product-management",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-jeff-weinstein-3",
+    "podcastSlug": "jeff-weinstein",
+    "speaker": "Jeff Weinstein",
+    "guest": "Jeff Weinstein",
+    "timestamp": "00:00:39",
+    "text": "We show up four to eight people total pretend to be some company with some outcome problem. Rule one is you do not work at Stripe and rule two is we're not here to solve any problems. This is just about practicing empathy for the customer.",
+    "summary": "Stripe's study groups practice pure customer empathy -- team members pretend to be customers with real problems, with explicit rules against jumping to solutions.",
+    "topics": [
+      "product-management",
+      "feedback",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-jeff-weinstein-4",
+    "podcastSlug": "jeff-weinstein",
+    "speaker": "Jeff Weinstein",
+    "guest": "Jeff Weinstein",
+    "timestamp": "02:04:07",
+    "text": "Not having things be your idea I think is really powerful. I just talked to 50 customers who all yelled the same thing. Here they are in varieties of quotes and forms... Cool. What else could we want to do? The majority failure mode is we do nothing.",
+    "summary": "The best way to drive change at a big company is to let the customer be the source of ideas rather than claiming them as your own -- the real failure mode is doing nothing.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-jeff-weinstein-5",
+    "podcastSlug": "jeff-weinstein",
+    "speaker": "Jeff Weinstein",
+    "guest": "Jeff Weinstein",
+    "timestamp": "02:06:31",
+    "text": "I find proof of existence to be an incredibly powerful proof, rather than proof by theory or proof by debate. It's like, 'Look, we did it one time.'",
+    "summary": "Proof of existence beats proof by theory or debate -- showing one working example creates more momentum than any amount of argument.",
+    "topics": [
+      "product-management",
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jeff-weinstein-6",
+    "podcastSlug": "jeff-weinstein",
+    "speaker": "Jeff Weinstein",
+    "guest": "Jeff Weinstein",
+    "timestamp": "02:31:54",
+    "text": "I remember writing the first draft and sending it to him because it was... and he wrote back, 'This doesn't sound like you yet.' The willingness to entrust a new person to provide their own perspective... that really spoke to me, and I rewrote it completely.",
+    "summary": "Patrick Collison told a one-month-old employee 'This doesn't sound like you yet' -- great leaders encourage people to bring their authentic perspective from day one.",
+    "topics": [
+      "leadership",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-jeff-weinstein-7",
+    "podcastSlug": "jeff-weinstein",
+    "speaker": "Jeff Weinstein",
+    "guest": "Jeff Weinstein",
+    "timestamp": "02:33:22",
+    "text": "You are one of the best people I've ever worked with at solving problems three through 100, but I need you stuck on problems one and two.",
+    "summary": "John Collison's gut-punch feedback: being great at solving problems 3 through 100 is a way of avoiding the hardest problems that matter most.",
+    "topics": [
+      "leadership",
+      "management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-mike-maples-jr-1",
+    "podcastSlug": "mike-maples-jr",
+    "speaker": "Mike Maples, Jr.",
+    "guest": "Mike Maples, Jr.",
+    "timestamp": "00:00:04",
+    "text": "The three are inflections, insights and then the founder future fit. Business is never a fair fight. What inflections let the founder do is wage asymmetric warfare on the present.",
+    "summary": "Breakthrough startup ideas require three elements: inflections, insights, and founder future fit, enabling asymmetric warfare against incumbents.",
+    "topics": [
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-mike-maples-jr-2",
+    "podcastSlug": "mike-maples-jr",
+    "speaker": "Mike Maples, Jr.",
+    "guest": "Mike Maples, Jr.",
+    "timestamp": "00:00:18",
+    "text": "The way inventions happen is people get their hands dirty, being awake to the possibility that secrets are there. If you're living in the future and you notice what's missing, your intuition about what to build is far more likely to be right.",
+    "summary": "Great founders discover startup secrets by living in the future and noticing what is missing rather than analyzing the present.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-mike-maples-jr-3",
+    "podcastSlug": "mike-maples-jr",
+    "speaker": "Mike Maples, Jr.",
+    "guest": "Mike Maples, Jr.",
+    "timestamp": "00:00:35",
+    "text": "The number one thing that I've learned is that you have to be willing to have your idea change, but you can't lose touch with the insight. 80% of our biggest returning investments came from a pivot.",
+    "summary": "Most top-returning venture investments came from pivots, so founders must stay flexible on the idea while holding onto the core insight.",
+    "topics": [
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-mike-maples-jr-4",
+    "podcastSlug": "mike-maples-jr",
+    "speaker": "Mike Maples, Jr.",
+    "guest": "Mike Maples, Jr.",
+    "timestamp": "01:31:00",
+    "text": "A startup never beats a big company by executing better than the big company. Startup wins over the big company because it proposes a radically different future, disorients the incumbent, and sort of chaotically moves people to that different future.",
+    "summary": "Startups beat incumbents not through superior execution but by proposing a radically different future that disorients the established players.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-mike-maples-jr-5",
+    "podcastSlug": "mike-maples-jr",
+    "speaker": "Mike Maples, Jr.",
+    "guest": "Mike Maples, Jr.",
+    "timestamp": "01:34:58",
+    "text": "The mistake that most companies make is they say, 'I've got this new pattern-breaking idea. It needs to be a third of my business in 24 months.' Bad strategy... Pattern-breaking products have different types of leadership, different types of go-to-market motion, different risk profiles.",
+    "summary": "Companies fail at internal innovation by applying established-business metrics and expectations to pattern-breaking products that require entirely different approaches.",
+    "topics": [
+      "startup-building",
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-mike-maples-jr-6",
+    "podcastSlug": "mike-maples-jr",
+    "speaker": "Mike Maples, Jr.",
+    "guest": "Mike Maples, Jr.",
+    "timestamp": "01:39:45",
+    "text": "It's a lonely existence, and it's okay if most people don't like your idea. It doesn't mean you're right, but it sure as heck doesn't mean you're wrong either. There's not enough people in this world willing to stick their neck out for things that they believe that they see before the rest of us.",
+    "summary": "Founders must embrace the loneliness of having an unpopular idea because consensus disapproval does not invalidate a breakthrough vision.",
+    "topics": [
+      "startup-building",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-dylan-field-1",
+    "podcastSlug": "dylan-field",
+    "speaker": "Dylan Field",
+    "guest": "Dylan Field",
+    "timestamp": "00:02:27",
+    "text": "I think of intuition as a hypothesis generator. Intuition is not always right, but it gives you a starting point. And then you have to go validate it.",
+    "summary": "Intuition should be treated as a hypothesis generator that provides starting points requiring validation, not as a source of truth.",
+    "topics": [
+      "product-management",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-dylan-field-2",
+    "podcastSlug": "dylan-field",
+    "speaker": "Dylan Field",
+    "guest": "Dylan Field",
+    "timestamp": "00:09:17",
+    "text": "We have this thing called a simplicity review. Every quarter we look at things that have gotten more complex and we ask, can we simplify this? It's a forcing function to keep things simple.",
+    "summary": "Figma runs quarterly simplicity reviews as a forcing function to combat the natural tendency of products to accumulate complexity.",
+    "topics": [
+      "product-design",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-dylan-field-3",
+    "podcastSlug": "dylan-field",
+    "speaker": "Dylan Field",
+    "guest": "Dylan Field",
+    "timestamp": "00:16:42",
+    "text": "The future of PMs, I think, is going to be much more about taste and judgment and less about process. The PMs who are going to thrive are the ones who can look at something and say, this is good or this is not good.",
+    "summary": "The future of product management will prioritize taste and judgment over process, rewarding PMs who can evaluate quality directly.",
+    "topics": [
+      "product-management",
+      "career",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-dylan-field-4",
+    "podcastSlug": "dylan-field",
+    "speaker": "Dylan Field",
+    "guest": "Dylan Field",
+    "timestamp": "00:22:10",
+    "text": "There's this tool called websim where you can just type in a URL that doesn't exist and it will generate the entire website for you. It's wild. I think it shows you where things are going.",
+    "summary": "AI tools like websim that generate entire websites from imaginary URLs hint at a future where creation barriers collapse dramatically.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "moment-dylan-field-5",
+    "podcastSlug": "dylan-field",
+    "speaker": "Dylan Field",
+    "guest": "Dylan Field",
+    "timestamp": "00:06:45",
+    "text": "In the early days of Figma, everyone told us the browser would never be fast enough. We just kept pushing. Sometimes you have to have conviction in a technical bet that everyone else thinks is wrong.",
+    "summary": "Figma succeeded because its founders maintained conviction in the browser-based technical bet despite universal skepticism.",
+    "topics": [
+      "startup-building",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-jessica-livingston-1",
+    "podcastSlug": "jessica-livingston",
+    "speaker": "Jessica Livingston",
+    "guest": "Jessica Livingston",
+    "timestamp": "00:00:10",
+    "text": "My three co-founders were deeply technical, but I would look at other things about founders. All these little social cues.",
+    "summary": "Jessica Livingston brought a unique evaluative lens to YC by reading social cues and interpersonal dynamics that her technical co-founders missed.",
+    "topics": [
+      "startup-building",
+      "hiring"
+    ]
+  },
+  {
+    "id": "moment-jessica-livingston-2",
+    "podcastSlug": "jessica-livingston",
+    "speaker": "Jessica Livingston",
+    "guest": "Jessica Livingston",
+    "timestamp": "00:00:24",
+    "text": "I would look at, do the co-founders get along? Are these people committed? And if a founder would get defensive, that was always a bad sign.",
+    "summary": "Key signals for evaluating founders include co-founder chemistry, commitment level, and whether they get defensive under questioning.",
+    "topics": [
+      "startup-building",
+      "hiring"
+    ]
+  },
+  {
+    "id": "moment-jessica-livingston-3",
+    "podcastSlug": "jessica-livingston",
+    "speaker": "Jessica Livingston",
+    "guest": "Jessica Livingston",
+    "timestamp": "00:00:36",
+    "text": "He hated their idea, and Paul tried to get Brian and Joe and Nate to change it. But I remember specifically Joe brought out the cereal boxes, the Obama O's and Cap'n McCain's, and I just thought, oh my God, they're going to work hard to do whatever they can to make this company succeed.",
+    "summary": "The Airbnb founders' cereal box hustle convinced Jessica Livingston they had the resourcefulness and determination to succeed despite a questionable idea.",
+    "topics": [
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-jessica-livingston-4",
+    "podcastSlug": "jessica-livingston",
+    "speaker": "Jessica Livingston",
+    "guest": "Jessica Livingston",
+    "timestamp": "00:06:30",
+    "text": "The most important thing we did at YC was create an environment where founders could be honest about their problems. Most founders are performing for investors and the outside world. At YC dinners, they could let their guard down.",
+    "summary": "YC's most important contribution was creating a safe space where founders could drop the performance act and be honest about their struggles.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jessica-livingston-5",
+    "podcastSlug": "jessica-livingston",
+    "speaker": "Jessica Livingston",
+    "guest": "Jessica Livingston",
+    "timestamp": "00:15:20",
+    "text": "One of the things I noticed is that the founders who struggled the most were the ones who were not resilient. It wasn't about the idea. It was about whether they could take a punch and keep going.",
+    "summary": "Founder resilience matters more than the initial idea because every startup journey involves absorbing blows and continuing forward.",
+    "topics": [
+      "startup-building",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-ami-vora-1",
+    "podcastSlug": "ami-vora",
+    "speaker": "Ami Vora",
+    "guest": "Ami Vora",
+    "timestamp": "00:00:09",
+    "text": "I really enjoy being right and then it turns out in the working world, that did not serve me so great. I think the hard part is sublimating your ego a little bit and saying it's more important to get to the outcome than to be right.",
+    "summary": "Effective leadership requires sublimating the ego and prioritizing reaching the right outcome over personally being right.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-ami-vora-2",
+    "podcastSlug": "ami-vora",
+    "speaker": "Ami Vora",
+    "guest": "Ami Vora",
+    "timestamp": "00:00:27",
+    "text": "If we all agree that the feeling of something should be, I'm sitting in Dolores Park with my friends on a sunny Saturday, then people will just naturally build something that feels more consistent.",
+    "summary": "Aligning teams on the desired emotional experience of a product, using vivid metaphors, naturally drives design consistency.",
+    "topics": [
+      "product-design",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-ami-vora-3",
+    "podcastSlug": "ami-vora",
+    "speaker": "Ami Vora",
+    "guest": "Ami Vora",
+    "timestamp": "00:00:38",
+    "text": "I think the hill climb metaphor is really useful. You might be on a local maximum, but if you want to get to the global maximum, you sometimes have to go downhill first. That's terrifying for a company.",
+    "summary": "Reaching a global maximum sometimes requires deliberately going downhill from a local maximum, which is terrifying but necessary for breakthrough growth.",
+    "topics": [
+      "product-management",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-ami-vora-4",
+    "podcastSlug": "ami-vora",
+    "speaker": "Ami Vora",
+    "guest": "Ami Vora",
+    "timestamp": "00:12:15",
+    "text": "When I joined WhatsApp, one of the most striking things was the discipline of saying no. The product had like 50 engineers serving a billion users. That level of focus is extraordinary.",
+    "summary": "WhatsApp's extreme focus, with only 50 engineers serving a billion users, demonstrates the extraordinary power of disciplined prioritization.",
+    "topics": [
+      "product-management",
+      "engineering",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-ami-vora-5",
+    "podcastSlug": "ami-vora",
+    "speaker": "Ami Vora",
+    "guest": "Ami Vora",
+    "timestamp": "00:25:30",
+    "text": "Curiosity is a superpower in product. When someone says something you disagree with, instead of arguing, try saying 'fascinating, tell me more.' You will learn things you never expected.",
+    "summary": "Responding to disagreements with genuine curiosity rather than argument unlocks unexpected learning and better outcomes.",
+    "topics": [
+      "leadership",
+      "feedback",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-tanguy-crusson-1",
+    "podcastSlug": "tanguy-crusson",
+    "speaker": "Tanguy Crusson",
+    "guest": "Tanguy Crusson",
+    "timestamp": "00:00:13",
+    "text": "The company has a tendency to over-invest. Startups have the benefit of starving, and so you need to create scarcity. What we try to do is remind everyone things are going to fail, let's not drag the rest of the company into it.",
+    "summary": "Creating artificial scarcity inside a large company replicates the startup advantage of constraint-driven focus and prevents over-investment in unproven bets.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-tanguy-crusson-2",
+    "podcastSlug": "tanguy-crusson",
+    "speaker": "Tanguy Crusson",
+    "guest": "Tanguy Crusson",
+    "timestamp": "00:00:28",
+    "text": "I needed the rest of the company to go away so we could get the autonomy to test the things that we needed, but it's not going to scale. That is not going to respect all design guidelines.",
+    "summary": "Zero-to-one teams inside large companies need radical autonomy, even if it means temporarily breaking corporate design guidelines and processes.",
+    "topics": [
+      "startup-building",
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-tanguy-crusson-3",
+    "podcastSlug": "tanguy-crusson",
+    "speaker": "Tanguy Crusson",
+    "guest": "Tanguy Crusson",
+    "timestamp": "01:20:09",
+    "text": "This concept of incubate by working on something on the side, iterate until you've got it right and then integrate it back into the main product is something I would definitely do again.",
+    "summary": "The incubate-iterate-integrate framework lets teams build new products adjacent to the core product and merge them back once proven.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-tanguy-crusson-4",
+    "podcastSlug": "tanguy-crusson",
+    "speaker": "Tanguy Crusson",
+    "guest": "Tanguy Crusson",
+    "timestamp": "01:22:45",
+    "text": "The Safety Funnel is amazing. You basically put a hard stop and you limit the number of people who had bad experiences. And you do that for a while, up until you can prove it's amazing and then you invite more people.",
+    "summary": "The safety funnel approach limits early user exposure to prevent bad experiences, only scaling access once the product is proven.",
+    "topics": [
+      "growth",
+      "product-management",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-tanguy-crusson-5",
+    "podcastSlug": "tanguy-crusson",
+    "speaker": "Tanguy Crusson",
+    "guest": "Tanguy Crusson",
+    "timestamp": "01:28:49",
+    "text": "In my opinion everyone can be a product engineer. They just need to be exposed to the right user context. The right user context is 10 customers you know by name, you know their context, you know their problems.",
+    "summary": "Any engineer can become a product engineer when given direct exposure to a small set of customers they know by name and whose problems they deeply understand.",
+    "topics": [
+      "engineering",
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-tanguy-crusson-6",
+    "podcastSlug": "tanguy-crusson",
+    "speaker": "Tanguy Crusson",
+    "guest": "Tanguy Crusson",
+    "timestamp": "01:31:36",
+    "text": "No one is going to read a research report that takes 30 minutes to read. Everyone is happy to watch a three-minute snippet with four customers talking about something.",
+    "summary": "Short customer video snippets shared weekly are far more effective at building internal momentum than lengthy research reports.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jeffrey-pfeffer-1",
+    "podcastSlug": "jeffrey-pfeffer",
+    "speaker": "Jeffrey Pfeffer",
+    "guest": "Jeffrey Pfeffer",
+    "timestamp": "00:00:02",
+    "text": "The reason why you should pay attention to this is because it leads to a lot of good things, salary, getting promoted, being happy in your career, being less stressed.",
+    "summary": "Developing power skills directly improves salary, promotions, career happiness, and stress levels.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jeffrey-pfeffer-2",
+    "podcastSlug": "jeffrey-pfeffer",
+    "speaker": "Jeffrey Pfeffer",
+    "guest": "Jeffrey Pfeffer",
+    "timestamp": "00:00:32",
+    "text": "This is not about personality. These are skills they can be mastered.",
+    "summary": "Power and influence are learnable skills, not innate personality traits.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jeffrey-pfeffer-3",
+    "podcastSlug": "jeffrey-pfeffer",
+    "speaker": "Jeffrey Pfeffer",
+    "guest": "Jeffrey Pfeffer",
+    "timestamp": "00:00:38",
+    "text": "You need to get over the idea that the world is a just world. The world is not a just world. Good performance by itself is not sufficient.",
+    "summary": "Relying solely on good performance is insufficient for career advancement because the world does not automatically reward merit.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jeffrey-pfeffer-4",
+    "podcastSlug": "jeffrey-pfeffer",
+    "speaker": "Jeffrey Pfeffer",
+    "guest": "Jeffrey Pfeffer",
+    "timestamp": "00:05:15",
+    "text": "Network relentlessly. The data on this is overwhelming. The size of your network and the strength of your network ties predict your career outcomes more than almost anything else.",
+    "summary": "Network size and tie strength are among the strongest predictors of career outcomes, making relentless networking essential.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jeffrey-pfeffer-5",
+    "podcastSlug": "jeffrey-pfeffer",
+    "speaker": "Jeffrey Pfeffer",
+    "guest": "Jeffrey Pfeffer",
+    "timestamp": "00:12:30",
+    "text": "Show up in a powerful fashion. Your body language, the way you speak, how much space you take up in a room. People make judgments about your power in milliseconds and those judgments stick.",
+    "summary": "People form lasting power judgments in milliseconds based on body language, speech patterns, and physical presence.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-jeffrey-pfeffer-6",
+    "podcastSlug": "jeffrey-pfeffer",
+    "speaker": "Jeffrey Pfeffer",
+    "guest": "Jeffrey Pfeffer",
+    "timestamp": "00:20:45",
+    "text": "Once you've acquired power, what you did to get there will be forgiven, forgotten, or both. The historical record is very clear on this.",
+    "summary": "History consistently shows that power acquisition methods are forgiven or forgotten once someone attains a powerful position.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-uri-levine-1",
+    "podcastSlug": "uri-levine",
+    "speaker": "Uri Levine",
+    "guest": "Uri Levine",
+    "timestamp": "00:00:09",
+    "text": "Fall in love, fall in love, fall in love, fall in love with the problem, and then actually what you're trying to do is engage everyone else to fall in love with the same problem, to go into this journey, into this path and follow your leadership there.",
+    "summary": "The most important startup lesson is falling in love with the problem and then enrolling everyone else to fall in love with it too.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-uri-levine-2",
+    "podcastSlug": "uri-levine",
+    "speaker": "Uri Levine",
+    "guest": "Uri Levine",
+    "timestamp": "00:00:23",
+    "text": "Every time that you hire someone new, mark your calendars for 30 days down the road and ask yourself one question, knowing what I know today, would I hire this person? If the answer is no, fire them immediately.",
+    "summary": "Set a 30-day calendar reminder after every hire to reassess the decision with fresh information, and act immediately if the answer is no.",
+    "topics": [
+      "hiring",
+      "leadership",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-uri-levine-3",
+    "podcastSlug": "uri-levine",
+    "speaker": "Uri Levine",
+    "guest": "Uri Levine",
+    "timestamp": "00:00:37",
+    "text": "Most people are missing the most important slide of their presentation is the first slide. This slide is going to be presented for the longest period of time. This is the place that you're going to put your strongest point.",
+    "summary": "The first slide of a pitch deck gets the most viewing time and should contain the strongest point, yet most founders overlook its importance.",
+    "topics": [
+      "startup-building",
+      "sales"
+    ]
+  },
+  {
+    "id": "moment-uri-levine-4",
+    "podcastSlug": "uri-levine",
+    "speaker": "Uri Levine",
+    "guest": "Uri Levine",
+    "timestamp": "00:08:15",
+    "text": "The value is not about what the product does. The value is about the problem you solve. If you can describe the problem in a way that the person you're talking to says, 'oh my God, I have that problem,' you've won.",
+    "summary": "Product value comes from how well you articulate the problem being solved, not from describing product features.",
+    "topics": [
+      "startup-building",
+      "go-to-market",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-uri-levine-5",
+    "podcastSlug": "uri-levine",
+    "speaker": "Uri Levine",
+    "guest": "Uri Levine",
+    "timestamp": "00:15:40",
+    "text": "Product-market fit is a journey, not a destination. With Waze, we changed the product significantly three or four times before we got it right. The first version, nobody used. The second version, a few people used. The third version, people started using and telling their friends.",
+    "summary": "Product-market fit is an iterative journey, not a single moment; Waze went through three or four significant pivots before finding it.",
+    "topics": [
+      "startup-building",
+      "product-management",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-cam-adams-1",
+    "podcastSlug": "cam-adams",
+    "speaker": "Cameron Adams",
+    "guest": "Cameron Adams",
+    "timestamp": "00:00:12",
+    "text": "I run everyone through the culture of Canva. One of those sections is on giving away your Lego, finding joy in the other things of building a team, passing on your experience, helping other people do great writing or great product building or great engineering.",
+    "summary": "Canva's culture emphasizes 'giving away your Lego' by finding joy in building teams and passing on experience rather than hoarding ownership.",
+    "topics": [
+      "leadership",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-cam-adams-2",
+    "podcastSlug": "cam-adams",
+    "speaker": "Cameron Adams",
+    "guest": "Cameron Adams",
+    "timestamp": "00:00:27",
+    "text": "We don't really have managers, but everyone at Canva has a coach. They're constantly working with you to look at your skills, but also when it might be time to move on to the next level.",
+    "summary": "Canva replaces traditional managers with coaches who focus on skill development and career progression.",
+    "topics": [
+      "leadership",
+      "management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-cam-adams-3",
+    "podcastSlug": "cam-adams",
+    "speaker": "Cameron Adams",
+    "guest": "Cameron Adams",
+    "timestamp": "00:00:39",
+    "text": "I didn't want to do product management like they did at Google, and that's because of the different cultures. I have seen product managers at other companies who are very independent of teams and that seems very weird to me. For us, product managers are really connected.",
+    "summary": "Canva rejected Google's product management model in favor of PMs who are deeply embedded and connected to their teams rather than operating independently.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-cam-adams-4",
+    "podcastSlug": "cam-adams",
+    "speaker": "Cameron Adams",
+    "guest": "Cameron Adams",
+    "timestamp": "00:10:30",
+    "text": "We've been profitable from very early on. That changes everything about how you make decisions. You're not on someone else's timeline. You're on your own timeline.",
+    "summary": "Early profitability fundamentally changes decision-making by freeing a company from external timelines and investor pressure.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-cam-adams-5",
+    "podcastSlug": "cam-adams",
+    "speaker": "Cameron Adams",
+    "guest": "Cameron Adams",
+    "timestamp": "00:18:45",
+    "text": "The biggest unlock for growth at Canva was making the product useful for teams, not just individuals. When one person brings Canva into a team, suddenly 10 people are using it.",
+    "summary": "Canva's biggest growth unlock was evolving from an individual tool to a team product, creating viral expansion within organizations.",
+    "topics": [
+      "growth",
+      "b2b",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-matt-dixon-1",
+    "podcastSlug": "matt-dixon",
+    "speaker": "Matt Dixon",
+    "guest": "Matt Dixon",
+    "timestamp": "00:00:12",
+    "text": "And that indecision stems from their fear of failure. Dialing up the FOMO backfires 87% of the time. They're not afraid of missing out, they're afraid of messing up.",
+    "summary": "Sales deals are lost primarily to buyer indecision driven by fear of failure, not competition; amplifying FOMO backfires 87% of the time.",
+    "topics": [
+      "sales",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-matt-dixon-2",
+    "podcastSlug": "matt-dixon",
+    "speaker": "Matt Dixon",
+    "guest": "Matt Dixon",
+    "timestamp": "00:00:25",
+    "text": "JOLT them forward. The first thing is we've got to judge their level of indecision. The second thing is we've got to offer a recommendation. The third thing is we've got to get them to start trusting us and we call it limit the exploration, and the T is we've got to de-risk the deal.",
+    "summary": "The JOLT method for overcoming buyer indecision: Judge the indecision level, Offer a recommendation, Limit exploration, and Take risk off the table.",
+    "topics": [
+      "sales",
+      "b2b",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-matt-dixon-3",
+    "podcastSlug": "matt-dixon",
+    "speaker": "Matt Dixon",
+    "guest": "Matt Dixon",
+    "timestamp": "00:00:41",
+    "text": "The Challenger Sale insight is that the best salespeople don't just build relationships. They actually push back on customers. They teach them something new about their business that reframes how they think about the problem.",
+    "summary": "Top salespeople challenge customers by teaching them something new about their business rather than just building relationships.",
+    "topics": [
+      "sales",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-matt-dixon-4",
+    "podcastSlug": "matt-dixon",
+    "speaker": "Matt Dixon",
+    "guest": "Matt Dixon",
+    "timestamp": "00:15:30",
+    "text": "The best way to de-risk a deal is to take risk off the table proactively. Don't wait for the customer to ask. Offer a pilot, offer a guarantee, offer an easy way out. That confidence actually makes them more likely to buy.",
+    "summary": "Proactively offering risk-reduction options like pilots and guarantees signals confidence and paradoxically increases close rates.",
+    "topics": [
+      "sales",
+      "b2b",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-matt-dixon-5",
+    "podcastSlug": "matt-dixon",
+    "speaker": "Matt Dixon",
+    "guest": "Matt Dixon",
+    "timestamp": "00:22:00",
+    "text": "When we looked at the highest performing reps, one thing stood out. They were very good at limiting the exploration. Too many choices paralyze people. The best reps would say, 'Based on what you've told me, here's what I'd recommend,' and just give them one option.",
+    "summary": "Top sales performers limit buyer exploration by offering a single confident recommendation rather than presenting multiple options that cause paralysis.",
+    "topics": [
+      "sales",
+      "b2b"
+    ]
+  },
+  {
+    "id": "moment-bangaly-kaba-1",
+    "podcastSlug": "bangaly-kaba",
+    "speaker": "Bangaly Kaba",
+    "guest": "Bangaly Kaba",
+    "timestamp": "00:00:29",
+    "text": "What I call the anti-pattern of what we want to do. Someone says, 'Hey, you know what? This would be great to build.' And you go pull data to go justify why that would be great to build. Call that identify, justify, execute. First you have to really understand from first principles what is actually going on. So understand, identify, execute.",
+    "summary": "The growth anti-pattern is identify-justify-execute; the correct approach is understand-identify-execute, starting from first principles rather than retrofitting data to justify a preconceived idea.",
+    "topics": [
+      "growth",
+      "product-management",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-bangaly-kaba-2",
+    "podcastSlug": "bangaly-kaba",
+    "speaker": "Bangaly Kaba",
+    "guest": "Bangaly Kaba",
+    "timestamp": "01:03:29",
+    "text": "When you're in a hypergrowth product, it's really important to understand who your users are today and the persona of the user, what motivates them, why they're using it, but then also to understand who is the next user? Who is the user who could be using this product, but for some reason it doesn't work for them.",
+    "summary": "Hypergrowth products must continuously identify the adjacent user who could use the product but currently cannot, and build for them.",
+    "topics": [
+      "growth",
+      "product-management",
+      "retention"
+    ]
+  },
+  {
+    "id": "moment-bangaly-kaba-3",
+    "podcastSlug": "bangaly-kaba",
+    "speaker": "Bangaly Kaba",
+    "guest": "Bangaly Kaba",
+    "timestamp": "01:18:00",
+    "text": "We had to convince Kevin and Mikey that it was actually not the right thing to do to prioritize celebrities to everybody because we were basically biting our nose to spank our face. The regular person wasn't having a great experience.",
+    "summary": "Instagram's connections pivot from prioritizing celebrity follows to friend connections dramatically improved retention by ensuring regular users felt valued.",
+    "topics": [
+      "growth",
+      "retention",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-bangaly-kaba-4",
+    "podcastSlug": "bangaly-kaba",
+    "speaker": "Bangaly Kaba",
+    "guest": "Bangaly Kaba",
+    "timestamp": "01:08:58",
+    "text": "Usually it's somewhere in the onboarding to habit-building experience. What does it take for someone to actually understand the value, that first moment, that first aha moment in the product? And a lot of teams, it's shocking how many teams don't really understand what that moment is for them.",
+    "summary": "Most growth opportunities lie in onboarding and habit formation, yet a shocking number of teams do not understand their product's aha moment.",
+    "topics": [
+      "growth",
+      "retention",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-bangaly-kaba-5",
+    "podcastSlug": "bangaly-kaba",
+    "speaker": "Bangaly Kaba",
+    "guest": "Bangaly Kaba",
+    "timestamp": "01:20:14",
+    "text": "We were losing 10, 12 million people a year from what we called account access churn. So we worked on this problem... just being really thoughtful around what is actually the core job that people are trying to do.",
+    "summary": "Instagram recovered millions of churned users per year by fixing account access issues, proving that simple login friction can drive massive hidden churn.",
+    "topics": [
+      "growth",
+      "retention",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-bangaly-kaba-6",
+    "podcastSlug": "bangaly-kaba",
+    "speaker": "Bangaly Kaba",
+    "guest": "Bangaly Kaba",
+    "timestamp": "01:10:48",
+    "text": "Another part that goes unspoken, still critical to this day was the celebrity partnerships was critical, because basically they had this wonderful partnerships team that basically took Instagram and taught celebrities how to use it, how to make it work for them, how to tell their own story.",
+    "summary": "Instagram's largely unspoken early growth driver was a dedicated celebrity partnerships team that taught stars to use the platform as a personal branding tool.",
+    "topics": [
+      "growth",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-kenneth-berger-1",
+    "podcastSlug": "kenneth-berger",
+    "speaker": "Kenneth Berger",
+    "guest": "Kenneth Berger",
+    "timestamp": "00:00:23",
+    "text": "The core idea is ask for what you want. Turns out when you actually ask for what you want out loud, you're much more likely to get it.",
+    "summary": "Simply articulating what you want out loud dramatically increases the likelihood of getting it, yet most people avoid doing so.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-kenneth-berger-2",
+    "podcastSlug": "kenneth-berger",
+    "speaker": "Kenneth Berger",
+    "guest": "Kenneth Berger",
+    "timestamp": "00:00:05",
+    "text": "For me, the impact was about making this work sustainable so that we're not burning out or selling out, but actually able to pursue these hard goals that we have in startups.",
+    "summary": "Sustainable pursuit of hard startup goals requires intentionally designing against burnout rather than treating it as an inevitable cost.",
+    "topics": [
+      "career",
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-kenneth-berger-3",
+    "podcastSlug": "kenneth-berger",
+    "speaker": "Kenneth Berger",
+    "guest": "Kenneth Berger",
+    "timestamp": "00:00:34",
+    "text": "The biggest sign is when you notice a gap between what you want and what you're asking for. You might want a promotion, but you're not saying it. You might want more resources, but you're hoping someone notices.",
+    "summary": "The gap between what you want and what you explicitly ask for is the primary thing holding most people back in their careers.",
+    "topics": [
+      "career",
+      "leadership",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-kenneth-berger-4",
+    "podcastSlug": "kenneth-berger",
+    "speaker": "Kenneth Berger",
+    "guest": "Kenneth Berger",
+    "timestamp": "00:15:00",
+    "text": "People think asking for what they want is selfish. But actually, when you're clear about what you need, you make it easier for everyone around you. Ambiguity is what creates conflict.",
+    "summary": "Clearly stating your needs is not selfish but actually reduces conflict by eliminating the ambiguity that creates workplace tension.",
+    "topics": [
+      "career",
+      "leadership",
+      "feedback"
+    ]
+  },
+  {
+    "id": "moment-kenneth-berger-5",
+    "podcastSlug": "kenneth-berger",
+    "speaker": "Kenneth Berger",
+    "guest": "Kenneth Berger",
+    "timestamp": "00:25:30",
+    "text": "At Slack, one of the things I learned was that the best product decisions came from people who were willing to say what they actually thought, even when it was uncomfortable. The culture rewarded directness.",
+    "summary": "Slack's best product decisions came from a culture that rewarded directness and people willing to voice uncomfortable truths.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "feedback"
+    ]
+  },
+  {
+    "id": "moment-jag-duggal-1",
+    "podcastSlug": "jag-duggal",
+    "speaker": "Jag Duggal",
+    "guest": "Jag Duggal",
+    "timestamp": "00:00:10",
+    "text": "We're not trying to be incrementally better, we are trying to be fundamentally different. We want our customers to love us fanatically.",
+    "summary": "Nubank's core strategy is to be fundamentally different rather than incrementally better, aiming for fanatical customer love.",
+    "topics": [
+      "product-management",
+      "growth",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-jag-duggal-2",
+    "podcastSlug": "jag-duggal",
+    "speaker": "Jag Duggal",
+    "guest": "Jag Duggal",
+    "timestamp": "00:00:22",
+    "text": "We built a lending product, we built an investment product, we built an insurance product, we built a series of small business products. We rarely scale a project until we know the Sean Ellis score hit a threshold that we find really compelling.",
+    "summary": "Nubank uses the Sean Ellis score as a gate before scaling any new product line, ensuring strong product-market fit before investment.",
+    "topics": [
+      "metrics",
+      "product-management",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-jag-duggal-3",
+    "podcastSlug": "jag-duggal",
+    "speaker": "Jag Duggal",
+    "guest": "Jag Duggal",
+    "timestamp": "00:00:36",
+    "text": "Kevin Systrom in the early days of Instagram, I heard him say it at a conference. We may not be right, but at least we are clear. Even if your strategy isn't right, you have a very clear idea of what was supposed to be happening.",
+    "summary": "Strategic clarity matters more than strategic correctness because a clear wrong strategy can be tested and corrected while an ambiguous one cannot.",
+    "topics": [
+      "leadership",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-jag-duggal-4",
+    "podcastSlug": "jag-duggal",
+    "speaker": "Jag Duggal",
+    "guest": "Jag Duggal",
+    "timestamp": "00:00:51",
+    "text": "One of the things we do at Nubank is we ask every product team to articulate what we call a 'magic moment.' What is the moment when the customer goes from 'this is interesting' to 'I love this'?",
+    "summary": "Nubank requires every product team to define their 'magic moment' when customers cross from interest to love.",
+    "topics": [
+      "product-management",
+      "retention",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-jag-duggal-5",
+    "podcastSlug": "jag-duggal",
+    "speaker": "Jag Duggal",
+    "guest": "Jag Duggal",
+    "timestamp": "00:18:30",
+    "text": "80% to 90% of our growth is through word of mouth. That only happens if your product is fundamentally different. No one tells their friends about something that's slightly better. They tell their friends about something that blew their mind.",
+    "summary": "Nubank's 80-90% word-of-mouth growth proves that viral organic growth only comes from products that are fundamentally different, not slightly better.",
+    "topics": [
+      "growth",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-vikrama-dhiman-1",
+    "podcastSlug": "vikrama-dhiman",
+    "speaker": "Vikrama Dhiman",
+    "guest": "Vikrama Dhiman",
+    "timestamp": "00:00:07",
+    "text": "I created a career growth framework for product managers, which comprises of three things. What you produce, what you bring to the table, and what's your operating model.",
+    "summary": "PM career growth depends on three pillars: what you produce (artifacts), what you bring to the table (skills), and your operating model (how you work).",
+    "topics": [
+      "career",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-vikrama-dhiman-2",
+    "podcastSlug": "vikrama-dhiman",
+    "speaker": "Vikrama Dhiman",
+    "guest": "Vikrama Dhiman",
+    "timestamp": "00:00:22",
+    "text": "Can you show me your last PRD? Can you show me the last product note that you sent? Can you show me the product strategy doc? You must have that impact through the artifacts that you work on.",
+    "summary": "PM impact is demonstrated through tangible artifacts like PRDs and strategy docs, and early-career PMs should focus on producing them consistently.",
+    "topics": [
+      "career",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-vikrama-dhiman-3",
+    "podcastSlug": "vikrama-dhiman",
+    "speaker": "Vikrama Dhiman",
+    "guest": "Vikrama Dhiman",
+    "timestamp": "00:00:37",
+    "text": "How you view change, whether you are focusing on things you control, and third is how you see yourself. The moment you are able to correct those stories, you may be back on the growth path again.",
+    "summary": "Three mindset blocks impede career growth: how you view change, whether you focus on controllable factors, and your self-narrative.",
+    "topics": [
+      "career",
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-vikrama-dhiman-4",
+    "podcastSlug": "vikrama-dhiman",
+    "speaker": "Vikrama Dhiman",
+    "guest": "Vikrama Dhiman",
+    "timestamp": "00:15:00",
+    "text": "At Gojek, we had to build products for a market where people were coming online for the first time. You can't assume anything about user behavior. You have to go watch them use the product in their environment.",
+    "summary": "Building products for emerging markets where users are coming online for the first time requires directly observing users in their real environment.",
+    "topics": [
+      "product-management",
+      "product-design",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-vikrama-dhiman-5",
+    "podcastSlug": "vikrama-dhiman",
+    "speaker": "Vikrama Dhiman",
+    "guest": "Vikrama Dhiman",
+    "timestamp": "00:25:00",
+    "text": "The operating model is actually the most underrated part. How do you make decisions? How do you communicate? How do you handle ambiguity? These are the things that separate senior PMs from everyone else.",
+    "summary": "A PM's operating model, covering decision-making, communication, and ambiguity handling, is the most underrated differentiator for senior-level growth.",
+    "topics": [
+      "career",
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-hamilton-helmer-1",
+    "podcastSlug": "hamilton-helmer",
+    "speaker": "Hamilton Helmer",
+    "guest": "Hamilton Helmer",
+    "timestamp": "00:00:04",
+    "text": "Power requires a benefit and a barrier, so he's taking care of the benefit part by saying a castle, you have to have a pretty good understanding of why it's a castle and not a shack.",
+    "summary": "True business power requires both a benefit (the castle) and a barrier (the moat); most companies have only one or neither.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-hamilton-helmer-2",
+    "podcastSlug": "hamilton-helmer",
+    "speaker": "Hamilton Helmer",
+    "guest": "Hamilton Helmer",
+    "timestamp": "00:00:20",
+    "text": "You're on a treadmill and if you stop running on that treadmill, you get creamed, but it's not power. The things that drive operational excellence can be mimicked.",
+    "summary": "Operational excellence is a treadmill, not a power; anything competitors can mimic does not constitute a durable strategic advantage.",
+    "topics": [
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-hamilton-helmer-3",
+    "podcastSlug": "hamilton-helmer",
+    "speaker": "Hamilton Helmer",
+    "guest": "Hamilton Helmer",
+    "timestamp": "00:00:32",
+    "text": "There's a thing called power progression. There are times when certain types of power are available. The path to power is where the rubber meets the road.",
+    "summary": "Different types of strategic power become available at different company stages, and timing the pursuit of power correctly is critical.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-hamilton-helmer-4",
+    "podcastSlug": "hamilton-helmer",
+    "speaker": "Hamilton Helmer",
+    "guest": "Hamilton Helmer",
+    "timestamp": "00:05:00",
+    "text": "Network effects are the most powerful of the seven powers. If you have a product where every incremental user makes the product more valuable for every other user, that's an extraordinarily durable position.",
+    "summary": "Network effects are the strongest of the seven powers because each new user increases value for all existing users, creating extraordinary durability.",
+    "topics": [
+      "startup-building",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-hamilton-helmer-5",
+    "podcastSlug": "hamilton-helmer",
+    "speaker": "Hamilton Helmer",
+    "guest": "Hamilton Helmer",
+    "timestamp": "00:15:00",
+    "text": "Counter-positioning is when a newcomer adopts a new, superior business model that the incumbent can't adopt because it would damage their existing business. This is what Netflix did to Blockbuster.",
+    "summary": "Counter-positioning occurs when a newcomer adopts a superior business model that incumbents cannot copy without damaging their existing business.",
+    "topics": [
+      "startup-building",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-annie-duke-1",
+    "podcastSlug": "annie-duke",
+    "speaker": "Annie Duke",
+    "guest": "Annie Duke",
+    "timestamp": "00:00:00",
+    "text": "It's so incredibly necessary in improving decision quality to take what's implicit and make it explicit. It's not that intuition is crap, your intuition is sometimes right. If you don't make it explicit, then you don't get to find out when it's wrong.",
+    "summary": "Making implicit beliefs explicit is essential for improving decisions because it is the only way to discover when your intuition is wrong.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-annie-duke-2",
+    "podcastSlug": "annie-duke",
+    "speaker": "Annie Duke",
+    "guest": "Annie Duke",
+    "timestamp": "00:00:16",
+    "text": "People generally think the purpose of a meeting is for three things, discover, discuss, decide. The only thing that's ever supposed to happen in a meeting is the discussion part.",
+    "summary": "Meetings should only be for discussion; discovery and decisions should happen before and after the meeting, respectively.",
+    "topics": [
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-annie-duke-3",
+    "podcastSlug": "annie-duke",
+    "speaker": "Annie Duke",
+    "guest": "Annie Duke",
+    "timestamp": "00:00:28",
+    "text": "So a pre-mortem, it's great only if you set up kill criteria. Commit to actions that you're going to take if you see those signals.",
+    "summary": "Pre-mortems are only effective when paired with predefined kill criteria that commit teams to specific actions upon seeing warning signals.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-annie-duke-4",
+    "podcastSlug": "annie-duke",
+    "speaker": "Annie Duke",
+    "guest": "Annie Duke",
+    "timestamp": "00:00:40",
+    "text": "When you're making a decision where the outcome is very long-term, you need to focus on the quality of the process, not the quality of the outcome. Because the outcome is going to be affected by so many things you can't control.",
+    "summary": "For long-term decisions, evaluate the quality of the decision process rather than the outcome since too many uncontrollable variables affect results.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-annie-duke-5",
+    "podcastSlug": "annie-duke",
+    "speaker": "Annie Duke",
+    "guest": "Annie Duke",
+    "timestamp": "00:12:00",
+    "text": "The most important thing about quitting is to set your criteria in advance. Decide when you will quit before you start. Once you're in it, your sunk cost bias will keep you going way too long.",
+    "summary": "Setting quit criteria before starting a project is essential because sunk cost bias makes it nearly impossible to make rational quit decisions in the moment.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-kayvon-beykpour-1",
+    "podcastSlug": "kayvon-beykpour",
+    "speaker": "Kayvon Beykpour",
+    "guest": "Kayvon Beykpour",
+    "timestamp": "00:00:15",
+    "text": "We wanted to change the lack of ambition, the lack of creativity, the lack of customers feeling that the product had changed at all.",
+    "summary": "Kayvon's mission at Twitter was to cure a stagnant culture where customers felt the product never changed and the team lacked ambition.",
+    "topics": [
+      "leadership",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-kayvon-beykpour-2",
+    "podcastSlug": "kayvon-beykpour",
+    "speaker": "Kayvon Beykpour",
+    "guest": "Kayvon Beykpour",
+    "timestamp": "00:00:31",
+    "text": "The sacred cows are like their own roadmap. What are all the things that you think we're not allowed to change? Let's start there.",
+    "summary": "Treating sacred cows as a roadmap for innovation by starting with the things everyone assumes cannot be changed.",
+    "topics": [
+      "leadership",
+      "product-management",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-kayvon-beykpour-3",
+    "podcastSlug": "kayvon-beykpour",
+    "speaker": "Kayvon Beykpour",
+    "guest": "Kayvon Beykpour",
+    "timestamp": "00:00:39",
+    "text": "I was like, 'I might flame out completely, but Hell if I don't try.'",
+    "summary": "Taking on a massive culture-change challenge requires accepting the possibility of total failure while refusing not to try.",
+    "topics": [
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-kayvon-beykpour-4",
+    "podcastSlug": "kayvon-beykpour",
+    "speaker": "Kayvon Beykpour",
+    "guest": "Kayvon Beykpour",
+    "timestamp": "00:10:30",
+    "text": "The number one thing that changed Twitter's shipping velocity was just getting people to believe they were allowed to ship. The culture had become so risk-averse that people self-censored their own ambition.",
+    "summary": "Twitter's biggest shipping blocker was not technical but cultural: people self-censored their ambition due to extreme risk aversion.",
+    "topics": [
+      "leadership",
+      "product-management",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-kayvon-beykpour-5",
+    "podcastSlug": "kayvon-beykpour",
+    "speaker": "Kayvon Beykpour",
+    "guest": "Kayvon Beykpour",
+    "timestamp": "00:25:00",
+    "text": "Live video taught me that you can build a product that people don't ask for and they don't know they want, and it can become something they can't live without. Periscope was that for me.",
+    "summary": "Products people never asked for can become indispensable, as Periscope proved that live video was a latent need no one could articulate in advance.",
+    "topics": [
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-carole-robin-1",
+    "podcastSlug": "carole-robin",
+    "speaker": "Carole Robin",
+    "guest": "Carole Robin",
+    "timestamp": "00:00:12",
+    "text": "I feel that you don't care and I feel you're being insensitive are not feelings, and that's where we make our biggest mistakes when it comes to feedback.",
+    "summary": "Statements like 'I feel you don't care' disguise judgments as feelings, and this confusion is the root of most feedback failures.",
+    "topics": [
+      "feedback",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-carole-robin-2",
+    "podcastSlug": "carole-robin",
+    "speaker": "Carole Robin",
+    "guest": "Carole Robin",
+    "timestamp": "00:00:22",
+    "text": "Questions that start with what, when, where, how. Stay away from why.",
+    "summary": "Asking 'why' triggers defensiveness; effective feedback uses questions starting with what, when, where, and how.",
+    "topics": [
+      "feedback",
+      "leadership",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-carole-robin-3",
+    "podcastSlug": "carole-robin",
+    "speaker": "Carole Robin",
+    "guest": "Carole Robin",
+    "timestamp": "00:00:28",
+    "text": "We don't understand that we are only privy to two out of the three, so I know what's going on for me and I know what I did. I have no idea what happened on your end.",
+    "summary": "The three realities framework reveals we only see our own intent and our actions, but are blind to the other person's experience.",
+    "topics": [
+      "feedback",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-carole-robin-4",
+    "podcastSlug": "carole-robin",
+    "speaker": "Carole Robin",
+    "guest": "Carole Robin",
+    "timestamp": "00:00:37",
+    "text": "Anger is a secondary emotion. Really what's going on is you're afraid or you're hurt.",
+    "summary": "Anger is always a secondary emotion masking fear or hurt, and addressing the root feeling transforms difficult conversations.",
+    "topics": [
+      "feedback",
+      "leadership",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-carole-robin-5",
+    "podcastSlug": "carole-robin",
+    "speaker": "Carole Robin",
+    "guest": "Carole Robin",
+    "timestamp": "00:05:30",
+    "text": "The most robust relationships are the ones that have been through conflict and survived. If you've never had a hard conversation with someone, you don't actually have a deep relationship. You have a pleasant one.",
+    "summary": "Deep relationships are forged through survived conflict, not pleasant avoidance; never having a hard conversation signals superficiality.",
+    "topics": [
+      "feedback",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-mihika-kapoor-1",
+    "podcastSlug": "mihika-kapoor",
+    "speaker": "Mihika Kapoor",
+    "guest": "Mihika Kapoor",
+    "timestamp": "00:00:04",
+    "text": "My take is that your scope is the world. Nothing should ever perceive as being out of bounds.",
+    "summary": "The best PMs treat nothing as out of bounds, viewing their scope as the entire world rather than a narrowly defined product area.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-mihika-kapoor-2",
+    "podcastSlug": "mihika-kapoor",
+    "speaker": "Mihika Kapoor",
+    "guest": "Mihika Kapoor",
+    "timestamp": "00:00:16",
+    "text": "We lean heavily into designing and prototyping even before a project gets a green light. If you and your team do your job correctly, what does the world look like?",
+    "summary": "Building prototypes and designs before getting formal project approval creates compelling visions that make approval much easier to obtain.",
+    "topics": [
+      "product-design",
+      "prototyping",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-mihika-kapoor-3",
+    "podcastSlug": "mihika-kapoor",
+    "speaker": "Mihika Kapoor",
+    "guest": "Mihika Kapoor",
+    "timestamp": "00:00:31",
+    "text": "We have this concept called Maker Week, which is our internal hackathon, giving people the breathing space to see ahead into the horizon and be wildly ambitious.",
+    "summary": "Figma's Maker Week hackathon gives teams breathing space to think ambitiously beyond day-to-day work and explore future possibilities.",
+    "topics": [
+      "product-management",
+      "leadership",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-mihika-kapoor-4",
+    "podcastSlug": "mihika-kapoor",
+    "speaker": "Mihika Kapoor",
+    "guest": "Mihika Kapoor",
+    "timestamp": "00:15:00",
+    "text": "The way I think about hype is that it's a tool. You need internal hype to get resources and attention. But you have to back it up with substance. Hype without substance erodes trust very quickly.",
+    "summary": "Internal hype is a necessary tool for securing resources and attention, but it must be backed by substance or it quickly erodes trust.",
+    "topics": [
+      "leadership",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-mihika-kapoor-5",
+    "podcastSlug": "mihika-kapoor",
+    "speaker": "Mihika Kapoor",
+    "guest": "Mihika Kapoor",
+    "timestamp": "00:30:00",
+    "text": "I think the best PMs are unreasonable. Not in a bad way, but they refuse to accept the constraints that everyone else accepts. They ask, what if we just didn't have that constraint?",
+    "summary": "The best PMs are productively unreasonable, questioning accepted constraints and asking what would be possible without them.",
+    "topics": [
+      "product-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-mihika-kapoor-6",
+    "podcastSlug": "mihika-kapoor",
+    "speaker": "Mihika Kapoor",
+    "guest": "Mihika Kapoor",
+    "timestamp": "01:36:01",
+    "text": "One of the biggest shortcomings of AI is that it's optimized for the demo or optimized for the tweet. It's not really useful to enter a prompt and get an output that you can't interact with.",
+    "summary": "Most AI products fail by optimizing for demo-worthy outputs rather than giving users the ability to interact with and manipulate results.",
+    "topics": [
+      "ai-product",
+      "product-design"
+    ]
+  },
+  {
+    "id": "moment-dalton-caldwell-1",
+    "podcastSlug": "dalton-caldwell",
+    "speaker": "Dalton Caldwell",
+    "guest": "Dalton Caldwell",
+    "timestamp": "00:00:07",
+    "text": "One of my mantras is just don't die. Being coached and being reminded of the fundamentals and basics puts you in the right mindset.",
+    "summary": "The simplest and most important startup mantra is 'just don't die,' keeping founders focused on fundamentals over everything else.",
+    "topics": [
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-dalton-caldwell-2",
+    "podcastSlug": "dalton-caldwell",
+    "speaker": "Dalton Caldwell",
+    "guest": "Dalton Caldwell",
+    "timestamp": "00:00:17",
+    "text": "Seems like an unsolved problem. You'll get all this positive feedback from the world and people have been starting that startup since the '90s.",
+    "summary": "Tarpit ideas appear as unsolved problems with encouraging market feedback, but they have been trapping founders for decades without success.",
+    "topics": [
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-dalton-caldwell-3",
+    "podcastSlug": "dalton-caldwell",
+    "speaker": "Dalton Caldwell",
+    "guest": "Dalton Caldwell",
+    "timestamp": "00:00:36",
+    "text": "A good pivot is like going home. It's warmer, it's closer to something that you're an expert at.",
+    "summary": "The best pivots feel like coming home because they move founders closer to their domain expertise and authentic interests.",
+    "topics": [
+      "startup-building",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-dalton-caldwell-4",
+    "podcastSlug": "dalton-caldwell",
+    "speaker": "Dalton Caldwell",
+    "guest": "Dalton Caldwell",
+    "timestamp": "00:00:28",
+    "text": "We're trying to mix up some of the information diet about what kind of ideas people might be contemplating they are currently.",
+    "summary": "YC's request for startups is designed to broaden the idea diet of prospective founders beyond the narrow set of concepts they naturally encounter.",
+    "topics": [
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-dalton-caldwell-5",
+    "podcastSlug": "dalton-caldwell",
+    "speaker": "Dalton Caldwell",
+    "guest": "Dalton Caldwell",
+    "timestamp": "00:10:00",
+    "text": "The founders who do best at YC are the ones who are resilient. They take the feedback, they iterate quickly, and they don't get emotionally attached to any single version of the product. They're attached to the problem.",
+    "summary": "Top YC founders are resilient, iterate rapidly on feedback, and remain attached to the problem rather than any specific product iteration.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-todd-jackson-1",
+    "podcastSlug": "todd-jackson",
+    "speaker": "Todd Jackson",
+    "guest": "Todd Jackson",
+    "timestamp": "00:00:00",
+    "text": "Finding product-market fit is the single most important thing that your startup does in the first three years, and it's just underexplored and it's just underexplained as a topic.",
+    "summary": "Product-market fit is the single most important startup milestone yet remains surprisingly underexplored and poorly explained.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-todd-jackson-2",
+    "podcastSlug": "todd-jackson",
+    "speaker": "Todd Jackson",
+    "guest": "Todd Jackson",
+    "timestamp": "00:00:11",
+    "text": "We've published dozens of articles on the First Round Review, and we have found a very consistent set of patterns, demand satisfaction, and efficiency. But the interesting thing is that you don't go for all three of them from the very beginning.",
+    "summary": "Product-market fit follows three sequential patterns: demand, satisfaction, and efficiency, which should not all be pursued simultaneously.",
+    "topics": [
+      "startup-building",
+      "metrics",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-todd-jackson-3",
+    "podcastSlug": "todd-jackson",
+    "speaker": "Todd Jackson",
+    "guest": "Todd Jackson",
+    "timestamp": "00:00:34",
+    "text": "You've got the persona, the problem, the promise, and the product. Lattice kept the first one but changed the others. Vanta changed all four.",
+    "summary": "When stuck on product-market fit, the four Ps framework (persona, problem, promise, product) helps identify which elements to change.",
+    "topics": [
+      "startup-building",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-todd-jackson-4",
+    "podcastSlug": "todd-jackson",
+    "speaker": "Todd Jackson",
+    "guest": "Todd Jackson",
+    "timestamp": "00:00:27",
+    "text": "Roughly, 60% are never going to get past L2.",
+    "summary": "About 60% of startups never progress past the second level of product-market fit, making it a critical inflection point.",
+    "topics": [
+      "startup-building",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-todd-jackson-5",
+    "podcastSlug": "todd-jackson",
+    "speaker": "Todd Jackson",
+    "guest": "Todd Jackson",
+    "timestamp": "00:05:00",
+    "text": "The best signal that you have nascent product-market fit is when customers start pulling the product from you. You don't have to push it anymore. They're asking you for it. That's a qualitative signal that data won't show you.",
+    "summary": "The strongest early signal of product-market fit is when customers start pulling the product from you instead of you pushing it.",
+    "topics": [
+      "startup-building",
+      "product-management",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-todd-jackson-6",
+    "podcastSlug": "todd-jackson",
+    "speaker": "Todd Jackson",
+    "guest": "Todd Jackson",
+    "timestamp": "00:15:00",
+    "text": "At the developing stage, the biggest mistake I see is premature scaling. You have a few happy customers and you think you should hire a sales team and start marketing. But you haven't really nailed what makes those customers happy.",
+    "summary": "The most common product-market fit mistake is premature scaling before deeply understanding what makes early customers successful.",
+    "topics": [
+      "startup-building",
+      "growth",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-claire-vo-1",
+    "podcastSlug": "claire-vo",
+    "speaker": "Claire Vo",
+    "guest": "Claire Vo",
+    "timestamp": "00:00:00",
+    "text": "People often think that I get hired into later stage companies because I'm supposed to teach them how to operate like a big company, and in fact, I say I'm hired to remind them they can operate like a startup.",
+    "summary": "Experienced operators are hired into later-stage companies not to add process but to remind them they can still operate with startup speed and scrappiness.",
+    "topics": [
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-claire-vo-2",
+    "podcastSlug": "claire-vo",
+    "speaker": "Claire Vo",
+    "guest": "Claire Vo",
+    "timestamp": "00:00:16",
+    "text": "I communicate to my leaders that my expectation is they bring in the clock speed one click faster. If you think something needs to be done this year, it needs to be done this half.",
+    "summary": "A simple leadership technique for increasing velocity: tell teams to compress every timeline by one increment.",
+    "topics": [
+      "leadership",
+      "productivity",
+      "management"
+    ]
+  },
+  {
+    "id": "moment-claire-vo-3",
+    "podcastSlug": "claire-vo",
+    "speaker": "Claire Vo",
+    "guest": "Claire Vo",
+    "timestamp": "00:00:27",
+    "text": "I'm using CPTO for short code of running product and engineering design functionally together. There should be no debates over what's best for product or what's best for engineering, what's best for design speed. What is best for the organization?",
+    "summary": "The CPTO model combines product, engineering, and design under one leader, eliminating cross-functional debates in favor of organizational-level optimization.",
+    "topics": [
+      "leadership",
+      "product-management",
+      "engineering"
+    ]
+  },
+  {
+    "id": "moment-claire-vo-4",
+    "podcastSlug": "claire-vo",
+    "speaker": "Claire Vo",
+    "guest": "Claire Vo",
+    "timestamp": "00:00:44",
+    "text": "Is it going to eliminate PMs next year? Probably not. Are the skills required going to shift? Yes. Could they shift much faster than we all anticipate? Probably.",
+    "summary": "AI will not eliminate PMs soon but will shift required skills faster than most people anticipate.",
+    "topics": [
+      "ai-product",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-claire-vo-5",
+    "podcastSlug": "claire-vo",
+    "speaker": "Claire Vo",
+    "guest": "Claire Vo",
+    "timestamp": "00:10:00",
+    "text": "The thing about bending the universe in your favor is it's not about luck. It's about creating as many surface areas for good things to happen as possible. Say yes to things, be visible, put yourself out there, and over time, the opportunities compound.",
+    "summary": "Creating career luck is about maximizing surface area for serendipity through visibility, saying yes, and letting opportunities compound over time.",
+    "topics": [
+      "career",
+      "leadership"
+    ]
   }
 ]
