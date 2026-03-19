@@ -18,12 +18,36 @@ import { SYNTHESIS_COLORS } from "@/components/network-graph";
 */
 
 const MOMENT_COLOR = "#4B5563";
-const LABEL_WIDTH = 100;
+const LABEL_WIDTH = 130;
 const LANE_HEIGHT = 40;
-const MARGIN = { top: 20, right: 30, bottom: 40, left: LABEL_WIDTH + 10 };
+const MARGIN = { top: 20, right: 100, bottom: 40, left: LABEL_WIDTH + 10 };
 const MOBILE_MARGIN = { top: 50, right: 10, bottom: 20, left: 10 };
 const MOBILE_COL_WIDTH = 50;
 const MOBILE_BREAKPOINT = 640;
+
+// Approach B: compute the dense period, excluding outliers > 6 months from the main cluster
+function computeDensePeriod(allDates: number[]): { denseMin: number; denseMax: number; outliers: number[] } {
+  if (allDates.length === 0) return { denseMin: 0, denseMax: 0, outliers: [] };
+  const sorted = [...allDates].sort((a, b) => a - b);
+  const sixMonths = 180 * 24 * 60 * 60 * 1000;
+
+  // Find the dense cluster: walk from the end and find where the gap exceeds 6 months
+  const outliers: number[] = [];
+  let denseStart = 0;
+  for (let i = 1; i < sorted.length; i++) {
+    if (sorted[i] - sorted[i - 1] > sixMonths) {
+      // Everything before index i is an outlier
+      for (let j = 0; j < i; j++) outliers.push(sorted[j]);
+      denseStart = i;
+    }
+  }
+
+  return {
+    denseMin: sorted[denseStart],
+    denseMax: sorted[sorted.length - 1],
+    outliers,
+  };
+}
 
 function hashCode(s: string): number {
   let hash = 0;
@@ -216,12 +240,12 @@ function renderDesktop(
   const height = MARGIN.top + timelines.length * laneHeight + MARGIN.bottom;
   svg.attr("width", width).attr("height", height).attr("viewBox", `0 0 ${width} ${height}`);
 
-  const dateMin = new Date(Math.min(...allDates));
-  const dateMax = new Date(Math.max(...allDates));
-  // Add 2 weeks padding on each side
+  // Approach B: use dense period only for the x-axis, exclude outliers
+  const { denseMin, denseMax, outliers } = computeDensePeriod(allDates);
+  const outlierSet = new Set(outliers);
   const padMs = 14 * 24 * 60 * 60 * 1000;
   const xScale = d3.scaleTime()
-    .domain([new Date(dateMin.getTime() - padMs), new Date(dateMax.getTime() + padMs)])
+    .domain([new Date(denseMin - padMs), new Date(denseMax + padMs)])
     .range([MARGIN.left, width - MARGIN.right]);
 
   const g = svg.append("g");
@@ -247,12 +271,12 @@ function renderDesktop(
       .attr("font-size", 14)
       .attr("font-weight", 600)
       .attr("fill", "#9B9587")
-      .text(tl.topicName.length > 14 ? tl.topicName.slice(0, 12) + "…" : tl.topicName);
+      .text(tl.topicName.length > 18 ? tl.topicName.slice(0, 16) + "…" : tl.topicName);
   });
 
-  // X-axis
+  // X-axis — tick every 2 months to avoid overcrowding
   const xAxis = d3.axisBottom(xScale)
-    .ticks(d3.timeMonth.every(1))
+    .ticks(d3.timeMonth.every(2))
     .tickFormat((d) => {
       const date = d as Date;
       const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
@@ -278,14 +302,17 @@ function renderDesktop(
   timelines.forEach((tl, laneIndex) => {
     const laneY = MARGIN.top + laneIndex * laneHeight + laneHeight / 2;
 
-    // First/last labels
-    if (tl.items.length > 0) {
-      const first = tl.items[0];
-      const last = tl.items[tl.items.length - 1];
+    // Filter to dense-period items only (outliers shown in annotation card)
+    const denseItems = tl.items.filter((item) => !outlierSet.has(new Date(item.date).getTime()));
+
+    // First/last labels (based on dense items)
+    if (denseItems.length > 0) {
+      const first = denseItems[0];
+      const last = denseItems[denseItems.length - 1];
       const firstX = xScale(new Date(first.date));
       const lastX = xScale(new Date(last.date));
 
-      if (tl.items.length === 1) {
+      if (denseItems.length === 1) {
         g.append("text")
           .attr("x", firstX).attr("y", laneY - laneHeight / 2 + 12)
           .attr("text-anchor", "middle")
@@ -295,7 +322,7 @@ function renderDesktop(
           .text(`Only: ${formatShortDate(first.date)}`);
       } else {
         g.append("text")
-          .attr("x", firstX).attr("y", laneY - laneHeight / 2 + 12)
+          .attr("x", Math.max(MARGIN.left, firstX)).attr("y", laneY - laneHeight / 2 + 12)
           .attr("text-anchor", "start")
           .attr("font-size", 11)
           .attr("font-family", "var(--font-geist-mono)")
@@ -305,7 +332,7 @@ function renderDesktop(
         // Only show "Latest" if far enough from "First" to not overlap
         if (lastX - firstX > 120) {
           g.append("text")
-            .attr("x", lastX).attr("y", laneY - laneHeight / 2 + 12)
+            .attr("x", Math.min(width - MARGIN.right, lastX)).attr("y", laneY - laneHeight / 2 + 12)
             .attr("text-anchor", "end")
             .attr("font-size", 11)
             .attr("font-family", "var(--font-geist-mono)")
@@ -315,8 +342,8 @@ function renderDesktop(
       }
     }
 
-    // Render dots
-    tl.items.forEach((item, dotIndex) => {
+    // Render dots (dense period only)
+    denseItems.forEach((item, dotIndex) => {
       const cx = xScale(new Date(item.date));
       const yJitter = jitter(item.id, jitterRange);
       const cy = laneY + yJitter;
