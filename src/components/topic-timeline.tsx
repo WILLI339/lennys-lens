@@ -20,7 +20,7 @@ import { SYNTHESIS_COLORS } from "@/components/network-graph";
 const MOMENT_COLOR = "#4B5563";
 const LABEL_WIDTH = 130;
 const LANE_HEIGHT = 40;
-const MARGIN = { top: 20, right: 100, bottom: 40, left: LABEL_WIDTH + 10 };
+const MARGIN = { top: 40, right: 100, bottom: 10, left: LABEL_WIDTH + 10 };
 const MOBILE_MARGIN = { top: 50, right: 10, bottom: 20, left: 10 };
 const MOBILE_COL_WIDTH = 50;
 const MOBILE_BREAKPOINT = 640;
@@ -274,8 +274,8 @@ function renderDesktop(
       .text(tl.topicName.length > 18 ? tl.topicName.slice(0, 16) + "…" : tl.topicName);
   });
 
-  // X-axis — tick every 2 months to avoid overcrowding
-  const xAxis = d3.axisBottom(xScale)
+  // X-axis at top — tick every 2 months to avoid overcrowding
+  const xAxis = d3.axisTop(xScale)
     .ticks(d3.timeMonth.every(2))
     .tickFormat((d) => {
       const date = d as Date;
@@ -284,7 +284,7 @@ function renderDesktop(
     });
 
   g.append("g")
-    .attr("transform", `translate(0,${height - MARGIN.bottom})`)
+    .attr("transform", `translate(0,${MARGIN.top})`)
     .call(xAxis)
     .call((g) => {
       g.select(".domain").attr("stroke", "#2A2A42");
