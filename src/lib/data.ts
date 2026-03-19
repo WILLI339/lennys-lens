@@ -1,4 +1,4 @@
-import type { Graph, Newsletter, Podcast, Connection, Topic, ClaimWithSynthesis, PodcastMoment } from "./types";
+import type { Graph, Newsletter, Podcast, Connection, Topic, ClaimWithSynthesis, PodcastMoment, TimelineItem, TopicTimeline } from "./types";
 import graphData from "../../public/data/graph.json";
 
 const graph = graphData as unknown as Graph;
@@ -126,6 +126,90 @@ export function getGuestInfluence() {
   return Array.from(guestMap.values())
     .map((g) => ({ ...g, uniqueClaims: g.claimIds.size, claimIds: undefined }))
     .sort((a, b) => b.totalConnections - a.totalConnections);
+}
+
+export function getTopicTimelineData(topicSlug?: string): TopicTimeline[] {
+  const items: TimelineItem[] = [];
+
+  // Collect claims with inherited newsletter dates
+  for (const nl of graph.newsletters) {
+    const date = new Date(nl.date);
+    if (isNaN(date.getTime())) continue;
+    for (const claim of nl.claims) {
+      if (topicSlug && !claim.topics.includes(topicSlug)) continue;
+      items.push({
+        id: claim.id,
+        type: "claim",
+        date: nl.date,
+        topics: claim.topics,
+        label: claim.text,
+        synthesisLabel: claim.synthesisLabel,
+        connectionCount: claim.connectionCount,
+        newsletterSlug: nl.slug,
+        newsletterTitle: nl.title,
+        claimType: claim.type,
+      });
+    }
+  }
+
+  // Collect moments with inherited podcast dates
+  for (const pod of graph.podcasts) {
+    const date = new Date(pod.date);
+    if (isNaN(date.getTime())) continue;
+    for (const moment of pod.moments) {
+      if (topicSlug && !moment.topics.includes(topicSlug)) continue;
+      items.push({
+        id: moment.id,
+        type: "moment",
+        date: pod.date,
+        topics: moment.topics,
+        label: moment.text,
+        guest: moment.guest,
+        podcastTitle: pod.title,
+        timestamp: moment.timestamp,
+      });
+    }
+  }
+
+  // Group by topic
+  const topicMap = new Map<string, TimelineItem[]>();
+  for (const item of items) {
+    for (const t of item.topics) {
+      if (topicSlug && t !== topicSlug) continue;
+      if (!topicMap.has(t)) topicMap.set(t, []);
+      topicMap.get(t)!.push(item);
+    }
+  }
+
+  // Build result sorted by item count (most active first)
+  const topicLookup = new Map(graph.topics.map((t) => [t.slug, t.name]));
+  return Array.from(topicMap.entries())
+    .map(([slug, topicItems]) => ({
+      topicSlug: slug,
+      topicName: topicLookup.get(slug) || slug,
+      items: topicItems.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()),
+    }))
+    .sort((a, b) => b.items.length - a.items.length);
+}
+
+export function getTimelineDateBounds(): { min: string; max: string } | null {
+  const dates: number[] = [];
+
+  for (const nl of graph.newsletters) {
+    const d = new Date(nl.date).getTime();
+    if (!isNaN(d)) dates.push(d);
+  }
+  for (const pod of graph.podcasts) {
+    const d = new Date(pod.date).getTime();
+    if (!isNaN(d)) dates.push(d);
+  }
+
+  if (dates.length === 0) return null;
+
+  return {
+    min: new Date(Math.min(...dates)).toISOString(),
+    max: new Date(Math.max(...dates)).toISOString(),
+  };
 }
 
 export function searchAll(query: string) {

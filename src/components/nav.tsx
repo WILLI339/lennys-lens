@@ -11,6 +11,7 @@ export function Nav() {
     { href: "/", label: "Overview" },
     { href: "/topics", label: "Topics" },
     { href: "/graph", label: "Graph" },
+    { href: "/timeline", label: "Timeline" },
     { href: "/search", label: "Search" },
   ];
 

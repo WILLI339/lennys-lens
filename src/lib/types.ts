@@ -75,3 +75,25 @@ export interface Graph {
   connections: Connection[];
   topics: Topic[];
 }
+
+export interface TimelineItem {
+  id: string;
+  type: "claim" | "moment";
+  date: string;
+  topics: string[];
+  label: string;
+  synthesisLabel?: SynthesisLabel;
+  connectionCount?: number;
+  newsletterSlug?: string;
+  newsletterTitle?: string;
+  claimType?: string;
+  guest?: string;
+  podcastTitle?: string;
+  timestamp?: string;
+}
+
+export interface TopicTimeline {
+  topicSlug: string;
+  topicName: string;
+  items: TimelineItem[];
+}
