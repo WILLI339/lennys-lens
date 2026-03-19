@@ -158,7 +158,7 @@ function TimelinePage() {
           onClick={() => setSelectedTopic(null)}
           role="radio"
           aria-checked={selectedTopic === null}
-          className={`flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+          className={`flex shrink-0 items-center gap-1.5 rounded-full px-4 py-3 text-sm font-medium transition-colors ${
             selectedTopic === null
               ? "bg-foreground text-background"
               : "bg-muted text-muted-foreground hover:bg-accent"
@@ -172,7 +172,7 @@ function TimelinePage() {
             onClick={() => setSelectedTopic(slug === selectedTopic ? null : slug)}
             role="radio"
             aria-checked={selectedTopic === slug}
-            className={`flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+            className={`flex shrink-0 items-center gap-1.5 rounded-full px-4 py-3 text-sm font-medium transition-colors ${
               selectedTopic === slug
                 ? "bg-foreground text-background"
                 : "bg-muted text-muted-foreground hover:bg-accent"
