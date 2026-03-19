@@ -4733,5 +4733,270 @@
       "go-to-market",
       "startup-building"
     ]
+  },
+  {
+    "id": "moment-rahul-vohra-1",
+    "podcastSlug": "rahul-vohra",
+    "speaker": "Rahul Vohra",
+    "guest": "Rahul Vohra",
+    "timestamp": "00:00:01",
+    "text": "You have to deliberately not act on the feedback of many of your early users, and this is at the same time as listening to people intensely and building what people want. That's what we're here to do, is to make something that people want, but it can't be all people.",
+    "summary": "Achieving product-market fit requires deliberately ignoring feedback from users who are not your target audience, even while listening intensely.",
+    "topics": [
+      "product-management",
+      "feedback",
+      "growth"
+    ]
+  },
+  {
+    "id": "moment-rahul-vohra-2",
+    "podcastSlug": "rahul-vohra",
+    "speaker": "Rahul Vohra",
+    "guest": "Rahul Vohra",
+    "timestamp": "00:00:36",
+    "text": "This is a technique that I call the switch lock. It's born out of the observation that your calendar says what you thought you were going to do, but it's really only your trail of work that describes what you actually did. How can we capture that? So I came up with the following idea. What if I just did whatever the heck I wanted?",
+    "summary": "The 'switch lock' technique means tracking what you actually do rather than what your calendar says, letting you focus on what matters most.",
+    "topics": [
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "moment-rahul-vohra-3",
+    "podcastSlug": "rahul-vohra",
+    "speaker": "Rahul Vohra",
+    "guest": "Rahul Vohra",
+    "timestamp": "00:15:30",
+    "text": "You can classify anything that you build in a company into one of two categories, solution deepening and market widening. Solution deepening means making your product better for its existing users, but not making it available to more users. Whereas market widening means making your product available to more users, but not making the product itself any better.",
+    "summary": "Every company effort falls into either solution deepening (better product for existing users) or market widening (reaching new users), and balancing the two is critical to sustained growth.",
+    "topics": [
+      "growth",
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-rahul-vohra-4",
+    "podcastSlug": "rahul-vohra",
+    "speaker": "Rahul Vohra",
+    "guest": "Rahul Vohra",
+    "timestamp": "00:04:44",
+    "text": "The biggest secret of Superhuman, which is something that nobody else does, is that we would manually onboard every single new user for the first five years. People would sign up on the wait list, and when we were ready, our growth team would reach out, schedule a call, get on Zoom, and walk the person through every feature, every shortcut, and every workflow for Superhuman.",
+    "summary": "Superhuman manually onboarded every user one-on-one for five years, which drove deep engagement and word-of-mouth growth.",
+    "topics": [
+      "growth",
+      "product-design",
+      "retention"
+    ]
+  },
+  {
+    "id": "moment-rahul-vohra-5",
+    "podcastSlug": "rahul-vohra",
+    "speaker": "Rahul Vohra",
+    "guest": "Rahul Vohra",
+    "timestamp": "00:09:23",
+    "text": "I believe that every product should be positioned around a single primary attribute. In our case, that attribute is speed. Now, lots of products try to be good at everything. That tends to be a mistake, because if you try to stand for everything, you stand for nothing.",
+    "summary": "Successful product positioning means choosing a single primary attribute and committing fully to it rather than trying to be good at everything.",
+    "topics": [
+      "product-management",
+      "product-design",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "moment-rahul-vohra-6",
+    "podcastSlug": "rahul-vohra",
+    "speaker": "Rahul Vohra",
+    "guest": "Rahul Vohra",
+    "timestamp": "01:23:22",
+    "text": "If you haven't tried Superhuman, then gosh, what are you doing? Getting through your email twice as fast, responding one to two days sooner, saving four hours or more every single week, they're all real.",
+    "summary": "Superhuman's core value proposition is measurable: users get through email twice as fast and save four-plus hours per week.",
+    "topics": [
+      "metrics",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "moment-eric-simons-1",
+    "podcastSlug": "eric-simons",
+    "speaker": "Eric Simons",
+    "guest": "Eric Simons",
+    "timestamp": "00:00:05",
+    "text": "The company was on the verge of going under when we launched Bolt, and what ended up happening is, in the first two months it went from zero to 20 million of ARR. And we've already crossed 30 million of ARR, with the current rate we're on, our forecast for the year is we want to get to 100 million of ARR.",
+    "summary": "Bolt went from near-death to $20M ARR in two months, becoming one of the fastest-growing products in startup history.",
+    "topics": [
+      "growth",
+      "startup-building",
+      "metrics"
+    ]
+  },
+  {
+    "id": "moment-eric-simons-2",
+    "podcastSlug": "eric-simons",
+    "speaker": "Eric Simons",
+    "guest": "Eric Simons",
+    "timestamp": "00:00:30",
+    "text": "Most importantly, it's been the people. It's rare to find startups where you have the core group of five, six, seven people that have been there for five years plus.",
+    "summary": "Bolt's explosive growth was enabled by a rare core team of five to seven people who had worked together for over five years.",
+    "topics": [
+      "hiring",
+      "leadership",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-eric-simons-3",
+    "podcastSlug": "eric-simons",
+    "speaker": "Eric Simons",
+    "guest": "Eric Simons",
+    "timestamp": "01:06:58",
+    "text": "Sonnet was really the first model that flipped the equation. We actually tried building Bolt almost exactly a year ago, with the frontier models at the time. Spent a week or two building it. It just didn't work. The output, the code output was not reliable enough. And then we got a sneak peek of the Sonnet stuff in May and we were like, 'Oh. Okay, we should take that project back off the shelf.'",
+    "summary": "Anthropic's Sonnet model was the breakthrough that made Bolt possible -- earlier frontier models produced code that was not reliable enough.",
+    "topics": [
+      "ai-tools",
+      "engineering",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "moment-eric-simons-4",
+    "podcastSlug": "eric-simons",
+    "speaker": "Eric Simons",
+    "guest": "Eric Simons",
+    "timestamp": "01:09:57",
+    "text": "Software is deterministic. When you write code and you hit run, it either runs or it doesn't. And that's the key insight Anthropic really had. They just went deep. This is what they're doing, is just reinforcement learning on basically permutating every type of app you could ever build. I'm extremely bullish. It makes technical sense why, of anything, LLMs are going to get insanely better at writing code than probably most other types of applications.",
+    "summary": "Code is uniquely suited for AI because it is deterministic and verifiable, enabling massive reinforcement learning at scale.",
+    "topics": [
+      "ai-tools",
+      "engineering",
+      "ai-product"
+    ]
+  },
+  {
+    "id": "moment-eric-simons-5",
+    "podcastSlug": "eric-simons",
+    "speaker": "Eric Simons",
+    "guest": "Eric Simons",
+    "timestamp": "01:20:41",
+    "text": "I would say, talk to this thing like you do a Linear ticket, or a JIRA ticket. That would be my advice. Talk to this like you're talking to one of the developers on your team. Be specific on things that matter. And on things where you can let it be creative, you can just say, 'Hey, make it prettier.' And it does a really good job when you give it just, vibes.",
+    "summary": "The best way for PMs to use AI coding tools is to treat them like a developer teammate: be specific on requirements and give creative freedom on aesthetics.",
+    "topics": [
+      "ai-tools",
+      "product-management",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "moment-eric-simons-6",
+    "podcastSlug": "eric-simons",
+    "speaker": "Eric Simons",
+    "guest": "Eric Simons",
+    "timestamp": "01:15:41",
+    "text": "On any Figma URL, when you're looking at a design that you've made, if you just put bolt.new in front of that URL and hit enter, it's going to suck that design into Bolt, and turn it into a full stack app or mobile app, just out of the box.",
+    "summary": "Bolt's Figma integration lets users convert any Figma design URL into a working full-stack application with one click.",
+    "topics": [
+      "ai-tools",
+      "product-design",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "moment-eric-simons-7",
+    "podcastSlug": "eric-simons",
+    "speaker": "Eric Simons",
+    "guest": "Eric Simons",
+    "timestamp": "01:27:01",
+    "text": "It's always good to just have the perspective of, you should start companies to keep the mindset that you're doing it to have fun. So, stoked to see where this goes, one way or the other. It's going to be interesting.",
+    "summary": "The right mindset for founders is to build companies to have fun, not just to chase outcomes.",
+    "topics": [
+      "startup-building",
+      "career",
+      "leadership"
+    ]
+  },
+  {
+    "id": "moment-anton-osika-1",
+    "podcastSlug": "anton-osika",
+    "speaker": "Anton Osika",
+    "guest": "Anton Osika",
+    "timestamp": "00:00:00",
+    "text": "Lovable is your personal AI software engineer. You describe an idea and then you get a fully working product. The reason is to enable those who have had such a hard time finding people who are good at creating software that's been their absolute bottleneck and let them take their ideas and their dreams into reality.",
+    "summary": "Lovable removes the bottleneck of finding engineering talent by letting anyone turn an idea description into a working product.",
+    "topics": [
+      "ai-tools",
+      "vibe-coding",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-anton-osika-2",
+    "podcastSlug": "anton-osika",
+    "speaker": "Anton Osika",
+    "guest": "Anton Osika",
+    "timestamp": "00:00:31",
+    "text": "The best word for a great product is that it's lovable. A lot of jargon that I like to use to emphasize what we should be striving for is building a minimum lovable product and then building a lovable product and then building an absolutely lovable product. So I took that jargon with me in the company name.",
+    "summary": "The concept of 'minimum lovable product' rather than minimum viable product became the company's identity and north star.",
+    "topics": [
+      "naming",
+      "product-design",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-anton-osika-3",
+    "podcastSlug": "anton-osika",
+    "speaker": "Anton Osika",
+    "guest": "Anton Osika",
+    "timestamp": "00:00:51",
+    "text": "I think the number one most important skill when AI can do more and more is taste, like having really good taste for what to build and what is a great product. And so in some ways, the people that are like the best product people, like you, I actually think they're going to become more and more important over time.",
+    "summary": "As AI handles more execution, taste -- knowing what to build and what makes a great product -- becomes the most important human skill.",
+    "topics": [
+      "ai-tools",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "moment-anton-osika-4",
+    "podcastSlug": "anton-osika",
+    "speaker": "Anton Osika",
+    "guest": "Anton Osika",
+    "timestamp": "00:10:34",
+    "text": "Just start simple and then what you get is that the AI says, okay, I can go through what does a beautiful Airbnb clone look like and it goes through a bit of design decisions and then I'll zoom out to see more of it. We have this just UI that is... I mean it has all the nice things you would expect from Airbnb clone where you see different categories and you can see two listings from Airbnb with login buttons and everything.",
+    "summary": "A two-word prompt ('Airbnb clone') produces a full UI with categories, listings, and login buttons in 30 seconds.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "moment-anton-osika-5",
+    "podcastSlug": "anton-osika",
+    "speaker": "Anton Osika",
+    "guest": "Anton Osika",
+    "timestamp": "01:02:15",
+    "text": "The big learning is that you have to start with how is this product working end-to-end and then add AI or think where should we add AI. You really want to see what does the big picture of the user experience look like, and then add something with AI to solve specific problems.",
+    "summary": "Start with the end-to-end user experience first, then add AI to solve specific problems -- not the other way around.",
+    "topics": [
+      "ai-product",
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "moment-anton-osika-6",
+    "podcastSlug": "anton-osika",
+    "speaker": "Anton Osika",
+    "guest": "Anton Osika",
+    "timestamp": "01:06:19",
+    "text": "I think if you spend a full week on trying to reach an outcome, the best way to learn is I want to do this thing and then I want to use AI to do that thing. And you've spent a full week, you are in the top 1% in the global population. And if you surround yourself with friends who have this obsession or they also care a lot about this, then you'd be quickly in the top 0.1%.",
+    "summary": "Spending just one focused week using AI tools to solve a real problem puts you in the top 1% of AI fluency globally.",
+    "topics": [
+      "ai-tools",
+      "career",
+      "productivity"
+    ]
   }
 ]
