@@ -7443,5 +7443,2725 @@
       "hiring",
       "leadership"
     ]
+  },
+  {
+    "id": "claim-how-to-develop-product-sense-1",
+    "newsletterSlug": "how-to-develop-product-sense",
+    "text": "Product sense is not something you need to be born with; it is a learned skill that can be developed through deliberate practice in empathy and creativity.",
+    "type": "framework",
+    "evidence": "Jules Walter defines product sense as consistently crafting products with intended impact, built on empathy and creativity, and outlines four concrete practices to develop it.",
+    "topics": [
+      "product-sense",
+      "product-management",
+      "skill-development"
+    ]
+  },
+  {
+    "id": "claim-how-to-develop-product-sense-2",
+    "newsletterSlug": "how-to-develop-product-sense",
+    "text": "Observing users interacting with products two to four times per month, paying attention to micro details like facial expressions and hesitations, builds stronger product intuition than reading research reports.",
+    "type": "recommendation",
+    "evidence": "Jules Walter's experience at Slack showed that firsthand user observation revealed insights about mobile churn that led to experiments significantly increasing retention.",
+    "topics": [
+      "user-research",
+      "product-sense",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-how-to-develop-product-sense-3",
+    "newsletterSlug": "how-to-develop-product-sense",
+    "text": "Removing many small annoyances from a product adds up to something meaningfully valuable, even when no single fix moves metrics significantly.",
+    "type": "observation",
+    "evidence": "At Slack, Stewart Butterfield's obsession with details led to positive customer tickets thanking the team for thoughtfulness, even though users couldn't articulate exactly why they loved Slack.",
+    "topics": [
+      "product-design",
+      "user-experience",
+      "attention-to-detail"
+    ]
+  },
+  {
+    "id": "claim-how-to-develop-product-sense-4",
+    "newsletterSlug": "how-to-develop-product-sense",
+    "text": "Spending time understanding and reframing user problems with strong constraints is more valuable than jumping to solutions, because good framing naturally narrows the solution space.",
+    "type": "framework",
+    "evidence": "Stewart Butterfield taught that proper problem framing sets opinionated constraints so only a few solutions remain, streamlining decision-making.",
+    "topics": [
+      "problem-framing",
+      "product-strategy",
+      "decision-making"
+    ]
+  },
+  {
+    "id": "claim-how-to-develop-product-sense-5",
+    "newsletterSlug": "how-to-develop-product-sense",
+    "text": "Keeping track of emerging technology trends at both macro and micro levels helps PMs develop creative product solutions by understanding what is newly possible.",
+    "type": "recommendation",
+    "evidence": "Cash App's decision to support Bitcoin drove 76% of its 2020 revenue; Uber became possible due to smartphone GPS and Google Maps APIs; Figma leveraged performant WebGL.",
+    "topics": [
+      "technology-trends",
+      "product-strategy",
+      "creativity"
+    ]
+  },
+  {
+    "id": "claim-freemium-vs-trial-1",
+    "newsletterSlug": "freemium-vs-trial",
+    "text": "Making a product free is an acquisition strategy, not a monetization strategy; it lowers CAC, increases virality, and gets attention in crowded markets.",
+    "type": "framework",
+    "evidence": "Analysis of ~50 SaaS pricing models shows nearly every SaaS product offers some form of free offering to drive growth.",
+    "topics": [
+      "pricing",
+      "freemium",
+      "acquisition-strategy"
+    ]
+  },
+  {
+    "id": "claim-freemium-vs-trial-2",
+    "newsletterSlug": "freemium-vs-trial",
+    "text": "Nearly 90% of freemium SaaS products also offer a free trial of their paid tier, meaning most companies do not need to choose between freemium and trial.",
+    "type": "observation",
+    "evidence": "Survey of ~50 SaaS companies found about 50% do both freemium and trial, and nearly all freemium products also offer a trial.",
+    "topics": [
+      "pricing",
+      "freemium",
+      "saas"
+    ]
+  },
+  {
+    "id": "claim-freemium-vs-trial-3",
+    "newsletterSlug": "freemium-vs-trial",
+    "text": "Companies should go with a trial instead of freemium only if their product requires significant hand-holding, has complex integration needs, or has a high price point.",
+    "type": "recommendation",
+    "evidence": "Products like Okta, ServiceNow, and Snowflake use trials because they require complex integration or many stakeholders.",
+    "topics": [
+      "pricing",
+      "saas",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "claim-freemium-vs-trial-4",
+    "newsletterSlug": "freemium-vs-trial",
+    "text": "Freemium should not be implemented until a company truly understands how to convert leads to customers, typically 2-3 years into the business.",
+    "type": "recommendation",
+    "evidence": "Patrick Campbell of ProfitWell advises that premature freemium increases noise and false positives when trying to find segment beachheads.",
+    "topics": [
+      "pricing",
+      "freemium",
+      "startup-strategy"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-waitlist-conversion-1",
+    "newsletterSlug": "what-is-good-waitlist-conversion",
+    "text": "Waitlist-to-free-signup conversion averages around 50% if users are admitted within a month, but drops below 20% if they wait over three months.",
+    "type": "observation",
+    "evidence": "Data collected from multiple founders across Twitter, email, and in-person conversations about their waitlist experiences.",
+    "topics": [
+      "waitlist",
+      "conversion-rates",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-waitlist-conversion-2",
+    "newsletterSlug": "what-is-good-waitlist-conversion",
+    "text": "Time on the waitlist is by far the biggest factor in conversion rate, as people quickly lose interest and forget what they signed up for.",
+    "type": "observation",
+    "evidence": "Linear saw 30-50% conversion in the first few months dropping to 10% at 12 months; multiple founders confirmed this pattern.",
+    "topics": [
+      "waitlist",
+      "conversion-rates",
+      "user-engagement"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-waitlist-conversion-3",
+    "newsletterSlug": "what-is-good-waitlist-conversion",
+    "text": "Running waitlist emails through a bounce filter before sending invites prevents spam folder issues that can significantly reduce conversion rates.",
+    "type": "recommendation",
+    "evidence": "Henrique Cruz at Rows found that releasing 5K invites at once caused hundreds of bounces leading to spam issues.",
+    "topics": [
+      "waitlist",
+      "email-deliverability",
+      "growth-tactics"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-monthly-churn-1",
+    "newsletterSlug": "what-is-good-monthly-churn",
+    "text": "Good monthly churn for B2C SaaS is 3-5%, for B2B SMB/Mid-Market is 2.5-5%, and for B2B Enterprise is 1-2%, with great being roughly half those figures.",
+    "type": "framework",
+    "evidence": "Consensus from 16 growth experts plus data from ProfitWell's dataset of 13,000 anonymized SaaS companies.",
+    "topics": [
+      "churn",
+      "saas-metrics",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-monthly-churn-2",
+    "newsletterSlug": "what-is-good-monthly-churn",
+    "text": "The higher the price point, the lower you should expect target churn, because smaller businesses are more likely to go out of business and high-CAC companies cannot survive high churn.",
+    "type": "framework",
+    "evidence": "ProfitWell data shows acceptable churn at $5K+ monthly price points is below 0.35%; experts confirm the correlation.",
+    "topics": [
+      "churn",
+      "pricing",
+      "unit-economics"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-monthly-churn-3",
+    "newsletterSlug": "what-is-good-monthly-churn",
+    "text": "Churn should be decomposed into intentional vs involuntary and soft vs hard churn to identify actionable improvement areas like failed credit cards and forgotten passwords.",
+    "type": "recommendation",
+    "evidence": "Crystal Widjaja (CPO at Kumu, ex-Gojek) explains that overlooking involuntary churn causes companies to lose meaningful percentage points.",
+    "topics": [
+      "churn",
+      "retention",
+      "product-analytics"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-promoted-1",
+    "newsletterSlug": "how-to-get-promoted",
+    "text": "People do not get promoted for doing their jobs well; they get promoted by demonstrating their potential to do more through taking on increased scope.",
+    "type": "framework",
+    "evidence": "Lenny's own experience: proactively mentoring junior PMs led to management promotion; leading cross-departmental projects led to senior PM promotion.",
+    "topics": [
+      "career-growth",
+      "promotion",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-promoted-2",
+    "newsletterSlug": "how-to-get-promoted",
+    "text": "The most underappreciated and often most powerful ingredient in getting promoted is having an influential champion who fights for you in the calibration process.",
+    "type": "observation",
+    "evidence": "Lenny's fastest career ramp-up occurred after moving to an influential manager who fought for him cycle after cycle.",
+    "topics": [
+      "career-growth",
+      "promotion",
+      "mentorship"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-promoted-3",
+    "newsletterSlug": "how-to-get-promoted",
+    "text": "If you have been stuck at the same level for over two years despite actively working on promotion strategies, it is probably time to explore a new job.",
+    "type": "recommendation",
+    "evidence": "Lenny's observation across his 16-year career with approximately nine promotions across engineering and product management roles.",
+    "topics": [
+      "career-growth",
+      "promotion",
+      "job-search"
+    ]
+  },
+  {
+    "id": "claim-lessons-from-140-angel-investments-1",
+    "newsletterSlug": "lessons-from-140-angel-investments",
+    "text": "Angel investors are usually wrong about which investments will do best; only a third of the biggest winners were rated as high-conviction at the time of investing.",
+    "type": "observation",
+    "evidence": "Lenny's review of 140+ investments found that if he only invested in high-conviction deals, he would have missed two-thirds of his best returns.",
+    "topics": [
+      "angel-investing",
+      "decision-making",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-lessons-from-140-angel-investments-2",
+    "newsletterSlug": "lessons-from-140-angel-investments",
+    "text": "Angel investing is more about access to deals than picking ability; getting into hot rounds matters more than trying to find hidden gems.",
+    "type": "framework",
+    "evidence": "Over two-thirds of Lenny's biggest winners were hot deals at the time; AngelList data shows broad indexing into credible deals outperforms selective picking.",
+    "topics": [
+      "angel-investing",
+      "deal-flow",
+      "venture-capital"
+    ]
+  },
+  {
+    "id": "claim-lessons-from-140-angel-investments-3",
+    "newsletterSlug": "lessons-from-140-angel-investments",
+    "text": "Power laws are extremely real in angel investing: 70% of paper gains can come from a single company, and 80% from just four companies out of 140+.",
+    "type": "observation",
+    "evidence": "Lenny's direct portfolio data showing extreme concentration of returns across 140+ angel investments.",
+    "topics": [
+      "angel-investing",
+      "power-law",
+      "portfolio-strategy"
+    ]
+  },
+  {
+    "id": "claim-lessons-from-140-angel-investments-4",
+    "newsletterSlug": "lessons-from-140-angel-investments",
+    "text": "The best way to build deal flow as an angel investor is to share great deals with other investors, as great deals function as currency in the investor community.",
+    "type": "recommendation",
+    "evidence": "Most of Lenny's investments shifted from friends' companies to deals shared by other angels and solo capitalists over time.",
+    "topics": [
+      "angel-investing",
+      "deal-flow",
+      "networking"
+    ]
+  },
+  {
+    "id": "claim-the-inside-story-of-facebook-marketplace-1",
+    "newsletterSlug": "the-inside-story-of-facebook-marketplace",
+    "text": "Facebook Marketplace solved the classic two-sided marketplace cold start problem not by recruiting new supply, but by cross-posting existing items from commerce Groups into the new Marketplace tab.",
+    "type": "observation",
+    "evidence": "Deb Liu describes the one-checkbox cross-posting experience that seeded supply by leveraging items already listed in Facebook Groups.",
+    "topics": [
+      "marketplace",
+      "cold-start",
+      "facebook"
+    ]
+  },
+  {
+    "id": "claim-the-inside-story-of-facebook-marketplace-2",
+    "newsletterSlug": "the-inside-story-of-facebook-marketplace",
+    "text": "Facebook Marketplace users initially never used the search bar because years of Facebook usage trained them to scroll, requiring the team to add a prominent search button to change behavior.",
+    "type": "observation",
+    "evidence": "Research showed users instinctively scrolled on Facebook while searching on competitor apps; adding a visible search button permanently increased search participation.",
+    "topics": [
+      "user-behavior",
+      "marketplace",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-the-inside-story-of-facebook-marketplace-3",
+    "newsletterSlug": "the-inside-story-of-facebook-marketplace",
+    "text": "Trust through real identity was Facebook Marketplace's key differentiator over anonymous platforms like Craigslist, especially for high-consideration categories like cars and rentals.",
+    "type": "observation",
+    "evidence": "Deb Liu's husband reviewed buyer profiles before meeting for a minivan sale; Facebook identity and tenure on platform provided comfort for in-person transactions.",
+    "topics": [
+      "marketplace",
+      "trust",
+      "competitive-advantage"
+    ]
+  },
+  {
+    "id": "claim-differentiating-your-product-1",
+    "newsletterSlug": "differentiating-your-product",
+    "text": "There are only two paths to winning a market according to Michael Porter: performing activities better than rivals (operational effectiveness) or performing different activities (differentiation), and differentiation is more sustainable long-term.",
+    "type": "framework",
+    "evidence": "Porter's research shows competitors copy operational improvements and erode margins, making differentiation the more durable strategy.",
+    "topics": [
+      "product-strategy",
+      "differentiation",
+      "competitive-advantage"
+    ]
+  },
+  {
+    "id": "claim-differentiating-your-product-2",
+    "newsletterSlug": "differentiating-your-product",
+    "text": "There are seven common ways to differentiate a product: be cheapest, highest quality, most convenient, safest, proprietary, feel-good to buy, or focused on a niche underserved market.",
+    "type": "framework",
+    "evidence": "Analysis of hundreds of companies including Apple, Robinhood, DuckDuckGo, Patagonia, and DoorDash mapped to these seven categories.",
+    "topics": [
+      "product-strategy",
+      "differentiation",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "claim-differentiating-your-product-3",
+    "newsletterSlug": "differentiating-your-product",
+    "text": "Combining multiple differentiators creates an even stronger competitive position than relying on a single one.",
+    "type": "recommendation",
+    "evidence": "Patagonia combines highest quality plus feel-good; Apple combines highest quality plus safest; Airbnb combined cheapest plus proprietary supply.",
+    "topics": [
+      "product-strategy",
+      "differentiation",
+      "competitive-advantage"
+    ]
+  },
+  {
+    "id": "claim-prioritizing-at-startups-1",
+    "newsletterSlug": "prioritizing-at-startups",
+    "text": "The single goal of an early-stage pre-PMF startup should be to make 10 customers very happy, and everything prioritized should serve this goal.",
+    "type": "framework",
+    "evidence": "Founders from Ashby, Vanta, Stytch, Writer, Zip, and Mage confirm this approach; if you cannot make 10 customers very happy, you likely do not have a business.",
+    "topics": [
+      "startup-strategy",
+      "prioritization",
+      "product-market-fit"
+    ]
+  },
+  {
+    "id": "claim-prioritizing-at-startups-2",
+    "newsletterSlug": "prioritizing-at-startups",
+    "text": "Early-stage startups should not try to be data-driven because they simply do not have enough data for statistical significance; a 10% improvement at 20% conversion requires over 5,000 users.",
+    "type": "recommendation",
+    "evidence": "Sample size calculator shows the data requirements are far beyond what most early-stage startups have.",
+    "topics": [
+      "startup-strategy",
+      "data-driven",
+      "experimentation"
+    ]
+  },
+  {
+    "id": "claim-prioritizing-at-startups-3",
+    "newsletterSlug": "prioritizing-at-startups",
+    "text": "Startups should not build everything users ask for but instead focus on understanding user pain points and independently designing the best solutions.",
+    "type": "recommendation",
+    "evidence": "Julianna Lamb at Stytch explains that building what customers ask for without understanding the root problem leads to one-off solutions instead of universally applicable products.",
+    "topics": [
+      "startup-strategy",
+      "user-research",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "claim-what-is-a-good-payback-period-1",
+    "newsletterSlug": "what-is-a-good-payback-period",
+    "text": "For B2C businesses a payback period under 1 month is great and under 6 months is good; for B2B SMB under 6 months is great and under 12 months is good; for B2B Enterprise under 12 months is great and under 18 months is good.",
+    "type": "framework",
+    "evidence": "Consensus from 16 growth experts including Andrew Chen, Casey Winters, Elena Verna, and Dan Hockenmaier.",
+    "topics": [
+      "payback-period",
+      "unit-economics",
+      "growth-metrics"
+    ]
+  },
+  {
+    "id": "claim-what-is-a-good-payback-period-2",
+    "newsletterSlug": "what-is-a-good-payback-period",
+    "text": "Startups should focus on payback periods over LTV/CAC ratios because accurately calculating LTV for an early-stage company is highly suspect due to limited data.",
+    "type": "recommendation",
+    "evidence": "Casey Winters explains that early-stage startups have very little data to predict lifetime value, making long payback periods especially risky.",
+    "topics": [
+      "payback-period",
+      "unit-economics",
+      "startup-metrics"
+    ]
+  },
+  {
+    "id": "claim-what-is-a-good-payback-period-3",
+    "newsletterSlug": "what-is-a-good-payback-period",
+    "text": "One of the highest-ROI optimization hacks for mid-stage companies is running in-app promos and emails to convert monthly subscribers to annual plans, effectively getting customer loans to fund growth.",
+    "type": "recommendation",
+    "evidence": "ChenLi Wang explains that annual plans create positive cash cycles, with some companies pricing annual at 6x monthly just to fuel growth.",
+    "topics": [
+      "payback-period",
+      "pricing",
+      "growth-tactics"
+    ]
+  },
+  {
+    "id": "claim-the-atomic-network-1",
+    "newsletterSlug": "the-atomic-network",
+    "text": "The atomic network is the smallest network needed that can stand on its own, and if you can build one, you can build many more by repeating the same playbook.",
+    "type": "framework",
+    "evidence": "Andrew Chen's research shows Slack's atomic network was under 10 people on a team, while credit cards needed an entire city; the concept scales from there.",
+    "topics": [
+      "network-effects",
+      "cold-start",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "claim-the-atomic-network-2",
+    "newsletterSlug": "the-atomic-network",
+    "text": "A product's first atomic network is probably smaller and more specific than expected, often on the order of hundreds of people at a specific moment in time rather than a city or segment.",
+    "type": "framework",
+    "evidence": "Uber's earliest focus was '5pm at the Caltrain station at 5th and King St' rather than all of San Francisco.",
+    "topics": [
+      "network-effects",
+      "cold-start",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "claim-the-atomic-network-3",
+    "newsletterSlug": "the-atomic-network",
+    "text": "The next big thing will start out looking like it is for a niche network, which is why new networked products are easy to underestimate.",
+    "type": "prediction",
+    "evidence": "Andrew Chen extends Clayton Christensen's Disruption Theory: products look like toys AND target weird niches, making market-size objections misleading.",
+    "topics": [
+      "network-effects",
+      "disruption",
+      "startup-strategy"
+    ]
+  },
+  {
+    "id": "claim-the-most-common-pitfalls-of-new-product-managers-1",
+    "newsletterSlug": "the-most-common-pitfalls-of-new-product-managers",
+    "text": "The five most common pitfalls for new PMs are: being a Coordinator (no point of view), a Dictator (micro-managing), a Dreamer (too much strategy), a Feature Factory (shipping without strategy), and a Busted Umbrella (failing to shield the team).",
+    "type": "framework",
+    "evidence": "Lenny's observations across his PM career and from working with many PMs, mapped to five distinct failure modes.",
+    "topics": [
+      "product-management",
+      "pm-pitfalls",
+      "career-development"
+    ]
+  },
+  {
+    "id": "claim-the-most-common-pitfalls-of-new-product-managers-2",
+    "newsletterSlug": "the-most-common-pitfalls-of-new-product-managers",
+    "text": "Shipping is not success; success is shipping work that has meaningful business impact, high ROI relative to alternatives, and moves you closer to your strategy.",
+    "type": "framework",
+    "evidence": "The Feature Factory pitfall: teams without strategy ship constantly but go nowhere because they lack a filter for what matters.",
+    "topics": [
+      "product-management",
+      "strategy",
+      "execution"
+    ]
+  },
+  {
+    "id": "claim-a-product-managers-guide-to-web3-1",
+    "newsletterSlug": "a-product-managers-guide-to-web3",
+    "text": "Web3 PMs are responsible for the success of communities rather than increasing acquisition, engagement, or revenue metrics; the role prioritizes execution over vision.",
+    "type": "framework",
+    "evidence": "Jason Shah at Alchemy describes how web3 PM emphasizes building, marketing, and iterating rather than planning, managing, and measuring, with 95/5 execution/vision split.",
+    "topics": [
+      "web3",
+      "product-management",
+      "community"
+    ]
+  },
+  {
+    "id": "claim-a-product-managers-guide-to-web3-2",
+    "newsletterSlug": "a-product-managers-guide-to-web3",
+    "text": "Product managers are not yet common or well understood in web3 because the 0-1 phase depends more on technical infrastructure, cryptoeconomics, and community than on traditional PM skills.",
+    "type": "observation",
+    "evidence": "Nearly half of 20+ web3 teams Jason Shah explored roles with in 2021 did not understand what PMs were for; the Ethereum Foundation has 97 employees with virtually zero PMs.",
+    "topics": [
+      "web3",
+      "product-management",
+      "organizational-design"
+    ]
+  },
+  {
+    "id": "claim-a-product-managers-guide-to-web3-3",
+    "newsletterSlug": "a-product-managers-guide-to-web3",
+    "text": "In web3, open-source code and portable user data mean companies cannot rely on proprietary code, trade secrets, or data moats as competitive advantages, forcing continuous product improvement.",
+    "type": "observation",
+    "evidence": "Sushiswap forked Uniswap and conducted a vampire attack; any competitor can fork your product and compete instantly.",
+    "topics": [
+      "web3",
+      "competitive-advantage",
+      "open-source"
+    ]
+  },
+  {
+    "id": "claim-become-a-more-technical-product-manager-1",
+    "newsletterSlug": "become-a-more-technical-product-manager",
+    "text": "A technical background is a superpower for product managers because it enables better decisions, understanding of trade-offs, more accurate estimates, and more confident communication with engineers.",
+    "type": "recommendation",
+    "evidence": "Lenny and Colin Matthews explain that with AI increasingly infused into products, it is even more important that PMs understand technical basics.",
+    "topics": [
+      "product-management",
+      "technical-skills",
+      "career-development"
+    ]
+  },
+  {
+    "id": "claim-become-a-more-technical-product-manager-2",
+    "newsletterSlug": "become-a-more-technical-product-manager",
+    "text": "Almost every software product is built with the same three fundamental parts: a client, a server, and a database, and understanding this architecture helps PMs collaborate more effectively.",
+    "type": "framework",
+    "evidence": "Colin Matthews' breakdown of application architecture shows how these three components interact through APIs in products like Airbnb and OpenAI.",
+    "topics": [
+      "technical-skills",
+      "software-architecture",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-become-a-more-technical-product-manager-3",
+    "newsletterSlug": "become-a-more-technical-product-manager",
+    "text": "Testing is a high-leverage area for PMs to quickly improve product quality; a quick round of end-to-end testing with engineering before a major release catches issues before production.",
+    "type": "recommendation",
+    "evidence": "Colin Matthews explains that engineers often do not fully understand the whole codebase, making PM-led E2E testing especially valuable.",
+    "topics": [
+      "testing",
+      "product-quality",
+      "engineering-collaboration"
+    ]
+  },
+  {
+    "id": "claim-my-podcast-tech-stack-workflows-and-lessons-1",
+    "newsletterSlug": "my-podcast-tech-stack-workflows-and-lessons",
+    "text": "Instead of trying to make something a lot of people like, create something that 100 people love, because once you have that foothold, growth follows through word of mouth and better guests.",
+    "type": "framework",
+    "evidence": "Lenny applied this advice to launch a niche PM podcast that became a top 10 global technology podcast.",
+    "topics": [
+      "content-creation",
+      "audience-building",
+      "podcasting"
+    ]
+  },
+  {
+    "id": "claim-my-podcast-tech-stack-workflows-and-lessons-2",
+    "newsletterSlug": "my-podcast-tech-stack-workflows-and-lessons",
+    "text": "YouTube is the single best channel for podcast discovery because over half of new listeners come from YouTube's algorithms, a growth channel unmatched by any other platform.",
+    "type": "observation",
+    "evidence": "Lenny's data showing over half of podcast views come from YouTube sending new people to his content.",
+    "topics": [
+      "podcasting",
+      "youtube",
+      "distribution"
+    ]
+  },
+  {
+    "id": "claim-my-podcast-tech-stack-workflows-and-lessons-3",
+    "newsletterSlug": "my-podcast-tech-stack-workflows-and-lessons",
+    "text": "Aim for B+ quality when starting a podcast and work up from there, because putting too much pressure on perfection prevents you from starting at all.",
+    "type": "recommendation",
+    "evidence": "Lenny shows early episodes of Lex Fridman, Huberman Lab, and other now-popular podcasts that were clearly not A+ quality on day one.",
+    "topics": [
+      "podcasting",
+      "content-creation",
+      "perfectionism"
+    ]
+  },
+  {
+    "id": "claim-what-is-product-management-1",
+    "newsletterSlug": "what-is-product-management",
+    "text": "A PM's job is to deliver business impact by marshaling the resources of their team to identify and solve the most impactful customer problems.",
+    "type": "framework",
+    "evidence": "Lenny's synthesis from analyzing dozens of PM career ladders and surveying ~1,000 PMs across hundreds of companies.",
+    "topics": [
+      "product-management",
+      "role-definition",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-what-is-product-management-2",
+    "newsletterSlug": "what-is-product-management",
+    "text": "The PM role varies dramatically across companies along two axes: which skills matter most and how much influence a PM has, with Zynga at the mini-CEO end and Apple at the project-manager end.",
+    "type": "observation",
+    "evidence": "Survey data and career ladder analysis across companies like Google, Meta, Stripe, Netflix, and Airbnb showing wide variation.",
+    "topics": [
+      "product-management",
+      "organizational-design",
+      "company-culture"
+    ]
+  },
+  {
+    "id": "claim-six-rules-of-hiring-for-growth-1",
+    "newsletterSlug": "six-rules-of-hiring-for-growth",
+    "text": "Founding teams should create the first growth model themselves rather than outsourcing it to a Head of Growth hire, because only they understand the DNA of the product and market deeply enough.",
+    "type": "recommendation",
+    "evidence": "Elena Verna argues that a new Head of Growth will likely copy-paste from past experience rather than build an authentic model aligned with product-market fit.",
+    "topics": [
+      "growth",
+      "hiring",
+      "startup-strategy"
+    ]
+  },
+  {
+    "id": "claim-six-rules-of-hiring-for-growth-2",
+    "newsletterSlug": "six-rules-of-hiring-for-growth",
+    "text": "A growth model consists of growth levers (acquisition, retention, monetization) and growth motions (product-led, sales-led, marketing-led), and the unique combination creates a defensible growth strategy.",
+    "type": "framework",
+    "evidence": "Elena Verna shows how SurveyMonkey and Qualtrics competed with nearly the same product but won different segments by applying different growth motions.",
+    "topics": [
+      "growth",
+      "growth-model",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "claim-six-rules-of-hiring-for-growth-3",
+    "newsletterSlug": "six-rules-of-hiring-for-growth",
+    "text": "The first growth hire should be a Builder generalist who proves the growth model's validity, not an Innovator who thinks big or an Optimizer who squeezes marginal gains.",
+    "type": "recommendation",
+    "evidence": "Elena Verna's framework of three growth profiles (Innovators, Builders, Optimizers) with sequencing advice based on whether the initial growth model hypothesis proves correct.",
+    "topics": [
+      "growth",
+      "hiring",
+      "team-building"
+    ]
+  },
+  {
+    "id": "claim-the-top-5-things-pms-should-know-about-engineering-1",
+    "newsletterSlug": "the-top-5-things-pms-should-know-about-engineering",
+    "text": "PMs should learn their company's tech stack, sensitive points in the codebase, the build and deploy process, how to contribute small code changes, and technical basics.",
+    "type": "framework",
+    "evidence": "Justin Gage's five areas map to practical PM effectiveness: understanding trade-offs, avoiding delays, and building engineer trust.",
+    "topics": [
+      "technical-skills",
+      "product-management",
+      "engineering-collaboration"
+    ]
+  },
+  {
+    "id": "claim-the-top-5-things-pms-should-know-about-engineering-2",
+    "newsletterSlug": "the-top-5-things-pms-should-know-about-engineering",
+    "text": "Being able to make small frontend changes like copy and color fixes yourself will result in more polished products shipped faster and win you points with engineers.",
+    "type": "recommendation",
+    "evidence": "Justin Gage suggests PMs learn to open PRs for small self-contained changes rather than relying on engineers for typo fixes.",
+    "topics": [
+      "technical-skills",
+      "product-management",
+      "shipping"
+    ]
+  },
+  {
+    "id": "claim-top-angel-investors-in-the-us-1",
+    "newsletterSlug": "top-angel-investors-in-the-us",
+    "text": "The best angel investors operate through warm introductions rather than cold emails because warm intros serve as an effective filter for deal quality and prevent overwhelm.",
+    "type": "observation",
+    "evidence": "Crunchbase data analysis combined with Terrence Rohan and Jack Altman's fundraising advice; the top angel investors are not a known quantity unlike top funds.",
+    "topics": [
+      "angel-investing",
+      "fundraising",
+      "networking"
+    ]
+  },
+  {
+    "id": "claim-top-angel-investors-in-the-us-2",
+    "newsletterSlug": "top-angel-investors-in-the-us",
+    "text": "The most active angel investors over the past five years are overwhelmingly operator-investors who leverage deep experience at companies like Google, Facebook, Stripe, and Microsoft.",
+    "type": "observation",
+    "evidence": "Crunchbase data showing top angels include Gokul Rajaram (Google/Facebook/DoorDash), Elad Gil (Twitter), Scott Belsky (Adobe), and Lachy Groom (Stripe).",
+    "topics": [
+      "angel-investing",
+      "operator-investors",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-14-habits-of-highly-effective-product-managers-1",
+    "newsletterSlug": "14-habits-of-highly-effective-product-managers",
+    "text": "Great PMs take pride in the clarity and conciseness of their documents, emails, presentations, and meetings because people judge the quality of thinking by the quality of communication.",
+    "type": "recommendation",
+    "evidence": "Lenny's observation over years of watching the best PMs, noting that effective communication is the most fundamental PM skill.",
+    "topics": [
+      "product-management",
+      "communication",
+      "career-development"
+    ]
+  },
+  {
+    "id": "claim-14-habits-of-highly-effective-product-managers-2",
+    "newsletterSlug": "14-habits-of-highly-effective-product-managers",
+    "text": "Great PMs build an aura of 'I have got this' by rarely dropping balls, coming prepared, and ensuring colleagues know that assigned tasks will get done.",
+    "type": "recommendation",
+    "evidence": "Practical suggestions include being selective with commitments, maintaining a Waiting For list, and communicating priority of new requests.",
+    "topics": [
+      "product-management",
+      "execution",
+      "reliability"
+    ]
+  },
+  {
+    "id": "claim-picking-a-wedge-1",
+    "newsletterSlug": "picking-a-wedge",
+    "text": "A wedge is a strategy to win a large market by initially capturing a tiny part of a larger market or a large part of a small adjacent market, then expanding from that foothold.",
+    "type": "framework",
+    "evidence": "Twilio started with SMS APIs and became a $60B communication platform; Airbnb started with room rentals and captured 20% of the $90B vacation rental market; Amazon started with books.",
+    "topics": [
+      "startup-strategy",
+      "wedge",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "claim-picking-a-wedge-2",
+    "newsletterSlug": "picking-a-wedge",
+    "text": "A wedge is most essential when going after a market that is entrenched or crowded; companies like Zoom, Slack, and Notion won large markets straight-on without a wedge by having an amazing product.",
+    "type": "observation",
+    "evidence": "Datadog CEO Olivier Pomel confirms that some product categories like infrastructure management require broad initial capability and do not work with a wedge.",
+    "topics": [
+      "startup-strategy",
+      "wedge",
+      "product-market-fit"
+    ]
+  },
+  {
+    "id": "claim-finding-your-distribution-advantage-1",
+    "newsletterSlug": "finding-your-distribution-advantage",
+    "text": "Poor distribution, not product, is the number one cause of startup failure, and getting your product in front of the right people efficiently is increasingly what separates winners from losers.",
+    "type": "observation",
+    "evidence": "Peter Thiel quote supported by data showing free channels like SEO are getting crowded, CPMs are rising, and privacy features are making paid acquisition harder.",
+    "topics": [
+      "distribution",
+      "growth",
+      "startup-strategy"
+    ]
+  },
+  {
+    "id": "claim-finding-your-distribution-advantage-2",
+    "newsletterSlug": "finding-your-distribution-advantage",
+    "text": "There are seven early-stage distribution advantages: pre-existing audience, unique viral loop, being first on an emerging platform, remarkable story, pre-existing relationships, strategic partnerships, and extraordinary hustle.",
+    "type": "framework",
+    "evidence": "Examples include Kylie Cosmetics (audience), Tesla (Elon's audience), DoorDash (hustle in Tier 2/3 markets), and Clubhouse (first on audio social).",
+    "topics": [
+      "distribution",
+      "growth",
+      "startup-strategy"
+    ]
+  },
+  {
+    "id": "claim-why-now-1",
+    "newsletterSlug": "why-now",
+    "text": "A strong 'why now' is helpful but not essential for building a large business; companies like SpaceX, Airbnb, Pinterest, DoorDash, and Facebook had little or no why-now at founding.",
+    "type": "observation",
+    "evidence": "Research with investors including Sarah Tavel, Ann Miura-Ko, and Garry Tan shows why-now creates advantages but is not mandatory.",
+    "topics": [
+      "startup-strategy",
+      "fundraising",
+      "timing"
+    ]
+  },
+  {
+    "id": "claim-why-now-2",
+    "newsletterSlug": "why-now",
+    "text": "A strong why-now creates one of two advantages: it unlocks the ability to provide a 10x better product (like smartphones enabling Uber) or it creates a new untapped market need (like remote work enabling Zoom).",
+    "type": "framework",
+    "evidence": "Mapped dozens of companies to their why-now sources including technology shifts (Figma/WebGL), regulatory changes (Eaze/marijuana legalization), and social changes (remote work).",
+    "topics": [
+      "startup-strategy",
+      "timing",
+      "market-opportunity"
+    ]
+  },
+  {
+    "id": "claim-types-of-business-models-1",
+    "newsletterSlug": "types-of-business-models",
+    "text": "There are eight fundamental business model types: sell a thing, rent a thing, take a cut, charge a subscription, charge for usage, sell access, sell attention, and charge per transaction.",
+    "type": "framework",
+    "evidence": "Lenny's original taxonomy mapping all known business models to eight categories with examples like Stripe (take a cut), Netflix (subscription), AWS (usage).",
+    "topics": [
+      "business-model",
+      "startup-strategy",
+      "monetization"
+    ]
+  },
+  {
+    "id": "claim-the-most-important-consumer-metrics-to-track-1",
+    "newsletterSlug": "the-most-important-consumer-metrics-to-track",
+    "text": "The most important metrics to track vary significantly by consumer business type: trial-based subscriptions, freemium subscriptions, ad-based, marketplaces, and DTC each require different metric sets.",
+    "type": "framework",
+    "evidence": "Framework developed with Sriram Krishnan and Yuriy Timen mapping specific metrics to five consumer business types.",
+    "topics": [
+      "metrics",
+      "consumer-products",
+      "growth-analytics"
+    ]
+  },
+  {
+    "id": "claim-the-most-important-consumer-metrics-to-track-2",
+    "newsletterSlug": "the-most-important-consumer-metrics-to-track",
+    "text": "Greater focus on fewer metrics leads to greater impact; teams should narrow to the two or three metrics that most directly drive business success.",
+    "type": "recommendation",
+    "evidence": "Lenny's repeated experience across multiple companies finding that excessive metric tracking dilutes effort.",
+    "topics": [
+      "metrics",
+      "focus",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-on-taking-time-off-1",
+    "newsletterSlug": "on-taking-time-off",
+    "text": "Sabbaticals are a peak life experience ranked alongside having a baby or getting married, and not a single person out of 250+ interviewed has regretted taking extended time off.",
+    "type": "observation",
+    "evidence": "DJ DiDonna's research at The Sabbatical Project surveying 250+ people from all walks of life, including those who got divorced or cared for dying loved ones during their sabbatical.",
+    "topics": [
+      "sabbatical",
+      "career",
+      "well-being"
+    ]
+  },
+  {
+    "id": "claim-on-taking-time-off-2",
+    "newsletterSlug": "on-taking-time-off",
+    "text": "The two most important principles for an effective sabbatical are taking enough time off and actually disconnecting from work.",
+    "type": "recommendation",
+    "evidence": "DJ DiDonna's research showing that partial disconnection undermines the transformational benefits of extended leave.",
+    "topics": [
+      "sabbatical",
+      "well-being",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-three-myths-about-sabbatical-programs-1",
+    "newsletterSlug": "three-myths-about-sabbatical-programs",
+    "text": "The three biggest myths about corporate sabbatical programs are that everyone will leave, the company will fall apart, and that people do not really need them.",
+    "type": "framework",
+    "evidence": "DJ DiDonna's research across law, consulting, fintech, and nonprofit organizations showing all three fears are unfounded.",
+    "topics": [
+      "sabbatical",
+      "company-culture",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-three-myths-about-sabbatical-programs-2",
+    "newsletterSlug": "three-myths-about-sabbatical-programs",
+    "text": "Nearly one in seven US companies now provide extended leave to employees, and sabbatical programs have become prevalent in the employee benefits arms race for top talent.",
+    "type": "observation",
+    "evidence": "DJ DiDonna's research data on corporate sabbatical adoption trends.",
+    "topics": [
+      "sabbatical",
+      "company-culture",
+      "hiring"
+    ]
+  },
+  {
+    "id": "claim-winning-at-early-stage-hiring-1",
+    "newsletterSlug": "winning-at-early-stage-hiring",
+    "text": "The most important factor in early-stage hiring success is the effectiveness of the company's mission or vision in compelling top candidates.",
+    "type": "observation",
+    "evidence": "Founders from Snackpass, Runway, Vori, and others all independently cite captivating vision as the primary reason they attract great talent.",
+    "topics": [
+      "hiring",
+      "startup-strategy",
+      "company-culture"
+    ]
+  },
+  {
+    "id": "claim-winning-at-early-stage-hiring-2",
+    "newsletterSlug": "winning-at-early-stage-hiring",
+    "text": "Hiring compounds: great early hires create a snowball effect where the quality of the existing team organically attracts more exceptional people.",
+    "type": "observation",
+    "evidence": "Multiple founders confirm the compounding effect, including Siqi Chen at Runway noting that raising the bar becomes easier over time.",
+    "topics": [
+      "hiring",
+      "team-building",
+      "startup-strategy"
+    ]
+  },
+  {
+    "id": "claim-how-to-know-if-youre-doing-a-good-job-as-a-product-manager-1",
+    "newsletterSlug": "how-to-know-if-youre-doing-a-good-job-as-a-product-manager",
+    "text": "An IC product manager's performance can be evaluated with three questions in priority order: is the team delivering business impact, are you personally contributing, and do stakeholders regard you highly.",
+    "type": "framework",
+    "evidence": "Lenny's synthesis from his 16-year career, applied as a practical day-to-day self-evaluation tool.",
+    "topics": [
+      "product-management",
+      "performance",
+      "career-development"
+    ]
+  },
+  {
+    "id": "claim-kickstarting-supply-in-a-labor-marketplace-1",
+    "newsletterSlug": "kickstarting-supply-in-a-labor-marketplace",
+    "text": "The most popular channel for early supply growth in labor marketplaces is posting generic roles to existing job boards like Indeed, ZipRecruiter, and Craigslist.",
+    "type": "observation",
+    "evidence": "Research across a dozen fast-growing labor marketplaces including Clipboard Health, Thumbtack, and Staffy confirms job boards as the dominant early supply channel.",
+    "topics": [
+      "marketplace",
+      "supply-growth",
+      "labor-marketplace"
+    ]
+  },
+  {
+    "id": "claim-breaking-into-growth-1",
+    "newsletterSlug": "breaking-into-growth",
+    "text": "The approach to transitioning into a growth PM role is simple: ask your manager for it, learn growth fundamentals through structured study, and then do actual growth work to demonstrate capability.",
+    "type": "recommendation",
+    "evidence": "Lenny's own transition from generalist PM to growth role at Airbnb by telling his manager, studying, and demonstrating results over six months.",
+    "topics": [
+      "career-growth",
+      "growth-pm",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-why-marketplaces-fail-1",
+    "newsletterSlug": "why-marketplaces-fail",
+    "text": "Marketplaces are roughly 2x as hard as non-marketplace businesses because you must find product-market fit for both supply and demand.",
+    "type": "observation",
+    "evidence": "Author's direct assertion based on experience evaluating 30+ marketplaces",
+    "topics": [
+      "marketplaces",
+      "product-market-fit"
+    ]
+  },
+  {
+    "id": "claim-why-marketplaces-fail-2",
+    "newsletterSlug": "why-marketplaces-fail",
+    "text": "The five most common reasons marketplaces fail are lack of demand-side PMF, lack of supply-side PMF, lack of liquidity, bad unit economics, and scaling too fast.",
+    "type": "framework",
+    "evidence": "Categorization from analysis of 30+ failed marketplace examples including Homejoy, Shyp, Fab, and others",
+    "topics": [
+      "marketplaces",
+      "failure-modes",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-why-marketplaces-fail-3",
+    "newsletterSlug": "why-marketplaces-fail",
+    "text": "Marketplaces beat non-marketplace alternatives on demand by delivering a much cheaper product, a much better product via exclusive supply, or a much better experience via aggregating disaggregated supply.",
+    "type": "framework",
+    "evidence": "Three demand-side advantages mapped to examples: DoorDash (cheaper), Airbnb (better product), GOAT/Uber (better experience)",
+    "topics": [
+      "marketplaces",
+      "competitive-advantage",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-why-marketplaces-fail-4",
+    "newsletterSlug": "why-marketplaces-fail",
+    "text": "There is generally one fatal issue that kills a marketplace rather than a combination of equal factors.",
+    "type": "observation",
+    "evidence": "Pattern observed across dozens of failed marketplace case studies",
+    "topics": [
+      "marketplaces",
+      "failure-modes"
+    ]
+  },
+  {
+    "id": "claim-choosing-a-take-rate-1",
+    "newsletterSlug": "choosing-a-take-rate",
+    "text": "Take rate is determined by the formula: Convenience + Demand - Competition, where platforms generally charge 5-15% and marketplaces charge 10-50%.",
+    "type": "framework",
+    "evidence": "Analysis of 35+ company take rates showing clear distinction between platforms and marketplaces",
+    "topics": [
+      "marketplaces",
+      "pricing",
+      "take-rate"
+    ]
+  },
+  {
+    "id": "claim-choosing-a-take-rate-2",
+    "newsletterSlug": "choosing-a-take-rate",
+    "text": "In winner-take-all markets, charging a lower take rate often beats a higher one because higher fees create friction and opportunity for competitors.",
+    "type": "recommendation",
+    "evidence": "Bill Gurley's argument in 'A Rake Too Far' plus Jeff Bezos quote 'your margin is my opportunity'",
+    "topics": [
+      "pricing",
+      "competitive-strategy",
+      "marketplaces"
+    ]
+  },
+  {
+    "id": "claim-choosing-a-take-rate-3",
+    "newsletterSlug": "choosing-a-take-rate",
+    "text": "OnlyFans can charge a 20% take rate despite not driving demand because it solves a major pain point (accepting payment for sex work) with very low competition.",
+    "type": "observation",
+    "evidence": "Anomaly analysis from take rate dataset showing it charges marketplace rates as a platform",
+    "topics": [
+      "pricing",
+      "take-rate",
+      "creator-economy"
+    ]
+  },
+  {
+    "id": "claim-the-minto-pyramid-principle-and-the-scr-framework-1",
+    "newsletterSlug": "the-minto-pyramid-principle-and-the-scr-framework",
+    "text": "In business communication you should start with the answer first and then provide supporting arguments, the opposite of how you naturally arrive at conclusions.",
+    "type": "framework",
+    "evidence": "Barbara Minto's Pyramid Principle developed at McKinsey: 'you think from the bottom up, but you present from the top-down'",
+    "topics": [
+      "communication",
+      "leadership",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "claim-the-minto-pyramid-principle-and-the-scr-framework-2",
+    "newsletterSlug": "the-minto-pyramid-principle-and-the-scr-framework",
+    "text": "The SCR (Situation-Complication-Resolution) framework combined with the Minto Pyramid is an effective structure for any business proposal, email, strategy doc, or presentation.",
+    "type": "framework",
+    "evidence": "Applied examples showing before/after of a bug-fix proposal, plus templates for product 1-pagers and strategy docs",
+    "topics": [
+      "communication",
+      "product-management",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "claim-the-minto-pyramid-principle-and-the-scr-framework-3",
+    "newsletterSlug": "the-minto-pyramid-principle-and-the-scr-framework",
+    "text": "In a business context you should spend minimal time on Situation and Complication to get to the Resolution as quickly as possible, since colleagues want to be informed not entertained.",
+    "type": "recommendation",
+    "evidence": "Contrast with storytelling in movies where tension builds; business audiences are busy and want efficiency",
+    "topics": [
+      "communication",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-the-pm--design-partnership-1",
+    "newsletterSlug": "the-pm--design-partnership",
+    "text": "PMs should trust the designer's expertise on user experience decisions, defer to them in their area of expertise, and protect uninterrupted maker time for creative work.",
+    "type": "recommendation",
+    "evidence": "Katie Dill's experience leading design at Airbnb, Lyft, and Stripe; Paul Graham's maker vs manager schedule concept",
+    "topics": [
+      "product-management",
+      "design",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "claim-the-pm--design-partnership-2",
+    "newsletterSlug": "the-pm--design-partnership",
+    "text": "Including designers early in the product development process saves time and money because they inform with user voice, catalyze with creative ideas, and gain context for better execution.",
+    "type": "recommendation",
+    "evidence": "Katie Dill's experience seeing PMs change their tune after including designers in planning",
+    "topics": [
+      "product-management",
+      "design",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "claim-the-pm--design-partnership-3",
+    "newsletterSlug": "the-pm--design-partnership",
+    "text": "A north star vision is essential for product teams to avoid building a disjointed Frankenstein product, and the investment can range from a single-screen whiteboard session to a months-long high-fidelity prototype.",
+    "type": "recommendation",
+    "evidence": "Lyft's 6-month north star for reimagining the rider app covering multiple transportation modes",
+    "topics": [
+      "product-strategy",
+      "design",
+      "vision"
+    ]
+  },
+  {
+    "id": "claim-the-pm--design-partnership-4",
+    "newsletterSlug": "the-pm--design-partnership",
+    "text": "So-called 'design goals' like consistency, usability, and accessibility are actually business goals because they directly drive conversion, loyalty, and efficiency.",
+    "type": "observation",
+    "evidence": "Katie Dill argues these are sub-goals of business metrics; users notice quality gaps and infer broader failures",
+    "topics": [
+      "design",
+      "product-management",
+      "metrics"
+    ]
+  },
+  {
+    "id": "claim-defending-your-big-bets-1",
+    "newsletterSlug": "defending-your-big-bets",
+    "text": "To protect long-term big-bet projects at large companies, spend 80% of team time on short-term incremental wins and 20% on high-risk long-term bets to create 'cover fire' of consistent results.",
+    "type": "framework",
+    "evidence": "Author's repeated personal experience at Airbnb; supported by advice from PMs at Twitter, Snap, GitHub, Shopify, and Gusto",
+    "topics": [
+      "product-management",
+      "prioritization",
+      "big-company"
+    ]
+  },
+  {
+    "id": "claim-defending-your-big-bets-2",
+    "newsletterSlug": "defending-your-big-bets",
+    "text": "Consistently shipping small wins builds trust, earns the right to take bigger bets, and prevents your team from becoming a target when new fires arise and leaders look for non-essential projects to cut.",
+    "type": "observation",
+    "evidence": "Author's experience plus advice from Sriram Krishnan (keep it small until ready) and Tomer London (small hungry entrepreneurial team)",
+    "topics": [
+      "product-management",
+      "leadership",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "claim-content-driven-growth-1",
+    "newsletterSlug": "content-driven-growth",
+    "text": "There are five distinct content-driven growth strategies mapped on a 2x2 of SEO vs virality and user-generated vs editorially-generated content: UGSO, EGSO, DGSO, UGVO, and EGVO.",
+    "type": "framework",
+    "evidence": "Author's taxonomy with examples: Quora/Reddit (UGSO), HubSpot/Ahrefs (EGSO), Thumbtack/Zapier (DGSO), TikTok (UGVO), Spotify Wrapped (EGVO)",
+    "topics": [
+      "content-strategy",
+      "growth",
+      "seo"
+    ]
+  },
+  {
+    "id": "claim-content-driven-growth-2",
+    "newsletterSlug": "content-driven-growth",
+    "text": "Content marketing does not generate returns as quickly as other forms of marketing, but once you find a format that works you should double down on it rather than trying to do everything at once.",
+    "type": "recommendation",
+    "evidence": "Intercom's John Collins: 'content is a supertanker, not a speedboat'; Slidebean took 18 months of trial and error on YouTube",
+    "topics": [
+      "content-strategy",
+      "growth",
+      "patience"
+    ]
+  },
+  {
+    "id": "claim-content-driven-growth-3",
+    "newsletterSlug": "content-driven-growth",
+    "text": "SEO content is much easier to pursue than viral content because keyword research provides a straightforward source of topic ideas, while viral content depends on creativity.",
+    "type": "observation",
+    "evidence": "Tim Soulo of Ahrefs contrasting the two approaches based on years of content production",
+    "topics": [
+      "seo",
+      "content-strategy",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-content-driven-growth-4",
+    "newsletterSlug": "content-driven-growth",
+    "text": "In HubSpot's early days, over 30% of customers came from demand generated by blog posts, and they think of competitors as other media outlets rather than other SaaS brands.",
+    "type": "observation",
+    "evidence": "HubSpot's head of content Kieran Flanagan sharing internal data",
+    "topics": [
+      "content-strategy",
+      "b2b-growth",
+      "saas"
+    ]
+  },
+  {
+    "id": "claim-becoming-a-senior-product-manager-1",
+    "newsletterSlug": "becoming-a-senior-product-manager",
+    "text": "The three most important differentiators of senior PMs versus junior PMs are strategy, autonomy, and nuance rather than better day-to-day execution.",
+    "type": "framework",
+    "evidence": "Jackie Bavaro's research for Cracking the PM Career; most of the senior PM's strategic work is invisible to teammates",
+    "topics": [
+      "product-management",
+      "career-growth",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-becoming-a-senior-product-manager-2",
+    "newsletterSlug": "becoming-a-senior-product-manager",
+    "text": "A product strategy has three components -- vision, strategic framework, and roadmap -- and newer PMs prioritize by incremental value while senior PMs prioritize by progress toward long-term vision.",
+    "type": "framework",
+    "evidence": "Jackie Bavaro's framework with toy-game examples illustrating each component",
+    "topics": [
+      "product-strategy",
+      "career-growth",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-becoming-a-senior-product-manager-3",
+    "newsletterSlug": "becoming-a-senior-product-manager",
+    "text": "The median time to progress from entry-level PM to senior PM is about 3 years, making it the longest single milestone in the PM career path.",
+    "type": "observation",
+    "evidence": "Lenny's estimate based on experience: 3 years to Senior, 1-2 to GPM, 2-3 to Director",
+    "topics": [
+      "career-growth",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-increase-virality-1",
+    "newsletterSlug": "how-to-increase-virality",
+    "text": "Most companies find the vast majority of growth from just one of four engines -- virality, performance marketing, content, or sales -- and optimizing a secondary engine before scaling the core one is rarely time well spent.",
+    "type": "framework",
+    "evidence": "Author's research for First Round and Reforge on growth engines",
+    "topics": [
+      "growth",
+      "virality",
+      "growth-engines"
+    ]
+  },
+  {
+    "id": "claim-how-to-increase-virality-2",
+    "newsletterSlug": "how-to-increase-virality",
+    "text": "There are seven distinct types of virality across three categories: word-of-mouth (offline and online), invitation (social, incentivized, utility), and experiential (passive and active).",
+    "type": "framework",
+    "evidence": "Taxonomy built from dozens of examples including Airbnb, Clubhouse, Dropbox, TikTok, Calendly, and Citizen",
+    "topics": [
+      "virality",
+      "growth",
+      "product-strategy"
+    ]
+  },
+  {
+    "id": "claim-how-to-increase-virality-3",
+    "newsletterSlug": "how-to-increase-virality",
+    "text": "Virality is a natural fit for products that are better with friends, innately fun to share, or remarkable enough to talk about, while performance marketing fits revenue-generating products and content fits those generating public UGC.",
+    "type": "framework",
+    "evidence": "Heuristic mapping product characteristics to appropriate growth engines",
+    "topics": [
+      "growth-engines",
+      "virality",
+      "growth-strategy"
+    ]
+  },
+  {
+    "id": "claim-positioning-1",
+    "newsletterSlug": "positioning",
+    "text": "Positioning defines how your product is a leader at delivering something that a well-defined set of customers cares a lot about, and a shift in positioning can mean the difference between success and failure.",
+    "type": "framework",
+    "evidence": "April Dunford's story of repositioning a failed 'Microsoft Access killer' as an 'embeddable database for mobile devices' which spawned hundreds of millions in revenue",
+    "topics": [
+      "positioning",
+      "go-to-market",
+      "product-strategy"
+    ]
+  },
+  {
+    "id": "claim-positioning-2",
+    "newsletterSlug": "positioning",
+    "text": "The five components of positioning must be evaluated in a specific order: competitive alternatives, then differentiated capabilities, then value, then target customers, then market category.",
+    "type": "framework",
+    "evidence": "April Dunford's methodology refined across seven startups; starting with competitive alternatives prevents positioning that sounds good internally but fails with customers",
+    "topics": [
+      "positioning",
+      "go-to-market",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "claim-positioning-3",
+    "newsletterSlug": "positioning",
+    "text": "Companies that create new market categories often lose in the long run to companies that gain a foothold after the hard category-creation work is done, which is why 90% of recent tech IPOs positioned in existing markets.",
+    "type": "observation",
+    "evidence": "Google vs Ask Jeeves, Facebook vs Myspace; Salesforce and Gainsight positioned in existing markets until having hundreds of millions in revenue",
+    "topics": [
+      "positioning",
+      "market-strategy",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-the-most-important-consumer-subscription-metrics-to-track-1",
+    "newsletterSlug": "the-most-important-consumer-subscription-metrics-to-track",
+    "text": "Consumer subscription businesses must nail six things in sequence: acquire users sustainably, get them to experience value quickly, keep them finding value, convert to paid, retain paid users, and deliver profitably.",
+    "type": "framework",
+    "evidence": "Framework applied across three sub-types (content, software, physical goods) with specific metric recommendations for each",
+    "topics": [
+      "subscription-metrics",
+      "consumer-products",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-the-most-important-consumer-subscription-metrics-to-track-2",
+    "newsletterSlug": "the-most-important-consumer-subscription-metrics-to-track",
+    "text": "For consumer software subscriptions, the four most important metrics are activation rate, L7/L30 engagement intensity, free-to-paid conversion, and cohort retention at 1 month and 1 year.",
+    "type": "recommendation",
+    "evidence": "Synthesis from growth experts and benchmarks including Mixpanel data",
+    "topics": [
+      "subscription-metrics",
+      "saas",
+      "analytics"
+    ]
+  },
+  {
+    "id": "claim-managing-up-1",
+    "newsletterSlug": "managing-up",
+    "text": "The most effective tactic for managing up is sending a weekly 'State of The Me' email to your boss covering current priorities, things on your mind, and blockers.",
+    "type": "recommendation",
+    "evidence": "Author's personal experience; template provided with format for priorities, thoughts, and blockers",
+    "topics": [
+      "managing-up",
+      "career-growth",
+      "communication"
+    ]
+  },
+  {
+    "id": "claim-managing-up-2",
+    "newsletterSlug": "managing-up",
+    "text": "When asked to take on new work, you should reprioritize against existing work and share updated priorities with your manager rather than just absorbing the new task.",
+    "type": "recommendation",
+    "evidence": "Author's experience as PM and manager; highlights that managers rarely know your full plate",
+    "topics": [
+      "managing-up",
+      "prioritization",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-pricing-your-saas-product-1",
+    "newsletterSlug": "pricing-your-saas-product",
+    "text": "If you get everything else wrong in pricing but get your value metric right you will do okay, because a value metric bakes in lower churn and higher expansion revenue.",
+    "type": "recommendation",
+    "evidence": "Patrick Campbell of ProfitWell; value metric pricing captures more area under the demand curve than flat monthly fees",
+    "topics": [
+      "saas-pricing",
+      "monetization",
+      "b2b"
+    ]
+  },
+  {
+    "id": "claim-pricing-your-saas-product-2",
+    "newsletterSlug": "pricing-your-saas-product",
+    "text": "The most successful companies optimize monetization every quarter, but this goes far beyond changing the actual price to include target segments, packaging, and positioning.",
+    "type": "recommendation",
+    "evidence": "Patrick Campbell's experience at ProfitWell working with thousands of SaaS companies",
+    "topics": [
+      "saas-pricing",
+      "monetization",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-what-it-feels-like-when-youve-found-product-market-fit-1",
+    "newsletterSlug": "what-it-feels-like-when-youve-found-product-market-fit",
+    "text": "About half of iconic companies found product-market fit immediately after launch while the other half spent months or years iterating, including Netflix (18 months), Airbnb (2 years), and Superhuman (3 years).",
+    "type": "observation",
+    "evidence": "First-hand accounts from 25 founders including Netflix, Uber, Airbnb, Stripe, Dropbox, and Segment",
+    "topics": [
+      "product-market-fit",
+      "startups",
+      "founding"
+    ]
+  },
+  {
+    "id": "claim-what-it-feels-like-when-youve-found-product-market-fit-2",
+    "newsletterSlug": "what-it-feels-like-when-youve-found-product-market-fit",
+    "text": "The intensity of PMF pull is a factor of both fit (how good your product solves the problem) and initial market size -- broad markets create sudden pull while niche markets create steady compounding pull.",
+    "type": "framework",
+    "evidence": "Dropbox/Netflix/Tinder had sudden broad pull vs Instacart/Superhuman/Substack had steady niche pull",
+    "topics": [
+      "product-market-fit",
+      "growth",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-what-it-feels-like-when-youve-found-product-market-fit-3",
+    "newsletterSlug": "what-it-feels-like-when-youve-found-product-market-fit",
+    "text": "True product-market fit requires three things: making a product people want, making a profit delivering it at scale, and finding and keeping those people sustainably.",
+    "type": "framework",
+    "evidence": "Cherry, Luxe, and Exec cited as cautionary tales that had demand but failed on economics",
+    "topics": [
+      "product-market-fit",
+      "unit-economics",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-getting-better-at-product-strategy-1",
+    "newsletterSlug": "getting-better-at-product-strategy",
+    "text": "Product planning follows the sequence Mission, Vision, Strategy, Goals, Roadmap, where your strategy is your plan to win that creates alignment, clarity, and focus.",
+    "type": "framework",
+    "evidence": "Author's experience at Airbnb with Instant Book strategy; Tesla example with mission/vision/strategy breakdown",
+    "topics": [
+      "product-strategy",
+      "planning",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "claim-getting-better-at-product-strategy-2",
+    "newsletterSlug": "getting-better-at-product-strategy",
+    "text": "At Airbnb, transitioning from a request-to-book to instant-book model grew instant bookings from 5% to over 80% in two and a half years by setting an ambitious 100% north-star goal.",
+    "type": "observation",
+    "evidence": "Author's direct experience leading the Instant Book team at Airbnb",
+    "topics": [
+      "product-strategy",
+      "airbnb",
+      "case-study"
+    ]
+  },
+  {
+    "id": "claim-how-the-biggest-consumer-apps-got-their-first-1000-users-1",
+    "newsletterSlug": "how-the-biggest-consumer-apps-got-their-first-1000-users",
+    "text": "Just seven strategies account for every major consumer app's early growth, and most found success from just a single strategy.",
+    "type": "observation",
+    "evidence": "Research across dozens of apps including Tinder, Uber, DoorDash, Netflix, and Product Hunt through founder interviews",
+    "topics": [
+      "consumer-growth",
+      "early-stage",
+      "user-acquisition"
+    ]
+  },
+  {
+    "id": "claim-how-the-biggest-consumer-apps-got-their-first-1000-users-2",
+    "newsletterSlug": "how-the-biggest-consumer-apps-got-their-first-1000-users",
+    "text": "The most popular early growth strategies for consumer apps involve going directly to users -- offline, online, and through friends -- embodying the principle of doing things that don't scale.",
+    "type": "observation",
+    "evidence": "Tinder went to USC sororities, DoorDash put flyers on Stanford campus, Lyft did ice cream dropoffs at startup offices",
+    "topics": [
+      "consumer-growth",
+      "early-stage",
+      "user-acquisition"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-retention-1",
+    "newsletterSlug": "what-is-good-retention",
+    "text": "Good and great 6-month user retention benchmarks vary dramatically by business type: consumer social (25%/45%), consumer transactional (30%/50%), consumer SaaS (40%/70%), SMB SaaS (60%/80%), enterprise SaaS (70%/90%).",
+    "type": "framework",
+    "evidence": "Research with 20 top growth practitioners including experts from Pinterest, Uber, Slack, Dropbox, and Grammarly",
+    "topics": [
+      "retention",
+      "metrics",
+      "benchmarks"
+    ]
+  },
+  {
+    "id": "claim-what-is-good-retention-2",
+    "newsletterSlug": "what-is-good-retention",
+    "text": "Retention is the best indicator of product-market fit, the most important factor in lifetime value, and drives all the best acquisition strategies.",
+    "type": "observation",
+    "evidence": "Casey Winters (former head of growth at Pinterest and Grubhub, CPO at Eventbrite)",
+    "topics": [
+      "retention",
+      "product-market-fit",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-how-todays-fastest-growing-b2b-businesses-found-their-first-ten-customers-1",
+    "newsletterSlug": "how-todays-fastest-growing-b2b-businesses-found-their-first-ten-customers",
+    "text": "Only three strategies account for every B2B company's earliest growth: tapping your personal network, seeking customers where they are, and getting press -- and almost every company uses the first two simultaneously.",
+    "type": "framework",
+    "evidence": "Stories from Slack, Stripe, Figma, Shopify, Airtable, Carta, Gusto and 15+ other companies",
+    "topics": [
+      "b2b-growth",
+      "early-stage",
+      "user-acquisition"
+    ]
+  },
+  {
+    "id": "claim-how-todays-fastest-growing-b2b-businesses-found-their-first-ten-customers-2",
+    "newsletterSlug": "how-todays-fastest-growing-b2b-businesses-found-their-first-ten-customers",
+    "text": "Having a strong personal network is an even bigger advantage in B2B than B2C because early customers need to trust you, which is why connector investors or incubators like YC are so valuable.",
+    "type": "observation",
+    "evidence": "Pattern across 20+ B2B companies; personal network especially important for non-bottom-up sales models",
+    "topics": [
+      "b2b-growth",
+      "early-stage",
+      "networking"
+    ]
+  },
+  {
+    "id": "claim-evaluating-a-marketplace-business-idea-1",
+    "newsletterSlug": "evaluating-a-marketplace-business-idea",
+    "text": "Most marketplaces fail not because of marketplace-specific issues but because of fundamental business problems like not building something people want, too small a market, or inability to acquire users.",
+    "type": "observation",
+    "evidence": "Pattern from evaluating 100+ marketplace businesses",
+    "topics": [
+      "marketplaces",
+      "startups",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "claim-evaluating-a-marketplace-business-idea-2",
+    "newsletterSlug": "evaluating-a-marketplace-business-idea",
+    "text": "To evaluate a marketplace idea, first assess seven business fundamentals (PMF, market, timing, distribution, team, moat, business model) and then seven marketplace-specific factors (demand PMF, supply PMF, scalability with quality, frequency/AOV, platform stickiness, repeat need, fragmentation).",
+    "type": "framework",
+    "evidence": "Author's framework developed from evaluating 100+ marketplace businesses",
+    "topics": [
+      "marketplaces",
+      "evaluation",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "claim-magical-growth-loops-1",
+    "newsletterSlug": "magical-growth-loops",
+    "text": "Magical growth loops where existing users recruit new users come in four types: supply driving demand, demand driving supply, demand driving demand (virality), and supply driving supply.",
+    "type": "framework",
+    "evidence": "30+ examples including DoorDash (restaurants tell customers), Cameo (celebrities bring fans), Faire (vendors bring retailers)",
+    "topics": [
+      "growth-loops",
+      "marketplaces",
+      "virality"
+    ]
+  },
+  {
+    "id": "claim-magical-growth-loops-2",
+    "newsletterSlug": "magical-growth-loops",
+    "text": "DoorDash, Cameo, and Faire found that recruiting supply effectively drives demand for free because supply has a natural motivation to bring customers to the platform.",
+    "type": "observation",
+    "evidence": "Specific growth loop diagrams: restaurants tell customers about DoorDash, celebrities share Cameo profiles, vendors encourage retailers to use Faire",
+    "topics": [
+      "growth-loops",
+      "marketplaces",
+      "supply-driven-growth"
+    ]
+  },
+  {
+    "id": "claim-flywheels-flywheels-flywheels-1",
+    "newsletterSlug": "flywheels-flywheels-flywheels",
+    "text": "A business flywheel identifies which elements of your business feed off each other to accelerate growth, and you create one by listing core assets, actions, user needs, outputs, and optimizations then connecting them in loops.",
+    "type": "framework",
+    "evidence": "Amazon's flywheel (lower prices -> more customers -> more sellers -> lower costs -> lower prices) and Uber's supply-driven flywheel",
+    "topics": [
+      "flywheels",
+      "growth",
+      "business-strategy"
+    ]
+  },
+  {
+    "id": "claim-the-transition-layering-sales-onto-a-bottom-up-self-serve-product-1",
+    "newsletterSlug": "the-transition-layering-sales-onto-a-bottom-up-self-serve-product",
+    "text": "100% of bottom-up B2B companies eventually layer on a sales team, and waiting too long to do so often leads to competitors firewalling you out of enterprise segments.",
+    "type": "observation",
+    "evidence": "Pete Kazanjy citing Zoom, Slack, Datadog as IPO exemplars; Dropbox as cautionary tale of waiting too long",
+    "topics": [
+      "b2b-growth",
+      "sales",
+      "product-led-growth"
+    ]
+  },
+  {
+    "id": "claim-when-not-to-run-an-experiment---issue-54-1",
+    "newsletterSlug": "when-not-to-run-an-experiment---issue-54",
+    "text": "You should skip running an A/B experiment when it will take too long to get actionable results, when the downside risk is low and setup effort is high, or when the change only has long-term effects.",
+    "type": "framework",
+    "evidence": "Example: detecting a 5% conversion change on a 10% baseline requires 60,000+ users per variation; most startups cannot wait that long",
+    "topics": [
+      "experimentation",
+      "analytics",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-run-seo-experiments-1",
+    "newsletterSlug": "how-to-run-seo-experiments",
+    "text": "SEO experiments must be bucketed at the page level rather than the user level because Google recrawls pages as different 'users' each time, and the only metric to measure is incoming organic traffic.",
+    "type": "framework",
+    "evidence": "Brian Ta's experience running SEO experiments at Airbnb, Strava, and AngelList",
+    "topics": [
+      "seo",
+      "experimentation",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-run-seo-experiments-2",
+    "newsletterSlug": "how-to-run-seo-experiments",
+    "text": "Title tag experiments led to a 15-20% aggregate increase in organic traffic at Airbnb, making them the most impactful type of SEO experiment to run.",
+    "type": "observation",
+    "evidence": "Brian Ta's direct experience leading SEO at Airbnb; a single minor title tag change was the most impactful SEO experiment ever run there",
+    "topics": [
+      "seo",
+      "growth",
+      "experimentation"
+    ]
+  },
+  {
+    "id": "claim-a-comprehensive-survey-of-product-management-1",
+    "newsletterSlug": "a-comprehensive-survey-of-product-management",
+    "text": "Communication, execution, and product sense are the three most frequently valued PM skills, while design/UX, empathy, and raw intelligence are least frequently valued.",
+    "type": "observation",
+    "evidence": "Survey of nearly 1,000 respondents from 600+ companies",
+    "topics": [
+      "product-management",
+      "hiring",
+      "skills"
+    ]
+  },
+  {
+    "id": "claim-a-comprehensive-survey-of-product-management-2",
+    "newsletterSlug": "a-comprehensive-survey-of-product-management",
+    "text": "PMs believe they have more influence than their teammates think they do -- 80% according to PM respondents vs 70% from non-PM respondents.",
+    "type": "observation",
+    "evidence": "Survey comparing PM self-assessment to engineer/designer/CEO assessments across hundreds of companies",
+    "topics": [
+      "product-management",
+      "influence",
+      "organizational-dynamics"
+    ]
+  },
+  {
+    "id": "claim-increasing-team-velocity-1",
+    "newsletterSlug": "increasing-team-velocity",
+    "text": "The single most effective way to increase team velocity is to narrow the team's focus, as fewer concurrent priorities dramatically improves outcomes on the remaining work.",
+    "type": "recommendation",
+    "evidence": "Author's experience as founder, PM, and engineer; validated by polling founders and Twitter community",
+    "topics": [
+      "team-velocity",
+      "productivity",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-should-i-become-a-product-manager-1",
+    "newsletterSlug": "should-i-become-a-product-manager",
+    "text": "A PM's work breaks down into three categories: shaping the product (customer research, strategy, specs), shipping the product (timelines, tradeoffs, QA), and synchronizing the people (alignment, buy-in, communication).",
+    "type": "framework",
+    "evidence": "Author's personal experience transitioning from engineering to PM at Airbnb",
+    "topics": [
+      "product-management",
+      "career-growth",
+      "role-definition"
+    ]
+  },
+  {
+    "id": "claim-should-i-become-a-product-manager-2",
+    "newsletterSlug": "should-i-become-a-product-manager",
+    "text": "Engineers should pursue product management if they are more excited about business and customer challenges than technical ones, often have strong UX opinions teammates agree with, and could see themselves never coding professionally again.",
+    "type": "recommendation",
+    "evidence": "Author's personal experience switching from 10 years of engineering to PM",
+    "topics": [
+      "career-growth",
+      "product-management",
+      "engineering"
+    ]
+  },
+  {
+    "id": "claim-li-jin-launches-atelier-ventures-her-debut-fund-to-invest-in-the-passion-economy-1",
+    "newsletterSlug": "li-jin-launches-atelier-ventures-her-debut-fund-to-invest-in-the-passion-economy",
+    "text": "The passion economy is not limited to social media influencers but encompasses an entirely new economic movement empowering individuals over institutions across education, media, money, and every industry.",
+    "type": "observation",
+    "evidence": "Li Jin's thesis with examples: CopyAI for marketers, Dumpling for grocery delivery solopreneurs, plus Substack proving the model",
+    "topics": [
+      "creator-economy",
+      "passion-economy",
+      "future-of-work"
+    ]
+  },
+  {
+    "id": "claim-li-jin-launches-atelier-ventures-her-debut-fund-to-invest-in-the-passion-economy-2",
+    "newsletterSlug": "li-jin-launches-atelier-ventures-her-debut-fund-to-invest-in-the-passion-economy",
+    "text": "What kids do for fun today will become the new creator professions of the future, and some form of Universal Creative Income will become prevalent across social platforms as the creator arms race heats up.",
+    "type": "prediction",
+    "evidence": "Li Jin's predictions based on her childhood blogging, painting, and fanfiction now being monetizable; platforms already competing on creator comp packages",
+    "topics": [
+      "creator-economy",
+      "future-of-work",
+      "predictions"
+    ]
+  },
+  {
+    "id": "claim-the-most-important-bottom-up-saas-metrics-to-track-and-how-to-best-visualize-the-1",
+    "newsletterSlug": "the-most-important-bottom-up-saas-metrics-to-track-and-how-to-best-visualize-the",
+    "text": "For pre-revenue bottom-up SaaS startups, the three most important metric categories in priority order are retention (user and logo), virality within an organization (invite rate and conversion), and top-of-funnel growth (traffic and activation).",
+    "type": "framework",
+    "evidence": "Crowdsourced from experienced SaaS founders and primary research",
+    "topics": [
+      "saas-metrics",
+      "b2b",
+      "analytics"
+    ]
+  },
+  {
+    "id": "claim-startup-pm-vs-big-company-pm-1",
+    "newsletterSlug": "startup-pm-vs-big-company-pm",
+    "text": "The three most important PM skills to develop when transitioning from startup to big company are communication, influence without authority, and data-driven decision making.",
+    "type": "recommendation",
+    "evidence": "Author's experience at Airbnb growing from a few PMs to nearly 200; specific reading recommendations for each skill",
+    "topics": [
+      "product-management",
+      "career-growth",
+      "big-company"
+    ]
+  },
+  {
+    "id": "claim-generating-buzz-1",
+    "newsletterSlug": "generating-buzz",
+    "text": "The key to generating buzz at launch is doing something remarkable -- literally worth remarking about -- because no one cares about your new product and everyone's time is already allocated.",
+    "type": "framework",
+    "evidence": "Ten strategies with 49 examples including Dollar Shave Club (remarkable video), Robinhood ($0 commissions), Gmail (1GB free), Snapchat (vending machine Spectacles)",
+    "topics": [
+      "launch-strategy",
+      "go-to-market",
+      "marketing"
+    ]
+  },
+  {
+    "id": "claim-using-your-working-time-well---issue-22-1",
+    "newsletterSlug": "using-your-working-time-well---issue-22",
+    "text": "Blocking off dedicated deep work time on your calendar and defending it aggressively is one of the most effective ways for PMs to increase productivity.",
+    "type": "recommendation",
+    "evidence": "Lenny recommends scheduling two-hour deep work blocks on Monday, Wednesday, and Friday, citing Cal Newport's Deep Work concept that distraction-free concentration creates new value and is hard to replicate.",
+    "topics": [
+      "time-management",
+      "productivity",
+      "deep-work"
+    ]
+  },
+  {
+    "id": "claim-using-your-working-time-well---issue-22-2",
+    "newsletterSlug": "using-your-working-time-well---issue-22",
+    "text": "When asked to take on more work, the best response is to prioritize the new ask among existing work and communicate that prioritization back to your manager rather than saying yes or no.",
+    "type": "framework",
+    "evidence": "Lenny describes a 'Prioritize and Communicate' technique taught by his last manager: slot the new request among existing priorities and share the updated list, letting the manager adjust if they disagree.",
+    "topics": [
+      "prioritization",
+      "managing-up",
+      "communication"
+    ]
+  },
+  {
+    "id": "claim-using-your-working-time-well---issue-22-3",
+    "newsletterSlug": "using-your-working-time-well---issue-22",
+    "text": "Having a trusted TODO system with concrete actions and a list of people you are waiting on eliminates the time wasted re-figuring out what to work on.",
+    "type": "recommendation",
+    "evidence": "Lenny credits the Getting Things Done system for clearing mental distractions and making it easy to choose what to work on next, using a simple physical notebook rather than an app.",
+    "topics": [
+      "time-management",
+      "productivity",
+      "getting-things-done"
+    ]
+  },
+  {
+    "id": "claim-strategy-and-tactics-for-increasing-conversion-1",
+    "newsletterSlug": "strategy-and-tactics-for-increasing-conversion",
+    "text": "Increasing conversion is one of the highest ROI investments a growth team can make because the wins make existing channels more efficient and last indefinitely.",
+    "type": "observation",
+    "evidence": "Lenny states this is particularly true once top-of-funnel engines like paid, SEO, and referrals are running, based on his experience at Airbnb.",
+    "topics": [
+      "conversion-optimization",
+      "growth",
+      "funnel-optimization"
+    ]
+  },
+  {
+    "id": "claim-strategy-and-tactics-for-increasing-conversion-2",
+    "newsletterSlug": "strategy-and-tactics-for-increasing-conversion",
+    "text": "Funnel optimization has three core levers: maintaining user focus, maintaining user motivation, and reducing user friction.",
+    "type": "framework",
+    "evidence": "Lenny presents this as his framework for approaching funnel optimization, with specific Airbnb examples for each lever including opening listings in new tabs (focus), scarcity messaging (motivation), and Instant Book (friction).",
+    "topics": [
+      "conversion-optimization",
+      "growth",
+      "user-experience"
+    ]
+  },
+  {
+    "id": "claim-strategy-and-tactics-for-increasing-conversion-3",
+    "newsletterSlug": "strategy-and-tactics-for-increasing-conversion",
+    "text": "At Airbnb, opening listings in a new tab so users wouldn't lose their search results turned out to be one of the single biggest conversion wins.",
+    "type": "observation",
+    "evidence": "Lenny describes this as a surprisingly impactful change that helped users avoid losing track of options, keeping them exploring if the first listing didn't work out.",
+    "topics": [
+      "conversion-optimization",
+      "airbnb",
+      "user-experience"
+    ]
+  },
+  {
+    "id": "claim-strategy-and-tactics-for-increasing-conversion-4",
+    "newsletterSlug": "strategy-and-tactics-for-increasing-conversion",
+    "text": "The three core re-engagement strategies for bounced users are reminders of unfinished actions, notifications that something has changed, and providing additional information that addresses why they stopped.",
+    "type": "framework",
+    "evidence": "Lenny describes these as the primary content strategies for re-engaging users, with Airbnb examples including reminding hosts of waiting guests and notifying visitors of price changes.",
+    "topics": [
+      "re-engagement",
+      "conversion-optimization",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-leading-your-company-through-a-pandemic---issue-20-1",
+    "newsletterSlug": "leading-your-company-through-a-pandemic---issue-20",
+    "text": "During a crisis, companies should first determine which of three buckets they fall into: seeing growth, falling apart, or chugging along, and adopt a corresponding strategy of acceleration, survival, or pivoting.",
+    "type": "framework",
+    "evidence": "Elena Verna's framework shared by Lenny, supported by Kevin Barry's data showing roughly 20% of B2B SaaS clients were in growth markets, 20% in hard-hit markets, and 60% doing OK.",
+    "topics": [
+      "crisis-management",
+      "strategy",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-leading-your-company-through-a-pandemic---issue-20-2",
+    "newsletterSlug": "leading-your-company-through-a-pandemic---issue-20",
+    "text": "Before knowing which recovery scenario you're in, the priority should be preserving optionality by cutting spend to extend runway while keeping as much of the team in place as possible.",
+    "type": "recommendation",
+    "evidence": "Dan Hockenmaier's advice to build a worst-case scenario (6 months of zero revenue, 18 months without profitable acquisition) while also understanding the true upside case.",
+    "topics": [
+      "crisis-management",
+      "scenario-planning",
+      "cash-management"
+    ]
+  },
+  {
+    "id": "claim-leading-your-company-through-a-pandemic---issue-20-3",
+    "newsletterSlug": "leading-your-company-through-a-pandemic---issue-20",
+    "text": "Every company should create a small incident response team with a single DRI, full authority to change anything, blown-up OKRs, and daily standups to move fast during a crisis.",
+    "type": "recommendation",
+    "evidence": "Elena Verna's operational recommendation, echoed by HBR's advice to assemble a small trusted team with enough leeway for rapid tactical decisions and beware of bureaucracy.",
+    "topics": [
+      "crisis-management",
+      "leadership",
+      "organizational-design"
+    ]
+  },
+  {
+    "id": "claim-leading-a-pm-team-meeting---issue-19-1",
+    "newsletterSlug": "leading-a-pm-team-meeting---issue-19",
+    "text": "PM team meetings should occur one to two times a month; weekly meetings become redundant with 1:1s, while less than monthly loses alignment benefits.",
+    "type": "recommendation",
+    "evidence": "Lenny advises that bigger teams should meet less frequently, and suggests the three typical goals are understanding, alignment, and connection.",
+    "topics": [
+      "pm-leadership",
+      "meetings",
+      "team-management"
+    ]
+  },
+  {
+    "id": "claim-leading-a-pm-team-meeting---issue-19-2",
+    "newsletterSlug": "leading-a-pm-team-meeting---issue-19",
+    "text": "Before creating a PM team meeting, you should explicitly write out what problem you are trying to solve and whether there are more efficient ways to address it.",
+    "type": "recommendation",
+    "evidence": "Lenny warns against doing meetings just to do them and says to regularly check in on whether you're achieving the stated goals.",
+    "topics": [
+      "meetings",
+      "pm-leadership",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "claim-turning-around-an-underperforming-team---issue-17-1",
+    "newsletterSlug": "turning-around-an-underperforming-team---issue-17",
+    "text": "When joining a turnaround situation, set clear expectations with your manager that the next 6-12 months will likely involve less business impact and some team member dissatisfaction.",
+    "type": "recommendation",
+    "evidence": "Lenny emphasizes this is critical so that when you succeed it's all the more impressive, and to protect yourself during the transition period.",
+    "topics": [
+      "team-turnaround",
+      "leadership",
+      "managing-up"
+    ]
+  },
+  {
+    "id": "claim-turning-around-an-underperforming-team---issue-17-2",
+    "newsletterSlug": "turning-around-an-underperforming-team---issue-17",
+    "text": "The Observe-Identify-Share-Act framework, adapted from Nonviolent Communication, is an effective approach for making necessary changes on an underperforming team.",
+    "type": "framework",
+    "evidence": "Lenny recommends collecting facts first, identifying root causes vs symptoms, communicating changes carefully to peers and higher-ups before the team, and acting only after alignment.",
+    "topics": [
+      "team-turnaround",
+      "leadership",
+      "change-management"
+    ]
+  },
+  {
+    "id": "claim-turning-around-an-underperforming-team---issue-17-3",
+    "newsletterSlug": "turning-around-an-underperforming-team---issue-17",
+    "text": "To motivate an underperforming team to embrace change, connect the proposed changes to each key member's personal motivations whether that is driving impact, getting promoted, or achieving work-life balance.",
+    "type": "recommendation",
+    "evidence": "Lenny provides three specific examples of connecting issues to individual motivations: showing how issues slow shipping, hold back careers, or cause unnecessary work.",
+    "topics": [
+      "team-turnaround",
+      "motivation",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-building-a-referrals-program-1",
+    "newsletterSlug": "building-a-referrals-program",
+    "text": "Referral programs work best when strong word-of-mouth already exists; the added incentive simply adds fuel to an existing fire.",
+    "type": "observation",
+    "evidence": "Lenny states he has not seen referrals work when there wasn't strong existing WOM, based on Airbnb experience where host referrals became the single biggest driver of attributable supply growth.",
+    "topics": [
+      "referrals",
+      "growth",
+      "word-of-mouth"
+    ]
+  },
+  {
+    "id": "claim-building-a-referrals-program-2",
+    "newsletterSlug": "building-a-referrals-program",
+    "text": "Referral programs are most effective when customers are consumers or small business owners who know many other potential users, and the product requires a lot of trust to use.",
+    "type": "observation",
+    "evidence": "Lenny notes Airbnb hosts know other folks with homes and Dropbox users have friends who need cloud storage, while enterprise heads of HR may not know many peers. Trust-dependent products benefit most from friend recommendations.",
+    "topics": [
+      "referrals",
+      "growth",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "claim-building-a-referrals-program-3",
+    "newsletterSlug": "building-a-referrals-program",
+    "text": "At Airbnb, testing a doubled referral bonus in some markets occasionally showed no significant improvement, indicating incentives plateau at a point where more money won't motivate additional referrals.",
+    "type": "observation",
+    "evidence": "Lenny shares this as a direct learning from Airbnb's host referral program optimization.",
+    "topics": [
+      "referrals",
+      "incentive-design",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-this-week-15-when-should-a-saas-startup-raise-money-1",
+    "newsletterSlug": "this-week-15-when-should-a-saas-startup-raise-money",
+    "text": "Hiring before product-market fit slows you down, while hiring after product-market fit speeds you up, so startups should raise meaningful money only after finding PMF.",
+    "type": "framework",
+    "evidence": "Sam Altman quote cited by Lenny, supported by Andreessen Horowitz's observation that premature scaling is one of the most common ways startups die.",
+    "topics": [
+      "fundraising",
+      "product-market-fit",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-this-week-15-when-should-a-saas-startup-raise-money-2",
+    "newsletterSlug": "this-week-15-when-should-a-saas-startup-raise-money",
+    "text": "A profitable company should raise capital only when confident it can use that capital to attain a higher growth rate worth the tradeoff in dilution.",
+    "type": "framework",
+    "evidence": "Tomasz Tunguz quote cited by Lenny, framing the fundraising decision around whether higher growth rates increase business value enough to justify dilution.",
+    "topics": [
+      "fundraising",
+      "startups",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-this-week-14-transitioning-from-startup-founder-to-product-manager-1",
+    "newsletterSlug": "this-week-14-transitioning-from-startup-founder-to-product-manager",
+    "text": "As a founder, your job is to win at all costs and chaos gets swept under the rug, but as a PM your job is to avoid chaos, avoid changing course, and keep the team running smoothly.",
+    "type": "observation",
+    "evidence": "Lenny draws from his personal experience transitioning from CEO of Localmind to PM at Airbnb, noting it took him a long time to adjust to listening to his boss and focusing on soft skills.",
+    "topics": [
+      "founder-to-pm",
+      "product-management",
+      "career-transitions"
+    ]
+  },
+  {
+    "id": "claim-this-week-14-transitioning-from-startup-founder-to-product-manager-2",
+    "newsletterSlug": "this-week-14-transitioning-from-startup-founder-to-product-manager",
+    "text": "Companies acquire startups because they want to move faster, so acquired founders should maintain their entrepreneurial spirit while also learning to collaborate within the larger organization.",
+    "type": "recommendation",
+    "evidence": "Lenny advises balancing two tensions: being the change you want to see while also respecting the larger company's processes and your boss's decisions.",
+    "topics": [
+      "founder-to-pm",
+      "acquisitions",
+      "career-transitions"
+    ]
+  },
+  {
+    "id": "claim-this-week-13-balancing-outcome-thinking-with-design-and-technical-requirements-1",
+    "newsletterSlug": "this-week-13-balancing-outcome-thinking-with-design-and-technical-requirements",
+    "text": "At Airbnb there was a very strong correlation between teams that drove significant impact and teams that were organized around outcomes rather than product surface areas.",
+    "type": "observation",
+    "evidence": "Lenny cites examples like having a team oriented around getting hosts more bookings rather than owning host products, and a team focused on trip quality rather than owning the reviews product.",
+    "topics": [
+      "outcome-oriented-teams",
+      "organizational-design",
+      "airbnb"
+    ]
+  },
+  {
+    "id": "claim-this-week-13-balancing-outcome-thinking-with-design-and-technical-requirements-2",
+    "newsletterSlug": "this-week-13-balancing-outcome-thinking-with-design-and-technical-requirements",
+    "text": "To balance outcome-thinking with engineering and design needs, extend your outcome thinking further into the future by evaluating how much the technical work would benefit your outcome 1+ years out.",
+    "type": "framework",
+    "evidence": "Lenny describes how Airbnb decided on a monolith-to-SOA migration by laying out scenarios of what would happen with different levels of investment, looking at timeline, resources, short-term and long-term goals, and risks.",
+    "topics": [
+      "outcome-oriented-teams",
+      "technical-debt",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "claim-this-week-12-expanding-your-business-internationally-1",
+    "newsletterSlug": "this-week-12-expanding-your-business-internationally",
+    "text": "When expanding internationally, start by making two sorted lists of potential markets: one ranked by short-term signals like existing demand and localization ease, and one by long-term TAM and execution ease, then merge them.",
+    "type": "framework",
+    "evidence": "Christopher Cederskog and Georg Bauser's framework from their experience building Airbnb's European business, noting UK, Germany, France, China, Canada, and Australia typically top such lists.",
+    "topics": [
+      "international-expansion",
+      "marketplace",
+      "strategy"
+    ]
+  },
+  {
+    "id": "claim-this-week-12-expanding-your-business-internationally-2",
+    "newsletterSlug": "this-week-12-expanding-your-business-internationally",
+    "text": "A divide-and-conquer cycle for international expansion works by constraining to a geo, achieving liquidity (e.g. $10k GMV over a rolling 30-day period), then splitting or expanding to adjacent markets.",
+    "type": "framework",
+    "evidence": "Cederskog and Bauser recommend starting with a city like London, achieving liquidity, then splitting into subregions or expanding to Birmingham, Manchester, Berlin, Paris, and Amsterdam.",
+    "topics": [
+      "international-expansion",
+      "marketplace",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-know-if-youve-got-product-market-fit-1",
+    "newsletterSlug": "how-to-know-if-youve-got-product-market-fit",
+    "text": "If you plot the percentage of active users over time for various cohorts and the retention curve flattens off at some point, you have probably found product-market fit.",
+    "type": "framework",
+    "evidence": "Brian Balfour and Casey Winters both describe this as the key quantitative signal, with Winters adding that the ability to acquire users at less than the money earned from that curve represents true PMF.",
+    "topics": [
+      "product-market-fit",
+      "retention",
+      "metrics"
+    ]
+  },
+  {
+    "id": "claim-how-to-know-if-youve-got-product-market-fit-2",
+    "newsletterSlug": "how-to-know-if-youve-got-product-market-fit",
+    "text": "If you survey users asking how they would feel if they could no longer use the product and over 40% say 'very disappointed,' you have product-market fit.",
+    "type": "framework",
+    "evidence": "Sean Ellis / Rahul Vohra's metric, cited alongside Doug Leone's advice that if enterprise customers don't scream when you pull a free trial, you don't have PMF.",
+    "topics": [
+      "product-market-fit",
+      "user-research",
+      "metrics"
+    ]
+  },
+  {
+    "id": "claim-how-to-know-if-youve-got-product-market-fit-3",
+    "newsletterSlug": "how-to-know-if-youve-got-product-market-fit",
+    "text": "If your product is broken and people are still using it, that is a clear sign of product-market fit.",
+    "type": "observation",
+    "evidence": "Elad Gil cites Twitter's fail whale era where no one left despite constant downtime, and Don Valentine's formulation that PMF means customers want it so badly you can screw everything up and still succeed.",
+    "topics": [
+      "product-market-fit",
+      "resilience",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-how-to-know-if-youve-got-product-market-fit-4",
+    "newsletterSlug": "how-to-know-if-youve-got-product-market-fit",
+    "text": "Product-market fit is not a one-time discrete event; competitors arrive, markets evolve, and what felt like PMF can fade as patterns change.",
+    "type": "observation",
+    "evidence": "Ben Horowitz quote emphasizing PMF is ongoing, supported by Lenny's examples of Yo app and CryptoKitties as fool's gold that looked like PMF but faded.",
+    "topics": [
+      "product-market-fit",
+      "strategy",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-this-week-11-what-should-new-pms-over-index-on-and-empowering-product-in-a-sales-1",
+    "newsletterSlug": "this-week-11-what-should-new-pms-over-index-on-and-empowering-product-in-a-sales",
+    "text": "Early in your PM career, the four things to focus on are shipping wins, learning best practices, getting baseline credentials, and starting your network.",
+    "type": "framework",
+    "evidence": "Jackie Bavaro's advice that shipping wins drive your career forward, best practices are learned at strong PM orgs, credentials help pass resume screening, and early networking pays off when peers become senior.",
+    "topics": [
+      "pm-career",
+      "career-development",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-this-week-11-what-should-new-pms-over-index-on-and-empowering-product-in-a-sales-2",
+    "newsletterSlug": "this-week-11-what-should-new-pms-over-index-on-and-empowering-product-in-a-sales",
+    "text": "Wherever the majority of your growth comes from determines who is driving the ship: product-led companies like Dropbox, engineering-led like Stripe, sales-led like Salesforce, or marketing-led like DTC brands.",
+    "type": "framework",
+    "evidence": "Lenny's rule of thumb for identifying company culture, with the recommendation that PMs will have the best experience at product-led organizations.",
+    "topics": [
+      "company-culture",
+      "product-management",
+      "organizational-design"
+    ]
+  },
+  {
+    "id": "claim-this-week-10-keeping-designers-and-engineers-excited-about-metrics--transitionin-1",
+    "newsletterSlug": "this-week-10-keeping-designers-and-engineers-excited-about-metrics--transitionin",
+    "text": "Designers and engineers are most engaged with metrics when they are involved in goal setting, metric definition, regular metric reviews, and post-launch reflections.",
+    "type": "framework",
+    "evidence": "Lex Roman's four-part framework: define metrics together, review metrics together, prioritize together, and reflect on releases together. She argues goal-setting sessions are the most valuable time to spend together.",
+    "topics": [
+      "cross-functional-teams",
+      "metrics",
+      "team-alignment"
+    ]
+  },
+  {
+    "id": "claim-this-week-10-keeping-designers-and-engineers-excited-about-metrics--transitionin-2",
+    "newsletterSlug": "this-week-10-keeping-designers-and-engineers-excited-about-metrics--transitionin",
+    "text": "An internal transfer program is by far the best way to break into product management because it is the easiest, least risky, and provides the most support.",
+    "type": "recommendation",
+    "evidence": "Lenny's assessment based on the four most common paths into PM, noting it is very normal to move down one level when making the transition and that a DS background is both a superpower and liability.",
+    "topics": [
+      "career-transitions",
+      "product-management",
+      "data-science"
+    ]
+  },
+  {
+    "id": "claim-this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes-1",
+    "newsletterSlug": "this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes",
+    "text": "When seeking a growth role, focus on demonstrating foundational tools like data analysis, user psychology, and experiment-driven methodology rather than listing tactical ideas.",
+    "type": "recommendation",
+    "evidence": "Brian Balfour advises that listing tactical ideas will fail because candidates are at a massive information disadvantage about what has been tried; great teams want to see strong foundations applied to problems.",
+    "topics": [
+      "growth",
+      "career-development",
+      "hiring"
+    ]
+  },
+  {
+    "id": "claim-this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes-2",
+    "newsletterSlug": "this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes",
+    "text": "When pursuing an initiative in an ambiguous area of ownership, communicate your intent and proceed rather than blocking on approval, creating a culture of impact over ownership.",
+    "type": "recommendation",
+    "evidence": "Lenny recommends communicating to leadership and associated teams with a specific date to disagree by, then proceeding if no pushback, while keeping interested parties updated on progress.",
+    "topics": [
+      "organizational-design",
+      "ownership",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes-3",
+    "newsletterSlug": "this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes",
+    "text": "Organizing teams around outcomes rather than features was a critical ingredient in Airbnb's success because it breaks the idea of clean divisions of product surface-area ownership and prevents over-optimizing features that aren't driving impact.",
+    "type": "observation",
+    "evidence": "Lenny cites this as one of the best decisions the Airbnb founders made early on, referencing Jonathan Golden's First Round Review post for details.",
+    "topics": [
+      "outcome-oriented-teams",
+      "organizational-design",
+      "airbnb"
+    ]
+  },
+  {
+    "id": "claim-what-theyd-do-differently--kickstarting-and-scaling-a-marketplace-business-1",
+    "newsletterSlug": "what-theyd-do-differently--kickstarting-and-scaling-a-marketplace-business",
+    "text": "TaskRabbit scaled before achieving product-market fit by focusing on top-line growth instead of fill rate, and people who didn't get matched never came back.",
+    "type": "observation",
+    "evidence": "Brian Rothenberg's admission that TaskRabbit should have focused on fill rate (% of tasks completed) which was well under 100%, before scaling. They eventually addressed it by vetting supply and raising fill rate to 86%.",
+    "topics": [
+      "product-market-fit",
+      "marketplace",
+      "premature-scaling"
+    ]
+  },
+  {
+    "id": "claim-what-theyd-do-differently--kickstarting-and-scaling-a-marketplace-business-2",
+    "newsletterSlug": "what-theyd-do-differently--kickstarting-and-scaling-a-marketplace-business",
+    "text": "At Etsy, nearly the entire product and engineering team's activity had nothing to do with actual growth for years, with hundreds of people working on pages selling 700 items per day while only three worked on search which sold 100,000 items per day.",
+    "type": "observation",
+    "evidence": "Dan McKinley's account of Etsy's resource misallocation, describing it as a failure that increased in scale through multiple CEO changes, each a missed opportunity to acknowledge the disconnect.",
+    "topics": [
+      "resource-allocation",
+      "growth",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "claim-what-theyd-do-differently--kickstarting-and-scaling-a-marketplace-business-3",
+    "newsletterSlug": "what-theyd-do-differently--kickstarting-and-scaling-a-marketplace-business",
+    "text": "For marketplace companies, if you have conviction in an adjacent opportunity with clear PMF, expand into it as soon as the organization can support it rather than waiting too long.",
+    "type": "recommendation",
+    "evidence": "David Rosenthal's regret that Rover waited too long to expand into dog walking, allowing Wag to capture the exact same demand base with better economics.",
+    "topics": [
+      "marketplace",
+      "expansion",
+      "strategy"
+    ]
+  },
+  {
+    "id": "claim-maintaining-quality--phase-2-of-kickstarting-and-scaling-a-marketplace-business-1",
+    "newsletterSlug": "maintaining-quality--phase-2-of-kickstarting-and-scaling-a-marketplace-business",
+    "text": "The search ranking algorithm is one of the cheapest yet most powerful levers for maintaining marketplace quality because it promotes the best supply without requiring direct intervention.",
+    "type": "observation",
+    "evidence": "Rover's David Rosenthal credits search ranking as the lever that controlled everything in the business and the reason Rover pulled ahead of competition, while Airbnb deliberately avoided sort-by-price for years because it lowered quality.",
+    "topics": [
+      "marketplace-quality",
+      "search-ranking",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "claim-maintaining-quality--phase-2-of-kickstarting-and-scaling-a-marketplace-business-2",
+    "newsletterSlug": "maintaining-quality--phase-2-of-kickstarting-and-scaling-a-marketplace-business",
+    "text": "Rover found that asking sitters 'Where does the dog sleep at night?' was the single most predictive signal of being good supply; those who answered 'In my bed' were boosted in search rankings.",
+    "type": "observation",
+    "evidence": "David Rosenthal describes how Rover identified early predictive signals of quality and used them to seed supply appropriately in search results.",
+    "topics": [
+      "marketplace-quality",
+      "predictive-signals",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "claim-maintaining-quality--phase-2-of-kickstarting-and-scaling-a-marketplace-business-3",
+    "newsletterSlug": "maintaining-quality--phase-2-of-kickstarting-and-scaling-a-marketplace-business",
+    "text": "Almost all marketplace quality issues are supply-side, and you never fully solve quality; it is an ongoing battle with unforeseen bumps and shifting expectations that only gets harder as you scale.",
+    "type": "observation",
+    "evidence": "Lenny's meta-learning from interviews across 17 marketplace companies, noting nearly every company ended up with full-time quality teams with ever-increasing sophistication.",
+    "topics": [
+      "marketplace-quality",
+      "marketplace",
+      "operations"
+    ]
+  },
+  {
+    "id": "claim-accelerating-growth-at-scale--phase-2-of-kickstarting-and-scaling-a-marketplace-1",
+    "newsletterSlug": "accelerating-growth-at-scale--phase-2-of-kickstarting-and-scaling-a-marketplace",
+    "text": "At scale, the number of effective growth levers narrows from sixteen in the early days to only eight: performance marketing, geographic expansion, conversion optimization, SEO, direct sales, referrals, loops, and PR.",
+    "type": "observation",
+    "evidence": "Lenny's research across 17 marketplace companies, with performance marketing being key for 70%, geographic expansion for 65%, and conversion optimization and SEO each for 50%.",
+    "topics": [
+      "growth-at-scale",
+      "marketplace",
+      "growth-levers"
+    ]
+  },
+  {
+    "id": "claim-accelerating-growth-at-scale--phase-2-of-kickstarting-and-scaling-a-marketplace-2",
+    "newsletterSlug": "accelerating-growth-at-scale--phase-2-of-kickstarting-and-scaling-a-marketplace",
+    "text": "Uber's mature growth mix was approximately 50% paid, 15% referrals, and 35% word-of-mouth, compared to early days of 30% referrals, 50-60% WOM, and the rest PR.",
+    "type": "observation",
+    "evidence": "Andrew Chen's direct account of how Uber's acquisition mix evolved over time from organic-dominant to paid-dominant.",
+    "topics": [
+      "growth-at-scale",
+      "paid-marketing",
+      "uber"
+    ]
+  },
+  {
+    "id": "claim-how-to-know-if-youre-supply-or-demand-constrained----phase-2-of-kickstarting-and-1",
+    "newsletterSlug": "how-to-know-if-youre-supply-or-demand-constrained----phase-2-of-kickstarting-and",
+    "text": "About 40% of marketplace companies start supply-constrained and remain supply-constrained throughout their entire history, while very few are always demand-constrained.",
+    "type": "observation",
+    "evidence": "Lenny's research across 17 marketplaces found Uber, Lyft, OpenTable, and DoorDash were always supply-constrained, while only Rover, TaskRabbit, and AngelList were always demand-constrained.",
+    "topics": [
+      "supply-demand-balance",
+      "marketplace",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-know-if-youre-supply-or-demand-constrained----phase-2-of-kickstarting-and-2",
+    "newsletterSlug": "how-to-know-if-youre-supply-or-demand-constrained----phase-2-of-kickstarting-and",
+    "text": "Lyft found that a 3-minute ETA was the inflection point below which the ride felt instantaneous; above 3 minutes, users were incentivized to shop around or take alternatives.",
+    "type": "observation",
+    "evidence": "Benjamin Lauzier describes finding this through data analysis of app-open-to-ride conversion and long-term retention, which gave local teams a north star metric.",
+    "topics": [
+      "marketplace",
+      "lyft",
+      "product-metrics"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken-1",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken",
+    "text": "Word-of-mouth was the most important early demand growth channel for over half of the biggest marketplace companies, with Uber seeing 50-60% WOM and Airbnb over 50% on the guest side.",
+    "type": "observation",
+    "evidence": "Direct quotes from leaders at Lyft, Airbnb, OpenTable, Uber, AngelList, TaskRabbit, and Instacart all identifying WOM as a huge early growth driver.",
+    "topics": [
+      "word-of-mouth",
+      "marketplace",
+      "demand-growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken-2",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken",
+    "text": "Supply directly driving its own demand was the second most common early demand growth lever for marketplaces, effective for over 40% of companies studied.",
+    "type": "observation",
+    "evidence": "DoorDash restaurants printed placards without being asked, Etsy sellers did grassroots marketing, Eventbrite organizers brought built-in audiences, and Patreon creators marketed their pages to followers.",
+    "topics": [
+      "supply-drives-demand",
+      "marketplace",
+      "demand-growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken-3",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken",
+    "text": "SEO was a vital early demand growth driver for over 40% of marketplaces, with Thumbtack getting 80-90% of growth from SEO and GrubHub getting 30% of new users from it.",
+    "type": "observation",
+    "evidence": "Sander Daniels describes Thumbtack's SEO journey starting with a chance bar meeting with an SEO expert, while Casey Winters describes GrubHub creating landing pages for each restaurant.",
+    "topics": [
+      "seo",
+      "marketplace",
+      "demand-growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business---part-3-cracking-the-chicken-1",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business---part-3-cracking-the-chicken",
+    "text": "One-on-one direct sales was a crucial supply growth lever for about 60% of early marketplace companies, twice as common as any other lever.",
+    "type": "observation",
+    "evidence": "Lenny's research across 17 companies found direct sales was the top supply lever, with examples from Airbnb, OpenTable, Etsy, Caviar, Uber, DoorDash, and AngelList all using door-to-door or direct outreach.",
+    "topics": [
+      "direct-sales",
+      "marketplace",
+      "supply-growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business---part-3-cracking-the-chicken-2",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business---part-3-cracking-the-chicken",
+    "text": "The median number of growth levers that the biggest marketplace companies relied on to kickstart supply was just two, suggesting teams should focus rather than spread across many channels.",
+    "type": "observation",
+    "evidence": "Lenny's meta-analysis across 17 marketplaces found the average was 2.5 levers, with the lesson being to find what works and double down.",
+    "topics": [
+      "focus",
+      "marketplace",
+      "supply-growth"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business---part-2-cracking-the-chicken-1",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business---part-2-cracking-the-chicken",
+    "text": "The vast majority (80%) of successful marketplaces focused almost all of their early resources on growing supply, because supply either drove its own demand or word-of-mouth handled demand.",
+    "type": "observation",
+    "evidence": "14 out of 17 companies interviewed concentrated on supply, including Eventbrite, Lyft, DoorDash, Etsy, Caviar, Instacart, and GrubHub, with only Rover, TaskRabbit, and Zillow focusing on demand.",
+    "topics": [
+      "supply-first",
+      "marketplace",
+      "chicken-and-egg"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business-1",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business",
+    "text": "With the exception of one company (Thumbtack), every successful marketplace studied constrained their initial marketplace either by geography or by category to more quickly reach critical mass.",
+    "type": "observation",
+    "evidence": "Lenny's research across 17 marketplaces found location-based services always started with a geographic constraint (e.g. Uber targeting 30 drivers and sub-15-min ETA), while others used category constraints (e.g. Etsy with only three categories).",
+    "topics": [
+      "marketplace-constraint",
+      "chicken-and-egg",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "claim-how-to-kickstart-and-scale-a-marketplace-business-2",
+    "newsletterSlug": "how-to-kickstart-and-scale-a-marketplace-business",
+    "text": "The primary reason most of these marketplace companies became successful was great product-market fit, not amazing growth insights; the growth levers helped accelerate and control growth but were secondary.",
+    "type": "observation",
+    "evidence": "Lenny's explicit disclaimer that many interviewees were first to admit this, with DoorDash's Micah Moreau noting that whenever they made a mistake it was because they forgot first principles of selection, delivery quality, and pricing.",
+    "topics": [
+      "product-market-fit",
+      "marketplace",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder-1",
+    "newsletterSlug": "this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+    "text": "When communicating a project failure to leadership, be up front about it, stay positive, separate the idea from the execution, and most importantly have a clear plan for next steps.",
+    "type": "recommendation",
+    "evidence": "Lenny's seven-step framework for delivering bad news including describing the journey, sharing what worked, and showing you care, emphasizing that turning failure into opportunity through clear next steps is where to spend most of your time.",
+    "topics": [
+      "communication",
+      "failure",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder-2",
+    "newsletterSlug": "this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+    "text": "To change a founder's mind about their core idea, bring them on the same journey of evidence you went on, align on key hypotheses and test them one by one, and give the founder a chance to save face.",
+    "type": "recommendation",
+    "evidence": "Lenny provides seven tactics including aligning on tests, showing irrefutable data, having a trusted advisor help convince, and framing changes as evolution based on new learnings rather than failure.",
+    "topics": [
+      "managing-up",
+      "founder-relations",
+      "pivoting"
+    ]
+  },
+  {
+    "id": "claim-this-week-6-cultivating-good-relationships-with-distributed-co-workers-building-1",
+    "newsletterSlug": "this-week-6-cultivating-good-relationships-with-distributed-co-workers-building",
+    "text": "Remote work leads to increased miscommunication, and the key to good relationships with remote engineers and designers is maintaining clarity through writing things down, screensharing, and postmorteming everything shipped.",
+    "type": "framework",
+    "evidence": "Hiten Shah's advice based on years of running distributed companies, emphasizing documentation of decisions, collaborating in tools during calls, and constantly assessing processes.",
+    "topics": [
+      "remote-work",
+      "communication",
+      "team-management"
+    ]
+  },
+  {
+    "id": "claim-this-week-6-cultivating-good-relationships-with-distributed-co-workers-building-2",
+    "newsletterSlug": "this-week-6-cultivating-good-relationships-with-distributed-co-workers-building",
+    "text": "The six key strategies for building user trust are social proof, authority signals, guarantees, reputation systems, great UX, and consistent delivery on your promise.",
+    "type": "framework",
+    "evidence": "Lenny's framework citing Airbnb Host Guarantee, Yelp/Uber reviews, and the Amazon Flywheel as examples, with the advice to show trust signals early and often in the user experience.",
+    "topics": [
+      "trust",
+      "growth",
+      "user-experience"
+    ]
+  },
+  {
+    "id": "claim-this-week-5-overcoming-impostor-syndrome-introducing-growth-to-an-org-and-how-to-1",
+    "newsletterSlug": "this-week-5-overcoming-impostor-syndrome-introducing-growth-to-an-org-and-how-to",
+    "text": "Impostor syndrome is normal and generally a sign of success; if you were in an unchallenging role, you wouldn't experience it.",
+    "type": "observation",
+    "evidence": "Executive coach Kate Hosie's perspective that impostor syndrome can also be a valid signal to look for areas where you're not taking responsibility, or a symptom of burnout from over-caring, lack of appreciation, or not working to your strengths.",
+    "topics": [
+      "impostor-syndrome",
+      "career-development",
+      "mental-health"
+    ]
+  },
+  {
+    "id": "claim-this-week-5-overcoming-impostor-syndrome-introducing-growth-to-an-org-and-how-to-2",
+    "newsletterSlug": "this-week-5-overcoming-impostor-syndrome-introducing-growth-to-an-org-and-how-to",
+    "text": "To introduce a growth team to a traditional sales-and-marketing org, bring in external growth experts, get CEO buy-in, and propose a six-month experiment with a small cross-functional team to demonstrate measurable impact.",
+    "type": "recommendation",
+    "evidence": "Lenny suggests inviting growth leaders from admired companies for fireside chats, benchmarking against other companies, and warning that without top-level support you'll face friction, politics, and tension.",
+    "topics": [
+      "growth-teams",
+      "organizational-change",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-this-week-5-overcoming-impostor-syndrome-introducing-growth-to-an-org-and-how-to-3",
+    "newsletterSlug": "this-week-5-overcoming-impostor-syndrome-introducing-growth-to-an-org-and-how-to",
+    "text": "Having a data scientist on your cross-functional team is like having a superpower, but to get the most value you should treat them as a partner by sharing the what and why, not just queries to run.",
+    "type": "recommendation",
+    "evidence": "Lenny's seven tips including prioritizing asks together, knowing what you'll do with the answer before asking, sharing findings widely, and being data-informed rather than data-driven.",
+    "topics": [
+      "data-science",
+      "cross-functional-teams",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-this-week-4-motivating-engineers-to-hit-deadlines-pm-career-ladders-and-aligning-1",
+    "newsletterSlug": "this-week-4-motivating-engineers-to-hit-deadlines-pm-career-ladders-and-aligning",
+    "text": "The most effective way to motivate engineers is to connect their daily work to their personal goals such as wanting to become a manager, start a company, or get promoted.",
+    "type": "recommendation",
+    "evidence": "Lenny provides a 10-point framework that also includes connecting work to higher mission, partnering with their manager, ensuring buy-in on timelines, and aligning incentives to performance reviews.",
+    "topics": [
+      "engineering-management",
+      "motivation",
+      "team-management"
+    ]
+  },
+  {
+    "id": "claim-this-week-4-motivating-engineers-to-hit-deadlines-pm-career-ladders-and-aligning-2",
+    "newsletterSlug": "this-week-4-motivating-engineers-to-hit-deadlines-pm-career-ladders-and-aligning",
+    "text": "All you really need for your team to excel is smart and motivated people; if engineers consistently take too long to ship, either intelligence or motivation is the issue to diagnose.",
+    "type": "observation",
+    "evidence": "Lenny's high-level conclusion after presenting ten tactical approaches to improving team velocity.",
+    "topics": [
+      "team-management",
+      "engineering-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-this-week-3-finding-productmarket-fit-interviewing-for-a-director-of-pm-role-and-1",
+    "newsletterSlug": "this-week-3-finding-productmarket-fit-interviewing-for-a-director-of-pm-role-and",
+    "text": "When validating a startup idea pre-product, the three things to look for are visible passion in potential customers, willingness to pay now, and a clear articulation of why this problem matters to them.",
+    "type": "framework",
+    "evidence": "Lenny describes passion as people getting visibly excited and offering money, skin in the game as literally sending invoices for early access, and a clear why as repeatedly asking 'why' to get to the core pain point.",
+    "topics": [
+      "product-market-fit",
+      "customer-discovery",
+      "startups"
+    ]
+  },
+  {
+    "id": "claim-this-week-3-finding-productmarket-fit-interviewing-for-a-director-of-pm-role-and-2",
+    "newsletterSlug": "this-week-3-finding-productmarket-fit-interviewing-for-a-director-of-pm-role-and",
+    "text": "As you progress from IC PM to Director, your gaze rises from week-to-week to years out, and the five most critical traits become long-term strategic thinking, people leadership, stakeholder management, impact orientation, and communication.",
+    "type": "framework",
+    "evidence": "Lenny's framework for what's different about a Director PM role, emphasizing that impact increasingly comes from the output of people you lead rather than your own hands-on work.",
+    "topics": [
+      "pm-career",
+      "director-pm",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-the-secret-to-a-great-planning-process---lessons-from-airbnb-and-eventbrite-1",
+    "newsletterSlug": "the-secret-to-a-great-planning-process---lessons-from-airbnb-and-eventbrite",
+    "text": "The root cause of nearly all bad planning processes is a lack of understanding of roles -- who is responsible for what, when.",
+    "type": "observation",
+    "evidence": "Lenny and Nels Gilbreth's observation from dozens of planning cycles across 10 years at Eventbrite and 7 at Airbnb, leading to their W Framework with four steps: Context, Plans, Integration, Buy-in.",
+    "topics": [
+      "planning",
+      "organizational-design",
+      "strategy"
+    ]
+  },
+  {
+    "id": "claim-this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr-1",
+    "newsletterSlug": "this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr",
+    "text": "The five most common solutions to the marketplace chicken-and-egg problem are single-player mode, subsidizing one side, employees as early supply, focusing on one market, and focusing on one niche.",
+    "type": "framework",
+    "evidence": "Lenny synthesizes examples like OpenTable's reservation software (single-player), Uber/Lyft paying early drivers (subsidy), Airbnb founders hosting (employees as supply), Rover in Seattle (one market), and eBay with Beanie Babies (one niche).",
+    "topics": [
+      "chicken-and-egg",
+      "marketplace",
+      "cold-start"
+    ]
+  },
+  {
+    "id": "claim-this-week-1-must-reads-on-growth-what-pms-should-focus-on-when-joining-a-new-tea-1",
+    "newsletterSlug": "this-week-1-must-reads-on-growth-what-pms-should-focus-on-when-joining-a-new-tea",
+    "text": "A new PM joining a team should focus on building trust in the first 30 days by asking questions and finding quick wins, improving execution in days 30-60, and developing strategy and vision in days 60-90.",
+    "type": "framework",
+    "evidence": "Lenny's 30-60-90 day plan for new PMs, comparing a new PM to a new roommate where the team is skeptical and not sure they want to trust you with the keys.",
+    "topics": [
+      "onboarding",
+      "product-management",
+      "career-development"
+    ]
+  },
+  {
+    "id": "claim-this-week-1-must-reads-on-growth-what-pms-should-focus-on-when-joining-a-new-tea-2",
+    "newsletterSlug": "this-week-1-must-reads-on-growth-what-pms-should-focus-on-when-joining-a-new-tea",
+    "text": "For most PMs who already have a PM job, an MBA is not worth the investment; better alternatives include working with your manager on a plan, finding PM mentors, and working on a variety of products and teams.",
+    "type": "recommendation",
+    "evidence": "Lenny advises that nothing beats actual experience when evaluating PM candidates, though acknowledges an MBA can help break into PM or unstick a career.",
+    "topics": [
+      "pm-career",
+      "mba",
+      "career-development"
+    ]
+  },
+  {
+    "id": "claim-the-power-of-performance-reviews-use-this-system-to-become-a-better-manager-1",
+    "newsletterSlug": "the-power-of-performance-reviews-use-this-system-to-become-a-better-manager",
+    "text": "Performance reviews done well improve performance, align expectations, and accelerate careers; done poorly, they accelerate departures.",
+    "type": "observation",
+    "evidence": "Lenny's assertion based on experience with great managers at Airbnb, presenting a three-step system of Prepare, Deliver, Follow-up with peer feedback using start/continue/stop questions.",
+    "topics": [
+      "performance-reviews",
+      "management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-the-power-of-performance-reviews-use-this-system-to-become-a-better-manager-2",
+    "newsletterSlug": "the-power-of-performance-reviews-use-this-system-to-become-a-better-manager",
+    "text": "Most performance reviews over-index on development areas, but individuals will have just as much or more impact by flexing what they are really good at, so reviews should highlight a person's superpower.",
+    "type": "recommendation",
+    "evidence": "Lenny cites research showing focusing on strengths is more effective than obsessing over weaknesses, and warns to watch for gender bias where the same behavior is described as strength for men and weakness for women.",
+    "topics": [
+      "performance-reviews",
+      "strengths-based-management",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-28-ways-to-grow-supply-in-a-marketplace-1",
+    "newsletterSlug": "28-ways-to-grow-supply-in-a-marketplace",
+    "text": "There are 28 distinct tactics for growing supply in a marketplace, organized across seven strategies: direct outreach, piggyback existing networks, referrals, subsidize supply, events, single-player mode, and community building.",
+    "type": "framework",
+    "evidence": "Lenny's comprehensive taxonomy from his Airbnb experience and Andrew Chen blog collaboration, providing examples from Airbnb, Uber, Lyft, Etsy, and other major marketplaces for each tactic.",
+    "topics": [
+      "supply-growth",
+      "marketplace",
+      "growth-tactics"
+    ]
+  },
+  {
+    "id": "claim-what-seven-years-at-airbnb-taught-me-about-building-a-business-1",
+    "newsletterSlug": "what-seven-years-at-airbnb-taught-me-about-building-a-business",
+    "text": "Nailing the problem statement is the single most important step in solving any problem, and simple projects with vague problem statements go in circles while complex projects with strong problem statements sail smoothly.",
+    "type": "observation",
+    "evidence": "Lenny's core lesson from seven years at Airbnb, supported by a 1-pager template, the SCR framework for communication, and the jobs-to-be-done framework for customer needs.",
+    "topics": [
+      "problem-solving",
+      "product-management",
+      "strategy"
+    ]
+  },
+  {
+    "id": "claim-what-seven-years-at-airbnb-taught-me-about-building-a-business-2",
+    "newsletterSlug": "what-seven-years-at-airbnb-taught-me-about-building-a-business",
+    "text": "At Airbnb, CEO Brian Chesky was famous for doubling proposed goals or pushing for 10x, and teams were often shocked at how close they came to hitting these wildly ambitious targets.",
+    "type": "observation",
+    "evidence": "Lenny describes five ingredients: uncomfortable goals, individual accountability, long-term thinking, cross-functional ownership, and celebrating success without punishing failure.",
+    "topics": [
+      "goal-setting",
+      "airbnb",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-what-seven-years-at-airbnb-taught-me-about-building-a-business-3",
+    "newsletterSlug": "what-seven-years-at-airbnb-taught-me-about-building-a-business",
+    "text": "The most important product to get right in a product org is how you organize your people; the ideal is dedicated cross-functional teams with a clear mandate that can move autonomously, and any missing resource or added dependency cuts impact immensely.",
+    "type": "observation",
+    "evidence": "Lenny's principle from Airbnb about org design as product, noting he went through almost a dozen reorgs and there was never a perfect design, but minimizing cross-team dependencies was key.",
+    "topics": [
+      "organizational-design",
+      "team-structure",
+      "airbnb"
+    ]
+  },
+  {
+    "id": "claim-what-seven-years-at-airbnb-taught-me-about-building-a-business-4",
+    "newsletterSlug": "what-seven-years-at-airbnb-taught-me-about-building-a-business",
+    "text": "Some of the biggest guest conversion gains at Airbnb came from simple tweaks that gave users fewer things to think about, such as opening listings in new tabs, extending session length, and removing links within the payments flow.",
+    "type": "observation",
+    "evidence": "Lenny describes similar focus wins on the host side including recommended tags, persona-based defaults, and inline tips, concluding 'Don't underestimate the power of focus.'",
+    "topics": [
+      "conversion-optimization",
+      "focus",
+      "airbnb"
+    ]
+  },
+  {
+    "id": "claim-what-buddhism-taught-me-about-product-management-1",
+    "newsletterSlug": "what-buddhism-taught-me-about-product-management",
+    "text": "Find your fulfillment in solving problems, not in forever keeping problems from arising, because fires will always burn, people will get upset, and things will go wrong as a natural order.",
+    "type": "framework",
+    "evidence": "Lenny applies the Buddhist concept of Dukkha (suffering/dissatisfaction) to product management, noting that the illusion of a problem-free state is counterproductive for leaders.",
+    "topics": [
+      "mindset",
+      "product-management",
+      "buddhism"
+    ]
+  },
+  {
+    "id": "claim-what-buddhism-taught-me-about-product-management-2",
+    "newsletterSlug": "what-buddhism-taught-me-about-product-management",
+    "text": "Nothing, no matter how well it's working, is going to last, so welcome change, anticipate it, and use it to your advantage rather than clinging to existing ideas, products, or strategies.",
+    "type": "framework",
+    "evidence": "Lenny applies the Buddhist concept of Anicca (impermanence) to product management, noting that the hardest things to let go of are often your own ideas and that killing bad ideas quickly benefits both you and the business.",
+    "topics": [
+      "mindset",
+      "impermanence",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-what-buddhism-taught-me-about-product-management-3",
+    "newsletterSlug": "what-buddhism-taught-me-about-product-management",
+    "text": "The most effective leaders place the team above themselves by deflecting credit and giving presentation opportunities to other team members, which strengthens the team's efficacy.",
+    "type": "observation",
+    "evidence": "Lenny connects the Buddhist concept of Anatta (no-self) to leadership, citing Good to Great's finding that the most successful companies were led by Level 5 Leaders whose ambition was first for the organization, not themselves.",
+    "topics": [
+      "leadership",
+      "ego",
+      "team-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-into-product-management-1",
+    "newsletterSlug": "how-to-get-into-product-management",
+    "text": "The seven core PM skills in order of importance are strategic thinking, execution, communication, leadership through influence, data-informed decision making, product taste, and always being prepared.",
+    "type": "framework",
+    "evidence": "Lenny's comprehensive guide with curated resources for each skill, noting that a PM good at nothing else but execution is valuable while a team with a PM that can't execute is better off without that PM.",
+    "topics": [
+      "product-management",
+      "career-development",
+      "pm-skills"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-into-product-management-2",
+    "newsletterSlug": "how-to-get-into-product-management",
+    "text": "The four most common paths into product management are internal transition at a large company, finding a junior PM role, joining a startup with a burning need, and starting your own company.",
+    "type": "framework",
+    "evidence": "Lenny's assessment based on his own transition from engineering to PM at Airbnb and helping many others transition from Operations, Data Science, and Finance.",
+    "topics": [
+      "product-management",
+      "career-transitions",
+      "pm-career"
+    ]
+  },
+  {
+    "id": "claim-a-three-step-framework-for-solving-problems-1",
+    "newsletterSlug": "a-three-step-framework-for-solving-problems",
+    "text": "Nothing is more certain to cause a project to fail than a misunderstanding of the problem you are solving, and the three steps to avoid this are crystallize the problem, align your team on it, and keep coming back to it throughout execution.",
+    "type": "framework",
+    "evidence": "Lenny shares the story of building a social travel feature at Airbnb that failed because they solved 'travelers want to hang out together' instead of the real problem 'travelers want to find quality non-touristy things to do,' which Airbnb Experiences later solved.",
+    "topics": [
+      "problem-solving",
+      "product-management",
+      "alignment"
+    ]
+  },
+  {
+    "id": "claim-a-three-step-framework-for-solving-problems-2",
+    "newsletterSlug": "a-three-step-framework-for-solving-problems",
+    "text": "Problem statements are like silver burritos: everyone on the team has a unique version of the problem in their heads, and the PM's job is to eradicate this misalignment early and often.",
+    "type": "observation",
+    "evidence": "Lenny uses the Chipotle billboard analogy where everyone pictures their ideal burrito inside the wrapper, applying it to how team members each imagine different versions of the project scope.",
+    "topics": [
+      "problem-solving",
+      "alignment",
+      "communication"
+    ]
+  },
+  {
+    "id": "claim-this-week-8-splitting-equity-with-late-joining-co-founders-favorite-roadmap-temp-1",
+    "newsletterSlug": "this-week-8-splitting-equity-with-late-joining-co-founders-favorite-roadmap-temp",
+    "text": "A late-arriving technical cofounder should receive common shares with standard vesting, with equity ranging from around 10% for a true cofounder up to 1-5% for a senior founding team member.",
+    "type": "recommendation",
+    "evidence": "Hunter Walk's advice based on working with over a hundred early-stage startups at Homebrew, noting these are averages and the CTO might reasonably ask for a termination-without-cause protection before vesting cliff.",
+    "topics": [
+      "equity",
+      "startups",
+      "cofounders"
+    ]
   }
 ]
