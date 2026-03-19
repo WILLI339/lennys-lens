@@ -3715,284 +3715,28 @@
     ]
   },
   {
-    "id": "claim-a-holiday-gift-guide-for-tech-people-with-taste-skip",
-    "newsletterSlug": "a-holiday-gift-guide-for-tech-people-with-taste",
-    "text": "",
+    "id": "claim-top-angel-investors-in-the-us-1",
+    "newsletterSlug": "top-angel-investors-in-the-us",
+    "text": "The best angel investors operate through warm introductions rather than cold emails because warm intros serve as an effective filter for deal quality and prevent overwhelm.",
     "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
+    "evidence": "Crunchbase data analysis combined with Terrence Rohan and Jack Altman's fundraising advice; the top angel investors are not a known quantity unlike top funds.",
+    "topics": [
+      "angel-investing",
+      "fundraising",
+      "networking"
+    ]
   },
   {
-    "id": "claim-a-free-year-of-devin-the-worlds-most-advanced-autonomous-ai-software-engineer-skip",
-    "newsletterSlug": "a-free-year-of-devin-the-worlds-most-advanced-autonomous-ai-software-engineer",
-    "text": "",
+    "id": "claim-top-angel-investors-in-the-us-2",
+    "newsletterSlug": "top-angel-investors-in-the-us",
+    "text": "The most active angel investors over the past five years are overwhelmingly operator-investors who leverage deep experience at companies like Google, Facebook, Stripe, and Microsoft.",
     "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off--a-newsletter-cadence-update-skip",
-    "newsletterSlug": "taking-the-week-off--a-newsletter-cadence-update",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-lennys-product-pass-20-free-premium-products-available-exclusively-for-paid-annu-skip",
-    "newsletterSlug": "lennys-product-pass-20-free-premium-products-available-exclusively-for-paid-annu",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-6-skip",
-    "newsletterSlug": "taking-the-week-off-6",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-a-new-perk-for-annual-subscribers-a-free-year-of-some-of-the-worlds-most-beloved-skip",
-    "newsletterSlug": "a-new-perk-for-annual-subscribers-a-free-year-of-some-of-the-worlds-most-beloved",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-announcing-the-greatest-product-bundle-ever-get-a-year-free-of-granola-notion-su-skip",
-    "newsletterSlug": "announcing-the-greatest-product-bundle-ever-get-a-year-free-of-granola-notion-su",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-5-skip",
-    "newsletterSlug": "taking-the-week-off-5",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-the-best-of-lennys-newsletter-2024-edition-skip",
-    "newsletterSlug": "the-best-of-lennys-newsletter-2024-edition",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-lennys-newsletter-holiday-gift-guide-2024-skip",
-    "newsletterSlug": "lennys-newsletter-holiday-gift-guide-2024",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-get-perplexity-pro-free-for-1-year-skip",
-    "newsletterSlug": "get-perplexity-pro-free-for-1-year",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-summary-lessons-from-working-with-600-yc-startups--gustaf-alströmer-y-combinator-skip",
-    "newsletterSlug": "summary-lessons-from-working-with-600-yc-startups--gustaf-alströmer-y-combinator",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-summary-april-dunford-on-product-positioning-segmentation-and-optimizing-your-sa-skip",
-    "newsletterSlug": "summary-april-dunford-on-product-positioning-segmentation-and-optimizing-your-sa",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-summary-ai-and-product-management--marily-nika-meta-google-skip",
-    "newsletterSlug": "summary-ai-and-product-management--marily-nika-meta-google",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-summary-the-ultimate-guide-to-adding-a-plg-motion--hila-qu-reforge-gitlab-skip",
-    "newsletterSlug": "summary-the-ultimate-guide-to-adding-a-plg-motion--hila-qu-reforge-gitlab",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-announcing-the-lenny--friends-summit-skip",
-    "newsletterSlug": "announcing-the-lenny--friends-summit",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-4-skip",
-    "newsletterSlug": "taking-the-week-off-4",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-meet-your-lennys-newsletter-fellows-skip",
-    "newsletterSlug": "meet-your-lennys-newsletter-fellows",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-3-skip",
-    "newsletterSlug": "taking-the-week-off-3",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-2-skip",
-    "newsletterSlug": "taking-the-week-off-2",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-and-thank-you-skip",
-    "newsletterSlug": "taking-the-week-off-and-thank-you",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-the-best-of-lennys-newsletter-2023-skip",
-    "newsletterSlug": "the-best-of-lennys-newsletter-2023",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-a-new-parent-gift-guide-skip",
-    "newsletterSlug": "a-new-parent-gift-guide",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-skipping-newsletter-today-skip",
-    "newsletterSlug": "skipping-newsletter-today",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-skip",
-    "newsletterSlug": "taking-the-week-off",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-the-best-of-lennys-newsletter-2022-skip",
-    "newsletterSlug": "the-best-of-lennys-newsletter-2022",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-lennys-newsletter-holiday-gift-guide-2022-skip",
-    "newsletterSlug": "lennys-newsletter-holiday-gift-guide-2022",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-9-skip",
-    "newsletterSlug": "taking-the-week-off-9",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-8-skip",
-    "newsletterSlug": "taking-the-week-off-8",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-lennys-holiday-gift-guide-skip",
-    "newsletterSlug": "lennys-holiday-gift-guide",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-taking-the-week-off-7-skip",
-    "newsletterSlug": "taking-the-week-off-7",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-the-best-of-lennys-newsletter-2021-skip",
-    "newsletterSlug": "the-best-of-lennys-newsletter-2021",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-choosing-your-north-star-metric-skip",
-    "newsletterSlug": "choosing-your-north-star-metric",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-communicating-bad-news---issue-26-2-skip",
-    "newsletterSlug": "communicating-bad-news---issue-26-2",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
-  },
-  {
-    "id": "claim-where-great-product-roadmap-ideas-come-from-skip",
-    "newsletterSlug": "where-great-product-roadmap-ideas-come-from",
-    "text": "",
-    "type": "observation",
-    "evidence": "Skipped: filler content",
-    "topics": []
+    "evidence": "Crunchbase data showing top angels include Gokul Rajaram (Google/Facebook/DoorDash), Elad Gil (Twitter), Scott Belsky (Adobe), and Lachy Groom (Stripe).",
+    "topics": [
+      "angel-investing",
+      "operator-investors",
+      "startups"
+    ]
   },
   {
     "id": "claim-the-art-of-the-pivot-part-2-how-why-and-when-to-pivot-1",
@@ -8102,30 +7846,6 @@
       "technical-skills",
       "product-management",
       "shipping"
-    ]
-  },
-  {
-    "id": "claim-top-angel-investors-in-the-us-1",
-    "newsletterSlug": "top-angel-investors-in-the-us",
-    "text": "The best angel investors operate through warm introductions rather than cold emails because warm intros serve as an effective filter for deal quality and prevent overwhelm.",
-    "type": "observation",
-    "evidence": "Crunchbase data analysis combined with Terrence Rohan and Jack Altman's fundraising advice; the top angel investors are not a known quantity unlike top funds.",
-    "topics": [
-      "angel-investing",
-      "fundraising",
-      "networking"
-    ]
-  },
-  {
-    "id": "claim-top-angel-investors-in-the-us-2",
-    "newsletterSlug": "top-angel-investors-in-the-us",
-    "text": "The most active angel investors over the past five years are overwhelmingly operator-investors who leverage deep experience at companies like Google, Facebook, Stripe, and Microsoft.",
-    "type": "observation",
-    "evidence": "Crunchbase data showing top angels include Gokul Rajaram (Google/Facebook/DoorDash), Elad Gil (Twitter), Scott Belsky (Adobe), and Lachy Groom (Stripe).",
-    "topics": [
-      "angel-investing",
-      "operator-investors",
-      "startups"
     ]
   },
   {
