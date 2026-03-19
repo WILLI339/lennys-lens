@@ -85,7 +85,7 @@
     "momentId": "moment-albert-1",
     "relationship": "extends",
     "confidence": 0.68,
-    "explanation": "Albert's insight about understanding the psychology behind mechanics extends to notification design \u2014 understanding why users respond."
+    "explanation": "Albert's insight about understanding the psychology behind mechanics extends to notification design — understanding why users respond."
   },
   {
     "id": "conn-12",
@@ -141,7 +141,7 @@
     "momentId": "moment-lazar-1",
     "relationship": "supports",
     "confidence": 0.92,
-    "explanation": "Lazar directly demonstrates the claim \u2014 a non-coder building production tools as a full-time job."
+    "explanation": "Lazar directly demonstrates the claim — a non-coder building production tools as a full-time job."
   },
   {
     "id": "conn-19",
@@ -189,7 +189,7 @@
     "momentId": "moment-lazar-2",
     "relationship": "supports",
     "confidence": 0.92,
-    "explanation": "Lazar directly validates starting with personal problems \u2014 his first project was a metrics dashboard for himself."
+    "explanation": "Lazar directly validates starting with personal problems — his first project was a metrics dashboard for himself."
   },
   {
     "id": "conn-25",
@@ -213,7 +213,7 @@
     "momentId": "moment-dan-2",
     "relationship": "extends",
     "confidence": 0.72,
-    "explanation": "Dan's observation about the demo-to-production gap adds nuance \u2014 personal projects have higher motivation to push past this gap."
+    "explanation": "Dan's observation about the demo-to-production gap adds nuance — personal projects have higher motivation to push past this gap."
   },
   {
     "id": "conn-28",
@@ -333,7 +333,7 @@
     "momentId": "moment-hamel-1",
     "relationship": "supports",
     "confidence": 0.95,
-    "explanation": "Hamel directly validates evals as 'the new unit tests' \u2014 the most critical AI product skill."
+    "explanation": "Hamel directly validates evals as 'the new unit tests' — the most critical AI product skill."
   },
   {
     "id": "conn-43",
@@ -605,7 +605,7 @@
     "momentId": "moment-dan-2",
     "relationship": "extends",
     "confidence": 0.65,
-    "explanation": "Dan's iteration process implicitly uses persistent context \u2014 each round of polish builds on accumulated understanding."
+    "explanation": "Dan's iteration process implicitly uses persistent context — each round of polish builds on accumulated understanding."
   },
   {
     "id": "conn-77",
@@ -621,7 +621,7 @@
     "momentId": "moment-molly-1",
     "relationship": "extends",
     "confidence": 0.72,
-    "explanation": "Molly's hire-for-growth advice extends to the PM market \u2014 hire PMs who can grow into AI-literate roles."
+    "explanation": "Molly's hire-for-growth advice extends to the PM market — hire PMs who can grow into AI-literate roles."
   },
   {
     "id": "conn-79",
@@ -653,7 +653,7 @@
     "momentId": "moment-chip-1",
     "relationship": "supports",
     "confidence": 0.92,
-    "explanation": "Chip Huyen directly validates the 'right depth' framing for PM AI literacy \u2014 decision-making level, not technical depth."
+    "explanation": "Chip Huyen directly validates the 'right depth' framing for PM AI literacy — decision-making level, not technical depth."
   },
   {
     "id": "conn-83",
@@ -677,7 +677,7 @@
     "momentId": "moment-nicole-2",
     "relationship": "extends",
     "confidence": 0.7,
-    "explanation": "Nicole extends the discussion to measurement frameworks PMs need \u2014 DORA metrics adapted for AI."
+    "explanation": "Nicole extends the discussion to measurement frameworks PMs need — DORA metrics adapted for AI."
   },
   {
     "id": "conn-claim-duolingo-1-moment-madhavan-ramanujam-3",
@@ -725,7 +725,7 @@
     "momentId": "moment-jenny-wen-4",
     "relationship": "extends",
     "confidence": 0.62,
-    "explanation": "Jenny's insight that shipping early is fine if you visibly iterate extends the protective feature principle \u2014 users forgive imperfection when they see commitment."
+    "explanation": "Jenny's insight that shipping early is fine if you visibly iterate extends the protective feature principle — users forgive imperfection when they see commitment."
   },
   {
     "id": "conn-claim-claude-1-moment-dhanji-r-prasanna-5",
@@ -765,7 +765,7 @@
     "momentId": "moment-howie-liu-2",
     "relationship": "supports",
     "confidence": 0.82,
-    "explanation": "Howie Liu validates the threshold by describing the new PM as a 'hybrid PM-prototyper' \u2014 non-engineers building real products."
+    "explanation": "Howie Liu validates the threshold by describing the new PM as a 'hybrid PM-prototyper' — non-engineers building real products."
   },
   {
     "id": "conn-claim-claude-1-moment-sam-lessin-4",
@@ -789,7 +789,7 @@
     "momentId": "moment-scott-wu-3",
     "relationship": "extends",
     "confidence": 0.65,
-    "explanation": "Scott Wu's insistence that people should still learn to code extends the learning advice \u2014 understanding logical problem decomposition makes AI tools more effective."
+    "explanation": "Scott Wu's insistence that people should still learn to code extends the learning advice — understanding logical problem decomposition makes AI tools more effective."
   },
   {
     "id": "conn-claim-claude-3-moment-howie-liu-2",
@@ -893,7 +893,7 @@
     "momentId": "moment-nick-turley-4",
     "relationship": "extends",
     "confidence": 0.7,
-    "explanation": "Nick Turley's insight that traditional polish can be counterproductive in AI adds nuance \u2014 the gap may be about knowing what to polish, not just polishing more."
+    "explanation": "Nick Turley's insight that traditional polish can be counterproductive in AI adds nuance — the gap may be about knowing what to polish, not just polishing more."
   },
   {
     "id": "conn-claim-vibe-2-moment-jason-droege-1",
@@ -909,7 +909,7 @@
     "momentId": "moment-nick-turley-3",
     "relationship": "supports",
     "confidence": 0.88,
-    "explanation": "Nick Turley validates evals as critical, noting he started writing evals before knowing the term \u2014 it's simply articulating success criteria, a core PM skill."
+    "explanation": "Nick Turley validates evals as critical, noting he started writing evals before knowing the term — it's simply articulating success criteria, a core PM skill."
   },
   {
     "id": "conn-claim-evals-1-moment-edwin-chen-2",
@@ -1013,7 +1013,7 @@
     "momentId": "moment-nick-turley-1",
     "relationship": "supports",
     "confidence": 0.75,
-    "explanation": "Nick Turley's dream of shipping daily at OpenAI reflects the collapsed handoff \u2014 ideas can go from concept to production far faster."
+    "explanation": "Nick Turley's dream of shipping daily at OpenAI reflects the collapsed handoff — ideas can go from concept to production far faster."
   },
   {
     "id": "conn-claim-proto-1-moment-howie-liu-4",
@@ -1021,7 +1021,7 @@
     "momentId": "moment-howie-liu-4",
     "relationship": "extends",
     "confidence": 0.72,
-    "explanation": "Howie extends the collapsed handoff by arguing leaders must participate in building to understand AI's solution space \u2014 you can't taste the soup without cooking."
+    "explanation": "Howie extends the collapsed handoff by arguing leaders must participate in building to understand AI's solution space — you can't taste the soup without cooking."
   },
   {
     "id": "conn-claim-proto-2-moment-scott-wu-5",
@@ -1029,7 +1029,7 @@
     "momentId": "moment-scott-wu-5",
     "relationship": "supports",
     "confidence": 0.72,
-    "explanation": "Scott Wu's observation that AI agents work best with well-defined tasks supports the JSON-first approach \u2014 clear structure produces better AI output."
+    "explanation": "Scott Wu's observation that AI agents work best with well-defined tasks supports the JSON-first approach — clear structure produces better AI output."
   },
   {
     "id": "conn-claim-unfair-1-moment-jenny-wen-5",
@@ -1045,7 +1045,7 @@
     "momentId": "moment-howie-liu-2",
     "relationship": "supports",
     "confidence": 0.78,
-    "explanation": "Howie's hybrid PM-prototyper model validates augmentation \u2014 PMs gain building capabilities rather than being replaced by AI."
+    "explanation": "Howie's hybrid PM-prototyper model validates augmentation — PMs gain building capabilities rather than being replaced by AI."
   },
   {
     "id": "conn-claim-unfair-1-moment-ben-horowitz-3",
@@ -1053,7 +1053,7 @@
     "momentId": "moment-ben-horowitz-3",
     "relationship": "supports",
     "confidence": 0.75,
-    "explanation": "Ben Horowitz's emphasis on PM as a leadership role with no direct reports reinforces that synthesis and judgment \u2014 not execution \u2014 define the role."
+    "explanation": "Ben Horowitz's emphasis on PM as a leadership role with no direct reports reinforces that synthesis and judgment — not execution — define the role."
   },
   {
     "id": "conn-claim-unfair-1-moment-nick-turley-5",
@@ -1085,7 +1085,7 @@
     "momentId": "moment-jenny-wen-6",
     "relationship": "extends",
     "confidence": 0.7,
-    "explanation": "Jenny's recommendation that design managers rotate back to IC work extends the full-stack PM principle to design leadership \u2014 hands-on building keeps leaders effective."
+    "explanation": "Jenny's recommendation that design managers rotate back to IC work extends the full-stack PM principle to design leadership — hands-on building keeps leaders effective."
   },
   {
     "id": "conn-claim-unfair-2-moment-howie-liu-4",
@@ -1109,7 +1109,7 @@
     "momentId": "moment-asha-sharma-2",
     "relationship": "extends",
     "confidence": 0.75,
-    "explanation": "Asha extends the second brain concept by describing AI products as 'living organisms that learn with every interaction' \u2014 the second brain becomes self-improving."
+    "explanation": "Asha extends the second brain concept by describing AI products as 'living organisms that learn with every interaction' — the second brain becomes self-improving."
   },
   {
     "id": "conn-claim-brain-1-moment-dhanji-r-prasanna-2",
@@ -1133,7 +1133,7 @@
     "momentId": "moment-dhanji-r-prasanna-2",
     "relationship": "supports",
     "confidence": 0.82,
-    "explanation": "Dhanji's Goose watching everything an engineer does demonstrates persistent context \u2014 the AI accumulates understanding to autonomously build features."
+    "explanation": "Dhanji's Goose watching everything an engineer does demonstrates persistent context — the AI accumulates understanding to autonomously build features."
   },
   {
     "id": "conn-claim-brain-2-moment-asha-sharma-2",
@@ -1149,7 +1149,7 @@
     "momentId": "moment-sherwin-wu-v2-5",
     "relationship": "extends",
     "confidence": 0.65,
-    "explanation": "Sherwin's warning that models will eat your scaffolding extends the persistent context discussion \u2014 context strategies must evolve as models improve."
+    "explanation": "Sherwin's warning that models will eat your scaffolding extends the persistent context discussion — context strategies must evolve as models improve."
   },
   {
     "id": "conn-claim-jobs-1-moment-howie-liu-2",
@@ -1189,7 +1189,7 @@
     "momentId": "moment-scott-wu-4",
     "relationship": "extends",
     "confidence": 0.65,
-    "explanation": "Scott Wu's Jevons Paradox argument \u2014 cheaper programming creates more programmers \u2014 extends the claim to predict AI-literate roles will expand, not shrink."
+    "explanation": "Scott Wu's Jevons Paradox argument — cheaper programming creates more programmers — extends the claim to predict AI-literate roles will expand, not shrink."
   },
   {
     "id": "conn-claim-reading-1-moment-stewart-butterfield-2",
@@ -1205,7 +1205,7 @@
     "momentId": "moment-robby-stein-4",
     "relationship": "supports",
     "confidence": 0.68,
-    "explanation": "Robby's product principles \u2014 JTBD, root cause analysis, clarity over cleverness \u2014 draw from adjacent disciplines to inform product building."
+    "explanation": "Robby's product principles — JTBD, root cause analysis, clarity over cleverness — draw from adjacent disciplines to inform product building."
   },
   {
     "id": "conn-claim-reading-1-moment-madhavan-ramanujam-3",
@@ -1229,7 +1229,7 @@
     "momentId": "moment-howie-liu-4",
     "relationship": "supports",
     "confidence": 0.75,
-    "explanation": "Howie's insistence that leaders participate in building to understand AI validates the 'right depth' \u2014 hands-on product-level understanding, not engineering depth."
+    "explanation": "Howie's insistence that leaders participate in building to understand AI validates the 'right depth' — hands-on product-level understanding, not engineering depth."
   },
   {
     "id": "conn-claim-glossary-1-moment-jason-droege-4",
@@ -1245,6 +1245,4014 @@
     "momentId": "moment-scott-wu-6",
     "relationship": "extends",
     "confidence": 0.65,
-    "explanation": "Scott Wu's concept of 'jagged intelligence' gives PMs an intuitive model for AI capability variation \u2014 useful product-level AI literacy."
+    "explanation": "Scott Wu's concept of 'jagged intelligence' gives PMs an intuitive model for AI capability variation — useful product-level AI literacy."
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-1-moment-sam-lessin-3",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-1",
+    "momentId": "moment-sam-lessin-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-1-moment-jason-droege-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-1",
+    "momentId": "moment-jason-droege-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-1-moment-andrew-wilkinson-1",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-1",
+    "momentId": "moment-andrew-wilkinson-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-1-moment-jeetu-patel-6",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-1",
+    "momentId": "moment-jeetu-patel-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-1-moment-jeetu-patel-7",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-1",
+    "momentId": "moment-jeetu-patel-7",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-2-moment-nabeel-s-qureshi-3",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-2",
+    "momentId": "moment-nabeel-s-qureshi-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, hiring, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-2-moment-nabeel-s-qureshi-6",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-2",
+    "momentId": "moment-nabeel-s-qureshi-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, hiring, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-2-moment-jerry-colonna-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-2",
+    "momentId": "moment-jerry-colonna-5",
+    "relationship": "contradicts",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, hiring, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-2-moment-michael-truell-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-2",
+    "momentId": "moment-michael-truell-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, hiring, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-2-moment-varun-mohan-2",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-2",
+    "momentId": "moment-varun-mohan-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, hiring, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-3-moment-brian-halligan-3",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-3",
+    "momentId": "moment-brian-halligan-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, leadership, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-3-moment-brian-halligan-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-3",
+    "momentId": "moment-brian-halligan-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, leadership, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-3-moment-rachel-lockett-8",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-3",
+    "momentId": "moment-rachel-lockett-8",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, leadership, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-3-moment-melanie-perkins-7",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-3",
+    "momentId": "moment-melanie-perkins-7",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, leadership, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-3-moment-robby-stein-6",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-3",
+    "momentId": "moment-robby-stein-6",
+    "relationship": "contradicts",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, leadership, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-4-moment-dmitry-zlokazov-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-4",
+    "momentId": "moment-dmitry-zlokazov-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, product-management, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-4-moment-nabeel-s-qureshi-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-4",
+    "momentId": "moment-nabeel-s-qureshi-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, product-management, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-4-moment-sam-lessin-3",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-4",
+    "momentId": "moment-sam-lessin-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-4-moment-matt-macinnis-4",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-4",
+    "momentId": "moment-matt-macinnis-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-4-moment-jason-droege-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-4",
+    "momentId": "moment-jason-droege-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-5-moment-melanie-perkins-6",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-5",
+    "momentId": "moment-melanie-perkins-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, growth, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-5-moment-matt-macinnis-4",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-5",
+    "momentId": "moment-matt-macinnis-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-5-moment-eoghan-mccabe-1",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-5",
+    "momentId": "moment-eoghan-mccabe-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-5-moment-andrew-wilkinson-6",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-5",
+    "momentId": "moment-andrew-wilkinson-6",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-5-moment-jenny-wen-4",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-5",
+    "momentId": "moment-jenny-wen-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-6-moment-sam-lessin-3",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-6",
+    "momentId": "moment-sam-lessin-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-6-moment-jason-droege-5",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-6",
+    "momentId": "moment-jason-droege-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-6-moment-andrew-wilkinson-1",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-6",
+    "momentId": "moment-andrew-wilkinson-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-6-moment-jeetu-patel-6",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-6",
+    "momentId": "moment-jeetu-patel-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-6-moment-jeetu-patel-7",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-6",
+    "momentId": "moment-jeetu-patel-7",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, startup-building"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-1-moment-ethan-smith-1",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-1",
+    "momentId": "moment-ethan-smith-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: growth, go-to-market, ai-tools"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-1-moment-eoghan-mccabe-3",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-1",
+    "momentId": "moment-eoghan-mccabe-3",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: growth, b2b, ai-tools"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-1-moment-brian-halligan-6",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-1",
+    "momentId": "moment-brian-halligan-6",
+    "relationship": "supports",
+    "confidence": 0.8,
+    "explanation": "Topic overlap: go-to-market, b2b, ai-tools"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-1-moment-ethan-smith-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-1",
+    "momentId": "moment-ethan-smith-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-1-moment-jeetu-patel-3",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-1",
+    "momentId": "moment-jeetu-patel-3",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-2-moment-ethan-smith-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-2",
+    "momentId": "moment-ethan-smith-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-2-moment-jeetu-patel-3",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-2",
+    "momentId": "moment-jeetu-patel-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-2-moment-brian-halligan-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-2",
+    "momentId": "moment-brian-halligan-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-2-moment-jeanne-grosser-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-2",
+    "momentId": "moment-jeanne-grosser-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-2-moment-jen-abel-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-2",
+    "momentId": "moment-jen-abel-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-3-moment-ethan-smith-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-3",
+    "momentId": "moment-ethan-smith-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-3-moment-jeetu-patel-3",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-3",
+    "momentId": "moment-jeetu-patel-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-3-moment-brian-halligan-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-3",
+    "momentId": "moment-brian-halligan-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-3-moment-jeanne-grosser-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-3",
+    "momentId": "moment-jeanne-grosser-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-3-moment-jen-abel-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-3",
+    "momentId": "moment-jen-abel-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-4-moment-ethan-smith-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-4",
+    "momentId": "moment-ethan-smith-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-4-moment-jeetu-patel-3",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-4",
+    "momentId": "moment-jeetu-patel-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-4-moment-brian-halligan-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-4",
+    "momentId": "moment-brian-halligan-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-4-moment-jeanne-grosser-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-4",
+    "momentId": "moment-jeanne-grosser-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-4-moment-jen-abel-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-4",
+    "momentId": "moment-jen-abel-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-5-moment-brian-halligan-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-5",
+    "momentId": "moment-brian-halligan-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: growth, go-to-market, startup-building"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-5-moment-ethan-smith-3",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-5",
+    "momentId": "moment-ethan-smith-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: growth, go-to-market, startup-building"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-5-moment-melanie-perkins-1",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-5",
+    "momentId": "moment-melanie-perkins-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: go-to-market, startup-building"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-5-moment-ethan-smith-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-5",
+    "momentId": "moment-ethan-smith-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-5-moment-eoghan-mccabe-1",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-5",
+    "momentId": "moment-eoghan-mccabe-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: growth, startup-building"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-6-moment-ethan-smith-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-6",
+    "momentId": "moment-ethan-smith-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-6-moment-jeetu-patel-3",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-6",
+    "momentId": "moment-jeetu-patel-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-6-moment-brian-halligan-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-6",
+    "momentId": "moment-brian-halligan-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, go-to-market"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-6-moment-jeanne-grosser-2",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-6",
+    "momentId": "moment-jeanne-grosser-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-ecosystem-is-the-next-big-growth-channel-6-moment-jen-abel-4",
+    "claimId": "claim-ecosystem-is-the-next-big-growth-channel-6",
+    "momentId": "moment-jen-abel-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: go-to-market, b2b"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-1-moment-melanie-perkins-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-1",
+    "momentId": "moment-melanie-perkins-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-1-moment-andrew-wilkinson-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-1",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-1-moment-jenny-wen-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-1",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-1-moment-boris-2",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-1",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-1-moment-sherwin-wu-v2-1",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-1",
+    "momentId": "moment-sherwin-wu-v2-1",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-2-moment-melanie-perkins-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-2",
+    "momentId": "moment-melanie-perkins-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-2-moment-andrew-wilkinson-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-2",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-2-moment-jenny-wen-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-2",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-2-moment-boris-2",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-2",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-2-moment-sherwin-wu-v2-1",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-2",
+    "momentId": "moment-sherwin-wu-v2-1",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-3-moment-melanie-perkins-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-3",
+    "momentId": "moment-melanie-perkins-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-3-moment-andrew-wilkinson-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-3",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-3-moment-jenny-wen-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-3",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-3-moment-boris-2",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-3",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-3-moment-sherwin-wu-v2-1",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-3",
+    "momentId": "moment-sherwin-wu-v2-1",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-4-moment-melanie-perkins-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-4",
+    "momentId": "moment-melanie-perkins-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-4-moment-andrew-wilkinson-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-4",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-4-moment-jenny-wen-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-4",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-4-moment-boris-2",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-4",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-4-moment-sherwin-wu-v2-1",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-4",
+    "momentId": "moment-sherwin-wu-v2-1",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-5-moment-melanie-perkins-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-5",
+    "momentId": "moment-melanie-perkins-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-5-moment-andrew-wilkinson-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-5",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-5-moment-jenny-wen-3",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-5",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-5-moment-boris-2",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-5",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-a-builders-guide-to-living-a-long-and-healthy-life-5-moment-sherwin-wu-v2-1",
+    "claimId": "claim-a-builders-guide-to-living-a-long-and-healthy-life-5",
+    "momentId": "moment-sherwin-wu-v2-1",
+    "relationship": "supports",
+    "confidence": 0.63,
+    "explanation": "Topic overlap: productivity"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-1-moment-hilary-gridley-2",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-1",
+    "momentId": "moment-hilary-gridley-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-1-moment-hilary-gridley-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-1",
+    "momentId": "moment-hilary-gridley-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-1-moment-jerry-colonna-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-1",
+    "momentId": "moment-jerry-colonna-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-1-moment-wes-kao-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-1",
+    "momentId": "moment-wes-kao-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-1-moment-dr-becky-kennedy-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-1",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-2-moment-hilary-gridley-2",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-2",
+    "momentId": "moment-hilary-gridley-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-2-moment-hilary-gridley-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-2",
+    "momentId": "moment-hilary-gridley-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-2-moment-jerry-colonna-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-2",
+    "momentId": "moment-jerry-colonna-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-2-moment-wes-kao-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-2",
+    "momentId": "moment-wes-kao-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-2-moment-dr-becky-kennedy-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-2",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-3-moment-hilary-gridley-2",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-3",
+    "momentId": "moment-hilary-gridley-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-3-moment-hilary-gridley-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-3",
+    "momentId": "moment-hilary-gridley-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-3-moment-jerry-colonna-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-3",
+    "momentId": "moment-jerry-colonna-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-3-moment-wes-kao-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-3",
+    "momentId": "moment-wes-kao-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-3-moment-dr-becky-kennedy-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-3",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-4-moment-hilary-gridley-2",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-4",
+    "momentId": "moment-hilary-gridley-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-4-moment-hilary-gridley-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-4",
+    "momentId": "moment-hilary-gridley-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-4-moment-jerry-colonna-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-4",
+    "momentId": "moment-jerry-colonna-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-4-moment-wes-kao-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-4",
+    "momentId": "moment-wes-kao-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-4-moment-dr-becky-kennedy-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-4",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-5-moment-hilary-gridley-2",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-5",
+    "momentId": "moment-hilary-gridley-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-5-moment-hilary-gridley-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-5",
+    "momentId": "moment-hilary-gridley-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-5-moment-jerry-colonna-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-5",
+    "momentId": "moment-jerry-colonna-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-5-moment-wes-kao-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-5",
+    "momentId": "moment-wes-kao-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-5-moment-dr-becky-kennedy-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-5",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-6-moment-hilary-gridley-2",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-6",
+    "momentId": "moment-hilary-gridley-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-6-moment-hilary-gridley-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-6",
+    "momentId": "moment-hilary-gridley-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-6-moment-jerry-colonna-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-6",
+    "momentId": "moment-jerry-colonna-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-6-moment-wes-kao-1",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-6",
+    "momentId": "moment-wes-kao-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: feedback, leadership, career"
+  },
+  {
+    "id": "conn-claim-introducing-the-gain-framework-for-feedback-6-moment-dr-becky-kennedy-4",
+    "claimId": "claim-introducing-the-gain-framework-for-feedback-6",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: leadership, career"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-1-moment-hamel-3",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-1",
+    "momentId": "moment-hamel-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-1-moment-brendan-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-1",
+    "momentId": "moment-brendan-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: evals, ai-product"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-1-moment-aish-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-1",
+    "momentId": "moment-aish-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: evals, ai-product"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-1-moment-chip-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-1",
+    "momentId": "moment-chip-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-1-moment-chip-2",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-1",
+    "momentId": "moment-chip-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: evals, ai-product"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-2-moment-chip-2",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-2",
+    "momentId": "moment-chip-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-2-moment-hamel-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-2",
+    "momentId": "moment-hamel-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-2-moment-sander-schulhoff-5",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-2",
+    "momentId": "moment-sander-schulhoff-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-2-moment-sander-schulhoff-6",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-2",
+    "momentId": "moment-sander-schulhoff-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-2-moment-kevin-weil-6",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-2",
+    "momentId": "moment-kevin-weil-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-3-moment-hamel-3",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-3",
+    "momentId": "moment-hamel-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-3-moment-brendan-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-3",
+    "momentId": "moment-brendan-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: evals, ai-product"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-3-moment-aish-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-3",
+    "momentId": "moment-aish-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: evals, ai-product"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-3-moment-chip-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-3",
+    "momentId": "moment-chip-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-3-moment-chip-2",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-3",
+    "momentId": "moment-chip-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: evals, ai-product"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-4-moment-chip-2",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-4",
+    "momentId": "moment-chip-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-4-moment-hamel-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-4",
+    "momentId": "moment-hamel-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-4-moment-sander-schulhoff-5",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-4",
+    "momentId": "moment-sander-schulhoff-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-4-moment-sander-schulhoff-6",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-4",
+    "momentId": "moment-sander-schulhoff-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-4-moment-kevin-weil-6",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-4",
+    "momentId": "moment-kevin-weil-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-5-moment-chip-2",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-5",
+    "momentId": "moment-chip-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-5-moment-hamel-1",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-5",
+    "momentId": "moment-hamel-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-5-moment-sander-schulhoff-5",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-5",
+    "momentId": "moment-sander-schulhoff-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-5-moment-sander-schulhoff-6",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-5",
+    "momentId": "moment-sander-schulhoff-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-building-eval-systems-that-improve-your-ai-product-5-moment-kevin-weil-6",
+    "claimId": "claim-building-eval-systems-that-improve-your-ai-product-5",
+    "momentId": "moment-kevin-weil-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: evals, ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-1-moment-david-placek-5",
+    "claimId": "claim-how-to-find-the-perfect-name-1",
+    "momentId": "moment-david-placek-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: naming, product-design, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-1-moment-david-placek-1",
+    "claimId": "claim-how-to-find-the-perfect-name-1",
+    "momentId": "moment-david-placek-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-1-moment-david-placek-3",
+    "claimId": "claim-how-to-find-the-perfect-name-1",
+    "momentId": "moment-david-placek-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-1-moment-david-placek-4",
+    "claimId": "claim-how-to-find-the-perfect-name-1",
+    "momentId": "moment-david-placek-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-1-moment-david-placek-6",
+    "claimId": "claim-how-to-find-the-perfect-name-1",
+    "momentId": "moment-david-placek-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-2-moment-david-placek-1",
+    "claimId": "claim-how-to-find-the-perfect-name-2",
+    "momentId": "moment-david-placek-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, go-to-market"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-2-moment-david-placek-3",
+    "claimId": "claim-how-to-find-the-perfect-name-2",
+    "momentId": "moment-david-placek-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, go-to-market"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-2-moment-david-placek-4",
+    "claimId": "claim-how-to-find-the-perfect-name-2",
+    "momentId": "moment-david-placek-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-2-moment-david-placek-5",
+    "claimId": "claim-how-to-find-the-perfect-name-2",
+    "momentId": "moment-david-placek-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-2-moment-david-placek-6",
+    "claimId": "claim-how-to-find-the-perfect-name-2",
+    "momentId": "moment-david-placek-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, go-to-market"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-3-moment-david-placek-1",
+    "claimId": "claim-how-to-find-the-perfect-name-3",
+    "momentId": "moment-david-placek-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, go-to-market"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-3-moment-david-placek-3",
+    "claimId": "claim-how-to-find-the-perfect-name-3",
+    "momentId": "moment-david-placek-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, go-to-market"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-3-moment-david-placek-4",
+    "claimId": "claim-how-to-find-the-perfect-name-3",
+    "momentId": "moment-david-placek-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-3-moment-david-placek-5",
+    "claimId": "claim-how-to-find-the-perfect-name-3",
+    "momentId": "moment-david-placek-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-3-moment-david-placek-6",
+    "claimId": "claim-how-to-find-the-perfect-name-3",
+    "momentId": "moment-david-placek-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, go-to-market"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-4-moment-david-placek-4",
+    "claimId": "claim-how-to-find-the-perfect-name-4",
+    "momentId": "moment-david-placek-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: naming, product-design, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-4-moment-stewart-butterfield-1",
+    "claimId": "claim-how-to-find-the-perfect-name-4",
+    "momentId": "moment-stewart-butterfield-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-design, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-4-moment-jenny-wen-6",
+    "claimId": "claim-how-to-find-the-perfect-name-4",
+    "momentId": "moment-jenny-wen-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-design, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-4-moment-howie-liu-4",
+    "claimId": "claim-how-to-find-the-perfect-name-4",
+    "momentId": "moment-howie-liu-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-design, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-4-moment-david-placek-2",
+    "claimId": "claim-how-to-find-the-perfect-name-4",
+    "momentId": "moment-david-placek-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: naming, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-5-moment-david-placek-4",
+    "claimId": "claim-how-to-find-the-perfect-name-5",
+    "momentId": "moment-david-placek-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: naming, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-5-moment-david-placek-5",
+    "claimId": "claim-how-to-find-the-perfect-name-5",
+    "momentId": "moment-david-placek-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: naming, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-5-moment-stewart-butterfield-1",
+    "claimId": "claim-how-to-find-the-perfect-name-5",
+    "momentId": "moment-stewart-butterfield-1",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-5-moment-stewart-butterfield-2",
+    "claimId": "claim-how-to-find-the-perfect-name-5",
+    "momentId": "moment-stewart-butterfield-2",
+    "relationship": "contradicts",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: product-design"
+  },
+  {
+    "id": "conn-claim-how-to-find-the-perfect-name-5-moment-stewart-butterfield-7",
+    "claimId": "claim-how-to-find-the-perfect-name-5",
+    "momentId": "moment-stewart-butterfield-7",
+    "relationship": "supports",
+    "confidence": 0.67,
+    "explanation": "Topic overlap: product-design"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-1-moment-kevin-weil-2",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-1",
+    "momentId": "moment-kevin-weil-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-product, engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-1-moment-boris-4",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-1",
+    "momentId": "moment-boris-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-1-moment-alex-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-1",
+    "momentId": "moment-alex-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-1-moment-matt-macinnis-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-1",
+    "momentId": "moment-matt-macinnis-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-1-moment-matt-macinnis-3",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-1",
+    "momentId": "moment-matt-macinnis-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-2-moment-kevin-weil-2",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-2",
+    "momentId": "moment-kevin-weil-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-product, engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-2-moment-boris-4",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-2",
+    "momentId": "moment-boris-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-2-moment-alex-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-2",
+    "momentId": "moment-alex-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-2-moment-matt-macinnis-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-2",
+    "momentId": "moment-matt-macinnis-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-2-moment-matt-macinnis-3",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-2",
+    "momentId": "moment-matt-macinnis-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-3-moment-kevin-weil-2",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-3",
+    "momentId": "moment-kevin-weil-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-product, engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-3-moment-boris-4",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-3",
+    "momentId": "moment-boris-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-3-moment-alex-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-3",
+    "momentId": "moment-alex-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-3-moment-matt-macinnis-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-3",
+    "momentId": "moment-matt-macinnis-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-3-moment-matt-macinnis-3",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-3",
+    "momentId": "moment-matt-macinnis-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-4-moment-kevin-weil-2",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-4",
+    "momentId": "moment-kevin-weil-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-product, engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-4-moment-boris-4",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-4",
+    "momentId": "moment-boris-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-4-moment-alex-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-4",
+    "momentId": "moment-alex-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-4-moment-matt-macinnis-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-4",
+    "momentId": "moment-matt-macinnis-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-4-moment-matt-macinnis-3",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-4",
+    "momentId": "moment-matt-macinnis-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-5-moment-kevin-weil-2",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-5",
+    "momentId": "moment-kevin-weil-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-product, engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-5-moment-boris-4",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-5",
+    "momentId": "moment-boris-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-5-moment-alex-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-5",
+    "momentId": "moment-alex-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, engineering"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-5-moment-matt-macinnis-1",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-5",
+    "momentId": "moment-matt-macinnis-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-why-your-ai-product-needs-a-different-development-lifecycle-5-moment-matt-macinnis-3",
+    "claimId": "claim-why-your-ai-product-needs-a-different-development-lifecycle-5",
+    "momentId": "moment-matt-macinnis-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: engineering, product-management"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-1-moment-matt-macinnis-4",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-1",
+    "momentId": "moment-matt-macinnis-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: product-management, startup-building"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-1-moment-andrew-wilkinson-6",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-1",
+    "momentId": "moment-andrew-wilkinson-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: product-management, startup-building"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-1-moment-jeetu-patel-4",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-1",
+    "momentId": "moment-jeetu-patel-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, startup-building"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-1-moment-brian-halligan-3",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-1",
+    "momentId": "moment-brian-halligan-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, startup-building"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-1-moment-brian-halligan-5",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-1",
+    "momentId": "moment-brian-halligan-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, startup-building"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-2-moment-matt-macinnis-2",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-2",
+    "momentId": "moment-matt-macinnis-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, career, product-management"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-2-moment-robby-stein-2",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-2",
+    "momentId": "moment-robby-stein-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, career, product-management"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-2-moment-peter-deng-3",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-2",
+    "momentId": "moment-peter-deng-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, career, product-management"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-2-moment-hilary-gridley-1",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-2",
+    "momentId": "moment-hilary-gridley-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, career, product-management"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-2-moment-hilary-gridley-5",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-2",
+    "momentId": "moment-hilary-gridley-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, career, product-management"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-3-moment-eoghan-mccabe-1",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-3",
+    "momentId": "moment-eoghan-mccabe-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-3-moment-brian-halligan-2",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-3",
+    "momentId": "moment-brian-halligan-2",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-3-moment-edwin-chen-6",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-3",
+    "momentId": "moment-edwin-chen-6",
+    "relationship": "contradicts",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-3-moment-melanie-perkins-6",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-3",
+    "momentId": "moment-melanie-perkins-6",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-3-moment-ethan-smith-3",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-3",
+    "momentId": "moment-ethan-smith-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-4-moment-dmitry-zlokazov-5",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-4",
+    "momentId": "moment-dmitry-zlokazov-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, product-management, career"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-4-moment-nabeel-s-qureshi-5",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-4",
+    "momentId": "moment-nabeel-s-qureshi-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, product-management, career"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-4-moment-sam-lessin-3",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-4",
+    "momentId": "moment-sam-lessin-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-4-moment-matt-macinnis-4",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-4",
+    "momentId": "moment-matt-macinnis-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, product-management"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-4-moment-jason-droege-5",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-4",
+    "momentId": "moment-jason-droege-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, career"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-5-moment-nabeel-s-qureshi-3",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-5",
+    "momentId": "moment-nabeel-s-qureshi-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, startup-building, hiring"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-5-moment-nabeel-s-qureshi-6",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-5",
+    "momentId": "moment-nabeel-s-qureshi-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, startup-building, hiring"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-5-moment-jerry-colonna-5",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-5",
+    "momentId": "moment-jerry-colonna-5",
+    "relationship": "contradicts",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, startup-building, hiring"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-5-moment-michael-truell-5",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-5",
+    "momentId": "moment-michael-truell-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, startup-building, hiring"
+  },
+  {
+    "id": "conn-claim-essential-reading-for-product-builders-part-2-5-moment-varun-mohan-2",
+    "claimId": "claim-essential-reading-for-product-builders-part-2-5",
+    "momentId": "moment-varun-mohan-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: leadership, startup-building, hiring"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1-moment-sherwin-wu-v2-4",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1",
+    "momentId": "moment-sherwin-wu-v2-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1-moment-dhanji-r-prasanna-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1",
+    "momentId": "moment-dhanji-r-prasanna-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1-moment-howie-liu-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1",
+    "momentId": "moment-howie-liu-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1-moment-asha-sharma-1",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1",
+    "momentId": "moment-asha-sharma-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1-moment-hilary-gridley-6",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1",
+    "momentId": "moment-hilary-gridley-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2-moment-sherwin-wu-v2-4",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2",
+    "momentId": "moment-sherwin-wu-v2-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2-moment-dhanji-r-prasanna-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2",
+    "momentId": "moment-dhanji-r-prasanna-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2-moment-howie-liu-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2",
+    "momentId": "moment-howie-liu-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2-moment-asha-sharma-1",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2",
+    "momentId": "moment-asha-sharma-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2-moment-hilary-gridley-6",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2",
+    "momentId": "moment-hilary-gridley-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3-moment-dr-fei-fei-li-1",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3",
+    "momentId": "moment-dr-fei-fei-li-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, leadership"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3-moment-jeetu-patel-1",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3",
+    "momentId": "moment-jeetu-patel-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, leadership"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3-moment-brian-halligan-4",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3",
+    "momentId": "moment-brian-halligan-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: leadership, metrics"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3-moment-sherwin-wu-v2-4",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3",
+    "momentId": "moment-sherwin-wu-v2-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, leadership"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3-moment-edwin-chen-3",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3",
+    "momentId": "moment-edwin-chen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, metrics"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4-moment-dr-fei-fei-li-4",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4-moment-andrew-wilkinson-3",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4-moment-jenny-wen-3",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4-moment-jenny-wen-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4-moment-boris-2",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5-moment-nick-turley-3",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5",
+    "momentId": "moment-nick-turley-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, evals, product-management"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5-moment-dr-fei-fei-li-4",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5-moment-jason-droege-3",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5",
+    "momentId": "moment-jason-droege-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, evals"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5-moment-jenny-wen-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5-moment-sherwin-wu-v2-7",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5",
+    "momentId": "moment-sherwin-wu-v2-7",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6-moment-sherwin-wu-v2-4",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6",
+    "momentId": "moment-sherwin-wu-v2-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6-moment-dhanji-r-prasanna-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6",
+    "momentId": "moment-dhanji-r-prasanna-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6-moment-howie-liu-5",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6",
+    "momentId": "moment-howie-liu-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6-moment-asha-sharma-1",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6",
+    "momentId": "moment-asha-sharma-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6-moment-hilary-gridley-6",
+    "claimId": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6",
+    "momentId": "moment-hilary-gridley-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-1-moment-dr-fei-fei-li-4",
+    "claimId": "claim-build-your-personal-ai-copilot-1",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-1-moment-andrew-wilkinson-3",
+    "claimId": "claim-build-your-personal-ai-copilot-1",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-1-moment-jenny-wen-3",
+    "claimId": "claim-build-your-personal-ai-copilot-1",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-1-moment-jenny-wen-5",
+    "claimId": "claim-build-your-personal-ai-copilot-1",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-1-moment-boris-2",
+    "claimId": "claim-build-your-personal-ai-copilot-1",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-2-moment-dr-fei-fei-li-4",
+    "claimId": "claim-build-your-personal-ai-copilot-2",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-2-moment-andrew-wilkinson-3",
+    "claimId": "claim-build-your-personal-ai-copilot-2",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-2-moment-jenny-wen-3",
+    "claimId": "claim-build-your-personal-ai-copilot-2",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-2-moment-jenny-wen-5",
+    "claimId": "claim-build-your-personal-ai-copilot-2",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-2-moment-boris-2",
+    "claimId": "claim-build-your-personal-ai-copilot-2",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-3-moment-dr-fei-fei-li-4",
+    "claimId": "claim-build-your-personal-ai-copilot-3",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-3-moment-andrew-wilkinson-3",
+    "claimId": "claim-build-your-personal-ai-copilot-3",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-3-moment-jenny-wen-3",
+    "claimId": "claim-build-your-personal-ai-copilot-3",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-3-moment-jenny-wen-5",
+    "claimId": "claim-build-your-personal-ai-copilot-3",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-3-moment-boris-2",
+    "claimId": "claim-build-your-personal-ai-copilot-3",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-4-moment-dr-fei-fei-li-4",
+    "claimId": "claim-build-your-personal-ai-copilot-4",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-4-moment-andrew-wilkinson-3",
+    "claimId": "claim-build-your-personal-ai-copilot-4",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-4-moment-jenny-wen-3",
+    "claimId": "claim-build-your-personal-ai-copilot-4",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-4-moment-jenny-wen-5",
+    "claimId": "claim-build-your-personal-ai-copilot-4",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-4-moment-boris-2",
+    "claimId": "claim-build-your-personal-ai-copilot-4",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-5-moment-dr-fei-fei-li-4",
+    "claimId": "claim-build-your-personal-ai-copilot-5",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-5-moment-andrew-wilkinson-3",
+    "claimId": "claim-build-your-personal-ai-copilot-5",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-5-moment-jenny-wen-3",
+    "claimId": "claim-build-your-personal-ai-copilot-5",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-5-moment-jenny-wen-5",
+    "claimId": "claim-build-your-personal-ai-copilot-5",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-5-moment-boris-2",
+    "claimId": "claim-build-your-personal-ai-copilot-5",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-6-moment-dr-fei-fei-li-4",
+    "claimId": "claim-build-your-personal-ai-copilot-6",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-6-moment-andrew-wilkinson-3",
+    "claimId": "claim-build-your-personal-ai-copilot-6",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-6-moment-jenny-wen-3",
+    "claimId": "claim-build-your-personal-ai-copilot-6",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-6-moment-jenny-wen-5",
+    "claimId": "claim-build-your-personal-ai-copilot-6",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-build-your-personal-ai-copilot-6-moment-boris-2",
+    "claimId": "claim-build-your-personal-ai-copilot-6",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-1-moment-rachel-lockett-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-1",
+    "momentId": "moment-rachel-lockett-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-1-moment-mayur-kamat-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-1",
+    "momentId": "moment-mayur-kamat-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-1-moment-jerry-colonna-2",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-1",
+    "momentId": "moment-jerry-colonna-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-1-moment-jerry-colonna-4",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-1",
+    "momentId": "moment-jerry-colonna-4",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-1-moment-wes-kao-3",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-1",
+    "momentId": "moment-wes-kao-3",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-2-moment-rachel-lockett-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-2",
+    "momentId": "moment-rachel-lockett-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-2-moment-mayur-kamat-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-2",
+    "momentId": "moment-mayur-kamat-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-2-moment-jerry-colonna-2",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-2",
+    "momentId": "moment-jerry-colonna-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-2-moment-jerry-colonna-4",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-2",
+    "momentId": "moment-jerry-colonna-4",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-2-moment-wes-kao-3",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-2",
+    "momentId": "moment-wes-kao-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-3-moment-rachel-lockett-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-3",
+    "momentId": "moment-rachel-lockett-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-3-moment-hilary-gridley-2",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-3",
+    "momentId": "moment-hilary-gridley-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, feedback"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-3-moment-hilary-gridley-4",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-3",
+    "momentId": "moment-hilary-gridley-4",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, feedback"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-3-moment-mayur-kamat-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-3",
+    "momentId": "moment-mayur-kamat-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-3-moment-jerry-colonna-1",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-3",
+    "momentId": "moment-jerry-colonna-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, leadership, feedback"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-4-moment-rachel-lockett-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-4",
+    "momentId": "moment-rachel-lockett-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-4-moment-garrett-lord-7",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-4",
+    "momentId": "moment-garrett-lord-7",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-4-moment-benjamin-mann-4",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-4",
+    "momentId": "moment-benjamin-mann-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-4-moment-bob-baxley-3",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-4",
+    "momentId": "moment-bob-baxley-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-4-moment-mayur-kamat-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-4",
+    "momentId": "moment-mayur-kamat-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, productivity"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-5-moment-dr-becky-kennedy-4",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-5",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-5-moment-dr-becky-kennedy-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-5",
+    "momentId": "moment-dr-becky-kennedy-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-5-moment-dr-becky-kennedy-6",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-5",
+    "momentId": "moment-dr-becky-kennedy-6",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-5-moment-rachel-lockett-2",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-5",
+    "momentId": "moment-rachel-lockett-2",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-5-moment-rachel-lockett-4",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-5",
+    "momentId": "moment-rachel-lockett-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-6-moment-dmitry-zlokazov-1",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-6",
+    "momentId": "moment-dmitry-zlokazov-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, hiring, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-6-moment-jerry-colonna-3",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-6",
+    "momentId": "moment-jerry-colonna-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, hiring, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-6-moment-dr-becky-kennedy-4",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-6",
+    "momentId": "moment-dr-becky-kennedy-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-6-moment-dr-becky-kennedy-5",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-6",
+    "momentId": "moment-dr-becky-kennedy-5",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-6-moment-dr-becky-kennedy-6",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-6",
+    "momentId": "moment-dr-becky-kennedy-6",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-7-moment-jeetu-patel-6",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-7",
+    "momentId": "moment-jeetu-patel-6",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, startup-building, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-7-moment-jeetu-patel-7",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-7",
+    "momentId": "moment-jeetu-patel-7",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, startup-building, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-7-moment-brian-halligan-1",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-7",
+    "momentId": "moment-brian-halligan-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, startup-building, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-7-moment-sam-lessin-1",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-7",
+    "momentId": "moment-sam-lessin-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, startup-building, leadership"
+  },
+  {
+    "id": "conn-claim-how-techs-most-resilient-workers-handle-burnout-7-moment-sam-lessin-2",
+    "claimId": "claim-how-techs-most-resilient-workers-handle-burnout-7",
+    "momentId": "moment-sam-lessin-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, startup-building, leadership"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-1-moment-jenny-wen-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-1",
+    "momentId": "moment-jenny-wen-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-1-moment-jenny-wen-2",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-1",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-1-moment-jenny-wen-5",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-1",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, product-management, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-1-moment-ravi-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-1",
+    "momentId": "moment-ravi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-1-moment-ravi-2",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-1",
+    "momentId": "moment-ravi-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-2-moment-jenny-wen-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-2",
+    "momentId": "moment-jenny-wen-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-2-moment-jenny-wen-2",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-2",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-2-moment-ravi-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-2",
+    "momentId": "moment-ravi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-2-moment-bob-baxley-5",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-2",
+    "momentId": "moment-bob-baxley-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-2-moment-michael-truell-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-2",
+    "momentId": "moment-michael-truell-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, product-design, engineering"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-3-moment-jenny-wen-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-3",
+    "momentId": "moment-jenny-wen-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-3-moment-jenny-wen-2",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-3",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-3-moment-jenny-wen-5",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-3",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, product-design, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-3-moment-ravi-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-3",
+    "momentId": "moment-ravi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-3-moment-ravi-2",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-3",
+    "momentId": "moment-ravi-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-4-moment-boris-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-4",
+    "momentId": "moment-boris-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, engineering, vibe-coding"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-4-moment-sam-lessin-4",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-4",
+    "momentId": "moment-sam-lessin-4",
+    "relationship": "extends",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, vibe-coding"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-4-moment-edwin-chen-7",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-4",
+    "momentId": "moment-edwin-chen-7",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, engineering, vibe-coding"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-4-moment-dhanji-r-prasanna-4",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-4",
+    "momentId": "moment-dhanji-r-prasanna-4",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, engineering, vibe-coding"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-4-moment-mike-krieger-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-4",
+    "momentId": "moment-mike-krieger-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, engineering, vibe-coding"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-5-moment-jenny-wen-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-5",
+    "momentId": "moment-jenny-wen-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-5-moment-jenny-wen-2",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-5",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-5-moment-edwin-chen-5",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-5",
+    "momentId": "moment-edwin-chen-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, product-design, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-5-moment-ravi-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-5",
+    "momentId": "moment-ravi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-5-moment-bob-baxley-5",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-5",
+    "momentId": "moment-bob-baxley-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-6-moment-jenny-wen-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-6",
+    "momentId": "moment-jenny-wen-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-6-moment-jenny-wen-2",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-6",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-6-moment-ravi-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-6",
+    "momentId": "moment-ravi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-6-moment-bob-baxley-5",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-6",
+    "momentId": "moment-bob-baxley-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-get-your-entire-team-prototyping-with-ai-6-moment-michael-truell-1",
+    "claimId": "claim-how-to-get-your-entire-team-prototyping-with-ai-6",
+    "momentId": "moment-michael-truell-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, product-design, engineering"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1-moment-nabeel-s-qureshi-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1",
+    "momentId": "moment-nabeel-s-qureshi-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, product-management, hiring"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1-moment-matt-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1-moment-marc-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1-moment-matt-macinnis-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1",
+    "momentId": "moment-matt-macinnis-2",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1-moment-tomer-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2-moment-matt-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2-moment-marc-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2-moment-matt-macinnis-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2",
+    "momentId": "moment-matt-macinnis-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2-moment-tomer-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2-moment-tomer-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2",
+    "momentId": "moment-tomer-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3-moment-matt-macinnis-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3",
+    "momentId": "moment-matt-macinnis-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, product-management, leadership"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3-moment-robby-stein-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3",
+    "momentId": "moment-robby-stein-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, product-management, leadership"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3-moment-peter-deng-3",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3",
+    "momentId": "moment-peter-deng-3",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, product-management, leadership"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3-moment-hilary-gridley-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3",
+    "momentId": "moment-hilary-gridley-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, product-management, leadership"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3-moment-hilary-gridley-5",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3",
+    "momentId": "moment-hilary-gridley-5",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: career, product-management, leadership"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4-moment-matt-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4-moment-marc-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4-moment-matt-macinnis-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4",
+    "momentId": "moment-matt-macinnis-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4-moment-tomer-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4-moment-tomer-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4",
+    "momentId": "moment-tomer-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5-moment-nabeel-s-qureshi-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5",
+    "momentId": "moment-nabeel-s-qureshi-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, product-management, hiring"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5-moment-matt-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5-moment-marc-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5-moment-matt-macinnis-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5",
+    "momentId": "moment-matt-macinnis-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5-moment-tomer-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6-moment-nabeel-s-qureshi-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6",
+    "momentId": "moment-nabeel-s-qureshi-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: career, hiring, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6-moment-matt-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6",
+    "momentId": "moment-matt-1",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6-moment-marc-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6",
+    "momentId": "moment-marc-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6-moment-matt-macinnis-2",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6",
+    "momentId": "moment-matt-macinnis-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6-moment-tomer-1",
+    "claimId": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6",
+    "momentId": "moment-tomer-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-1-moment-dhanji-r-prasanna-3",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-1",
+    "momentId": "moment-dhanji-r-prasanna-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, vibe-coding, engineering, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-1-moment-jenny-wen-3",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-1",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, engineering, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-1-moment-boris-1",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-1",
+    "momentId": "moment-boris-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, vibe-coding, engineering"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-1-moment-boris-2",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-1",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, engineering, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-1-moment-sherwin-wu-v2-1",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-1",
+    "momentId": "moment-sherwin-wu-v2-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: ai-tools, engineering, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-2-moment-sherwin-wu-v2-7",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-2",
+    "momentId": "moment-sherwin-wu-v2-7",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: product-management, ai-tools, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-2-moment-matt-macinnis-6",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-2",
+    "momentId": "moment-matt-macinnis-6",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: product-management, ai-tools, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-2-moment-matt-macinnis-4",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-2",
+    "momentId": "moment-matt-macinnis-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-2-moment-dr-fei-fei-li-3",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-2",
+    "momentId": "moment-dr-fei-fei-li-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, startup-building"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-2-moment-dr-fei-fei-li-4",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-2",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, ai-tools"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-3-moment-dr-fei-fei-li-4",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-3",
+    "momentId": "moment-dr-fei-fei-li-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-3-moment-andrew-wilkinson-3",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-3",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-3-moment-jenny-wen-3",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-3",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-3-moment-jenny-wen-5",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-3",
+    "momentId": "moment-jenny-wen-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-get-the-most-out-of-your-product-pass-part-1-3-moment-boris-2",
+    "claimId": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-3",
+    "momentId": "moment-boris-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1-moment-garrett-lord-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1",
+    "momentId": "moment-garrett-lord-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: startup-building, growth, ai-tools"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1-moment-dr-fei-fei-li-3",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1",
+    "momentId": "moment-dr-fei-fei-li-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: startup-building, ai-tools"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1-moment-eoghan-mccabe-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1",
+    "momentId": "moment-eoghan-mccabe-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1-moment-jeetu-patel-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1",
+    "momentId": "moment-jeetu-patel-1",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: startup-building, ai-tools"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1-moment-boris-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1",
+    "momentId": "moment-boris-1",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2-moment-garrett-lord-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2",
+    "momentId": "moment-garrett-lord-1",
+    "relationship": "supports",
+    "confidence": 0.88,
+    "explanation": "Topic overlap: startup-building, growth, ai-tools"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2-moment-dr-fei-fei-li-3",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2",
+    "momentId": "moment-dr-fei-fei-li-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: startup-building, ai-tools"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2-moment-eoghan-mccabe-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2",
+    "momentId": "moment-eoghan-mccabe-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: startup-building, growth"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2-moment-jeetu-patel-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2",
+    "momentId": "moment-jeetu-patel-1",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: startup-building, ai-tools"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2-moment-boris-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2",
+    "momentId": "moment-boris-1",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3-moment-edwin-chen-5",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3",
+    "momentId": "moment-edwin-chen-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, productivity, product-design"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3-moment-andrew-wilkinson-3",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3",
+    "momentId": "moment-andrew-wilkinson-3",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3-moment-jenny-wen-1",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3",
+    "momentId": "moment-jenny-wen-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-design"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3-moment-jenny-wen-2",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3",
+    "momentId": "moment-jenny-wen-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-design"
+  },
+  {
+    "id": "conn-claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3-moment-jenny-wen-3",
+    "claimId": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3",
+    "momentId": "moment-jenny-wen-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-7-moment-peter-deng-1",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-7",
+    "momentId": "moment-peter-deng-1",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, product-management, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-7-moment-dmitry-zlokazov-2",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-7",
+    "momentId": "moment-dmitry-zlokazov-2",
+    "relationship": "contradicts",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, product-management, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-7-moment-gaurav-misra-3",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-7",
+    "momentId": "moment-gaurav-misra-3",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: startup-building, product-management, product-design"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-7-moment-matt-macinnis-4",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-7",
+    "momentId": "moment-matt-macinnis-4",
+    "relationship": "supports",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: startup-building, product-management"
+  },
+  {
+    "id": "conn-claim-how-to-spot-a-top-1-startup-early-7-moment-stewart-butterfield-2",
+    "claimId": "claim-how-to-spot-a-top-1-startup-early-7",
+    "momentId": "moment-stewart-butterfield-2",
+    "relationship": "contradicts",
+    "confidence": 0.83,
+    "explanation": "Topic overlap: product-management, product-design"
+  },
+  {
+    "id": "conn-claim-brain-1-moment-sander-schulhoff-1",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-sander-schulhoff-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-1-moment-sander-schulhoff-2",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-sander-schulhoff-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-1-moment-sander-schulhoff-3",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-sander-schulhoff-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-1-moment-sander-schulhoff-4",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-sander-schulhoff-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-1-moment-hilary-gridley-3",
+    "claimId": "claim-brain-1",
+    "momentId": "moment-hilary-gridley-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, productivity"
+  },
+  {
+    "id": "conn-claim-brain-2-moment-sander-schulhoff-1",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-sander-schulhoff-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-2-moment-sander-schulhoff-2",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-sander-schulhoff-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-2-moment-sander-schulhoff-3",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-sander-schulhoff-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-2-moment-sander-schulhoff-4",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-sander-schulhoff-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-brain-2-moment-hilary-gridley-6",
+    "claimId": "claim-brain-2",
+    "momentId": "moment-hilary-gridley-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, productivity"
+  },
+  {
+    "id": "conn-claim-claude-1-moment-bob-baxley-6",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-bob-baxley-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-1-moment-mike-krieger-1",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-mike-krieger-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-1-moment-michael-truell-4",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-michael-truell-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-1-moment-varun-mohan-5",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-varun-mohan-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-1-moment-guillermo-rauch-1",
+    "claimId": "claim-claude-1",
+    "momentId": "moment-guillermo-rauch-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-2-moment-bob-baxley-6",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-bob-baxley-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-2-moment-mike-krieger-1",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-mike-krieger-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-2-moment-michael-truell-4",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-michael-truell-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-2-moment-varun-mohan-5",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-varun-mohan-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-2-moment-guillermo-rauch-1",
+    "claimId": "claim-claude-2",
+    "momentId": "moment-guillermo-rauch-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, vibe-coding"
+  },
+  {
+    "id": "conn-claim-claude-3-moment-peter-deng-3",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-peter-deng-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-claude-3-moment-hilary-gridley-1",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-hilary-gridley-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-claude-3-moment-hilary-gridley-5",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-hilary-gridley-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-claude-3-moment-bob-baxley-3",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-bob-baxley-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, career"
+  },
+  {
+    "id": "conn-claim-claude-3-moment-bob-baxley-4",
+    "claimId": "claim-claude-3",
+    "momentId": "moment-bob-baxley-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-reading-1-moment-peter-deng-1",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-peter-deng-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, product-design"
+  },
+  {
+    "id": "conn-claim-reading-1-moment-dmitry-zlokazov-2",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-dmitry-zlokazov-2",
+    "relationship": "contradicts",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, product-design"
+  },
+  {
+    "id": "conn-claim-reading-1-moment-dmitry-zlokazov-4",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-dmitry-zlokazov-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, product-design"
+  },
+  {
+    "id": "conn-claim-reading-1-moment-ryan-singer-1",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-ryan-singer-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, product-design"
+  },
+  {
+    "id": "conn-claim-reading-1-moment-ryan-singer-2",
+    "claimId": "claim-reading-1",
+    "momentId": "moment-ryan-singer-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, product-design"
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-bob-baxley-6",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-bob-baxley-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-mike-krieger-1",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-mike-krieger-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-michael-truell-4",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-michael-truell-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-varun-mohan-5",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-varun-mohan-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-1-moment-guillermo-rauch-1",
+    "claimId": "claim-vibe-1",
+    "momentId": "moment-guillermo-rauch-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-bob-baxley-6",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-bob-baxley-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-mike-krieger-1",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-mike-krieger-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-michael-truell-4",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-michael-truell-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-varun-mohan-5",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-varun-mohan-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-vibe-2-moment-guillermo-rauch-1",
+    "claimId": "claim-vibe-2",
+    "momentId": "moment-guillermo-rauch-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: vibe-coding, ai-tools"
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-peter-deng-2",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-peter-deng-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-mike-krieger-3",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-mike-krieger-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-mike-krieger-6",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-mike-krieger-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-aparna-chennapragada-5",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-aparna-chennapragada-5",
+    "relationship": "contradicts",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-glossary-1-moment-kevin-weil-1",
+    "claimId": "claim-glossary-1",
+    "momentId": "moment-kevin-weil-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-peter-deng-3",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-peter-deng-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-hilary-gridley-1",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-hilary-gridley-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-hilary-gridley-5",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-hilary-gridley-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-bob-baxley-3",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-bob-baxley-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, ai-tools"
+  },
+  {
+    "id": "conn-claim-jobs-1-moment-bob-baxley-4",
+    "claimId": "claim-jobs-1",
+    "momentId": "moment-bob-baxley-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, product-management"
+  },
+  {
+    "id": "conn-claim-evals-1-moment-peter-deng-2",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-peter-deng-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-evals-1-moment-sander-schulhoff-5",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-sander-schulhoff-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, evals"
+  },
+  {
+    "id": "conn-claim-evals-1-moment-sander-schulhoff-6",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-sander-schulhoff-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, evals"
+  },
+  {
+    "id": "conn-claim-evals-1-moment-mike-krieger-3",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-mike-krieger-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-evals-1-moment-mike-krieger-6",
+    "claimId": "claim-evals-1",
+    "momentId": "moment-mike-krieger-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, product-management"
+  },
+  {
+    "id": "conn-claim-evals-2-moment-sander-schulhoff-5",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-sander-schulhoff-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, evals"
+  },
+  {
+    "id": "conn-claim-evals-2-moment-sander-schulhoff-6",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-sander-schulhoff-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, evals"
+  },
+  {
+    "id": "conn-claim-evals-2-moment-mike-krieger-6",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-mike-krieger-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, metrics"
+  },
+  {
+    "id": "conn-claim-evals-2-moment-kevin-weil-6",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-kevin-weil-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-product, evals"
+  },
+  {
+    "id": "conn-claim-evals-2-moment-peter-deng-2",
+    "claimId": "claim-evals-2",
+    "momentId": "moment-peter-deng-2",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: ai-product"
+  },
+  {
+    "id": "conn-claim-proto-1-moment-guillermo-rauch-2",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-guillermo-rauch-2",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-management"
+  },
+  {
+    "id": "conn-claim-proto-1-moment-bob-baxley-5",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-bob-baxley-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, prototyping"
+  },
+  {
+    "id": "conn-claim-proto-1-moment-kevin-weil-1",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-kevin-weil-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-management"
+  },
+  {
+    "id": "conn-claim-proto-1-moment-ryan-singer-4",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-ryan-singer-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: prototyping, product-management"
+  },
+  {
+    "id": "conn-claim-proto-1-moment-peter-deng-1",
+    "claimId": "claim-proto-1",
+    "momentId": "moment-peter-deng-1",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: product-management"
+  },
+  {
+    "id": "conn-claim-proto-2-moment-bob-baxley-5",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-bob-baxley-5",
+    "relationship": "supports",
+    "confidence": 0.95,
+    "explanation": "Topic overlap: ai-tools, prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-proto-2-moment-bob-baxley-6",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-bob-baxley-6",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-design"
+  },
+  {
+    "id": "conn-claim-proto-2-moment-mike-krieger-2",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-mike-krieger-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-proto-2-moment-aparna-chennapragada-1",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-aparna-chennapragada-1",
+    "relationship": "contradicts",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: prototyping, product-design"
+  },
+  {
+    "id": "conn-claim-proto-2-moment-michael-truell-1",
+    "claimId": "claim-proto-2",
+    "momentId": "moment-michael-truell-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, product-design"
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-peter-deng-3",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-peter-deng-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-hilary-gridley-1",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-hilary-gridley-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-hilary-gridley-5",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-hilary-gridley-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-bob-baxley-3",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-bob-baxley-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: ai-tools, career"
+  },
+  {
+    "id": "conn-claim-unfair-1-moment-bob-baxley-4",
+    "claimId": "claim-unfair-1",
+    "momentId": "moment-bob-baxley-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-peter-deng-3",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-peter-deng-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-hilary-gridley-1",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-hilary-gridley-1",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-hilary-gridley-5",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-hilary-gridley-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-bob-baxley-3",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-bob-baxley-3",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: career, ai-tools"
+  },
+  {
+    "id": "conn-claim-unfair-2-moment-bob-baxley-4",
+    "claimId": "claim-unfair-2",
+    "momentId": "moment-bob-baxley-4",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: product-management, career"
+  },
+  {
+    "id": "conn-claim-duolingo-1-moment-peter-deng-4",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-peter-deng-4",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-1-moment-peter-deng-5",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-peter-deng-5",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-1-moment-peter-deng-6",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-peter-deng-6",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-1-moment-krithika-shankarraman-1",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-krithika-shankarraman-1",
+    "relationship": "extends",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-1-moment-krithika-shankarraman-2",
+    "claimId": "claim-duolingo-1",
+    "momentId": "moment-krithika-shankarraman-2",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-2-moment-peter-deng-5",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-peter-deng-5",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, metrics"
+  },
+  {
+    "id": "conn-claim-duolingo-2-moment-krithika-shankarraman-2",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-krithika-shankarraman-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, metrics"
+  },
+  {
+    "id": "conn-claim-duolingo-2-moment-daniel-lereya-2",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-daniel-lereya-2",
+    "relationship": "supports",
+    "confidence": 0.75,
+    "explanation": "Topic overlap: growth, metrics"
+  },
+  {
+    "id": "conn-claim-duolingo-2-moment-peter-deng-4",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-peter-deng-4",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-2-moment-peter-deng-6",
+    "claimId": "claim-duolingo-2",
+    "momentId": "moment-peter-deng-6",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-3-moment-peter-deng-4",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-peter-deng-4",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-3-moment-peter-deng-5",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-peter-deng-5",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-3-moment-peter-deng-6",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-peter-deng-6",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-3-moment-krithika-shankarraman-1",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-krithika-shankarraman-1",
+    "relationship": "extends",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-3-moment-krithika-shankarraman-2",
+    "claimId": "claim-duolingo-3",
+    "momentId": "moment-krithika-shankarraman-2",
+    "relationship": "supports",
+    "confidence": 0.6,
+    "explanation": "Topic overlap: growth"
+  },
+  {
+    "id": "conn-claim-duolingo-4-moment-peter-deng-6",
+    "claimId": "claim-duolingo-4",
+    "momentId": "moment-peter-deng-6",
+    "relationship": "supports",
+    "confidence": 0.7,
+    "explanation": "Topic overlap: growth, product-design"
   }
 ]

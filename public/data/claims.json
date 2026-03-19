@@ -1,51 +1,26 @@
 [
   {
-    "id": "claim-duolingo-1",
-    "newsletterSlug": "how-duolingo-reignited-user-growth",
-    "text": "Gamification mechanics like leaderboards can drive massive retention improvements when they tap into social comparison and competition instincts.",
+    "id": "claim-brain-1",
+    "newsletterSlug": "how-to-build-your-pm-second-brain-with-chatgpt",
+    "text": "AI is most valuable for PMs as a 'second brain' for synthesis — combining meeting notes, user research, and market data into actionable insights.",
     "type": "framework",
-    "evidence": "Duolingo's leaderboards drove a 17% increase in overall learning time and tripled the number of highly engaged learners.",
+    "evidence": "Workflow for using ChatGPT to maintain a running synthesis of product decisions, user feedback, and market signals.",
     "topics": [
-      "growth",
-      "gamification",
-      "retention"
+      "ai-tools",
+      "product-management",
+      "productivity"
     ]
   },
   {
-    "id": "claim-duolingo-2",
-    "newsletterSlug": "how-duolingo-reignited-user-growth",
-    "text": "The 'current user retention rate' (CURR) metric — measuring the percentage of current users retained over time — is more actionable than traditional cohort analysis for mature products.",
-    "type": "framework",
-    "evidence": "Duolingo used CURR to decompose growth into new users, resurrected users, and retained users, enabling targeted interventions.",
-    "topics": [
-      "growth",
-      "metrics",
-      "retention"
-    ]
-  },
-  {
-    "id": "claim-duolingo-3",
-    "newsletterSlug": "how-duolingo-reignited-user-growth",
-    "text": "Push notifications should be treated as a product feature, not a marketing channel — optimizing for user value rather than clicks.",
+    "id": "claim-brain-2",
+    "newsletterSlug": "how-to-build-your-pm-second-brain-with-chatgpt",
+    "text": "The key to useful AI assistance is feeding it context over time, not just asking one-off questions — persistent context makes AI dramatically more useful.",
     "type": "recommendation",
-    "evidence": "Duolingo's notification optimization was one of the three key levers (alongside streaks and leaderboards) that drove 4.5x DAU growth.",
+    "evidence": "Comparison of one-shot ChatGPT usage vs. maintained conversation threads with accumulated product context.",
     "topics": [
-      "growth",
-      "notifications",
-      "retention"
-    ]
-  },
-  {
-    "id": "claim-duolingo-4",
-    "newsletterSlug": "how-duolingo-reignited-user-growth",
-    "text": "Streak mechanics create powerful habit loops, but they need protective features (streak freezes) to prevent user frustration and churn.",
-    "type": "observation",
-    "evidence": "Duolingo's streak feature became their most powerful retention tool once they added streak freezes and streak-saving notifications.",
-    "topics": [
-      "growth",
-      "gamification",
-      "retention",
-      "product-design"
+      "ai-tools",
+      "productivity",
+      "ai-product"
     ]
   },
   {
@@ -85,6 +60,18 @@
     ]
   },
   {
+    "id": "claim-reading-1",
+    "newsletterSlug": "essential-reading-for-product-builders-part-1",
+    "text": "The best product thinking comes from adjacent fields — psychology, game design, economics — not from product management literature alone.",
+    "type": "observation",
+    "evidence": "Curated list of 7 essays from diverse fields that directly apply to product building, with analysis of why each matters.",
+    "topics": [
+      "product-management",
+      "learning",
+      "product-design"
+    ]
+  },
+  {
     "id": "claim-vibe-1",
     "newsletterSlug": "what-people-are-vibe-coding-and-actually-using",
     "text": "Vibe coding is most powerful for internal tools and personal productivity — not for building the next startup.",
@@ -106,6 +93,30 @@
       "vibe-coding",
       "ai-tools",
       "product-quality"
+    ]
+  },
+  {
+    "id": "claim-glossary-1",
+    "newsletterSlug": "an-ai-glossary",
+    "text": "Product managers don't need to understand AI at a technical depth — they need to understand it at the right depth for making product decisions.",
+    "type": "framework",
+    "evidence": "Glossary organized by what PMs need to know vs. what they can leave to engineers, with decision-making context for each term.",
+    "topics": [
+      "ai-product",
+      "product-management",
+      "learning"
+    ]
+  },
+  {
+    "id": "claim-jobs-1",
+    "newsletterSlug": "state-of-the-product-job-market-in-2025",
+    "text": "The PM job market is recovering, but the roles that are growing fastest require AI literacy — traditional PM skills alone are no longer sufficient.",
+    "type": "observation",
+    "evidence": "Job posting data showing AI-related PM roles growing 3x faster than traditional PM roles.",
+    "topics": [
+      "career",
+      "product-management",
+      "ai-tools"
     ]
   },
   {
@@ -181,11 +192,988 @@
     ]
   },
   {
-    "id": "claim-brain-1",
-    "newsletterSlug": "how-to-build-your-pm-second-brain-with-chatgpt",
-    "text": "AI is most valuable for PMs as a 'second brain' for synthesis — combining meeting notes, user research, and market data into actionable insights.",
+    "id": "claim-duolingo-1",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "Gamification mechanics like leaderboards can drive massive retention improvements when they tap into social comparison and competition instincts.",
     "type": "framework",
-    "evidence": "Workflow for using ChatGPT to maintain a running synthesis of product decisions, user feedback, and market signals.",
+    "evidence": "Duolingo's leaderboards drove a 17% increase in overall learning time and tripled the number of highly engaged learners.",
+    "topics": [
+      "growth",
+      "gamification",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-duolingo-2",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "The 'current user retention rate' (CURR) metric — measuring the percentage of current users retained over time — is more actionable than traditional cohort analysis for mature products.",
+    "type": "framework",
+    "evidence": "Duolingo used CURR to decompose growth into new users, resurrected users, and retained users, enabling targeted interventions.",
+    "topics": [
+      "growth",
+      "metrics",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-duolingo-3",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "Push notifications should be treated as a product feature, not a marketing channel — optimizing for user value rather than clicks.",
+    "type": "recommendation",
+    "evidence": "Duolingo's notification optimization was one of the three key levers (alongside streaks and leaderboards) that drove 4.5x DAU growth.",
+    "topics": [
+      "growth",
+      "notifications",
+      "retention"
+    ]
+  },
+  {
+    "id": "claim-duolingo-4",
+    "newsletterSlug": "how-duolingo-reignited-user-growth",
+    "text": "Streak mechanics create powerful habit loops, but they need protective features (streak freezes) to prevent user frustration and churn.",
+    "type": "observation",
+    "evidence": "Duolingo's streak feature became their most powerful retention tool once they added streak freezes and streak-saving notifications.",
+    "topics": [
+      "growth",
+      "gamification",
+      "retention",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-how-to-spot-a-top-1-startup-early-1",
+    "newsletterSlug": "how-to-spot-a-top-1-startup-early",
+    "text": "One of the clearest markers of a future generational company is ambition that borders on ludicrous, where the founder's goals sound crazy to most people.",
+    "type": "observation",
+    "evidence": "Multiple interviewees (early employees at Palantir, OpenAI, Facebook, Spotify) independently cited extraordinary ambition as the top signal, noting that both Palantir and OpenAI were considered ludicrous when started.",
+    "topics": [
+      "startup-building",
+      "hiring",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-how-to-spot-a-top-1-startup-early-2",
+    "newsletterSlug": "how-to-spot-a-top-1-startup-early",
+    "text": "The quality of the founders matters above all other variables when evaluating whether to join a startup early.",
+    "type": "observation",
+    "evidence": "Every interviewee emphasized founders as THE variable, not one among many. Cristina (early Stripe, Notion, Linear) said 'nothing matters more than this to me.'",
+    "topics": [
+      "startup-building",
+      "hiring",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-how-to-spot-a-top-1-startup-early-3",
+    "newsletterSlug": "how-to-spot-a-top-1-startup-early",
+    "text": "It is more important for founders to learn quickly and adapt than to have a good initial strategy.",
+    "type": "observation",
+    "evidence": "Bob noted that both Palantir and OpenAI started with unworkable initial strategies that the world was correct to mock, but both iterated to something that worked. Soleio called this trait 'clock speed.'",
+    "topics": [
+      "startup-building",
+      "leadership",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-spot-a-top-1-startup-early-4",
+    "newsletterSlug": "how-to-spot-a-top-1-startup-early",
+    "text": "Judging a startup by its current product quality is a trap because almost every iconic product started as something rough or even completely different from what made it successful.",
+    "type": "observation",
+    "evidence": "Soleio was disappointed by early Facebook, early Slack was described by its co-founder as 'a giant piece of shit,' Spotify was going to be a video platform, and Figma started as a meme generator.",
+    "topics": [
+      "startup-building",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-how-to-spot-a-top-1-startup-early-5",
+    "newsletterSlug": "how-to-spot-a-top-1-startup-early",
+    "text": "Instead of evaluating a startup's current product, look for strong customer pull where users cannot stop talking about the product even when it is early and the market is niche.",
+    "type": "recommendation",
+    "evidence": "Cristina never asked to see Stripe's metrics; instead she observed what developers said in forums like Hacker News and Twitter, caring that 'people loved it enough to share it.'",
+    "topics": [
+      "startup-building",
+      "growth",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-spot-a-top-1-startup-early-6",
+    "newsletterSlug": "how-to-spot-a-top-1-startup-early",
+    "text": "None of the serial early employees at iconic companies found their jobs through applications or recruiters; their paths were serendipitous and driven by personal connections.",
+    "type": "observation",
+    "evidence": "Cristina met Stripe's founder at a barbecue, Rasmus got a cold call from Spotify's CEO, Soleio won a design award, Bob knew Palantir's team from PayPal, and Sean replied to a Twitter thread.",
+    "topics": [
+      "career",
+      "startup-building",
+      "hiring"
+    ]
+  },
+  {
+    "id": "claim-how-to-spot-a-top-1-startup-early-7",
+    "newsletterSlug": "how-to-spot-a-top-1-startup-early",
+    "text": "Look for 'Jurassic Park moments' at startups — early prototypes or demos that leave you breathless and feeling like you are being given a clear glimpse of the future, even if the product is ugly and small.",
+    "type": "framework",
+    "evidence": "Soleio's metaphor from the raptor hatching scene in Jurassic Park: even in a slimy, harmless form, you sense the world has shifted and an apex predator has entered it.",
+    "topics": [
+      "startup-building",
+      "product-management",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-ecosystem-is-the-next-big-growth-channel-1",
+    "newsletterSlug": "ecosystem-is-the-next-big-growth-channel",
+    "text": "Traditional B2B growth channels (inbound, outbound, product virality, events, lifecycle emails) are becoming less effective because AI has made it easy for everyone to produce content and flood channels.",
+    "type": "observation",
+    "evidence": "Search traffic is declining due to LLMs, AI SDRs are flooding inboxes, endless AI-built products make virality harder, and event fatigue is setting in from an explosion of conferences.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "b2b",
+      "ai-tools"
+    ]
+  },
+  {
+    "id": "claim-ecosystem-is-the-next-big-growth-channel-2",
+    "newsletterSlug": "ecosystem-is-the-next-big-growth-channel",
+    "text": "Ecosystem -- leveraging partners, creators, communities, and integrations who already have trust with your audience -- is emerging as the most important growth channel for B2B startups.",
+    "type": "framework",
+    "evidence": "Emily Kramer identified this pattern across top AI startups. Supabase grew from 1M to 4.5M developers in a year through ecosystem; Gamma attributes over half its growth to influencers.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "b2b"
+    ]
+  },
+  {
+    "id": "claim-ecosystem-is-the-next-big-growth-channel-3",
+    "newsletterSlug": "ecosystem-is-the-next-big-growth-channel",
+    "text": "A well-designed ecosystem strategy makes every other growth channel more effective by serving as both a distribution path and a source of content.",
+    "type": "observation",
+    "evidence": "Ecosystem partners fuel inbound, add credibility to outbound, accelerate virality, make events enticing, and ground lifecycle marketing in real use cases. HubSpot's Loop Marketing launch demonstrated this.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "b2b"
+    ]
+  },
+  {
+    "id": "claim-ecosystem-is-the-next-big-growth-channel-4",
+    "newsletterSlug": "ecosystem-is-the-next-big-growth-channel",
+    "text": "Every ecosystem partnership must be a win-win-win for you, the partner, and the prospect -- never just one or two out of three.",
+    "type": "recommendation",
+    "evidence": "Emily Kramer's personal bar for partnerships requires triple benefit. Lenny's Product Pass exemplifies this: startups get promotion, subscribers get free tools, and Lenny gets more paid subscribers.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "b2b"
+    ]
+  },
+  {
+    "id": "claim-ecosystem-is-the-next-big-growth-channel-5",
+    "newsletterSlug": "ecosystem-is-the-next-big-growth-channel",
+    "text": "When starting an ecosystem strategy, pick one partner program that fits your product and audience and prove it works before expanding, rather than launching every kind of partnership at once.",
+    "type": "recommendation",
+    "evidence": "Arrows rebuilt exclusively for HubSpot users and grew 40x before expanding to Salesforce. CEO Daniel Zarick said 'Nobody would care about us if we didn't try to make a mark with HubSpot first.'",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "claim-ecosystem-is-the-next-big-growth-channel-6",
+    "newsletterSlug": "ecosystem-is-the-next-big-growth-channel",
+    "text": "Individual people (employees, customers, partners) perform eight times better than brand accounts on LinkedIn for content engagement.",
+    "type": "observation",
+    "evidence": "LinkedIn's own data shows employees generate 8x more engagement than brands, reinforcing why ecosystem partners who speak as individuals are more effective than corporate brand messaging.",
+    "topics": [
+      "growth",
+      "go-to-market",
+      "b2b"
+    ]
+  },
+  {
+    "id": "claim-a-builders-guide-to-living-a-long-and-healthy-life-1",
+    "newsletterSlug": "a-builders-guide-to-living-a-long-and-healthy-life",
+    "text": "Environmental toxins like PFAS, phthalates, and microplastics are the trans fats of our generation, found in 92-97% of Americans' blood and linked to testosterone, anxiety, cancer, and fertility issues.",
+    "type": "observation",
+    "evidence": "92% of Americans have measurable phthalates and 97% have PFAS in their blood. These chemicals affect testosterone levels, anxiety, cancer risk, and sperm count according to multiple cited studies.",
+    "topics": [
+      "health",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-a-builders-guide-to-living-a-long-and-healthy-life-2",
+    "newsletterSlug": "a-builders-guide-to-living-a-long-and-healthy-life",
+    "text": "The 80/20 of sleep health comes down to three things: exercise during the day, get morning sunlight, and optimize your sleep setup for no external light, quiet, low CO2, and cold temperatures.",
+    "type": "recommendation",
+    "evidence": "Justin Mares distilled sleep optimization into these three fundamentals before recommending products like Eight Sleep pods, which he found increase deep sleep and reduce wake-ups.",
+    "topics": [
+      "health",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-a-builders-guide-to-living-a-long-and-healthy-life-3",
+    "newsletterSlug": "a-builders-guide-to-living-a-long-and-healthy-life",
+    "text": "Most microplastics are inhaled rather than ingested via water or food, making air purification in your home and office a top priority for toxin mitigation.",
+    "type": "observation",
+    "evidence": "Justin Mares recommends air purifiers like Jaspr and PuroAir as the primary defense, noting that inhalation is the dominant exposure route for microplastics.",
+    "topics": [
+      "health",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-a-builders-guide-to-living-a-long-and-healthy-life-4",
+    "newsletterSlug": "a-builders-guide-to-living-a-long-and-healthy-life",
+    "text": "Plant protein powders are largely ineffective because they are not bioavailable and are often contaminated with high levels of pesticides, with one test finding glyphosate levels 1,000 times higher than recommended.",
+    "type": "observation",
+    "evidence": "A systematic review showed plant proteins have low bioavailability, and a Mamavation test found Orgain's organic pea protein had glyphosate levels roughly 1,000x higher than recommended.",
+    "topics": [
+      "health",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-a-builders-guide-to-living-a-long-and-healthy-life-5",
+    "newsletterSlug": "a-builders-guide-to-living-a-long-and-healthy-life",
+    "text": "The EU bans more than 1,300 chemicals and compounds that the US allows, because the FDA takes an assume-safe-until-proven-harmful approach versus the EU's precautionary do-no-harm approach.",
+    "type": "observation",
+    "evidence": "The US has over 40,000 chemicals allowed with minimal FDA pushback, and it took the FDA 50 years to act on trans fats. The EU regulates proactively assuming new chemicals may cause harm.",
+    "topics": [
+      "health",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-introducing-the-gain-framework-for-feedback-1",
+    "newsletterSlug": "introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+    "text": "The GAIN framework (Goal, Actions, Impacts, Next actions) is more effective than typical feedback because framing feedback around what someone stands to gain is more motivating than focusing on what to avoid.",
+    "type": "framework",
+    "evidence": "Research by Tversky showed doctors given approach-framing ('90% survival rate') made the right decision 84% of the time vs. 50% with avoid-framing ('10% mortality rate'). Gottman's couples research shows the same pattern.",
+    "topics": [
+      "feedback",
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-introducing-the-gain-framework-for-feedback-2",
+    "newsletterSlug": "introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+    "text": "Sharing observations of actions and their impacts is far more effective than making judgments, because critical judgments almost guarantee defensiveness and derail conversations.",
+    "type": "recommendation",
+    "evidence": "Jack Cohen's 11 years of coaching and workshops found that even experienced feedback givers struggle to distinguish observations from judgments. 'Response times averaged 4.2 days' lands differently than 'You're being unprofessional.'",
+    "topics": [
+      "feedback",
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-introducing-the-gain-framework-for-feedback-3",
+    "newsletterSlug": "introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+    "text": "Even flattering judgments like 'You're a rockstar PM' can destroy growth mindset and foster people-pleasing, because if success is attributed to brilliance then failure implies lack of it.",
+    "type": "observation",
+    "evidence": "Carol Dweck's mindset research shows that praise tied to identity ('You're brilliant') makes challenges feel like threats rather than learning opportunities, reorienting focus from impact to seeking approval.",
+    "topics": [
+      "feedback",
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-introducing-the-gain-framework-for-feedback-4",
+    "newsletterSlug": "introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+    "text": "Saying 'I'm giving you these comments because I have very high expectations and I know you can reach them' more than quadrupled revision rates compared to a neutral framing.",
+    "type": "observation",
+    "evidence": "A randomized double-blind controlled Stanford study tested this sentence combining challenge and support. Students who received it revised over 4x more and their revisions were 26% better on average.",
+    "topics": [
+      "feedback",
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-introducing-the-gain-framework-for-feedback-5",
+    "newsletterSlug": "introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+    "text": "Saying 'Feel free to say no' when making a request doubled the percentage of people who said yes, because supporting autonomy preempts resistance and engenders goodwill.",
+    "type": "observation",
+    "evidence": "A meta-analysis of 52 studies showed that the 'but-you-are-free' technique doubled compliance rates, confirming that making it easy to decline paradoxically increases acceptance.",
+    "topics": [
+      "feedback",
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-introducing-the-gain-framework-for-feedback-6",
+    "newsletterSlug": "introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+    "text": "Acknowledging your own contribution to a problem before giving feedback is one of the most disarming approaches available, because it prevents the recipient from fixating on your role in the situation.",
+    "type": "recommendation",
+    "evidence": "Jack Cohen found this is one of the least-used but most effective techniques. Once you show you are monitoring your own behavior, the other person can release focus on your actions and concentrate on their own.",
+    "topics": [
+      "feedback",
+      "leadership",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-building-eval-systems-that-improve-your-ai-product-1",
+    "newsletterSlug": "building-eval-systems-that-improve-your-ai-product",
+    "text": "The most common mistake in AI evaluation is starting with off-the-shelf metrics like hallucination or toxicity scores, which often don't correlate with the actual problems users face.",
+    "type": "observation",
+    "evidence": "Hamel Husain and Shreya Shankar found through training 2,000+ PMs and engineers at 500+ companies that teams build eval dashboards that look useful but get ignored because metrics are disconnected from real user problems.",
+    "topics": [
+      "evals",
+      "ai-product",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-building-eval-systems-that-improve-your-ai-product-2",
+    "newsletterSlug": "building-eval-systems-that-improve-your-ai-product",
+    "text": "Effective AI evaluation starts with error analysis using a single principal domain expert who reviews approximately 100 user interactions with open coding and axial coding to discover real failure modes.",
+    "type": "framework",
+    "evidence": "The process uses open coding (free-form critique with pass/fail judgments) followed by axial coding (pattern-finding and grouping). Appointing a single expert eliminates annotation conflicts and prevents paralysis.",
+    "topics": [
+      "evals",
+      "ai-product",
+      "engineering"
+    ]
+  },
+  {
+    "id": "claim-building-eval-systems-that-improve-your-ai-product-3",
+    "newsletterSlug": "building-eval-systems-that-improve-your-ai-product",
+    "text": "For AI evaluation, binary pass/fail judgments are more effective than 1-to-5 Likert scales because the distinction between adjacent scores is subjective and inconsistent, while nuance is captured in written critiques.",
+    "type": "recommendation",
+    "evidence": "Many teams are tempted by Likert scales believing they capture more nuance, but binary decisions force clarity. The nuance is preserved in critiques that explain why a judgment was made.",
+    "topics": [
+      "evals",
+      "ai-product",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-building-eval-systems-that-improve-your-ai-product-4",
+    "newsletterSlug": "building-eval-systems-that-improve-your-ai-product",
+    "text": "In RAG systems, you should fix the retriever before investing in generator improvements, because if the correct information is not retrieved, the generator has no chance of producing a correct answer.",
+    "type": "recommendation",
+    "evidence": "Modern LLMs are adept at ignoring irrelevant noise in context, but they cannot invent facts from missing information. Recall@k is the most critical metric for RAG retrieval evaluation.",
+    "topics": [
+      "evals",
+      "ai-product",
+      "engineering"
+    ]
+  },
+  {
+    "id": "claim-building-eval-systems-that-improve-your-ai-product-5",
+    "newsletterSlug": "building-eval-systems-that-improve-your-ai-product",
+    "text": "The real competitive advantage in AI products comes not from prompting but from building a continuous improvement flywheel where production monitoring flags failures, error analysis finds root causes, and fixes are added to a golden dataset.",
+    "type": "observation",
+    "evidence": "The three-phase process (error analysis, eval suite building, operationalization) creates a monitor-analyze-improve-deploy loop where every failure makes the system permanently smarter.",
+    "topics": [
+      "evals",
+      "ai-product",
+      "engineering"
+    ]
+  },
+  {
+    "id": "claim-how-to-find-the-perfect-name-1",
+    "newsletterSlug": "how-to-find-the-perfect-name",
+    "text": "The name you choose for a product or company may be the single most important branding decision you make, yet it is too often delegated to junior staff or tackled in group brainstorming sessions.",
+    "type": "observation",
+    "evidence": "David Placek, who named nearly 4,000 brands over 40 years including Swiffer, Sonos, BlackBerry, Azure, and Vercel, observed that teams routinely underinvest in naming despite its outsized impact.",
+    "topics": [
+      "naming",
+      "product-design",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "claim-how-to-find-the-perfect-name-2",
+    "newsletterSlug": "how-to-find-the-perfect-name",
+    "text": "Invented names like Pentium actually take less money to build into brands than existing words because they signal 'new and innovative' and generate more attention due to being unexpected.",
+    "type": "observation",
+    "evidence": "Despite a common myth to the contrary, Lexicon Branding's research shows invented names outperform descriptive ones. Within months of launch, consumers were asking for Pentium computers by name.",
+    "topics": [
+      "naming",
+      "product-design",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "claim-how-to-find-the-perfect-name-3",
+    "newsletterSlug": "how-to-find-the-perfect-name",
+    "text": "Effective naming requires building for trust, communicating an original idea rather than describing what the company does, and making the name accessible and easy to process.",
+    "type": "framework",
+    "evidence": "Lexicon's three pillars of naming, applied across 4,000 brands. Navan (replacing TripActions) grew from $150M to over $500M revenue after rebranding with an original, non-descriptive name.",
+    "topics": [
+      "naming",
+      "product-design",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "claim-how-to-find-the-perfect-name-4",
+    "newsletterSlug": "how-to-find-the-perfect-name",
+    "text": "Large brainstorming sessions rarely produce good names because of peer pressure to agree and everyone's need to be right; small teams with esprit de corps generate far better results.",
+    "type": "recommendation",
+    "evidence": "Lexicon recommends generating at least 1,000 creative ideas before selecting a shortlist of 50-100 candidates, using small dedicated teams rather than group sessions with four or more participants.",
+    "topics": [
+      "naming",
+      "product-design",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-how-to-find-the-perfect-name-5",
+    "newsletterSlug": "how-to-find-the-perfect-name",
+    "text": "The sound of a brand name matters as much as its meaning: specific sounds create specific impressions, like the 'z' in Azure creating a strong signal and the 'zure' creating a smooth experience.",
+    "type": "observation",
+    "evidence": "Lexicon uses proprietary sound-symbolism software. Dasani exemplifies this: the 'da' sound delivers crispness, 'san' (Latin for health), and the ending 'i' feels light and slim.",
+    "topics": [
+      "naming",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-why-your-ai-product-needs-a-different-development-lifecycle-1",
+    "newsletterSlug": "why-your-ai-product-needs-a-different-development-lifecycle",
+    "text": "AI products fundamentally break the assumptions of traditional software because they are inherently non-deterministic on both the input side (unpredictable user prompts) and output side (variable model responses).",
+    "type": "observation",
+    "evidence": "Based on 50+ AI implementations at OpenAI, Google, Amazon, and Databricks, Reganti and Badam found teams repeatedly fail when they apply traditional software development practices to AI products.",
+    "topics": [
+      "ai-product",
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-why-your-ai-product-needs-a-different-development-lifecycle-2",
+    "newsletterSlug": "why-your-ai-product-needs-a-different-development-lifecycle",
+    "text": "Every AI product must negotiate a fundamental tradeoff between agency (the system's ability to act autonomously) and control (human oversight), and most teams fail by jumping to full agency before testing under high control.",
+    "type": "framework",
+    "evidence": "The agency-control tradeoff is the second core principle of the CC/CD framework. Teams that ship fully autonomous systems without earning agency through graduated testing face cascading failures they cannot debug.",
+    "topics": [
+      "ai-product",
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-why-your-ai-product-needs-a-different-development-lifecycle-3",
+    "newsletterSlug": "why-your-ai-product-needs-a-different-development-lifecycle",
+    "text": "The CC/CD (Continuous Calibration/Continuous Development) framework requires scoping AI products into versions defined by agency levels, starting with high-control/low-agency and gradually earning more autonomy.",
+    "type": "framework",
+    "evidence": "For customer support: v1 routes tickets (low agency), v2 suggests resolutions for human review (medium agency), v3 auto-resolves with fallback (high agency). GitHub Copilot and Cursor followed this exact playbook.",
+    "topics": [
+      "ai-product",
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-why-your-ai-product-needs-a-different-development-lifecycle-4",
+    "newsletterSlug": "why-your-ai-product-needs-a-different-development-lifecycle",
+    "text": "Working with AI is like onboarding a new teammate: you should not hand them your highest-stakes projects on day one but instead start small, observe, build trust, and gradually expand their scope.",
+    "type": "recommendation",
+    "evidence": "Analogy from Reganti and Badam based on 50+ AI implementations. The CC/CD framework structures this intuition into a repeatable development loop of scope, build, eval, deploy, calibrate, and fix.",
+    "topics": [
+      "ai-product",
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-why-your-ai-product-needs-a-different-development-lifecycle-5",
+    "newsletterSlug": "why-your-ai-product-needs-a-different-development-lifecycle",
+    "text": "Never lead with the technology when building AI products; let the problem, evals, and data guide what gets added next, because too many people focus on chasing tools and frameworks and end up making costly mistakes.",
+    "type": "recommendation",
+    "evidence": "The CC/CD framework explicitly warns against premature optimization. Step 2 says 'don't overengineer' and Step 6 is when you should engineer more, backed by data from real error patterns.",
+    "topics": [
+      "ai-product",
+      "engineering",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-essential-reading-for-product-builders-part-2-1",
+    "newsletterSlug": "essential-reading-for-product-builders-part-2",
+    "text": "A product succeeds because it solves a problem for people, and the problem should be easy to communicate in a sentence or two that resonates with the target audience.",
+    "type": "observation",
+    "evidence": "From Julie Zhuo's 'Building Products' essay, highlighted as essential reading. If the problem statement doesn't resonate with someone from your target audience, consider that a big red flag.",
+    "topics": [
+      "product-management",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "claim-essential-reading-for-product-builders-part-2-2",
+    "newsletterSlug": "essential-reading-for-product-builders-part-2",
+    "text": "The best executive communication follows the SCQA structure: Situation (unambiguous facts), Complication (what's changed), Question (almost always 'What should we do?'), and Answer (resolves the complication 100%).",
+    "type": "framework",
+    "evidence": "From Barbara Minto's Pyramid Principle via Michael Dearing, curated as essential reading. The framework applies to every conversation including with friends, loved ones, and at the deli counter.",
+    "topics": [
+      "leadership",
+      "career",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-essential-reading-for-product-builders-part-2-3",
+    "newsletterSlug": "essential-reading-for-product-builders-part-2",
+    "text": "A startup is a company designed to grow fast -- being newly founded, working on technology, or taking venture funding are not essential; the only essential thing is growth.",
+    "type": "observation",
+    "evidence": "From Paul Graham's 'Startup = Growth' essay, curated as essential reading. Everything else associated with startups follows from growth as the defining characteristic.",
+    "topics": [
+      "startup-building",
+      "growth"
+    ]
+  },
+  {
+    "id": "claim-essential-reading-for-product-builders-part-2-4",
+    "newsletterSlug": "essential-reading-for-product-builders-part-2",
+    "text": "Schlep blindness causes founders to avoid hard, messy problems in favor of easy ones, but ambitious ideas are doubly valuable because they have intrinsic value and less competition since everyone else is frightened off.",
+    "type": "observation",
+    "evidence": "From Paul Graham's 'Schlep Blindness' essay. Stripe is the most striking example: for a decade every developer knew payments were painful, but unconscious aversion to complexity prevented anyone from fixing it.",
+    "topics": [
+      "startup-building",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-essential-reading-for-product-builders-part-2-5",
+    "newsletterSlug": "essential-reading-for-product-builders-part-2",
+    "text": "The best way to manage scaling is to give away your Legos -- resist the instinct to grab back responsibilities from new hires and instead find a bigger, better tower to build.",
+    "type": "recommendation",
+    "evidence": "From Molly Graham's 'Give Away Your Legos' essay. Almost everything about scaling is counterintuitive; people's first instinct to fight for their part of the tower or micromanage is usually the wrong move.",
+    "topics": [
+      "leadership",
+      "startup-building",
+      "hiring"
+    ]
+  },
+  {
+    "id": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-1",
+    "newsletterSlug": "25-proven-tactics-to-accelerate-ai-adoption-at-your-company",
+    "text": "The biggest barrier to AI adoption at companies is not technology but organizational change, including vague mandates, procurement bottlenecks, and lack of guidance on high-impact use cases.",
+    "type": "observation",
+    "evidence": "Only 8% of US workers use AI daily per Gallup. Interviews with leaders at Shopify, Ramp, Zapier, Duolingo, Intercom, and Whoop found organizational issues are the primary blocker.",
+    "topics": [
+      "ai-tools",
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-2",
+    "newsletterSlug": "25-proven-tactics-to-accelerate-ai-adoption-at-your-company",
+    "text": "Saying 'we are AI-first' means nothing if employees do not know what that means for their day-to-day work; successful companies provide specific, concrete tactics employees can adopt.",
+    "type": "recommendation",
+    "evidence": "Shopify CEO Tobi Lutke shared concrete tactics in his memo like making AI prototyping part of GSD. Zapier CEO gave employees a playbook and a week off to practice. Intercom CTO embedded with teams monthly.",
+    "topics": [
+      "ai-tools",
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-3",
+    "newsletterSlug": "25-proven-tactics-to-accelerate-ai-adoption-at-your-company",
+    "text": "AI adoption should be tracked as both inputs (who is using AI) and outputs (business value created), and included in performance reviews to create accountability.",
+    "type": "recommendation",
+    "evidence": "Shopify asks employees to rate colleagues on AI tool usage (1-5 scale). Ramp publishes AI power users by team. Intercom tracks merged PRs and sees durable 20% year-over-year productivity improvement.",
+    "topics": [
+      "ai-tools",
+      "leadership",
+      "metrics"
+    ]
+  },
+  {
+    "id": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-4",
+    "newsletterSlug": "25-proven-tactics-to-accelerate-ai-adoption-at-your-company",
+    "text": "Duolingo went from creating 100 courses in 12 years to 150 courses in just 12 months after rebuilding their content creation process with AI.",
+    "type": "observation",
+    "evidence": "Duolingo CPO Cem Kansu reported they vibe-coded the first Duolingo Chess lesson in hours instead of weeks, demonstrating the productivity multiplier of AI adoption.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-5",
+    "newsletterSlug": "25-proven-tactics-to-accelerate-ai-adoption-at-your-company",
+    "text": "True AI adoption happens when teams become skeptical of flashy demos and instead demand to see accuracy metrics, evaluation frameworks, and failure modes behind AI products.",
+    "type": "observation",
+    "evidence": "Peter Yang has seen too many PMs present flashy demos to executives only to stumble when asked about data and evaluations. When employees start asking about rigor, that signals real adoption.",
+    "topics": [
+      "ai-tools",
+      "evals",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-25-proven-tactics-to-accelerate-ai-adoption-at-your-company-6",
+    "newsletterSlug": "25-proven-tactics-to-accelerate-ai-adoption-at-your-company",
+    "text": "Companies should turn their internal AI enthusiasts into teachers by hosting regular demos, hackathons, and dedicated AI experimentation time rather than relying on top-down mandates alone.",
+    "type": "recommendation",
+    "evidence": "Shopify hosts AI training villages, Duolingo protects 2-hour FriAIday blocks, Ramp has an AI SWAT team, Zapier hosts weekly demos attracting 60+ employees, and Whoop ties AI uplift to promotions.",
+    "topics": [
+      "ai-tools",
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-build-your-personal-ai-copilot-1",
+    "newsletterSlug": "build-your-personal-ai-copilot",
+    "text": "Most tech workers are missing out on AI's potential because they are not providing enough context; LLMs feel like blunt, generic instruments when they lack the background knowledge a human colleague would need.",
+    "type": "observation",
+    "evidence": "Tal Raviv taught workshops to 20,000+ tech employees and found the same pattern: regardless of company size or AI fluency, people weren't giving LLMs the context needed to experience their full potential.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-build-your-personal-ai-copilot-2",
+    "newsletterSlug": "build-your-personal-ai-copilot",
+    "text": "An AI copilot built with ongoing context about your goals, role, projects, team, and org becomes a real thinking partner for long-term complex work, not just a document generator.",
+    "type": "framework",
+    "evidence": "Students report using their copilots every day. One new PM presented product strategy two weeks in and his CEO remarked 'It feels like you've been here for months.' Another built a career development copilot for her team.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-build-your-personal-ai-copilot-3",
+    "newsletterSlug": "build-your-personal-ai-copilot",
+    "text": "Building an AI copilot follows a four-step process analogous to onboarding a teammate: hire it with instructions, onboard it with company knowledge, kick off initiatives in chat threads, and put it to work with simple prompts.",
+    "type": "framework",
+    "evidence": "Using LLM Projects features in ChatGPT, Claude, or Gemini, you set instructions (role/personality), upload project knowledge (strategy docs, org charts), then use initiative-specific chat threads.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-build-your-personal-ai-copilot-4",
+    "newsletterSlug": "build-your-personal-ai-copilot",
+    "text": "The habit of 'gossiping' to your AI copilot -- casually updating it about conversations, stakeholder changes, and new information via speech-to-text -- is critical for keeping context fresh and effective.",
+    "type": "recommendation",
+    "evidence": "Tal Raviv describes using speech-to-text to vent stream-of-consciousness updates like 'You won't believe what just happened...' The copilot remembers and references these updates later in relevant contexts.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-build-your-personal-ai-copilot-5",
+    "newsletterSlug": "build-your-personal-ai-copilot",
+    "text": "Even when AI is wrong it can be valuable because it spurs you to crystallize what you actually think; the goal is not perfect answers but getting the most out of yourself as a thinking partner.",
+    "type": "observation",
+    "evidence": "Tal Raviv compares this to a car's driver assist beeping on an open highway -- no harm done, but you keep it on for when it catches something real. Disagreeing with AI output still sharpens your own thinking.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-build-your-personal-ai-copilot-6",
+    "newsletterSlug": "build-your-personal-ai-copilot",
+    "text": "AI copilot investment earns compound interest: uploading retrospectives and lessons learned from completed initiatives makes the copilot increasingly effective across all future work.",
+    "type": "observation",
+    "evidence": "At the end of each initiative, sharing outcomes and personal reflections back to project knowledge accelerates the copilot's ability to connect dots and provide wise counsel on future projects.",
+    "topics": [
+      "ai-tools",
+      "productivity",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-techs-most-resilient-workers-handle-burnout-1",
+    "newsletterSlug": "how-techs-most-resilient-workers-handle-burnout",
+    "text": "The key to beating burnout is to systematically design a career and lifestyle that make burnout structurally unlikely, rather than relying on resilience or stress management.",
+    "type": "framework",
+    "evidence": "Based on surveys and interviews with ~175 tech workers who reported low burnout, the investigation found that 'burnout conquerors' proactively structure their work lives rather than reactively managing stress.",
+    "topics": [
+      "career",
+      "health",
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-how-techs-most-resilient-workers-handle-burnout-2",
+    "newsletterSlug": "how-techs-most-resilient-workers-handle-burnout",
+    "text": "Autonomy is the most critical ingredient to being happy at work, and burnout conquerors earn it by consistently delivering results to build trust.",
+    "type": "observation",
+    "evidence": "Multiple respondents identified autonomy as the first factor in avoiding burnout, and the research found that trust enabling autonomy is earned through consistent delivery on goals, not granted.",
+    "topics": [
+      "career",
+      "leadership",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-how-techs-most-resilient-workers-handle-burnout-3",
+    "newsletterSlug": "how-techs-most-resilient-workers-handle-burnout",
+    "text": "Burnout conquerors overcommunicate not just what they are working on but how they work — their boundaries, constraints, strengths, and decision-making preferences — using a 'How I Work' document.",
+    "type": "recommendation",
+    "evidence": "Respondents noted that most peers only communicate what they're working on but forget about communicating the 'hows,' and that setting these foundations prevents misalignment.",
+    "topics": [
+      "career",
+      "leadership",
+      "productivity",
+      "feedback"
+    ]
+  },
+  {
+    "id": "claim-how-techs-most-resilient-workers-handle-burnout-4",
+    "newsletterSlug": "how-techs-most-resilient-workers-handle-burnout",
+    "text": "Burnout conquerors treat wellness as non-negotiable professional infrastructure, with exercise routines more like professional athletes than typical tech workers.",
+    "type": "observation",
+    "evidence": "Many participants reported training 5-6 times a week, maintaining fixed sleep schedules, and cooking all their own food — treating health maintenance with the same rigor as work deliverables.",
+    "topics": [
+      "health",
+      "career",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-how-techs-most-resilient-workers-handle-burnout-5",
+    "newsletterSlug": "how-techs-most-resilient-workers-handle-burnout",
+    "text": "Burnout is organizational warfare, not a personal responsibility — free-pizza Fridays and free mental health sessions are band-aids that signal serious organizational dysfunction.",
+    "type": "observation",
+    "evidence": "Burnout conquerors reject the common corporate narrative that puts the onus on employees, recognizing that deep exhaustion results from broken processes, unclear expectations, and bad incentives.",
+    "topics": [
+      "career",
+      "leadership",
+      "health"
+    ]
+  },
+  {
+    "id": "claim-how-techs-most-resilient-workers-handle-burnout-6",
+    "newsletterSlug": "how-techs-most-resilient-workers-handle-burnout",
+    "text": "Who you work with matters more than almost anything else about the job, and choosing a job based on colleagues is the single most cited career choice for avoiding burnout.",
+    "type": "observation",
+    "evidence": "The most common answer to 'What is THE career choice that helped you avoid burnout?' centered on prioritizing people and relationships, both at work and at home.",
+    "topics": [
+      "career",
+      "hiring",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-how-techs-most-resilient-workers-handle-burnout-7",
+    "newsletterSlug": "how-techs-most-resilient-workers-handle-burnout",
+    "text": "Burnout conquerors use four tests to evaluate roles: the relationship test (who you work with), the Sunday test (how you feel before the work week), the energy test (does the work energize you), and the values alignment test (does culture match your core values).",
+    "type": "framework",
+    "evidence": "The ARMOR framework's 'Role Architecture' component identifies these four rubrics that burnout conquerors use to strategically design their careers from day one.",
+    "topics": [
+      "career",
+      "startup-building",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-your-entire-team-prototyping-with-ai-1",
+    "newsletterSlug": "how-to-get-your-entire-team-prototyping-with-ai",
+    "text": "The two biggest barriers to AI prototyping adoption on product teams are making prototypes look good enough for stakeholders and figuring out team workflows instead of individual silos.",
+    "type": "observation",
+    "evidence": "After teaching 500+ PMs over five months, these were the two most common questions that came up when people tried to use AI prototyping tools in real life.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "product-management",
+      "product-design"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-your-entire-team-prototyping-with-ai-2",
+    "newsletterSlug": "how-to-get-your-entire-team-prototyping-with-ai",
+    "text": "Building a reusable component library is the single biggest improvement teams can make to AI prototyping quality, allowing brand-consistent prototypes without manual cleanup each time.",
+    "type": "recommendation",
+    "evidence": "Three methods are outlined (screenshots, Chrome extensions, code) with increasing effort and fidelity, all producing reusable assets that dramatically improve output quality.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "product-design",
+      "engineering"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-your-entire-team-prototyping-with-ai-3",
+    "newsletterSlug": "how-to-get-your-entire-team-prototyping-with-ai",
+    "text": "AI prototyping introduces a new 'medium fidelity' tier — better than napkin drawings but not as polished as finalized Figma mocks — and choosing the right fidelity for each context is critically important.",
+    "type": "framework",
+    "evidence": "The post outlines six steps in the product development lifecycle, each requiring different fidelity levels: mid-fi for internal discovery and engineer communication, high-fi for executive pitches and user interviews.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "product-design",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-your-entire-team-prototyping-with-ai-4",
+    "newsletterSlug": "how-to-get-your-entire-team-prototyping-with-ai",
+    "text": "The code generated by AI prototyping tools is mostly useless to engineering teams because it does not follow existing patterns, use the same libraries, or even use the same programming language.",
+    "type": "observation",
+    "evidence": "The post explicitly warns that unless components are built using your existing codebase, the generated code serves only as a communication and visualization tool, not production code.",
+    "topics": [
+      "ai-tools",
+      "engineering",
+      "prototyping",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-your-entire-team-prototyping-with-ai-5",
+    "newsletterSlug": "how-to-get-your-entire-team-prototyping-with-ai",
+    "text": "The 'baselines and forks' workflow — creating a high-quality reproduction of your current product then duplicating it to explore new ideas — is the best way to rapidly test multiple design directions without rebuilding each time.",
+    "type": "recommendation",
+    "evidence": "Demonstrated with an Airbnb Experiences example where a single baseline enabled testing a questionnaire flow and a past-travel-history recommendation flow, each from a single prompt on a forked copy.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "product-design",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-your-entire-team-prototyping-with-ai-6",
+    "newsletterSlug": "how-to-get-your-entire-team-prototyping-with-ai",
+    "text": "Using the Figma MCP server with Cursor allows AI agents to autonomously take screenshots, extract design tokens, and get CSS from Figma's Dev Mode, producing prototypes indistinguishable from the real product.",
+    "type": "observation",
+    "evidence": "The post demonstrates a side-by-side of Figma design library components and code-reproduced components using the new Figma MCP server integration with Cursor.",
+    "topics": [
+      "ai-tools",
+      "prototyping",
+      "product-design",
+      "engineering"
+    ]
+  },
+  {
+    "id": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-1",
+    "newsletterSlug": "the-definitive-guide-to-mastering-analytical-thinking-interviews",
+    "text": "Analytical thinking interviews should follow a five-step linear flow: assumptions and game plan, product rationale, metric framework, goal-setting, and tradeoff evaluation.",
+    "type": "framework",
+    "evidence": "The post presents this as a comprehensive structure that maximizes a candidate's chances of providing strong signals across all dimensions interviewers evaluate in AT interviews.",
+    "topics": [
+      "career",
+      "product-management",
+      "metrics",
+      "hiring"
+    ]
+  },
+  {
+    "id": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-2",
+    "newsletterSlug": "the-definitive-guide-to-mastering-analytical-thinking-interviews",
+    "text": "Never use averages or ratios as North Star metrics because if your NSM increases while your ecosystem actually shrinks, you get a false positive — a metric that looks great even as the product dies.",
+    "type": "recommendation",
+    "evidence": "The post warns that candidates confidently present ratio-based metrics that could mask a dying product, which signals poor analytical thinking to interviewers.",
+    "topics": [
+      "metrics",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-3",
+    "newsletterSlug": "the-definitive-guide-to-mastering-analytical-thinking-interviews",
+    "text": "The critical 'altitude shift' from company-level metrics to team-level goals is where most candidates stumble, because tracking a metric is fundamentally different from executing against a specific goal.",
+    "type": "observation",
+    "evidence": "The post describes this as a transition from the 50,000-foot view of ecosystem health to ground-level identification of specific focus areas for a single product team over 3-6 months.",
+    "topics": [
+      "career",
+      "product-management",
+      "metrics",
+      "leadership"
+    ]
+  },
+  {
+    "id": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-4",
+    "newsletterSlug": "the-definitive-guide-to-mastering-analytical-thinking-interviews",
+    "text": "If you cannot describe a metric to a data scientist in a way that they could run a query with, it is not a useful metric — always define metrics so specifically that someone could implement them tomorrow.",
+    "type": "recommendation",
+    "evidence": "Presented as a key principle within the metric framework step, emphasizing that vague metrics signal weak analytical ability in interviews.",
+    "topics": [
+      "metrics",
+      "product-management",
+      "career"
+    ]
+  },
+  {
+    "id": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-5",
+    "newsletterSlug": "the-definitive-guide-to-mastering-analytical-thinking-interviews",
+    "text": "Top candidates in tradeoff evaluation specify what would need to be true for them to change their mind, because it solidifies how they think about the fundamental factors that influence their thinking.",
+    "type": "recommendation",
+    "evidence": "The post identifies this as a differentiating behavior that elevates a candidate's tradeoff analysis above simply stating a decision and rationale.",
+    "topics": [
+      "career",
+      "product-management",
+      "hiring"
+    ]
+  },
+  {
+    "id": "claim-the-definitive-guide-to-mastering-analytical-thinking-interviews-6",
+    "newsletterSlug": "the-definitive-guide-to-mastering-analytical-thinking-interviews",
+    "text": "Outlining your game plan at the start of an analytical thinking interview is like sitting down to play a game with someone who knows the rules — it signals to interviewers that you will generate the signals they need.",
+    "type": "recommendation",
+    "evidence": "The post recommends spending the first minute making assumptions and sharing a structured plan, which also gives the interviewer a chance to redirect if they want to spend time differently.",
+    "topics": [
+      "career",
+      "hiring",
+      "product-management"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-1",
+    "newsletterSlug": "how-to-get-the-most-out-of-your-product-pass-part-1",
+    "text": "Replit can single-shot fairly sophisticated full-stack applications unlike other vibe-coding platforms, because it automatically tests the apps it builds using its internal browser and auto-fixes issues it finds.",
+    "type": "observation",
+    "evidence": "Lenny describes Replit's Agent 3 running autonomously for 200+ minutes, building, testing, and fixing apps, and notes this self-testing capability distinguishes it from competitors.",
+    "topics": [
+      "ai-tools",
+      "vibe-coding",
+      "engineering",
+      "productivity"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-2",
+    "newsletterSlug": "how-to-get-the-most-out-of-your-product-pass-part-1",
+    "text": "Every startup and modern product team should be using Linear for task tracking, project organization, and roadmap building — and at this point, most are.",
+    "type": "recommendation",
+    "evidence": "Lenny states there is 'no question' about this, despite not using Linear himself since he works solo, and notes Linear now has deep agent integrations for delegating tickets to AI.",
+    "topics": [
+      "product-management",
+      "ai-tools",
+      "startup-building"
+    ]
+  },
+  {
+    "id": "claim-how-to-get-the-most-out-of-your-product-pass-part-1-3",
+    "newsletterSlug": "how-to-get-the-most-out-of-your-product-pass-part-1",
+    "text": "Creating decks and documents is one of the most time-consuming and annoying parts of most product builders' jobs, and AI tools like Gamma are doing for PMs what Cursor is doing for engineers.",
+    "type": "observation",
+    "evidence": "Lenny describes creating shareable podcast summaries by copying transcripts and clicking a few buttons, calling the result 'magic.'",
     "topics": [
       "ai-tools",
       "product-management",
@@ -193,51 +1181,41 @@
     ]
   },
   {
-    "id": "claim-brain-2",
-    "newsletterSlug": "how-to-build-your-pm-second-brain-with-chatgpt",
-    "text": "The key to useful AI assistance is feeding it context over time, not just asking one-off questions — persistent context makes AI dramatically more useful.",
-    "type": "recommendation",
-    "evidence": "Comparison of one-shot ChatGPT usage vs. maintained conversation threads with accumulated product context.",
+    "id": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-1",
+    "newsletterSlug": "part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas",
+    "text": "Lovable reached $100 million ARR just eight months after launch, making it the fastest-growing company in history — faster than even Cursor.",
+    "type": "observation",
+    "evidence": "Stated as a factual milestone in the newsletter's description of Lovable as an AI-powered vibe-coding platform.",
+    "topics": [
+      "startup-building",
+      "growth",
+      "ai-tools",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-2",
+    "newsletterSlug": "part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas",
+    "text": "Bolt grew from 0 to $40 million ARR in five months and is used by 72% of Fortune 500 product teams, differentiating itself by integrating frontier agents like Claude Code rather than relying on homegrown agents.",
+    "type": "observation",
+    "evidence": "Lenny describes Bolt's unique approach of integrating state-of-the-art frontier agents so users always get access to the most advanced coding agents without switching tools.",
+    "topics": [
+      "startup-building",
+      "growth",
+      "ai-tools",
+      "vibe-coding"
+    ]
+  },
+  {
+    "id": "claim-part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas-3",
+    "newsletterSlug": "part-2-of-how-to-get-the-most-out-of-your-product-pass-and-welcome-stripe-atlas",
+    "text": "Granola has quickly become the obvious tool for AI meeting note-taking because it works behind the scenes using laptop audio instead of joining calls, and everyone who tries it gets hooked.",
+    "type": "observation",
+    "evidence": "Lenny notes that Granola doesn't join calls like competing tools, instead transcribing silently in the background, and that its UX and note quality are standout features.",
     "topics": [
       "ai-tools",
       "productivity",
-      "ai-product"
-    ]
-  },
-  {
-    "id": "claim-jobs-1",
-    "newsletterSlug": "state-of-the-product-job-market-in-2025",
-    "text": "The PM job market is recovering, but the roles that are growing fastest require AI literacy — traditional PM skills alone are no longer sufficient.",
-    "type": "observation",
-    "evidence": "Job posting data showing AI-related PM roles growing 3x faster than traditional PM roles.",
-    "topics": [
-      "career",
-      "product-management",
-      "ai-tools"
-    ]
-  },
-  {
-    "id": "claim-reading-1",
-    "newsletterSlug": "essential-reading-for-product-builders-part-1",
-    "text": "The best product thinking comes from adjacent fields — psychology, game design, economics — not from product management literature alone.",
-    "type": "observation",
-    "evidence": "Curated list of 7 essays from diverse fields that directly apply to product building, with analysis of why each matters.",
-    "topics": [
-      "product-management",
-      "learning",
       "product-design"
-    ]
-  },
-  {
-    "id": "claim-glossary-1",
-    "newsletterSlug": "an-ai-glossary",
-    "text": "Product managers don't need to understand AI at a technical depth — they need to understand it at the right depth for making product decisions.",
-    "type": "framework",
-    "evidence": "Glossary organized by what PMs need to know vs. what they can leave to engineers, with decision-making context for each term.",
-    "topics": [
-      "ai-product",
-      "product-management",
-      "learning"
     ]
   }
 ]
