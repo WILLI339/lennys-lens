@@ -18,9 +18,9 @@ import { SYNTHESIS_COLORS } from "@/components/network-graph";
 */
 
 const MOMENT_COLOR = "#4B5563";
-const LABEL_WIDTH = 130;
+const LABEL_WIDTH = 150;
 const LANE_HEIGHT = 40;
-const MARGIN = { top: 40, right: 100, bottom: 10, left: LABEL_WIDTH + 10 };
+const MARGIN = { top: 40, right: 100, bottom: 10, left: LABEL_WIDTH + 16 };
 const MOBILE_MARGIN = { top: 50, right: 10, bottom: 20, left: 10 };
 const MOBILE_COL_WIDTH = 50;
 const MOBILE_BREAKPOINT = 640;
@@ -262,16 +262,16 @@ function renderDesktop(
         .attr("stroke", "#2A2A42").attr("stroke-width", 1);
     }
 
-    // Lane label
+    // Lane label — right-aligned within label column, with 8px left padding
     g.append("text")
-      .attr("x", LABEL_WIDTH)
+      .attr("x", LABEL_WIDTH + 8)
       .attr("y", y + laneHeight / 2)
       .attr("text-anchor", "end")
       .attr("dominant-baseline", "middle")
-      .attr("font-size", 14)
+      .attr("font-size", 13)
       .attr("font-weight", 600)
       .attr("fill", "#9B9587")
-      .text(tl.topicName.length > 18 ? tl.topicName.slice(0, 16) + "…" : tl.topicName);
+      .text(tl.topicName);
   });
 
   // X-axis at top — tick every 2 months to avoid overcrowding
@@ -312,32 +312,37 @@ function renderDesktop(
       const firstX = xScale(new Date(first.date));
       const lastX = xScale(new Date(last.date));
 
+      // Position labels at the top-right of each lane to avoid dot overlap
+      const labelY = laneY - laneHeight / 2 + 10;
+      const firstR = first.type === "claim" ? Math.min(10, 6 + (first.connectionCount || 0) * 0.5) : 3;
+      const lastR = last.type === "claim" ? Math.min(10, 6 + (last.connectionCount || 0) * 0.5) : 3;
+
       if (denseItems.length === 1) {
         g.append("text")
-          .attr("x", firstX).attr("y", laneY + laneHeight / 2 - 4)
-          .attr("text-anchor", "middle")
-          .attr("font-size", 11)
+          .attr("x", firstX + firstR + 4).attr("y", labelY)
+          .attr("text-anchor", "start")
+          .attr("font-size", 10)
           .attr("font-family", "var(--font-geist-mono)")
-          .attr("fill", "#9B9587")
-          .text(`Only: ${formatShortDate(first.date)}`);
+          .attr("fill", "#6B6560")
+          .text(formatShortDate(first.date));
       } else {
         g.append("text")
-          .attr("x", Math.max(MARGIN.left, firstX)).attr("y", laneY + laneHeight / 2 - 4)
+          .attr("x", Math.max(MARGIN.left, firstX + firstR + 4)).attr("y", labelY)
           .attr("text-anchor", "start")
-          .attr("font-size", 11)
+          .attr("font-size", 10)
           .attr("font-family", "var(--font-geist-mono)")
-          .attr("fill", "#9B9587")
-          .text(`First: ${formatShortDate(first.date)}`);
+          .attr("fill", "#6B6560")
+          .text(formatShortDate(first.date));
 
-        // Only show "Latest" if far enough from "First" to not overlap
-        if (lastX - firstX > 120) {
+        // Only show latest date if far enough from first to not overlap
+        if (lastX - firstX > 100) {
           g.append("text")
-            .attr("x", Math.min(width - MARGIN.right, lastX)).attr("y", laneY + laneHeight / 2 - 4)
-            .attr("text-anchor", "end")
-            .attr("font-size", 11)
+            .attr("x", Math.min(width - 8, lastX + lastR + 4)).attr("y", labelY)
+            .attr("text-anchor", "start")
+            .attr("font-size", 10)
             .attr("font-family", "var(--font-geist-mono)")
-            .attr("fill", "#9B9587")
-            .text(`Latest: ${formatShortDate(last.date)}`);
+            .attr("fill", "#6B6560")
+            .text(formatShortDate(last.date));
         }
       }
     }
