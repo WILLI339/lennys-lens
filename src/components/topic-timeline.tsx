@@ -19,7 +19,7 @@ import { SYNTHESIS_COLORS } from "@/components/network-graph";
 
 const MOMENT_COLOR = "#4B5563";
 const LABEL_WIDTH = 150;
-const LANE_HEIGHT = 40;
+const LANE_HEIGHT = 48;
 const MARGIN = { top: 40, right: 100, bottom: 10, left: LABEL_WIDTH + 16 };
 const MOBILE_MARGIN = { top: 50, right: 10, bottom: 20, left: 10 };
 const MOBILE_COL_WIDTH = 50;
@@ -212,7 +212,10 @@ function TooltipContent({ item }: { item: TimelineItem }) {
         {item.type === "claim" && (
           <>
             <p className="truncate">{item.newsletterTitle}</p>
-            <p>{formatShortDate(item.date)} &middot; {item.connectionCount ?? 0} connections</p>
+            <p>{formatShortDate(item.date)} &middot; {item.connectionCount ?? 0} podcast {(item.connectionCount ?? 0) === 1 ? "connection" : "connections"}</p>
+            {(item.connectionCount ?? 0) > 0 && (
+              <p className="text-[10px] text-muted-foreground/60">Click to see which guests validated this</p>
+            )}
           </>
         )}
         {item.type === "moment" && (
@@ -262,16 +265,26 @@ function renderDesktop(
         .attr("stroke", "#2A2A42").attr("stroke-width", 1);
     }
 
-    // Lane label — right-aligned within label column, with 8px left padding
-    g.append("text")
+    // Lane label with item count
+    const labelGroup = g.append("g");
+    labelGroup.append("text")
       .attr("x", LABEL_WIDTH + 8)
-      .attr("y", y + laneHeight / 2)
+      .attr("y", y + laneHeight / 2 - 1)
       .attr("text-anchor", "end")
       .attr("dominant-baseline", "middle")
       .attr("font-size", 13)
       .attr("font-weight", 600)
       .attr("fill", "#9B9587")
       .text(tl.topicName);
+    labelGroup.append("text")
+      .attr("x", LABEL_WIDTH + 8)
+      .attr("y", y + laneHeight / 2 + 12)
+      .attr("text-anchor", "end")
+      .attr("dominant-baseline", "middle")
+      .attr("font-size", 10)
+      .attr("font-family", "var(--font-geist-mono)")
+      .attr("fill", "#6B6560")
+      .text(`${tl.items.filter(it => it.type === "claim").length} claims · ${tl.items.filter(it => it.type === "moment").length} moments`);
   });
 
   // X-axis at top — tick every 2 months to avoid overcrowding
@@ -334,8 +347,11 @@ function renderDesktop(
           .attr("fill", "#6B6560")
           .text(formatShortDate(first.date));
 
-        // Only show latest date if far enough from first to not overlap
-        if (lastX - firstX > 100) {
+        // Only show latest date if far enough from first AND meaningfully different from axis max
+        const lastDateMs = new Date(last.date).getTime();
+        const oneMonth = 30 * 24 * 60 * 60 * 1000;
+        const nearAxisMax = lastDateMs > (denseMax - oneMonth);
+        if (lastX - firstX > 100 && !nearAxisMax) {
           g.append("text")
             .attr("x", Math.min(width - 8, lastX + lastR + 4)).attr("y", labelY)
             .attr("text-anchor", "start")

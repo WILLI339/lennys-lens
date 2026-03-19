@@ -15,12 +15,14 @@ export default function TimelinePageWrapper() {
   );
 }
 
+const SPARK_W = 56;
+const SPARK_H = 22;
+
 function TopicSparkline({ dates, active }: { dates: string[]; active: boolean }) {
   if (dates.length === 0) {
-    // Flat gray line for zero-item topics
     return (
-      <svg width={40} height={16} className="hidden sm:inline-block" aria-hidden>
-        <line x1={0} y1={8} x2={40} y2={8} stroke="#6B6560" strokeWidth={1} strokeOpacity={0.3} />
+      <svg width={SPARK_W} height={SPARK_H} className="hidden sm:inline-block" aria-hidden>
+        <line x1={0} y1={SPARK_H / 2} x2={SPARK_W} y2={SPARK_H / 2} stroke="#6B6560" strokeWidth={1} strokeOpacity={0.3} />
       </svg>
     );
   }
@@ -32,32 +34,26 @@ function TopicSparkline({ dates, active }: { dates: string[]; active: boolean })
   const maxT = new Date(bounds.max).getTime();
   const range = maxT - minT || 1;
 
-  // Build density bins (8 bins across the time range)
-  const bins = new Array(8).fill(0);
+  const bins = new Array(10).fill(0);
   for (const d of dates) {
     const t = new Date(d).getTime();
-    const bin = Math.min(7, Math.floor(((t - minT) / range) * 8));
+    const bin = Math.min(9, Math.floor(((t - minT) / range) * 10));
     bins[bin]++;
   }
   const maxBin = Math.max(1, ...bins);
 
-  // Generate path
   const points = bins.map((count, i) => {
-    const x = (i / 7) * 40;
-    const y = 14 - (count / maxBin) * 12;
+    const x = (i / 9) * SPARK_W;
+    const y = (SPARK_H - 2) - (count / maxBin) * (SPARK_H - 4);
     return `${x},${y}`;
   });
   const pathD = `M${points.join(" L")}`;
+  const areaD = `${pathD} L${SPARK_W},${SPARK_H - 2} L0,${SPARK_H - 2} Z`;
 
   return (
-    <svg width={40} height={16} className="hidden sm:inline-block" aria-hidden>
-      <path
-        d={pathD}
-        fill="none"
-        stroke="#E8813B"
-        strokeWidth={1.5}
-        strokeOpacity={active ? 1 : 0.5}
-      />
+    <svg width={SPARK_W} height={SPARK_H} className="hidden sm:inline-block" aria-hidden>
+      <path d={areaD} fill="#E8813B" fillOpacity={active ? 0.2 : 0.08} />
+      <path d={pathD} fill="none" stroke="#E8813B" strokeWidth={1.5} strokeOpacity={active ? 1 : 0.5} />
     </svg>
   );
 }
@@ -117,37 +113,49 @@ function TimelinePage() {
     }
   }, [router]);
 
-  // Find the earliest item for the annotation card
-  const earliestItem = useMemo(() => {
-    const allItems = allTimelines.flatMap((tl) => tl.items);
-    if (allItems.length === 0) return null;
-    return allItems.reduce((earliest, item) =>
-      new Date(item.date) < new Date(earliest.date) ? item : earliest
-    );
-  }, [allTimelines]);
+  // Compute annotation data: find topics where Lenny wrote before guests validated
+  const annotation = useMemo(() => {
+    const sixMonths = 180 * 24 * 60 * 60 * 1000;
+    const earlyTopics: { topic: string; claimDate: string; firstMomentDate: string; gapMonths: number }[] = [];
 
-  // Determine if there's a significant time gap (> 1 year between earliest and second-earliest newsletter)
-  const timeGap = useMemo(() => {
-    if (!earliestItem) return null;
-    const allItems = allTimelines.flatMap((tl) => tl.items);
-    const sortedDates = [...new Set(allItems.map((i) => i.date))]
-      .map((d) => new Date(d).getTime())
-      .sort((a, b) => a - b);
-    if (sortedDates.length < 2) return null;
-    const gapMs = sortedDates[1] - sortedDates[0];
-    const oneYear = 365 * 24 * 60 * 60 * 1000;
-    if (gapMs < oneYear) return null;
+    for (const tl of allTimelines) {
+      const claims = tl.items.filter((i) => i.type === "claim");
+      const moments = tl.items.filter((i) => i.type === "moment");
+      if (claims.length === 0 || moments.length === 0) continue;
 
-    const firstDate = new Date(sortedDates[0]);
-    const secondDate = new Date(sortedDates[1]);
+      const earliestClaim = new Date(claims[0].date).getTime();
+      const earliestMoment = new Date(moments[0].date).getTime();
+      const gap = earliestMoment - earliestClaim;
+
+      if (gap > sixMonths) {
+        earlyTopics.push({
+          topic: tl.topicName,
+          claimDate: claims[0].date,
+          firstMomentDate: moments[0].date,
+          gapMonths: Math.round(gap / (30 * 24 * 60 * 60 * 1000)),
+        });
+      }
+    }
+
+    if (earlyTopics.length === 0) return null;
+    earlyTopics.sort((a, b) => b.gapMonths - a.gapMonths);
+
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const fmt = (d: string) => { const dt = new Date(d); return `${months[dt.getMonth()]} ${dt.getFullYear()}`; };
+
     return {
-      firstDate: `${months[firstDate.getMonth()]} ${firstDate.getFullYear()}`,
-      secondDate: `${months[secondDate.getMonth()]} ${secondDate.getFullYear()}`,
-      gapYears: Math.round(gapMs / oneYear),
-      topic: earliestItem.topics[0] || "this topic",
+      topics: earlyTopics,
+      headline: earlyTopics.length === 1
+        ? `Lenny wrote about ${earlyTopics[0].topic} ${earlyTopics[0].gapMonths} months before podcast guests began discussing it.`
+        : `${earlyTopics.length} topics appeared in Lenny's newsletters months before podcast guests validated them.`,
+      details: earlyTopics.map((t) => ({
+        name: t.topic,
+        wrote: fmt(t.claimDate),
+        validated: fmt(t.firstMomentDate),
+        gap: t.gapMonths,
+      })),
     };
-  }, [allTimelines, earliestItem]);
+  }, [allTimelines]);
 
   return (
     <div className="flex h-[calc(100vh-3.5rem)] flex-col">
@@ -236,7 +244,7 @@ function TimelinePage() {
       </div>
 
       {/* Annotation card — the "screenshot moment" */}
-      {timeGap && !selectedTopic && (
+      {annotation && !selectedTopic && (
         <div className="border-t px-4 py-4">
           <div
             className="mx-auto max-w-2xl rounded-lg p-4"
@@ -246,18 +254,23 @@ function TimelinePage() {
             }}
           >
             <h3 className="font-[family-name:var(--font-instrument-serif)] text-lg">
-              The Gap
+              Ahead of the Curve
             </h3>
             <p className="mt-1 text-sm text-muted-foreground">
-              Lenny first wrote about {timeGap.topic.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")} in{" "}
-              <span className="font-[family-name:var(--font-geist-mono)] text-xs">{timeGap.firstDate}</span>
-              {" "}&mdash; {timeGap.gapYears} year{timeGap.gapYears > 1 ? "s" : ""} before
-              podcast guests began validating it.
+              {annotation.headline}
             </p>
-            <div className="mt-2 flex items-center gap-2 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
-              <span>{timeGap.firstDate}</span>
-              <span className="flex-1 border-t border-dashed border-[#E8813B]/40" />
-              <span>{timeGap.secondDate}</span>
+            <div className="mt-3 space-y-2">
+              {annotation.details.map((t) => (
+                <div key={t.name} className="flex items-center gap-2 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
+                  <span className="w-32 shrink-0 truncate text-right font-sans text-xs font-medium text-foreground/70">{t.name}</span>
+                  <span className="shrink-0">{t.wrote}</span>
+                  <span className="flex-1 border-t border-dashed border-[#E8813B]/40" />
+                  <span className="shrink-0">{t.validated}</span>
+                  <span className="shrink-0 rounded bg-[#E8813B]/15 px-1.5 py-0.5 text-[10px] text-[#E8813B]">
+                    {t.gap}mo ahead
+                  </span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
