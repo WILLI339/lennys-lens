@@ -63,8 +63,13 @@ function TimelinePage() {
   const router = useRouter();
   const topicParam = searchParams.get("topic");
 
+  const MAX_TOPICS = 25;
   const [allTopics] = useState(() => getTopics());
-  const [allTimelines] = useState(() => getTopicTimelineData());
+  const [allTimelines] = useState(() => {
+    const all = getTopicTimelineData();
+    // Limit to top topics by item count to keep the visualization readable
+    return all.slice(0, MAX_TOPICS);
+  });
 
   // Validate topic param
   const selectedTopic = useMemo(() => {
@@ -236,16 +241,14 @@ function TimelinePage() {
             </button>
           </div>
         ) : (
-          <TopicTimeline
-            timelines={filteredTimelines}
-            onDotClick={handleDotClick}
-          />
-        )}
-      </div>
-
-      {/* Annotation card — the "screenshot moment" */}
-      {annotation && !selectedTopic && (
-        <div className="border-t px-4 py-4">
+          <>
+            <TopicTimeline
+              timelines={filteredTimelines}
+              onDotClick={handleDotClick}
+            />
+            {/* Annotation card — inside scroll area, below the visualization */}
+            {annotation && !selectedTopic && (
+              <div className="border-t px-4 py-4">
           <div
             className="mx-auto max-w-2xl rounded-lg p-4"
             style={{
@@ -274,7 +277,10 @@ function TimelinePage() {
             </div>
           </div>
         </div>
-      )}
+            )}
+          </>
+        )}
+      </div>
     </div>
   );
 }
