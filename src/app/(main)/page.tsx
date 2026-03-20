@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SynthesisBadge, SynthesisLegend } from "@/components/synthesis-badge";
 import { HeroGraph } from "@/components/hero-graph";
-import { getNewsletters, getTopics, getStats, getMostValidatedClaims, getGuestInfluence } from "@/lib/data";
+import { getNewsletters, getTopics, getStats, getMostValidatedClaims, getMostAlignedGuests, getMostChallengingGuests } from "@/lib/data";
 
 export default function Home() {
   const newsletters = getNewsletters();
@@ -98,36 +98,64 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Guest Influence */}
+      {/* Guest Influence — Two Rankings */}
       <section className="space-y-4 border-t border-border pt-8">
         <h2 className="font-[family-name:var(--font-geist-mono)] text-xs font-medium uppercase tracking-widest text-[#E8813B]">
           Guest Influence
         </h2>
-        <h3 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
-          Who shapes Lenny&apos;s thinking the most?
-        </h3>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {getGuestInfluence().slice(0, 9).map((guest, i) => (
-            <div key={guest.guest} className="rounded-lg border border-border p-4 transition-all duration-200 hover:border-[#E8813B]/50">
-              <div className="flex items-start gap-3">
-                <span className="font-[family-name:var(--font-geist-mono)] text-lg font-bold text-muted-foreground/30">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <div className="space-y-1">
-                  <p className="font-medium">{guest.guest}</p>
-                  <div className="flex gap-3 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
-                    <span>{guest.totalConnections} connections</span>
-                    <span>{guest.uniqueClaims} claims</span>
-                  </div>
-                  <div className="flex gap-3 text-xs">
-                    {guest.supports > 0 && <span className="text-emerald-400">{guest.supports} supports</span>}
-                    {guest.extends > 0 && <span className="text-blue-400">{guest.extends} extends</span>}
-                    {guest.contradicts > 0 && <span className="text-red-400">{guest.contradicts} contradicts</span>}
+        <div className="grid gap-8 lg:grid-cols-2">
+          {/* Most Aligned */}
+          <div className="space-y-3">
+            <h3 className="font-[family-name:var(--font-instrument-serif)] text-xl tracking-tight">
+              Most Aligned with Lenny
+            </h3>
+            <p className="text-xs text-muted-foreground">
+              Guests whose insights most deeply validate Lenny&apos;s written positions, ranked by high-confidence connections.
+            </p>
+            <div className="space-y-2">
+              {getMostAlignedGuests().slice(0, 9).map((guest, i) => (
+                <div key={guest.guest} className="flex items-center gap-3 rounded-lg border border-border p-3 transition-all duration-200 hover:border-emerald-500/50">
+                  <span className="font-[family-name:var(--font-geist-mono)] text-lg font-bold text-muted-foreground/30">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate font-medium">{guest.guest}</p>
+                    <div className="flex gap-3 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
+                      <span className="text-emerald-400">{guest.highConfConnections} deep connections</span>
+                      <span>{guest.uniqueClaims} claims touched</span>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ))}
             </div>
-          ))}
+          </div>
+
+          {/* Most Challenging */}
+          <div className="space-y-3">
+            <h3 className="font-[family-name:var(--font-instrument-serif)] text-xl tracking-tight">
+              Most Challenging to Lenny
+            </h3>
+            <p className="text-xs text-muted-foreground">
+              Guests who pushed back on Lenny&apos;s positions with evidence or experience that contradicts his claims.
+            </p>
+            <div className="space-y-2">
+              {getMostChallengingGuests().slice(0, 9).map((guest, i) => (
+                <div key={guest.guest} className="flex items-center gap-3 rounded-lg border border-border p-3 transition-all duration-200 hover:border-red-500/50">
+                  <span className="font-[family-name:var(--font-geist-mono)] text-lg font-bold text-muted-foreground/30">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate font-medium">{guest.guest}</p>
+                    <div className="flex gap-3 font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
+                      <span className="text-red-400">{guest.contradicts} contradiction{guest.contradicts !== 1 ? 's' : ''}</span>
+                      <span className="text-emerald-400">{guest.supports} supports</span>
+                      <span className="text-blue-400">{guest.extends} extends</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 

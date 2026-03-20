@@ -105,7 +105,7 @@ export function getMostValidatedClaims() {
 }
 
 export function getGuestInfluence() {
-  const guestMap = new Map<string, { guest: string; podcastSlug: string; supports: number; extends: number; contradicts: number; totalConnections: number; claimIds: Set<string> }>();
+  const guestMap = new Map<string, { guest: string; podcastSlug: string; supports: number; extends: number; contradicts: number; totalConnections: number; highConfConnections: number; claimIds: Set<string>; confidences: number[] }>();
 
   for (const conn of graph.connections) {
     const podcast = graph.podcasts.find((p) => p.moments.some((m) => m.id === conn.momentId));
@@ -113,19 +113,38 @@ export function getGuestInfluence() {
     const guest = podcast.guest;
 
     if (!guestMap.has(guest)) {
-      guestMap.set(guest, { guest, podcastSlug: podcast.slug, supports: 0, extends: 0, contradicts: 0, totalConnections: 0, claimIds: new Set() });
+      guestMap.set(guest, { guest, podcastSlug: podcast.slug, supports: 0, extends: 0, contradicts: 0, totalConnections: 0, highConfConnections: 0, claimIds: new Set(), confidences: [] });
     }
     const entry = guestMap.get(guest)!;
     entry.totalConnections++;
     entry.claimIds.add(conn.claimId);
+    entry.confidences.push(conn.confidence);
+    if (conn.confidence >= 0.75) entry.highConfConnections++;
     if (conn.relationship === "supports") entry.supports++;
     else if (conn.relationship === "extends") entry.extends++;
     else if (conn.relationship === "contradicts") entry.contradicts++;
   }
 
   return Array.from(guestMap.values())
-    .map((g) => ({ ...g, uniqueClaims: g.claimIds.size, claimIds: undefined }))
+    .map((g) => ({
+      ...g,
+      uniqueClaims: g.claimIds.size,
+      avgConfidence: g.confidences.length > 0 ? Math.round((g.confidences.reduce((s, c) => s + c, 0) / g.confidences.length) * 100) / 100 : 0,
+      claimIds: undefined,
+      confidences: undefined,
+    }))
     .sort((a, b) => b.totalConnections - a.totalConnections);
+}
+
+export function getMostAlignedGuests() {
+  return getGuestInfluence()
+    .sort((a, b) => b.highConfConnections - a.highConfConnections || b.avgConfidence - a.avgConfidence);
+}
+
+export function getMostChallengingGuests() {
+  return getGuestInfluence()
+    .filter((g) => g.contradicts > 0)
+    .sort((a, b) => b.contradicts - a.contradicts || b.totalConnections - a.totalConnections);
 }
 
 export function getTopicTimelineData(topicSlug?: string): TopicTimeline[] {
