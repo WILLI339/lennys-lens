@@ -54,7 +54,7 @@ export default async function TopicPage({
 
       {/* Topic navigation */}
       <div className="flex flex-wrap gap-2">
-        {topics.map((t) => (
+        {topics.filter((t) => t.claimCount + t.momentCount > 5).map((t) => (
           <Link key={t.slug} href={`/topics/${t.slug}`}>
             <Badge
               variant={t.slug === slug ? "default" : "outline"}

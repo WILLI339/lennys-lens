@@ -4,7 +4,8 @@ import { SynthesisLegend } from "@/components/synthesis-badge";
 import { getTopics, getClaimsForTopic } from "@/lib/data";
 
 export default function TopicsPage() {
-  const topics = getTopics();
+  // Only show topics with meaningful content (>5 claims+moments)
+  const topics = getTopics().filter((t) => t.claimCount + t.momentCount > 5);
 
   return (
     <div className="space-y-8">

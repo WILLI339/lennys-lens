@@ -182,7 +182,7 @@ export default function Home() {
           Topic Explorer
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {[...topics].sort((a, b) => b.claimCount - a.claimCount || b.momentCount - a.momentCount).map((topic) => (
+          {[...topics].sort((a, b) => b.claimCount - a.claimCount || b.momentCount - a.momentCount).filter(t => t.claimCount + t.momentCount > 10).slice(0, 16).map((topic) => (
             <Link key={topic.slug} href={`/topics/${topic.slug}`}>
               <Card className="h-full transition-all duration-200 hover:border-[#E8813B]/50 hover:shadow-md">
                 <CardHeader className="pb-2">
@@ -217,7 +217,7 @@ export default function Home() {
           Each newsletter&apos;s key claims, connected to supporting podcast moments.
         </p>
         <div className="grid gap-4 sm:grid-cols-2">
-          {newsletters.map((newsletter) => {
+          {newsletters.filter(n => n.claims.length > 0).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 20).map((newsletter) => {
             const totalConnections = newsletter.claims.reduce(
               (sum, c) => sum + c.connectionCount,
               0
