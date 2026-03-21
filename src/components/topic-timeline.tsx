@@ -287,9 +287,11 @@ function renderDesktop(
       .text(`${tl.items.filter(it => it.type === "claim").length} claims · ${tl.items.filter(it => it.type === "moment").length} moments`);
   });
 
-  // X-axis at top — tick every 2 months to avoid overcrowding
+  // X-axis at top — adaptive tick interval based on date range
+  const rangeYears = (denseMax - denseMin) / (365 * 24 * 60 * 60 * 1000);
+  const tickInterval = rangeYears > 3 ? d3.timeMonth.every(6) : rangeYears > 1.5 ? d3.timeMonth.every(3) : d3.timeMonth.every(2);
   const xAxis = d3.axisTop(xScale)
-    .ticks(d3.timeMonth.every(2))
+    .ticks(tickInterval)
     .tickFormat((d) => {
       const date = d as Date;
       const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
