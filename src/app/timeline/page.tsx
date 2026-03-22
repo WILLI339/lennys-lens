@@ -2,8 +2,9 @@
 
 import { Suspense, useState, useMemo, useCallback } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { getTopicTimelineData, getTopics, getTimelineDateBounds } from "@/lib/data";
+import { getTopicTimelineData, getTopics, getWebConnectionsForTopic } from "@/lib/data";
 import { TopicTimeline } from "@/components/topic-timeline";
+import { TopicSparkline } from "@/components/topic-sparkline";
 import { SYNTHESIS_COLORS } from "@/components/network-graph";
 import type { TimelineItem, SynthesisLabel } from "@/lib/types";
 
@@ -15,61 +16,19 @@ export default function TimelinePageWrapper() {
   );
 }
 
-const SPARK_W = 56;
-const SPARK_H = 22;
-
-function TopicSparkline({ dates, active }: { dates: string[]; active: boolean }) {
-  if (dates.length === 0) {
-    return (
-      <svg width={SPARK_W} height={SPARK_H} className="hidden sm:inline-block" aria-hidden>
-        <line x1={0} y1={SPARK_H / 2} x2={SPARK_W} y2={SPARK_H / 2} stroke="#6B6560" strokeWidth={1} strokeOpacity={0.3} />
-      </svg>
-    );
-  }
-
-  const bounds = getTimelineDateBounds();
-  if (!bounds) return null;
-
-  const minT = new Date(bounds.min).getTime();
-  const maxT = new Date(bounds.max).getTime();
-  const range = maxT - minT || 1;
-
-  const bins = new Array(10).fill(0);
-  for (const d of dates) {
-    const t = new Date(d).getTime();
-    const bin = Math.min(9, Math.floor(((t - minT) / range) * 10));
-    bins[bin]++;
-  }
-  const maxBin = Math.max(1, ...bins);
-
-  const points = bins.map((count, i) => {
-    const x = (i / 9) * SPARK_W;
-    const y = (SPARK_H - 2) - (count / maxBin) * (SPARK_H - 4);
-    return `${x},${y}`;
-  });
-  const pathD = `M${points.join(" L")}`;
-  const areaD = `${pathD} L${SPARK_W},${SPARK_H - 2} L0,${SPARK_H - 2} Z`;
-
-  return (
-    <svg width={SPARK_W} height={SPARK_H} className="hidden sm:inline-block" aria-hidden>
-      <path d={areaD} fill="#E8813B" fillOpacity={active ? 0.2 : 0.08} />
-      <path d={pathD} fill="none" stroke="#E8813B" strokeWidth={1.5} strokeOpacity={active ? 1 : 0.5} />
-    </svg>
-  );
-}
-
 function TimelinePage() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const topicParam = searchParams.get("topic");
 
   const MAX_TOPICS = 25;
+  const MAX_DEFAULT_CONNECTIONS = 8;
   const [allTopics] = useState(() => getTopics());
   const [allTimelines] = useState(() => {
     const all = getTopicTimelineData();
-    // Limit to top topics by item count to keep the visualization readable
     return all.slice(0, MAX_TOPICS);
   });
+  const [showAllConnections, setShowAllConnections] = useState(false);
 
   // Validate topic param
   const selectedTopic = useMemo(() => {
@@ -85,6 +44,17 @@ function TimelinePage() {
     if (!selectedTopic) return allTimelines;
     return getTopicTimelineData(selectedTopic);
   }, [selectedTopic, allTimelines]);
+
+  // Get web connections for the selected topic (only when single topic is selected)
+  const webConnections = useMemo(() => {
+    if (!selectedTopic) return [];
+    return getWebConnectionsForTopic(selectedTopic);
+  }, [selectedTopic]);
+
+  // Reset "show all" when topic changes
+  useMemo(() => {
+    setShowAllConnections(false);
+  }, [selectedTopic]);
 
   // Compute sparkline dates per topic
   const sparklineDates = useMemo(() => {
@@ -215,6 +185,25 @@ function TimelinePage() {
           <span className="inline-block h-2 w-2 rounded-full bg-slate-500" />
           Podcast moment
         </span>
+        {/* Connection legend (when single topic is selected) */}
+        {selectedTopic && webConnections.length > 0 && (
+          <>
+            <span className="mx-2 text-muted-foreground">|</span>
+            <span className="font-medium text-muted-foreground">Connections:</span>
+            <span className="flex items-center gap-1">
+              <span className="inline-block h-[2px] w-4 bg-emerald-400" />
+              supports
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="inline-block h-[2px] w-4 border-t-2 border-dashed border-blue-400" />
+              extends
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="inline-block h-[2px] w-4 border-t-2 border-dotted border-red-400" />
+              contradicts
+            </span>
+          </>
+        )}
       </div>
 
       {/* Invalid topic message */}
@@ -244,8 +233,42 @@ function TimelinePage() {
           <>
             <TopicTimeline
               timelines={filteredTimelines}
+              webConnections={webConnections}
+              showAllConnections={showAllConnections}
               onDotClick={handleDotClick}
             />
+            {/* "Show all connections" toggle */}
+            {selectedTopic && webConnections.length > MAX_DEFAULT_CONNECTIONS && (
+              <div className="border-t px-4 py-3 text-sm text-muted-foreground">
+                {showAllConnections ? (
+                  <span>
+                    Showing all {webConnections.length} connections.{" "}
+                    <button
+                      onClick={() => setShowAllConnections(false)}
+                      className="font-medium text-[#E8813B] transition-colors hover:text-[#F5A66B]"
+                    >
+                      Show fewer
+                    </button>
+                  </span>
+                ) : (
+                  <span>
+                    Showing {MAX_DEFAULT_CONNECTIONS} of {webConnections.length} connections.{" "}
+                    <button
+                      onClick={() => setShowAllConnections(true)}
+                      className="font-medium text-[#E8813B] transition-colors hover:text-[#F5A66B]"
+                    >
+                      Show all
+                    </button>
+                  </span>
+                )}
+              </div>
+            )}
+            {/* Empty connections note for single topic */}
+            {selectedTopic && webConnections.length === 0 && (
+              <div className="border-t px-4 py-3 text-xs text-muted-foreground">
+                No idea connections found for this topic yet.
+              </div>
+            )}
             {/* Annotation card — inside scroll area, below the visualization */}
             {annotation && !selectedTopic && (
               <div className="border-t px-4 py-4">

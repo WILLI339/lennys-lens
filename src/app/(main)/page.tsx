@@ -3,7 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SynthesisBadge, SynthesisLegend } from "@/components/synthesis-badge";
 import { HeroGraph } from "@/components/hero-graph";
-import { getNewsletters, getTopics, getStats, getMostValidatedClaims, getMostAlignedGuests, getMostChallengingGuests } from "@/lib/data";
+import { TopicSparkline } from "@/components/topic-sparkline";
+import { getNewsletters, getTopics, getStats, getMostValidatedClaims, getMostAlignedGuests, getMostChallengingGuests, getTopicTimelineData } from "@/lib/data";
 
 export default function Home() {
   const newsletters = getNewsletters();
@@ -209,6 +210,22 @@ export default function Home() {
         <h2 className="font-[family-name:var(--font-instrument-serif)] text-2xl tracking-tight">
           Topic Explorer
         </h2>
+        {/* Sparkline pills — visual preview linking to Timeline */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-2">
+          {getTopicTimelineData().slice(0, 25).map((tl) => (
+            <Link
+              key={tl.topicSlug}
+              href={`/timeline?topic=${tl.topicSlug}`}
+              className="flex shrink-0 items-center gap-1.5 rounded-full bg-muted px-4 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+            >
+              {tl.topicName}
+              <TopicSparkline
+                dates={tl.items.map((i) => i.date)}
+                active={false}
+              />
+            </Link>
+          ))}
+        </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[...topics].sort((a, b) => b.claimCount - a.claimCount || b.momentCount - a.momentCount).filter(t => t.claimCount + t.momentCount > 10).slice(0, 16).map((topic) => (
             <Link key={topic.slug} href={`/topics/${topic.slug}`}>
