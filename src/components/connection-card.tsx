@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import type { Connection, PodcastMoment, Podcast, Relationship } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
-const relationshipConfig: Record<Relationship, { label: string; className: string; icon: string }> = {
+const relationshipConfig: Record<string, { label: string; className: string; icon: string }> = {
   supports: {
     label: "Supports",
     className: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
@@ -18,6 +18,16 @@ const relationshipConfig: Record<Relationship, { label: string; className: strin
     label: "Contradicts",
     className: "bg-red-500/15 text-red-400 border-red-500/30",
     icon: "x",
+  },
+  refines: {
+    label: "Refines",
+    className: "bg-blue-500/15 text-blue-400 border-blue-500/30",
+    icon: "~",
+  },
+  "builds-on": {
+    label: "Builds On",
+    className: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
+    icon: "+",
   },
 };
 

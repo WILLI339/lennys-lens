@@ -25,10 +25,12 @@ const SYNTHESIS_COLORS: Record<SynthesisLabel, string> = {
   original: "#A78BFA",
 };
 
-const RELATIONSHIP_COLORS: Record<Relationship, string> = {
+const RELATIONSHIP_COLORS: Record<string, string> = {
   supports: "#34D399",
   extends: "#60A5FA",
   contradicts: "#F87171",
+  refines: "#60A5FA",
+  "builds-on": "#34D399",
 };
 
 function buildGraphData(graph: Graph) {
@@ -48,7 +50,14 @@ function buildGraphData(graph: Graph) {
     }
   }
 
-  const connectedMomentIds = new Set(graph.connections.map((c) => c.momentId));
+  const connectedMomentIds = new Set(
+    graph.connections.flatMap((c) => {
+      const ids: string[] = [];
+      if (c.sourceType === "moment") ids.push(c.sourceId);
+      if (c.targetType === "moment") ids.push(c.targetId);
+      return ids;
+    })
+  );
   for (const pod of graph.podcasts) {
     for (const moment of pod.moments) {
       if (!connectedMomentIds.has(moment.id)) continue;
@@ -63,10 +72,10 @@ function buildGraphData(graph: Graph) {
 
   const nodeIds = new Set(nodes.map((n) => n.id));
   for (const conn of graph.connections) {
-    if (nodeIds.has(conn.claimId) && nodeIds.has(conn.momentId)) {
+    if (nodeIds.has(conn.sourceId) && nodeIds.has(conn.targetId)) {
       links.push({
-        source: conn.claimId,
-        target: conn.momentId,
+        source: conn.sourceId,
+        target: conn.targetId,
         relationship: conn.relationship,
         confidence: conn.confidence,
       });

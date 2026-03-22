@@ -33,8 +33,10 @@ interface Moment {
 
 interface Connection {
   id: string;
-  claimId: string;
-  momentId: string;
+  sourceId: string;
+  targetId: string;
+  sourceType: "claim" | "moment";
+  targetType: "claim" | "moment";
   relationship: "supports" | "extends" | "contradicts";
   confidence: number;
   explanation: string;
@@ -103,8 +105,10 @@ Respond with valid JSON array. No markdown, just the JSON array. Return empty ar
 
       allConnections.push({
         id: `conn-${claim.id}-${moment.id}`,
-        claimId: claim.id,
-        momentId: moment.id,
+        sourceId: moment.id,
+        targetId: claim.id,
+        sourceType: "moment",
+        targetType: "claim",
         relationship: match.relationship,
         confidence: match.confidence,
         explanation: match.explanation,
@@ -139,10 +143,10 @@ async function main() {
 
   // Find which claim-moment pairs have already been evaluated
   const existingPairs = new Set(
-    existingConnections.map((c) => `${c.claimId}::${c.momentId}`)
+    existingConnections.map((c) => `${c.targetId}::${c.sourceId}`)
   );
-  const existingClaimIds = new Set(existingConnections.map((c) => c.claimId));
-  const existingMomentIds = new Set(existingConnections.map((c) => c.momentId));
+  const existingClaimIds = new Set(existingConnections.map((c) => c.targetId));
+  const existingMomentIds = new Set(existingConnections.map((c) => c.sourceId));
 
   // Determine which moments are new (not referenced in any existing connection attempt)
   // We track evaluated claims in a separate file to know which claims were fully matched
