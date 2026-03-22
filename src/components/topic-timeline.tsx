@@ -158,8 +158,8 @@ export function TopicTimeline({
   }, [timelines, onDotClick, containerWidth, webConnections, showAllConnections]);
 
   return (
-    <div ref={containerRef} className="relative w-full">
-      <svg ref={svgRef} className="w-full" />
+    <div ref={containerRef} className="relative w-full overflow-hidden">
+      <svg ref={svgRef} className="w-full" style={{ overflow: "hidden" }} />
 
       {/* Tooltip */}
       {tooltip && !isMobileRef.current && (
