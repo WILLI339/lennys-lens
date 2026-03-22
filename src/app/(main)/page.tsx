@@ -20,9 +20,9 @@ export default function Home() {
             Lenny&apos;s <em className="text-[#E8813B]">Lens</em>
           </h1>
           <p className="max-w-2xl text-lg text-muted-foreground">
-            Revealing the relationship between Lenny&apos;s written editorial voice
-            and his guest conversations. See how newsletter claims connect to
-            podcast moments — where they agree, extend, or contradict.
+            Mapping the intellectual ecosystem between Lenny&apos;s newsletter and
+            his podcast guests. See how ideas propagate, evolve, and sometimes
+            contradict across both mediums over time.
           </p>
         </div>
 
@@ -181,7 +181,7 @@ export default function Home() {
           <div className="rounded-lg border p-3">
             <p className="font-medium">Connections</p>
             <p className="text-muted-foreground">
-              Links between claims and moments showing where guests <span className="text-emerald-400">support</span>, <span className="text-blue-400">extend</span>, or <span className="text-red-400">contradict</span> Lenny&apos;s written positions.
+              An idea web linking claims and moments in all directions — guests validating Lenny, Lenny building on guests, and ideas that <span className="text-emerald-400">support</span>, <span className="text-blue-400">extend</span>, or <span className="text-red-400">contradict</span> each other.
             </p>
           </div>
           <div className="rounded-lg border p-3">
@@ -259,7 +259,7 @@ export default function Home() {
           Conviction Map
         </h2>
         <p className="text-sm text-muted-foreground">
-          Each newsletter&apos;s key claims, connected to supporting podcast moments.
+          Each newsletter&apos;s key claims and how they connect to podcast moments and other claims.
         </p>
         <div className="grid gap-4 sm:grid-cols-2">
           {newsletters.filter(n => n.claims.length > 0).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 20).map((newsletter) => {
@@ -320,8 +320,9 @@ export default function Home() {
           </p>
           <p>
             The pipeline uses Claude to extract claims from newsletters, extract moments from podcasts,
-            match them by topic and substance, and compute synthesis labels based on how many guests
-            independently support each claim. The network graph uses D3.js to visualize the connections.
+            and semantically match them into an idea web — showing how ideas propagate, evolve, and
+            sometimes contradict across 921 connections. The timeline reveals Lenny&apos;s intellectual
+            evolution over time.
           </p>
           <p>
             Data sourced from{" "}
