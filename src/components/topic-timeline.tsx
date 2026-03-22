@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
-import type { TimelineItem, TopicTimeline, SynthesisLabel } from "@/lib/types";
+import type { TimelineItem, TopicTimeline, SynthesisLabel, Relationship } from "@/lib/types";
+import type { WebConnection } from "@/lib/data";
 import { SYNTHESIS_COLORS } from "@/components/network-graph";
 
 /*
@@ -68,17 +69,31 @@ function formatShortDate(dateStr: string): string {
   return `${months[d.getMonth()]} '${String(d.getFullYear()).slice(2)}`;
 }
 
+// Relationship line visual config (color + dash pattern — colorblind-safe)
+const RELATIONSHIP_LINE_STYLE: Record<string, { color: string; dash: string; weight: number; hoverWeight: number }> = {
+  supports:    { color: "#34D399", dash: "",          weight: 1.5, hoverWeight: 2.5 },
+  extends:     { color: "#60A5FA", dash: "4,4",       weight: 1.5, hoverWeight: 2.5 },
+  contradicts: { color: "#F87171", dash: "2,3",       weight: 1.5, hoverWeight: 2.5 },
+  refines:     { color: "#60A5FA", dash: "",          weight: 1,   hoverWeight: 1.5 },
+  "builds-on": { color: "#34D399", dash: "",          weight: 1,   hoverWeight: 1.5 },
+};
+
 interface TooltipData {
-  item: TimelineItem;
+  item?: TimelineItem;
+  connection?: WebConnection;
   x: number;
   y: number;
 }
 
 export function TopicTimeline({
   timelines,
+  webConnections,
+  showAllConnections,
   onDotClick,
 }: {
   timelines: TopicTimeline[];
+  webConnections?: WebConnection[];
+  showAllConnections?: boolean;
   onDotClick?: (item: TimelineItem) => void;
 }) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -129,12 +144,18 @@ export function TopicTimeline({
     // Determine if single-topic expansion
     const singleTopic = timelines.length === 1;
 
+    // Determine visible connections (progressive disclosure: max 8 by default)
+    const MAX_DEFAULT_CONNECTIONS = 8;
+    const visibleConnections = singleTopic && webConnections && webConnections.length > 0
+      ? (showAllConnections ? webConnections : webConnections.slice(0, MAX_DEFAULT_CONNECTIONS))
+      : [];
+
     if (mobile) {
-      renderMobile(svg, timelines, allDates, width, singleTopic, prefersReducedMotion, onDotClick, setTooltip);
+      renderMobile(svg, timelines, allDates, width, singleTopic, prefersReducedMotion, onDotClick, setTooltip, visibleConnections);
     } else {
-      renderDesktop(svg, timelines, allDates, width, singleTopic, prefersReducedMotion, onDotClick, setTooltip);
+      renderDesktop(svg, timelines, allDates, width, singleTopic, prefersReducedMotion, onDotClick, setTooltip, visibleConnections);
     }
-  }, [timelines, onDotClick, containerWidth]);
+  }, [timelines, onDotClick, containerWidth, webConnections, showAllConnections]);
 
   return (
     <div ref={containerRef} className="relative w-full">
@@ -151,7 +172,8 @@ export function TopicTimeline({
             transition: "opacity 150ms ease-out",
           }}
         >
-          <TooltipContent item={tooltip.item} />
+          {tooltip.item && <TooltipContent item={tooltip.item} />}
+          {tooltip.connection && <ConnectionTooltipContent conn={tooltip.connection} />}
         </div>
       )}
 
@@ -162,7 +184,8 @@ export function TopicTimeline({
           onClick={(e) => e.stopPropagation()}
         >
           <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-muted" />
-          <TooltipContent item={tooltip.item} />
+          {tooltip.item && <TooltipContent item={tooltip.item} />}
+          {tooltip.connection && <ConnectionTooltipContent conn={tooltip.connection} />}
         </div>
       )}
 
@@ -229,6 +252,41 @@ function TooltipContent({ item }: { item: TimelineItem }) {
   );
 }
 
+function ConnectionTooltipContent({ conn }: { conn: WebConnection }) {
+  const style = RELATIONSHIP_LINE_STYLE[conn.connection.relationship] || RELATIONSHIP_LINE_STYLE.supports;
+  return (
+    <div className="space-y-2">
+      <div className="flex items-center gap-2">
+        <span className="inline-block h-2 w-4 rounded-sm" style={{ backgroundColor: style.color }} />
+        <span className="text-xs font-medium">{conn.connection.relationship}</span>
+        <span className="rounded bg-muted px-1.5 py-0.5 text-xs text-muted-foreground">
+          {Math.round(conn.connection.confidence * 100)}% confidence
+        </span>
+      </div>
+      <p className="text-sm leading-relaxed" style={{
+        display: "-webkit-box",
+        WebkitLineClamp: 2,
+        WebkitBoxOrient: "vertical",
+        overflow: "hidden",
+      }}>
+        &ldquo;{conn.source.label.slice(0, 80)}&rdquo;
+      </p>
+      <p className="text-center text-xs text-muted-foreground">&darr; {conn.connection.relationship} &darr;</p>
+      <p className="text-sm leading-relaxed" style={{
+        display: "-webkit-box",
+        WebkitLineClamp: 2,
+        WebkitBoxOrient: "vertical",
+        overflow: "hidden",
+      }}>
+        &ldquo;{conn.target.label.slice(0, 80)}&rdquo;
+      </p>
+      <p className="font-[family-name:var(--font-geist-mono)] text-xs text-muted-foreground">
+        {conn.source.type === "claim" ? "Claim" : "Moment"} ({formatShortDate(conn.source.date)}) &rarr; {conn.target.type === "claim" ? "Claim" : "Moment"} ({formatShortDate(conn.target.date)})
+      </p>
+    </div>
+  );
+}
+
 function renderDesktop(
   svg: d3.Selection<SVGSVGElement, unknown, null, undefined>,
   timelines: TopicTimeline[],
@@ -238,6 +296,7 @@ function renderDesktop(
   prefersReducedMotion: boolean,
   onDotClick: ((item: TimelineItem) => void) | undefined,
   setTooltip: (t: TooltipData | null) => void,
+  visibleConnections: WebConnection[],
 ) {
   const laneHeight = singleTopic ? Math.max(LANE_HEIGHT, 200) : LANE_HEIGHT;
   const height = MARGIN.top + timelines.length * laneHeight + MARGIN.bottom;
@@ -408,6 +467,88 @@ function renderDesktop(
       }
     });
   });
+
+  // Render connecting lines (single-topic view only)
+  if (singleTopic && visibleConnections.length > 0 && timelines.length === 1) {
+    const tl = timelines[0];
+    const laneY = MARGIN.top + laneHeight / 2;
+    const itemPositions = new Map<string, { cx: number; cy: number }>();
+
+    // Build position map from dense items
+    const denseItems = tl.items.filter((item) => !outlierSet.has(new Date(item.date).getTime()));
+    for (const item of denseItems) {
+      const cx = xScale(new Date(item.date));
+      const cy = laneY + jitter(item.id, Math.floor(laneHeight * 0.3));
+      itemPositions.set(item.id, { cx, cy });
+    }
+
+    const lineGroup = g.append("g").attr("class", "connection-lines");
+
+    visibleConnections.forEach((wc, i) => {
+      const srcPos = itemPositions.get(wc.source.id);
+      const tgtPos = itemPositions.get(wc.target.id);
+      if (!srcPos || !tgtPos) return;
+
+      const style = RELATIONSHIP_LINE_STYLE[wc.connection.relationship] || RELATIONSHIP_LINE_STYLE.supports;
+      const dx = tgtPos.cx - srcPos.cx;
+      const arcSign = i % 2 === 0 ? -1 : 1; // Alternate above/below
+      const controlOffset = arcSign * (20 + Math.abs(dx) * 0.15);
+      const midX = (srcPos.cx + tgtPos.cx) / 2;
+      const midY = (srcPos.cy + tgtPos.cy) / 2 + controlOffset;
+
+      const pathD = `M${srcPos.cx},${srcPos.cy} Q${midX},${midY} ${tgtPos.cx},${tgtPos.cy}`;
+      const totalLength = Math.sqrt(dx * dx + controlOffset * controlOffset) * 1.2; // approximate
+
+      const line = lineGroup.append("path")
+        .attr("d", pathD)
+        .attr("fill", "none")
+        .attr("stroke", style.color)
+        .attr("stroke-width", style.weight)
+        .attr("stroke-opacity", 0.5)
+        .attr("stroke-dasharray", style.dash || "none")
+        .attr("role", "img")
+        .attr("aria-label", `${wc.connection.relationship}: ${wc.source.label.slice(0, 40)} → ${wc.target.label.slice(0, 40)}`);
+
+      // Invisible wider hit target for hover
+      lineGroup.append("path")
+        .attr("d", pathD)
+        .attr("fill", "none")
+        .attr("stroke", "transparent")
+        .attr("stroke-width", 12)
+        .attr("cursor", "pointer")
+        .on("mouseover", function () {
+          line.attr("stroke-opacity", 1).attr("stroke-width", style.hoverWeight);
+          setTooltip({ connection: wc, x: midX, y: midY - 20 });
+        })
+        .on("mouseout", function () {
+          line.attr("stroke-opacity", 0.5).attr("stroke-width", style.weight);
+          setTooltip(null);
+        });
+
+      // Small anchor circles at endpoints
+      for (const pos of [srcPos, tgtPos]) {
+        lineGroup.append("circle")
+          .attr("cx", pos.cx).attr("cy", pos.cy).attr("r", 3)
+          .attr("fill", style.color).attr("fill-opacity", 0.4);
+      }
+
+      // Draw animation
+      if (!prefersReducedMotion) {
+        line
+          .attr("stroke-dasharray", `${totalLength} ${totalLength}`)
+          .attr("stroke-dashoffset", totalLength)
+          .transition()
+          .delay(300 + i * 50)
+          .duration(300)
+          .ease(d3.easeCubicOut)
+          .attr("stroke-dashoffset", 0)
+          .on("end", function () {
+            // Restore the actual dash pattern after animation
+            d3.select(this).attr("stroke-dasharray", style.dash || "none");
+          });
+      }
+    });
+  }
 }
 
 function renderMobile(
@@ -419,6 +560,7 @@ function renderMobile(
   prefersReducedMotion: boolean,
   onDotClick: ((item: TimelineItem) => void) | undefined,
   setTooltip: (t: TooltipData | null) => void,
+  visibleConnections: WebConnection[],
 ) {
   // Mobile: time flows top-to-bottom, topics as columns
   const colWidth = Math.max(MOBILE_COL_WIDTH, (width - MOBILE_MARGIN.left - MOBILE_MARGIN.right) / timelines.length);
@@ -507,4 +649,35 @@ function renderMobile(
       }
     });
   });
+
+  // Mobile connecting lines (straight vertical lines, single-topic only)
+  if (singleTopic && visibleConnections.length > 0 && timelines.length === 1) {
+    const tl = timelines[0];
+    const baseCx = MOBILE_MARGIN.left + colWidth / 2;
+    const itemPositions = new Map<string, { cx: number; cy: number }>();
+
+    for (const item of tl.items) {
+      const cy = yScale(new Date(item.date));
+      const xJit = jitter(item.id, Math.floor(colWidth * 0.2));
+      itemPositions.set(item.id, { cx: baseCx + xJit, cy });
+    }
+
+    const lineGroup = g.append("g").attr("class", "connection-lines");
+
+    visibleConnections.forEach((wc) => {
+      const srcPos = itemPositions.get(wc.source.id);
+      const tgtPos = itemPositions.get(wc.target.id);
+      if (!srcPos || !tgtPos) return;
+
+      const style = RELATIONSHIP_LINE_STYLE[wc.connection.relationship] || RELATIONSHIP_LINE_STYLE.supports;
+
+      lineGroup.append("line")
+        .attr("x1", srcPos.cx).attr("y1", srcPos.cy)
+        .attr("x2", tgtPos.cx).attr("y2", tgtPos.cy)
+        .attr("stroke", style.color)
+        .attr("stroke-width", style.weight)
+        .attr("stroke-opacity", 0.4)
+        .attr("stroke-dasharray", style.dash || "none");
+    });
+  }
 }
