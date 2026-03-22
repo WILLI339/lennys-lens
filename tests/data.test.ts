@@ -14,6 +14,7 @@ import {
   searchAll,
   getTopicTimelineData,
   getTimelineDateBounds,
+  getWebConnectionsForTopic,
 } from "@/lib/data";
 
 describe("data layer", () => {
@@ -67,7 +68,7 @@ describe("data layer", () => {
     for (const conn of connections) {
       expect(conn.moment).toBeDefined();
       expect(conn.podcast).toBeDefined();
-      expect(["supports", "extends", "contradicts"]).toContain(conn.relationship);
+      expect(["supports", "extends", "contradicts", "refines", "builds-on"]).toContain(conn.relationship);
       expect(conn.confidence).toBeGreaterThanOrEqual(0.6);
     }
   });
@@ -206,5 +207,85 @@ describe("timeline data", () => {
     expect(min).not.toBeNaN();
     expect(max).not.toBeNaN();
     expect(max).toBeGreaterThanOrEqual(min);
+  });
+});
+
+describe("connection schema (idea web)", () => {
+  it("all connections use the new sourceId/targetId schema", () => {
+    const graph = getGraph();
+    for (const conn of graph.connections) {
+      expect(conn.sourceId).toBeTruthy();
+      expect(conn.targetId).toBeTruthy();
+      expect(["claim", "moment"]).toContain(conn.sourceType);
+      expect(["claim", "moment"]).toContain(conn.targetType);
+      expect(["supports", "extends", "contradicts", "refines", "builds-on"]).toContain(conn.relationship);
+      expect(conn.confidence).toBeGreaterThanOrEqual(0);
+      expect(conn.confidence).toBeLessThanOrEqual(1);
+    }
+  });
+
+  it("getWebConnectionsForTopic returns connections for a topic with items", () => {
+    const topics = getTopics();
+    // Find a topic that has both claims and moments (likely to have connections)
+    const topicWithBoth = topics.find((t) => t.claimCount > 5 && t.momentCount > 5);
+    if (!topicWithBoth) return; // skip if no topic qualifies
+
+    const webConns = getWebConnectionsForTopic(topicWithBoth.slug);
+    // May or may not have connections, but if it does, they should be well-formed
+    for (const wc of webConns) {
+      expect(wc.connection.sourceId).toBeTruthy();
+      expect(wc.connection.targetId).toBeTruthy();
+      expect(wc.source.id).toBe(wc.connection.sourceId);
+      expect(wc.target.id).toBe(wc.connection.targetId);
+      expect(wc.source.topics).toContain(topicWithBoth.slug);
+      expect(wc.target.topics).toContain(topicWithBoth.slug);
+      expect(wc.source.label).toBeTruthy();
+      expect(wc.target.label).toBeTruthy();
+    }
+  });
+
+  it("getWebConnectionsForTopic returns empty for unknown topic", () => {
+    const webConns = getWebConnectionsForTopic("nonexistent-topic");
+    expect(webConns.length).toBe(0);
+  });
+
+  it("getWebConnectionsForTopic is sorted by confidence descending", () => {
+    const topics = getTopics();
+    const topicWithBoth = topics.find((t) => t.claimCount > 5 && t.momentCount > 5);
+    if (!topicWithBoth) return;
+
+    const webConns = getWebConnectionsForTopic(topicWithBoth.slug);
+    for (let i = 1; i < webConns.length; i++) {
+      expect(webConns[i - 1].connection.confidence).toBeGreaterThanOrEqual(webConns[i].connection.confidence);
+    }
+  });
+
+  it("getWebConnectionsForTopic filters out self-connections", () => {
+    const topics = getTopics();
+    for (const topic of topics.slice(0, 10)) {
+      const webConns = getWebConnectionsForTopic(topic.slug);
+      for (const wc of webConns) {
+        expect(wc.connection.sourceId).not.toBe(wc.connection.targetId);
+      }
+    }
+  });
+
+  it("getConnectionsForClaim still works with new schema", () => {
+    // This test verifies backward compatibility — the function signature hasn't changed
+    const newsletters = getNewsletters();
+    const claimWithConnections = newsletters
+      .flatMap((n) => n.claims)
+      .find((c) => c.connectionCount > 0);
+    expect(claimWithConnections).toBeDefined();
+
+    const connections = getConnectionsForClaim(claimWithConnections!.id);
+    expect(connections.length).toBeGreaterThan(0);
+    // Each connection should have a resolved moment and podcast
+    for (const conn of connections) {
+      expect(conn.moment).toBeDefined();
+      expect(conn.moment.id).toBeTruthy();
+      expect(conn.podcast).toBeDefined();
+      expect(conn.podcast.title).toBeTruthy();
+    }
   });
 });

@@ -1,7 +1,39 @@
 import type { Graph, Newsletter, Podcast, Connection, Topic, ClaimWithSynthesis, PodcastMoment, TimelineItem, TopicTimeline } from "./types";
 import graphData from "../../public/data/graph.json";
 
+/*
+  Data flow (after idea-web migration):
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ graph.json                                                       │
+  │   Connection { sourceId, targetId, sourceType, targetType, ... } │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ Lookup maps (built once at module init):                         │
+  │   claimById:  Map<id, ClaimWithSynthesis & {date, nlSlug, nlTitle}>│
+  │   momentById: Map<id, PodcastMoment & {date, podTitle, podGuest}> │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ Query functions:                                                 │
+  │   getConnectionsForClaim(id) → moment-type connections for claim │
+  │   getWebConnectionsForTopic(slug) → all connections in topic     │
+  │   getGuestInfluence() → guest stats from moment→claim conns      │
+  └─────────────────────────────────────────────────────────────────┘
+*/
+
 const graph = graphData as unknown as Graph;
+
+// Lookup maps — built once, O(1) access for all queries
+const claimById = new Map<string, ClaimWithSynthesis & { date: string; newsletterSlug: string; newsletterTitle: string }>();
+const momentById = new Map<string, PodcastMoment & { date: string; podcastTitle: string; podcastGuest: string }>();
+
+for (const nl of graph.newsletters) {
+  for (const claim of nl.claims) {
+    claimById.set(claim.id, { ...claim, date: nl.date, newsletterSlug: nl.slug, newsletterTitle: nl.title });
+  }
+}
+for (const pod of graph.podcasts) {
+  for (const moment of pod.moments) {
+    momentById.set(moment.id, { ...moment, date: pod.date, podcastTitle: pod.title, podcastGuest: pod.guest });
+  }
+}
 
 export function getGraph(): Graph {
   return graph;
@@ -33,12 +65,17 @@ export function getTopic(slug: string): Topic | undefined {
 
 export function getConnectionsForClaim(claimId: string): (Connection & { moment: PodcastMoment; podcast: Podcast })[] {
   return graph.connections
-    .filter((c) => c.claimId === claimId)
+    .filter((c) =>
+      // Claim is the target (moment→claim) or the source (claim→moment)
+      (c.targetId === claimId && c.sourceType === "moment") ||
+      (c.sourceId === claimId && c.targetType === "moment")
+    )
     .map((conn) => {
+      const momentId = conn.sourceType === "moment" ? conn.sourceId : conn.targetId;
       const podcast = graph.podcasts.find((p) =>
-        p.moments.some((m) => m.id === conn.momentId)
+        p.moments.some((m) => m.id === momentId)
       )!;
-      const moment = podcast?.moments.find((m) => m.id === conn.momentId)!;
+      const moment = podcast?.moments.find((m) => m.id === momentId)!;
       return { ...conn, moment, podcast };
     })
     .filter((c) => c.moment && c.podcast)
@@ -60,7 +97,15 @@ export function getMomentsForTopic(topicSlug: string): (PodcastMoment & { podcas
 }
 
 export function getCuttingRoomFloor(topicSlug: string): (PodcastMoment & { podcastTitle: string; podcastGuest: string })[] {
-  const connectedMomentIds = new Set(graph.connections.map((c) => c.momentId));
+  // A moment is "on the cutting room floor" if it's not connected to any claim
+  const connectedMomentIds = new Set(
+    graph.connections.flatMap((c) => {
+      const ids: string[] = [];
+      if (c.sourceType === "moment") ids.push(c.sourceId);
+      if (c.targetType === "moment") ids.push(c.targetId);
+      return ids;
+    })
+  );
   return getMomentsForTopic(topicSlug).filter((m) => !connectedMomentIds.has(m.id));
 }
 
@@ -68,7 +113,14 @@ export function getStats() {
   const totalClaims = graph.newsletters.reduce((sum, n) => sum + n.claims.length, 0);
   const totalMoments = graph.podcasts.reduce((sum, p) => sum + p.moments.length, 0);
   const totalConnections = graph.connections.length;
-  const connectedMomentIds = new Set(graph.connections.map((c) => c.momentId));
+  const connectedMomentIds = new Set(
+    graph.connections.flatMap((c) => {
+      const ids: string[] = [];
+      if (c.sourceType === "moment") ids.push(c.sourceId);
+      if (c.targetType === "moment") ids.push(c.targetId);
+      return ids;
+    })
+  );
   const allMomentIds = new Set(graph.podcasts.flatMap((p) => p.moments.map((m) => m.id)));
   const cuttingRoomFloor = [...allMomentIds].filter((id) => !connectedMomentIds.has(id)).length;
 
@@ -92,10 +144,11 @@ export function getMostValidatedClaims() {
         newsletterSlug: n.slug,
         uniqueGuests: new Set(
           graph.connections
-            .filter((conn) => conn.claimId === c.id)
+            .filter((conn) => conn.targetId === c.id || conn.sourceId === c.id)
             .map((conn) => {
-              const pod = graph.podcasts.find((p) => p.moments.some((m) => m.id === conn.momentId));
-              return pod?.guest;
+              const momentId = conn.sourceType === "moment" ? conn.sourceId : conn.targetId;
+              const m = momentById.get(momentId);
+              return m?.podcastGuest;
             })
             .filter(Boolean)
         ).size,
@@ -108,16 +161,20 @@ export function getGuestInfluence() {
   const guestMap = new Map<string, { guest: string; podcastSlug: string; supports: number; extends: number; contradicts: number; totalConnections: number; highConfConnections: number; claimIds: Set<string>; confidences: number[] }>();
 
   for (const conn of graph.connections) {
-    const podcast = graph.podcasts.find((p) => p.moments.some((m) => m.id === conn.momentId));
-    if (!podcast) continue;
-    const guest = podcast.guest;
+    // For guest influence, we only care about moment→claim connections
+    if (!(conn.sourceType === "moment" && conn.targetType === "claim")) continue;
+
+    const m = momentById.get(conn.sourceId);
+    if (!m) continue;
+    const guest = m.podcastGuest;
+    const podSlug = graph.podcasts.find((p) => p.moments.some((mo) => mo.id === conn.sourceId))?.slug || "";
 
     if (!guestMap.has(guest)) {
-      guestMap.set(guest, { guest, podcastSlug: podcast.slug, supports: 0, extends: 0, contradicts: 0, totalConnections: 0, highConfConnections: 0, claimIds: new Set(), confidences: [] });
+      guestMap.set(guest, { guest, podcastSlug: podSlug, supports: 0, extends: 0, contradicts: 0, totalConnections: 0, highConfConnections: 0, claimIds: new Set(), confidences: [] });
     }
     const entry = guestMap.get(guest)!;
     entry.totalConnections++;
-    entry.claimIds.add(conn.claimId);
+    entry.claimIds.add(conn.targetId);
     entry.confidences.push(conn.confidence);
     if (conn.confidence >= 0.75) entry.highConfConnections++;
     if (conn.relationship === "supports") entry.supports++;
@@ -145,6 +202,45 @@ export function getMostChallengingGuests() {
   return getGuestInfluence()
     .filter((g) => g.contradicts > 0)
     .sort((a, b) => b.contradicts - a.contradicts || b.totalConnections - a.totalConnections);
+}
+
+// Resolve an item (claim or moment) by its ID and type
+function resolveItem(id: string, type: "claim" | "moment") {
+  if (type === "claim") {
+    const c = claimById.get(id);
+    if (!c) return null;
+    return { id: c.id, type: "claim" as const, label: c.text, date: c.date, topics: c.topics };
+  } else {
+    const m = momentById.get(id);
+    if (!m) return null;
+    return { id: m.id, type: "moment" as const, label: m.text, date: m.date, topics: m.topics, guest: m.podcastGuest };
+  }
+}
+
+export interface WebConnection {
+  connection: Connection;
+  source: { id: string; type: "claim" | "moment"; label: string; date: string; topics: string[]; guest?: string };
+  target: { id: string; type: "claim" | "moment"; label: string; date: string; topics: string[]; guest?: string };
+}
+
+export function getWebConnectionsForTopic(topicSlug: string): WebConnection[] {
+  return graph.connections
+    .filter((conn) => {
+      // Skip self-connections
+      if (conn.sourceId === conn.targetId) return false;
+
+      // Both source and target must share the given topic
+      const source = resolveItem(conn.sourceId, conn.sourceType);
+      const target = resolveItem(conn.targetId, conn.targetType);
+      if (!source || !target) return false;
+      return source.topics.includes(topicSlug) && target.topics.includes(topicSlug);
+    })
+    .map((conn) => {
+      const source = resolveItem(conn.sourceId, conn.sourceType)!;
+      const target = resolveItem(conn.targetId, conn.targetType)!;
+      return { connection: conn, source, target };
+    })
+    .sort((a, b) => b.connection.confidence - a.connection.confidence);
 }
 
 export function getTopicTimelineData(topicSlug?: string): TopicTimeline[] {

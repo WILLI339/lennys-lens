@@ -36,8 +36,10 @@ interface Moment {
 
 interface Connection {
   id: string;
-  claimId: string;
-  momentId: string;
+  sourceId: string;
+  targetId: string;
+  sourceType: "claim" | "moment";
+  targetType: "claim" | "moment";
   relationship: "supports" | "extends" | "contradicts";
   confidence: number;
   explanation: string;
@@ -50,7 +52,7 @@ function computeSynthesisLabel(
   connections: Connection[],
   moments: Moment[]
 ): { label: SynthesisLabel; explanation: string } {
-  const claimConnections = connections.filter((c) => c.claimId === claim.id);
+  const claimConnections = connections.filter((c) => c.targetId === claim.id);
   const supportingConnections = claimConnections.filter(
     (c) => c.relationship === "supports" || c.relationship === "extends"
   );
@@ -58,7 +60,7 @@ function computeSynthesisLabel(
   // Count unique guests
   const uniqueGuests = new Set(
     supportingConnections.map((c) => {
-      const moment = moments.find((m) => m.id === c.momentId);
+      const moment = moments.find((m) => m.id === c.sourceId);
       return moment?.guest;
     })
   );
@@ -97,13 +99,13 @@ async function generateSynthesisExplanations(
   moments: Moment[],
   label: SynthesisLabel
 ): Promise<string> {
-  const claimConnections = connections.filter((c) => c.claimId === claim.id);
+  const claimConnections = connections.filter((c) => c.targetId === claim.id);
   if (claimConnections.length === 0) {
     return `This is Lenny's own editorial addition — no podcast guests have discussed this specific point.`;
   }
 
   const connectedMoments = claimConnections.map((c) => {
-    const moment = moments.find((m) => m.id === c.momentId)!;
+    const moment = moments.find((m) => m.id === c.sourceId)!;
     return `${moment.speaker}: "${moment.text.slice(0, 100)}..." (${c.relationship})`;
   });
 
@@ -195,7 +197,7 @@ async function main() {
             moments
           );
           const connectionCount = connections.filter(
-            (c) => c.claimId === claim.id
+            (c) => c.targetId === claim.id
           ).length;
           return {
             ...claim,
@@ -236,7 +238,7 @@ async function main() {
   claims.forEach((c) => c.topics.forEach((t) => topicSet.add(t)));
   moments.forEach((m) => m.topics.forEach((t) => topicSet.add(t)));
 
-  const connectedMomentIds = new Set(connections.map((c) => c.momentId));
+  const connectedMomentIds = new Set(connections.map((c) => c.sourceId));
 
   const topics = [...topicSet]
     .map((slug) => {

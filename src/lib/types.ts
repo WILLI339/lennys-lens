@@ -30,12 +30,14 @@ export interface PodcastMoment {
   topics: string[];
 }
 
-export type Relationship = "supports" | "extends" | "contradicts";
+export type Relationship = "supports" | "extends" | "contradicts" | "refines" | "builds-on";
 
 export interface Connection {
   id: string;
-  claimId: string;
-  momentId: string;
+  sourceId: string;
+  targetId: string;
+  sourceType: "claim" | "moment";
+  targetType: "claim" | "moment";
   relationship: Relationship;
   confidence: number;
   explanation: string;
